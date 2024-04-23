@@ -32,7 +32,7 @@ marvel_label.json
 ```
 
 
-# If you find MARVEL useful for your work please cite:
+### If you find MARVEL useful for your work please cite:
 ```
 @misc{jiang2024marvel,
       title={MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning}, 
