@@ -1,0 +1,38 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the arrows pointing down or up in candidate 1?",
+    "Distrator": "up",
+    "Perception_Answer": "down",
+    "Demonstration": "The pattern in the given sequence is that the number of nested shapes increases by one in each row.\nLet's analyze the pattern in the given rows:\nIn the first row:\nIn the first image, one triangle is nested inside another triangle.\nIn the second image, two rectangles are nested inside another rectangle.\nIn the third image, three circles are nested inside another circle.\nIn the second row:\nIn the first image, there is only one arrow-like shape.\nIn the second image, one arrow-like shape is nested inside another arrow-like shape.\nTherefore, the third image should contain two arrow-like shapes nested inside another arrow-like shape, which is choice 2.",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "6",
+    "new_id": 724,
+    "question_img_ids": [
+        "question_724_0.png",
+        "question_724_1.png",
+        "question_724_2.png",
+        "question_724_3.png",
+        "question_724_4.png",
+        "question_724_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_724_0.png",
+        "answer_724_1.png",
+        "answer_724_2.png",
+        "answer_724_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

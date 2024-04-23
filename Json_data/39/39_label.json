@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Black and white computation",
+    "Explanation": "The composition of graphic elements is similar, prioritizing the consideration of style patterns. Upon observation, it is noted that the outlines of the shapes in the question are the same, with internal divisions and the presence of black and white squares. Considering black and white computation directly does not reveal a pattern. At this point, a combined approach of considering style patterns and position rotations is considered. Upon observation, rotating the second image in the first set clockwise by 90\u00b0 and then performing black and white computation with the first image yields the third image. The computation rules are: white + white = black, black + black = white, white + black = white. Applying this pattern to the second set of shapes, rotating the second image clockwise by 90\u00b0 and then performing black and white computation with the first image reveals that the top-right and bottom-right corners are both white + white = black, eliminating options B and D. Additionally, the leftmost portion in the second row is also white + white = black, eliminating option C.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the right bottom rectangle in candidate 4 filled or empty?",
+    "Perception_Answer": "empty",
+    "Distrator": "filled",
+    "original_chapter": "Chapter_2",
+    "original_folder": "19",
+    "new_id": 39,
+    "question_img_ids": [
+        "question_39_0.png",
+        "question_39_1.png",
+        "question_39_2.png",
+        "question_39_3.png",
+        "question_39_4.png",
+        "question_39_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_39_0.png",
+        "answer_39_1.png",
+        "answer_39_2.png",
+        "answer_39_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

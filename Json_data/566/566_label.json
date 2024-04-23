@@ -1,0 +1,32 @@
+{
+    "Answer": "B",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Tetrahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the solid arrow pointing to top left or bottom right in candidate 1?",
+    "Distrator": "bottom right",
+    "Perception_Answer": "top left",
+    "original_chapter": "./Data_aug/four",
+    "original_folder": "11",
+    "new_id": 566,
+    "question_img_ids": [
+        "question_566_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_566_0.png",
+        "answer_566_1.png",
+        "answer_566_2.png",
+        "answer_566_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

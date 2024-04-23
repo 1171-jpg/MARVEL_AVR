@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow above or below the diamond in candidate 3?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "Demonstration": "The pattern in the given sequence is that the number of shapes decrease by one in each step:\nThe first grid has five shapes.\nThe second grid has four shapes.\nThe third grid has three shapes.\nThe fourth grid has two shapes.\nTherefore, to complete the pattern, the next grid should also contain one shape. Choice 1 follows this pattern and is the correct answer.",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "2",
+    "new_id": 733,
+    "question_img_ids": [
+        "question_733_0.png",
+        "question_733_1.png",
+        "question_733_2.png",
+        "question_733_3.png",
+        "question_733_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_733_0.png",
+        "answer_733_1.png",
+        "answer_733_2.png",
+        "answer_733_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

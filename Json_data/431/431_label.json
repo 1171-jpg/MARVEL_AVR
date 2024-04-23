@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Judging from the above two lines, the first two graphics are superimposed to obtain the third graphics. The superposition rule is: black + black = white + white = black, black + white = white + black = white. From this, it can be deduced that the third row is also In line with this rule, only item D is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 symmetrical along the horizontal axis or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Black",
+    "original_folder": "6",
+    "new_id": 431,
+    "question_img_ids": [
+        "question_431_0.png",
+        "question_431_1.png",
+        "question_431_2.png",
+        "question_431_3.png",
+        "question_431_4.png",
+        "question_431_5.png",
+        "question_431_6.png",
+        "question_431_7.png",
+        "question_431_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_431_0.png",
+        "answer_431_1.png",
+        "answer_431_2.png",
+        "answer_431_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

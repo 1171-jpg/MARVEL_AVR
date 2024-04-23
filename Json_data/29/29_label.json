@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "The composition of graphic elements is similar, prioritizing the consideration of style patterns. When observing the tic-tac-toe grid, prioritize examining it row by row. In the first row, the first shape and the second shape are first differentiated, then rotated counterclockwise by 90\u00b0 to obtain the third shape. Verify that the second row conforms to this pattern; hence, the third row should also adhere to this pattern. In other words, the shape at the question mark is obtained by first differentiating the first shape and the second shape, then rotating counterclockwise by 90\u00b0. Only option D complies with this pattern.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the two triangles in candidate 3 symmetrical along the horizontal or vertical axis?",
+    "Perception_Answer": "vertical",
+    "Distrator": "horizontal",
+    "original_chapter": "Chapter_2",
+    "original_folder": "8",
+    "new_id": 29,
+    "question_img_ids": [
+        "question_29_0.png",
+        "question_29_1.png",
+        "question_29_2.png",
+        "question_29_3.png",
+        "question_29_4.png",
+        "question_29_5.png",
+        "question_29_6.png",
+        "question_29_7.png",
+        "question_29_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_29_0.png",
+        "answer_29_1.png",
+        "answer_29_2.png",
+        "answer_29_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

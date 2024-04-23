@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "In all image, the circle only have one intercetion point with the line.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three horizontal lines in candidate 3?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Point",
+    "original_folder": "3",
+    "new_id": 463,
+    "question_img_ids": [
+        "question_463_0.png",
+        "question_463_1.png",
+        "question_463_2.png",
+        "question_463_3.png",
+        "question_463_4.png",
+        "question_463_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_463_0.png",
+        "answer_463_1.png",
+        "answer_463_2.png",
+        "answer_463_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

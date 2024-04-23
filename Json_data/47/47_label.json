@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": [
+        "The element composition is messy and the graphics are regular, taking into account the symmetry in the attribute rules. Observing the previous set of figures, they are all axisymmetric figures and the number of symmetry axes is 1. Considering the direction of the symmetry axis, the symmetry axis directions are horizontal, 45\u00b0 to the left, and vertical. The symmetry axis rotates 45\u00b0 clockwise each time. According to this rule, the first two directions of the symmetry axes in the latter group of figures are 45\u00b0 to the left and vertical, so a figure with a 45\u00b0 right slant to the question mark should be selected.",
+        "Observe options, neither B nor D are axially symmetrical figures. The symmetry axis of item A is slanted to the left at 45\u00b0, and the symmetry axis of item C is slanted to the right at 45\u00b0."
+    ],
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a square or triangle inside a quarter circle in candidate 1?",
+    "Perception_Answer": "square",
+    "Distrator": "triangle",
+    "original_chapter": "Chapter_3",
+    "original_folder": "8",
+    "new_id": 47,
+    "question_img_ids": [
+        "question_47_0.png",
+        "question_47_1.png",
+        "question_47_2.png",
+        "question_47_3.png",
+        "question_47_4.png",
+        "question_47_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_47_0.png",
+        "answer_47_1.png",
+        "answer_47_2.png",
+        "answer_47_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

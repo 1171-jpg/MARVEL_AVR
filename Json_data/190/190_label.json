@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "In the Sixteenth Palace Grid, each figure is composed of a blank circle and a black circle, and it is found that images in one group are vertical axis symmetrical figures, and images in another group are symmetrical about the diagonal of the Sixteenth Palace Grid.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three of four black circles in the bottom row in candidate 2",
+    "Perception_Answer": "four",
+    "Distrator": "three",
+    "source": "Final/19",
+    "original_chapter": "Group_aug",
+    "original_folder": "51",
+    "new_id": 190,
+    "question_img_ids": [
+        "question_190_0.png",
+        "question_190_1.png",
+        "question_190_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_190_0.png",
+        "answer_190_1.png",
+        "answer_190_2.png",
+        "answer_190_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

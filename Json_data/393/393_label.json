@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The innermost small square in the first section of the figure is rotating counterclockwise around the center, and the large black box outside is rotating clockwise around the center. Then look at the second graph. From the first two graphs, we can see that the small black square is rotating counterclockwise around the center, and the big black box is rotating clockwise around the center. So according to this rule, C should be selected.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three small white squares in the left half of the rectangle in candidate 4?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "7",
+    "new_id": 393,
+    "question_img_ids": [
+        "question_393_0.png",
+        "question_393_1.png",
+        "question_393_2.png",
+        "question_393_3.png",
+        "question_393_4.png",
+        "question_393_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_393_0.png",
+        "answer_393_1.png",
+        "answer_393_2.png",
+        "answer_393_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

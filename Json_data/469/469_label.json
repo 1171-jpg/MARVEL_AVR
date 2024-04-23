@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The intersection points of the first group of graphics lines are 1, 2, and 3. The first two graphics of the second group are 4, 5.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three vertical lines in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Point",
+    "original_folder": "9",
+    "new_id": 469,
+    "question_img_ids": [
+        "question_469_0.png",
+        "question_469_1.png",
+        "question_469_2.png",
+        "question_469_3.png",
+        "question_469_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_469_0.png",
+        "answer_469_1.png",
+        "answer_469_2.png",
+        "answer_469_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

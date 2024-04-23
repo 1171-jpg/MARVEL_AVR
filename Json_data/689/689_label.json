@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the bottom shape in candidate 3 a shaded square or a circle?",
+    "Distrator": "circle",
+    "Perception_Answer": "square",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "10",
+    "new_id": 689,
+    "question_img_ids": [
+        "question_689_0.png",
+        "question_689_1.png",
+        "question_689_2.png",
+        "question_689_3.png",
+        "question_689_4.png",
+        "question_689_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_689_0.png",
+        "answer_689_1.png",
+        "answer_689_2.png",
+        "answer_689_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

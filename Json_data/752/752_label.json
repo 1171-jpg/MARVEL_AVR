@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or two circles in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Easy_Marvel/Symmetry",
+    "original_folder": "8",
+    "new_id": 752,
+    "question_img_ids": [
+        "question_752_0.png",
+        "question_752_1.png",
+        "question_752_2.png",
+        "question_752_3.png",
+        "question_752_4.png",
+        "question_752_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_752_0.png",
+        "answer_752_1.png",
+        "answer_752_2.png",
+        "answer_752_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

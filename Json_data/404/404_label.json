@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "From the first row, the image can be divided into two parts, the left part move from top to bottom while the right part move from bottom to top.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the two triangles in candidate 3 rotationally symmetric or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Parallel_movement",
+    "original_folder": "6",
+    "new_id": 404,
+    "question_img_ids": [
+        "question_404_0.png",
+        "question_404_1.png",
+        "question_404_2.png",
+        "question_404_3.png",
+        "question_404_4.png",
+        "question_404_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_404_0.png",
+        "answer_404_1.png",
+        "answer_404_2.png",
+        "answer_404_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,35 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "one axis of Axisymmetric graphics, three axises of Axisymmetric graphics.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
+    "Perception_Answer": "horizontal",
+    "Distrator": "vertical",
+    "source": "Chapter_3/25",
+    "original_chapter": "Group_aug",
+    "original_folder": "11",
+    "new_id": 150,
+    "question_img_ids": [
+        "question_150_0.png",
+        "question_150_1.png",
+        "question_150_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_150_0.png",
+        "answer_150_1.png",
+        "answer_150_2.png",
+        "answer_150_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

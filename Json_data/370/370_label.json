@@ -1,0 +1,35 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Layer/15",
+    "Question": "Are there one or two straight lines inside the rectangle in candidate 3?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "28",
+    "new_id": 370,
+    "question_img_ids": [
+        "question_370_0.png",
+        "question_370_1.png",
+        "question_370_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_370_0.png",
+        "answer_370_1.png",
+        "answer_370_2.png",
+        "answer_370_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

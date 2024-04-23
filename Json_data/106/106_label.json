@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The composition of graphic elements is different and there is no obvious attribute rule. Priority is given to the quantity rule. The question stem graphic is composed of a number of small elements. Considering the number of elements, the number of white balls is 1, 2, 3, 5, ?, respectively. There is no obvious pattern. After another observation, it is found that the number of white balls is 1+2=3. , 2+3=5 operation rule, so the number of white balls in the figure at the question mark should be 3+5=8, excluding items A and C; the numbers of black balls are 2, 0, 2, 2,? , there are also the operation rules of 2+0=2, 0+2=2, so the number of black balls in the graphic at the question mark should be 2+2-=4, and only item B is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four small black circles in candidate 3",
+    "Perception_Answer": "three",
+    "Distrator": "four",
+    "original_chapter": "Final",
+    "original_folder": "14",
+    "new_id": 106,
+    "question_img_ids": [
+        "question_106_0.png",
+        "question_106_1.png",
+        "question_106_2.png",
+        "question_106_3.png",
+        "question_106_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_106_0.png",
+        "answer_106_1.png",
+        "answer_106_2.png",
+        "answer_106_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

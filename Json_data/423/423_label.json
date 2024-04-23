@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Along the row the first column minus second column equals to the third column. And the combination image will rotate 90 degree in clockwise way.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the two arrows in candidate 4 pointing left/right or top/down?",
+    "Distrator": "top/down",
+    "Perception_Answer": "left/right",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "12",
+    "new_id": 423,
+    "question_img_ids": [
+        "question_423_0.png",
+        "question_423_1.png",
+        "question_423_2.png",
+        "question_423_3.png",
+        "question_423_4.png",
+        "question_423_5.png",
+        "question_423_6.png",
+        "question_423_7.png",
+        "question_423_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_423_0.png",
+        "answer_423_1.png",
+        "answer_423_2.png",
+        "answer_423_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

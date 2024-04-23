@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "Consider the laws of quantity. It is observed that the figures in the question stem are composed of horizontal and vertical lines. The number of straight lines is given priority. The overall observation is irregular. The number of vertical lines in the detailed observation figures increases in first sequence which are 2, 3, 4. Therefore, a figure with 7 vertical lines should be filled in. The numbers of vertical lines for items A, B, C, and D are 7, 4, 5, and 6 in order. Only item A matches.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there four or five horizontal lines in candidate 2?",
+    "Distrator": "five",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Line",
+    "original_folder": "6",
+    "new_id": 481,
+    "question_img_ids": [
+        "question_481_0.png",
+        "question_481_1.png",
+        "question_481_2.png",
+        "question_481_3.png",
+        "question_481_4.png",
+        "question_481_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_481_0.png",
+        "answer_481_1.png",
+        "answer_481_2.png",
+        "answer_481_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

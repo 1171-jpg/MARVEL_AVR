@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the inner shape in candidate 3 a circle or square?",
+    "Distrator": "circle",
+    "Perception_Answer": "square",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "12",
+    "new_id": 691,
+    "question_img_ids": [
+        "question_691_0.png",
+        "question_691_1.png",
+        "question_691_2.png",
+        "question_691_3.png",
+        "question_691_4.png",
+        "question_691_5.png",
+        "question_691_6.png",
+        "question_691_7.png",
+        "question_691_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_691_0.png",
+        "answer_691_1.png",
+        "answer_691_2.png",
+        "answer_691_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

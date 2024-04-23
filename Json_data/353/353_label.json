@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Functional elements/14",
+    "Question": "Is the black circle locate in the interaction of two polygons or not in candidate 2?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "11",
+    "new_id": 353,
+    "question_img_ids": [
+        "question_353_0.png",
+        "question_353_1.png",
+        "question_353_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_353_0.png",
+        "answer_353_1.png",
+        "answer_353_2.png",
+        "answer_353_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

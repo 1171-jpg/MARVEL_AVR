@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "4",
+    "new_id": 683,
+    "question_img_ids": [
+        "question_683_0.png",
+        "question_683_1.png",
+        "question_683_2.png",
+        "question_683_3.png",
+        "question_683_4.png",
+        "question_683_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_683_0.png",
+        "answer_683_1.png",
+        "answer_683_2.png",
+        "answer_683_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

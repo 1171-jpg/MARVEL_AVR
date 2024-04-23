@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or two arrows in candidate 1?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/Symmetry",
+    "original_folder": "5",
+    "new_id": 749,
+    "question_img_ids": [
+        "question_749_0.png",
+        "question_749_1.png",
+        "question_749_2.png",
+        "question_749_3.png",
+        "question_749_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_749_0.png",
+        "answer_749_1.png",
+        "answer_749_2.png",
+        "answer_749_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

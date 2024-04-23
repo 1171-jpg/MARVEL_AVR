@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "Consider the number of sides. The number of faces in the first set of figures is 4, and they are all triangular faces. The number of faces in the first two figures in the second set of figures is 5, and both are quadrilateral faces. Therefore, one should be selected at the question mark with 5 faces. A figure composed of quadrilateral faces. Item A consists of 3 quadrilateral faces and 2 angular faces and is excluded. Item B consists of 4 quadrilateral faces and 1 triangular face and is excluded. Item C consists of 5 triangular faces and is excluded. Item D consists of 5 quadrilateral faces and was selected.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there four or five triangles in candidate 3?",
+    "Perception_Answer": "five",
+    "Distrator": "four",
+    "original_chapter": "Chapter_4",
+    "original_folder": "46",
+    "new_id": 78,
+    "question_img_ids": [
+        "question_78_0.png",
+        "question_78_1.png",
+        "question_78_2.png",
+        "question_78_3.png",
+        "question_78_4.png",
+        "question_78_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_78_0.png",
+        "answer_78_1.png",
+        "answer_78_2.png",
+        "answer_78_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

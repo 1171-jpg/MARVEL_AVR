@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three parallel rectangles in candidate 4?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "Demonstration": "The pattern in the given sequence alternates between grids containing a single shape and grids containing two separate shapes:\nThe first grid has a single shape.\nThe second grid contains two separate shapes.\nThe third grid shows a single shape again.\nThe second grid contains two separate shapes.\nTo continue this pattern, the fifth grid should contain one shape. The choice 2 is the correct answer.",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "3",
+    "new_id": 734,
+    "question_img_ids": [
+        "question_734_0.png",
+        "question_734_1.png",
+        "question_734_2.png",
+        "question_734_3.png",
+        "question_734_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_734_0.png",
+        "answer_734_1.png",
+        "answer_734_2.png",
+        "answer_734_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

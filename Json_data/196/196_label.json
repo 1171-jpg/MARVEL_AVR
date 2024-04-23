@@ -1,0 +1,35 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "In one group, all images have 2 points, and in another group, all images have 4 intersection points.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a triangle or a diamond in candidate 2?",
+    "Perception_Answer": "triangle",
+    "Distrator": "diamond",
+    "source": "Final/38",
+    "original_chapter": "Group_aug",
+    "original_folder": "57",
+    "new_id": 196,
+    "question_img_ids": [
+        "question_196_0.png",
+        "question_196_1.png",
+        "question_196_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_196_0.png",
+        "answer_196_1.png",
+        "answer_196_2.png",
+        "answer_196_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle at the top or bottom part of candidate 2?",
+    "Distrator": "bottom",
+    "Perception_Answer": "top",
+    "Demonstration": "The puzzle showcases a sequence of shapes. The key to this puzzle is combining the shapes from the first two grids into the third grid.\nIn the first row provided:\nThe first grid contains a rectangle on the top part.\nThe second grid contains a rectangle on the bottom part.\nThe third grid is the combination of the first two grids, with rectangles on both the top and bottom parts.\nIn the second row:\nThe first grid contains a circle on the top part.\nThe second grid contains a circle on the bottom part.\nTherefore, the missing grid should contain the combination of circles from the first two grids. The choice 1 is the correct answer, as it shows two circles, incorporating the one circle from the first grid and one circle from the second grid.",
+    "original_chapter": "./Easy_Marvel/Addition and subtraction",
+    "original_folder": "1",
+    "new_id": 650,
+    "question_img_ids": [
+        "question_650_0.png",
+        "question_650_1.png",
+        "question_650_2.png",
+        "question_650_3.png",
+        "question_650_4.png",
+        "question_650_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_650_0.png",
+        "answer_650_1.png",
+        "answer_650_2.png",
+        "answer_650_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

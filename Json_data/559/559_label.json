@@ -1,0 +1,32 @@
+{
+    "Answer": "D",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Hexahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a circle or star in candidate 2?",
+    "Distrator": "circle",
+    "Perception_Answer": "star",
+    "original_chapter": "./Data_aug/six",
+    "original_folder": "17",
+    "new_id": 559,
+    "question_img_ids": [
+        "question_559_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_559_0.png",
+        "answer_559_1.png",
+        "answer_559_2.png",
+        "answer_559_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

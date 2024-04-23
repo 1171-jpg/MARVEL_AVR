@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the heart shape inside or outside of hexagons in candidate 3?",
+    "Distrator": "outside",
+    "Perception_Answer": "inside",
+    "Demonstration": "The puzzle showcases a sequence of grids, each containing two similar geometric shapes, with a black heart symbol consistently placed within the larger one of the two shapes.\nIn the sequence provided:\nThe first grid has a large square with a black heart and a smaller square without a heart.\nThe second grid features a large triangle with a black heart and a smaller triangle without a heart.\nThe third grid contains a large circle with a black heart and a smaller circle without a heart.\nThe fourth grid contains a large trapezoid with a black heart and a smaller trapezoid without a heart.\nThe choice that follows this pattern is choice 1, as it shows a large hexagon with a black heart and a smaller hexagon without a heart, maintaining the sequence established by the previous grids.",
+    "original_chapter": "./Easy_Marvel/Functional elements",
+    "original_folder": "3",
+    "new_id": 639,
+    "question_img_ids": [
+        "question_639_0.png",
+        "question_639_1.png",
+        "question_639_2.png",
+        "question_639_3.png",
+        "question_639_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_639_0.png",
+        "answer_639_1.png",
+        "answer_639_2.png",
+        "answer_639_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

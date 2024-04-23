@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Along the row the first column minus second column equals to the third column.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the background of the circle in candidate 1 mostly black or white?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "source": "./Data_aug/Addition/9",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "17",
+    "new_id": 246,
+    "question_img_ids": [
+        "question_246_0.png",
+        "question_246_1.png",
+        "question_246_2.png",
+        "question_246_3.png",
+        "question_246_4.png",
+        "question_246_5.png",
+        "question_246_6.png",
+        "question_246_7.png",
+        "question_246_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_246_0.png",
+        "answer_246_1.png",
+        "answer_246_2.png",
+        "answer_246_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

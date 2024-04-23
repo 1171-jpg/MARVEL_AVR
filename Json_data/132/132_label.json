@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "In the first row, the three pictures are all axially symmetrical figures, and the direction of the symmetry axis is rotated 90\u00b0 clockwise. The second row has the same rule as the first row. The third row should also meet this rule, and only item C does.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the small rectangle on the right side or left side of the large rectangle in candidate 4?",
+    "Perception_Answer": "right",
+    "Distrator": "left",
+    "original_chapter": "Final",
+    "original_folder": "62",
+    "new_id": 132,
+    "question_img_ids": [
+        "question_132_0.png",
+        "question_132_1.png",
+        "question_132_2.png",
+        "question_132_3.png",
+        "question_132_4.png",
+        "question_132_5.png",
+        "question_132_6.png",
+        "question_132_7.png",
+        "question_132_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_132_0.png",
+        "answer_132_1.png",
+        "answer_132_2.png",
+        "answer_132_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

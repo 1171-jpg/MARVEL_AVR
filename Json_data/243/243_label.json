@@ -1,0 +1,42 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "It is observed that the circle is move counterclockwise, and in each row of the matrix, the circle appear inside the triangle for two times.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "not_in_good": "1",
+    "Question": "Is the circle inside or outside of the triangle in candidate 3?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "source": "./Data_aug/Parallel_movement/13",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "14",
+    "new_id": 243,
+    "question_img_ids": [
+        "question_243_0.png",
+        "question_243_1.png",
+        "question_243_2.png",
+        "question_243_3.png",
+        "question_243_4.png",
+        "question_243_5.png",
+        "question_243_6.png",
+        "question_243_7.png",
+        "question_243_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_243_0.png",
+        "answer_243_1.png",
+        "answer_243_2.png",
+        "answer_243_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

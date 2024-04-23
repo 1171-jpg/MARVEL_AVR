@@ -1,0 +1,32 @@
+{
+    "Answer": "B",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Tetrahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the rightmost triangle in candidate 4 filled in black or white?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "original_chapter": "./Data_aug/four",
+    "original_folder": "21",
+    "new_id": 571,
+    "question_img_ids": [
+        "question_571_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_571_0.png",
+        "answer_571_1.png",
+        "answer_571_2.png",
+        "answer_571_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

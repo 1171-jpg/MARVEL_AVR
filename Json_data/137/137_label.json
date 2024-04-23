@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "Symmetry",
+    "Explanation": "The element composition is different, and the attribute rules are given priority. There are symmetrical characteristic figures such as isosceles triangles, arrows, and five-pointed stars in the question figures, and the symmetry is tested. The nine-square grid is first viewed in horizontal rows. In the first row of figures, the three figures are only axially symmetrical figures, only central symmetrical figures, and only axially symmetrical figures; substitute them into the second row of figures.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the shape of candidate 3 a heart or a star?",
+    "Perception_Answer": "heart",
+    "Distrator": "star",
+    "original_chapter": "Final",
+    "original_folder": "69",
+    "new_id": 137,
+    "question_img_ids": [
+        "question_137_0.png",
+        "question_137_1.png",
+        "question_137_2.png",
+        "question_137_3.png",
+        "question_137_4.png",
+        "question_137_5.png",
+        "question_137_6.png",
+        "question_137_7.png",
+        "question_137_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_137_0.png",
+        "answer_137_1.png",
+        "answer_137_2.png",
+        "answer_137_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The number of external straight lines in each picture is: 6, 5, 4, 4, 5,?. The number of external straight lines in each picture is: 5, 4, 3, 3, 4,?, the number of external straight lines in each picture - the number of internal straight lines = 1, so You should also choose a figure that conforms to this rule at the question mark. Only item A conforms to this rule.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there intersections in the rectangle in candidate 1?",
+    "Perception_Answer": "no",
+    "Distrator": "yes",
+    "original_chapter": "Chapter_4",
+    "original_folder": "32",
+    "new_id": 69,
+    "question_img_ids": [
+        "question_69_0.png",
+        "question_69_1.png",
+        "question_69_2.png",
+        "question_69_3.png",
+        "question_69_4.png",
+        "question_69_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_69_0.png",
+        "answer_69_1.png",
+        "answer_69_2.png",
+        "answer_69_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Observing the first set of graphics, we found that the first two graphics were superimposed to get the third graphics.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there diagonal straight lines in the squares in candidate 2?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "2",
+    "new_id": 413,
+    "question_img_ids": [
+        "question_413_0.png",
+        "question_413_1.png",
+        "question_413_2.png",
+        "question_413_3.png",
+        "question_413_4.png",
+        "question_413_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_413_0.png",
+        "answer_413_1.png",
+        "answer_413_2.png",
+        "answer_413_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

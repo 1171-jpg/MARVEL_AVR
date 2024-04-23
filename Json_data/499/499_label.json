@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The elements have different compositions, and there is no attribute rule. Consider the quantity rule. It is observed that each figure contains a face, excluding D. After observation, it was found that there were multiple letters in the question stem graphic. P, R, and X appeared repeatedly in the first and second lines, and P and X appeared in the third line. So a graph containing R can be added at , and only item A matches.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "18",
+    "new_id": 499,
+    "question_img_ids": [
+        "question_499_0.png",
+        "question_499_1.png",
+        "question_499_2.png",
+        "question_499_3.png",
+        "question_499_4.png",
+        "question_499_5.png",
+        "question_499_6.png",
+        "question_499_7.png",
+        "question_499_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_499_0.png",
+        "answer_499_1.png",
+        "answer_499_2.png",
+        "answer_499_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The composition of elements is different, and the attribute rules are given priority. It was observed that the figures in the question are all axially symmetrical figures, and the direction of the symmetry axis rotates 45\u00b0 clockwise each time, excluding items A and C. Further observation revealed that the symmetry axes of the first, third, and fifth pictures in the question all coincided with a line in the figure, while the symmetry axes of the second and fourth pictures did not coincide with any line in the figure, so the question mark should Select a graph whose symmetry axis does not coincide with a certain line in the graph. Only item B is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there four or five trapezoid in candidate 3?",
+    "Perception_Answer": "four",
+    "Distrator": "five",
+    "original_chapter": "Chapter_3",
+    "original_folder": "4",
+    "new_id": 44,
+    "question_img_ids": [
+        "question_44_0.png",
+        "question_44_1.png",
+        "question_44_2.png",
+        "question_44_3.png",
+        "question_44_4.png",
+        "question_44_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_44_0.png",
+        "answer_44_1.png",
+        "answer_44_2.png",
+        "answer_44_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

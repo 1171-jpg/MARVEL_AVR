@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "In the first rows, the first and second images are closed with straight lines and the third image are open with straight lines. The first two images at the second row are closed images with curves, so the third image should be an open image with curve.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 a top right quarter or the top left quarter of a circle?",
+    "Distrator": "top left",
+    "Perception_Answer": "top right",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "20",
+    "new_id": 458,
+    "question_img_ids": [
+        "question_458_0.png",
+        "question_458_1.png",
+        "question_458_2.png",
+        "question_458_3.png",
+        "question_458_4.png",
+        "question_458_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_458_0.png",
+        "answer_458_1.png",
+        "answer_458_2.png",
+        "answer_458_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

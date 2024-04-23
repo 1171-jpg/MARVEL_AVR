@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The composition of elements is different, and the attribute rules are given priority. Observation shows that the figures in the question are relatively regular, taking into account symmetry. The first group of pictures are centrally symmetrical figures, axially symmetrical figures, and axially symmetrical + centrally symmetrical shapes. The second group of pictures follow this rule. The first two pictures are respectively centrally symmetrical figures and axially symmetrical figures, so one should be selected at the question mark. Axial symmetry + central symmetry graphics, only item C is consistent.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
+    "Perception_Answer": "vertical",
+    "Distrator": "horizontal",
+    "original_chapter": "Chapter_3",
+    "original_folder": "2",
+    "new_id": 42,
+    "question_img_ids": [
+        "question_42_0.png",
+        "question_42_1.png",
+        "question_42_2.png",
+        "question_42_3.png",
+        "question_42_4.png",
+        "question_42_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_42_0.png",
+        "answer_42_1.png",
+        "answer_42_2.png",
+        "answer_42_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

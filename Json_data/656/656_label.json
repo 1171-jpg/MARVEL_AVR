@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the small white rectangle intersect with the left or right part of the large black rectangle in candidate 4?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "original_chapter": "./Easy_Marvel/Addition and subtraction",
+    "original_folder": "7",
+    "new_id": 656,
+    "question_img_ids": [
+        "question_656_0.png",
+        "question_656_1.png",
+        "question_656_2.png",
+        "question_656_3.png",
+        "question_656_4.png",
+        "question_656_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_656_0.png",
+        "answer_656_1.png",
+        "answer_656_2.png",
+        "answer_656_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there five or six triangles in candidate 3?",
+    "Distrator": "six",
+    "Perception_Answer": "five",
+    "Demonstration": "The pattern in the given sequence is that the arrangement of triangles in each grid is symmetrical about the vertical axis:\nThe first image has five stars, symmetrically arranged about the vertical axis.\nThe second image has five stars, symmetrically arranged about the vertical axis.\nThe third image has five stars, symmetrically arranged about the vertical axis.\nThe fourth image has five stars, symmetrically arranged about the vertical axis.\nTherefore, the fifth image should have five stars, symmetrically arranged about the vertical axis, which is choice 4.",
+    "original_chapter": "./Easy_Marvel/Symmetry",
+    "original_folder": "3",
+    "new_id": 747,
+    "question_img_ids": [
+        "question_747_0.png",
+        "question_747_1.png",
+        "question_747_2.png",
+        "question_747_3.png",
+        "question_747_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_747_0.png",
+        "answer_747_1.png",
+        "answer_747_2.png",
+        "answer_747_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. For the nine-square-grid question, first look at the horizontal rows. Observe that in the first row of graphics, the outer small black ball moves one edge clockwise each time, the inner small black ball moves one square counterclockwise each time in the second row, and the outer small black ball moves clockwise each time. On the two sides, the inner small black ball moves two spaces counterclockwise each time; in the third row, according to the first two pictures, it can be seen that the outer small black ball moves three sides clockwise each time, and the inner small black ball moves three spaces counterclockwise each time. . According to the above rules, only item B is consistent.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the small solid circle at the bottom of candidate 3 outside or inside of the hexagon?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "source": "Chapter_1/2",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "1",
+    "new_id": 230,
+    "question_img_ids": [
+        "question_230_0.png",
+        "question_230_1.png",
+        "question_230_2.png",
+        "question_230_3.png",
+        "question_230_4.png",
+        "question_230_5.png",
+        "question_230_6.png",
+        "question_230_7.png",
+        "question_230_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_230_0.png",
+        "answer_230_1.png",
+        "answer_230_2.png",
+        "answer_230_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

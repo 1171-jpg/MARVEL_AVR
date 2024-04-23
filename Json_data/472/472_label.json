@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The intersection node between the curve and horizontal is same.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two horizontal lines in candidate 2?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Data_aug/Point",
+    "original_folder": "12",
+    "new_id": 472,
+    "question_img_ids": [
+        "question_472_0.png",
+        "question_472_1.png",
+        "question_472_2.png",
+        "question_472_3.png",
+        "question_472_4.png",
+        "question_472_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_472_0.png",
+        "answer_472_1.png",
+        "answer_472_2.png",
+        "answer_472_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

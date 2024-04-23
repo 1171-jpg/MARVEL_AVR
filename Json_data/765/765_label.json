@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a circle or a rectangle in the triangle of candidate 2?",
+    "Distrator": "rectangle",
+    "Perception_Answer": "circle",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "8",
+    "new_id": 765,
+    "question_img_ids": [
+        "question_765_0.png",
+        "question_765_1.png",
+        "question_765_2.png",
+        "question_765_3.png",
+        "question_765_4.png",
+        "question_765_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_765_0.png",
+        "answer_765_1.png",
+        "answer_765_2.png",
+        "answer_765_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

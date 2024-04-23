@@ -1,0 +1,38 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 a rectangle or trapezoid?",
+    "Distrator": "trapezoid",
+    "Perception_Answer": "rectangle",
+    "Demonstration": "The puzzle features a 3x2 grid of shapes, where each row follows a specific pattern based on the type of the shapes. \nLet's analyze the pattern in the given question. In the first row:\nThe first grid contains a parallelogram.\nThe second grid contains a circle.\nThe third grid contains a rectangle.\nIn the second row:\nThe first grid contains a circle.\nThe second grid contains a rectangle.\nTherefore, to complete the pattern, the third grid in the second row should contain a parallelogram, which is the choice 3.",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "7",
+    "new_id": 686,
+    "question_img_ids": [
+        "question_686_0.png",
+        "question_686_1.png",
+        "question_686_2.png",
+        "question_686_3.png",
+        "question_686_4.png",
+        "question_686_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_686_0.png",
+        "answer_686_1.png",
+        "answer_686_2.png",
+        "answer_686_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

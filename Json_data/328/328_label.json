@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three half ellipse in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "source": "./Easy_Marvel/black and white computation/15",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "18",
+    "new_id": 328,
+    "question_img_ids": [
+        "question_328_0.png",
+        "question_328_1.png",
+        "question_328_2.png",
+        "question_328_3.png",
+        "question_328_4.png",
+        "question_328_5.png",
+        "question_328_6.png",
+        "question_328_7.png",
+        "question_328_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_328_0.png",
+        "answer_328_1.png",
+        "answer_328_2.png",
+        "answer_328_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

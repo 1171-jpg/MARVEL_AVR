@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The number of straight intersection points in the first group is 2, 3, and 4, and the number of straight intersection points in the second group is 2, 3, so the number of straight intersection points at the question mark should be 4, so the correct answer is C.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "original_chapter": "./Data_aug/Point",
+    "original_folder": "6",
+    "new_id": 466,
+    "question_img_ids": [
+        "question_466_0.png",
+        "question_466_1.png",
+        "question_466_2.png",
+        "question_466_3.png",
+        "question_466_4.png",
+        "question_466_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_466_0.png",
+        "answer_466_1.png",
+        "answer_466_2.png",
+        "answer_466_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a straight line or a not in candidate 3?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "Demonstration": "The pattern in the given sequence is that the image in each row contain either curved line or straight line:\nIn the first row:\nThe first image only contains several straight lines.\nThe second image only contains several straight lines.\nThe third image only contains several straight lines.\nIn the second row:\nThe first image only contains several curved lines.\nThe second image only contains several curved lines.\nTherefore, the third image should only have curved lines. The choice 4 is the correct answer.",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "6",
+    "new_id": 763,
+    "question_img_ids": [
+        "question_763_0.png",
+        "question_763_1.png",
+        "question_763_2.png",
+        "question_763_3.png",
+        "question_763_4.png",
+        "question_763_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_763_0.png",
+        "answer_763_1.png",
+        "answer_763_2.png",
+        "answer_763_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

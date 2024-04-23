@@ -1,0 +1,35 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity Pattern",
+    "Explanation": "The composition of graphic elements is different, specifically the quantity of gray squares varies. Priority is given to considering quantity patterns. In the three images presented in the question, the number of gray squares is 12, 11, and 11, respectively, with no apparent quantity pattern. In the comparison between the first and second images, it is observed that there are 6 gray squares in identical positions. Further observation reveals that the second and third images share 5 gray squares in identical positions. At the question mark, the image should have 4 gray squares in positions identical to those in the third image. Upon observing the options, option A has 5 squares, option B has 9 squares, option C has 4 squares, and option D has 6 squares",
+    "Issue": "",
+    "Question Shape": [
+        4,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the right bottom rectangle in candidate 3 filled or empty?",
+    "Perception_Answer": "filled",
+    "Distrator": "empty",
+    "original_chapter": "Chapter_2",
+    "original_folder": "21",
+    "new_id": 40,
+    "question_img_ids": [
+        "question_40_0.png",
+        "question_40_1.png",
+        "question_40_2.png",
+        "question_40_3.png"
+    ],
+    "answer_img_ids": [
+        "answer_40_0.png",
+        "answer_40_1.png",
+        "answer_40_2.png",
+        "answer_40_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

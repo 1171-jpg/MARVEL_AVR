@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "Method 1: Observe the figures in the question. The first and third figures have obvious symmetry rules. They are both axially symmetrical figures. However, the second and fourth figures are not axially symmetrical figures. Therefore, the first, third, and fifth figures are not axially symmetrical figures. All graphs should be axially symmetrical graphs. Observation option, only option C is axially symmetrical graphs. Method 2: Observe the figure in the question. Flip the second figure along the vertical axis to get the fourth figure. Observing the options, we found that item C has an obvious relationship with the position of the first figure in the question stem, and by flipping the first figure in the question stem along the horizontal axis, item C can be obtained, that is, with the third figure as the center, the second figure and the fourth figure The figures are two figures that are symmetrical about the vertical axis, and the first figure and the fifth figure are two figures that are symmetrical about the horizontal axis.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the right bottom circle in candidate 4 filled or empty?",
+    "Perception_Answer": "empty",
+    "Distrator": "filled",
+    "original_chapter": "Chapter_3",
+    "original_folder": "3",
+    "new_id": 43,
+    "question_img_ids": [
+        "question_43_0.png",
+        "question_43_1.png",
+        "question_43_2.png",
+        "question_43_3.png",
+        "question_43_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_43_0.png",
+        "answer_43_1.png",
+        "answer_43_2.png",
+        "answer_43_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

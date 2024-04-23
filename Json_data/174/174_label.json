@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The images can be divided into two groups according to whether the black graphics are one type or two types. ",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two black-filled triangle in the candidate 2?",
+    "Perception_Answer": "two",
+    "Distrator": "one",
+    "source": "Chapter_4/66",
+    "original_chapter": "Group_aug",
+    "original_folder": "35",
+    "new_id": 174,
+    "question_img_ids": [
+        "question_174_0.png",
+        "question_174_1.png",
+        "question_174_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_174_0.png",
+        "answer_174_1.png",
+        "answer_174_2.png",
+        "answer_174_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

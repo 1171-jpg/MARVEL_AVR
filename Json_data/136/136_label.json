@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The element composition is different, and the attribute rules are given priority. The nine-square grid is first viewed in horizontal rows. The first row of graphics is composed of straight lines, the second row of graphics is composed of curves, and the first two graphics of the third row of graphics are composed of straight lines and curves. Therefore, the graphics at the question mark should be composed of straight lines and curves. Only item A matches",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 4 pointing up or down?",
+    "Perception_Answer": "down",
+    "Distrator": "up",
+    "original_chapter": "Final",
+    "original_folder": "68",
+    "new_id": 136,
+    "question_img_ids": [
+        "question_136_0.png",
+        "question_136_1.png",
+        "question_136_2.png",
+        "question_136_3.png",
+        "question_136_4.png",
+        "question_136_5.png",
+        "question_136_6.png",
+        "question_136_7.png",
+        "question_136_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_136_0.png",
+        "answer_136_1.png",
+        "answer_136_2.png",
+        "answer_136_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "Arrows in each image are  parallel,vertical, parallel,vertical, parallel",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the arrows in candidate 1 pointing to the same or different directions?",
+    "Distrator": "different",
+    "Perception_Answer": "same",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "1",
+    "new_id": 536,
+    "question_img_ids": [
+        "question_536_0.png",
+        "question_536_1.png",
+        "question_536_2.png",
+        "question_536_3.png",
+        "question_536_4.png",
+        "question_536_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_536_0.png",
+        "answer_536_1.png",
+        "answer_536_2.png",
+        "answer_536_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

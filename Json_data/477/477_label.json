@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "In each image, the number of curve line equals to the number of straight line.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there five or six vertical lines in candidate 2?",
+    "Distrator": "five",
+    "Perception_Answer": "six",
+    "original_chapter": "./Data_aug/Line",
+    "original_folder": "1",
+    "new_id": 477,
+    "question_img_ids": [
+        "question_477_0.png",
+        "question_477_1.png",
+        "question_477_2.png",
+        "question_477_3.png",
+        "question_477_4.png",
+        "question_477_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_477_0.png",
+        "answer_477_1.png",
+        "answer_477_2.png",
+        "answer_477_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

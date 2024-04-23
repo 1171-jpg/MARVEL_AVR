@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        4,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the inner shape in candidate 1 a square or circle?",
+    "Distrator": "circle",
+    "Perception_Answer": "square",
+    "Demonstration": "Let's analyze the pattern in the given sequence:\nThe first image contains a single line intersected with a circle.\nThe second image contains two lines intersected with a circle.\nThe third image contains three lines intersected with a circle.\nTherefore, the fourth image should four lines intersected with a circle, only choice 1 follow the pattern.",
+    "original_chapter": "./Easy_Marvel/Point",
+    "original_folder": "2",
+    "new_id": 694,
+    "question_img_ids": [
+        "question_694_0.png",
+        "question_694_1.png",
+        "question_694_2.png",
+        "question_694_3.png"
+    ],
+    "answer_img_ids": [
+        "answer_694_0.png",
+        "answer_694_1.png",
+        "answer_694_2.png",
+        "answer_694_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

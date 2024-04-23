@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 3 pointing to left or right?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "13",
+    "new_id": 677,
+    "question_img_ids": [
+        "question_677_0.png",
+        "question_677_1.png",
+        "question_677_2.png",
+        "question_677_3.png",
+        "question_677_4.png",
+        "question_677_5.png",
+        "question_677_6.png",
+        "question_677_7.png",
+        "question_677_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_677_0.png",
+        "answer_677_1.png",
+        "answer_677_2.png",
+        "answer_677_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the cloud-like shape below or above the cross in candidate 4?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "Demonstration": "The puzzle features a sequence of 5 grids containing various geometric shapes, where each grid follows a specific pattern based on the number and type of shapes present. The objective is to identify the pattern and determine which of the four choices would logically complete the sequence.\nLet's analyze the pattern in the given sequence:\nThe first grid contains 3 different shapes: square, circle, and triangle.\nThe second grid contains 3 different shapes: circle, triangle, and star.\nThe third grid contains 3 different shapes: triangle, star, and cloud-like shape.\nThe fourth grid contains 3 different shapes: star, pentagon, and cloud-like shape.\nBased on this pattern, each grid consistently contains 3 different geometric shapes. Therefore, the missing grid should also have 3 distinct shapes. The choice 4 follows this pattern, as it contains a cross-like shape, pentagon, and cloud-like shape.",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "2",
+    "new_id": 681,
+    "question_img_ids": [
+        "question_681_0.png",
+        "question_681_1.png",
+        "question_681_2.png",
+        "question_681_3.png",
+        "question_681_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_681_0.png",
+        "answer_681_1.png",
+        "answer_681_2.png",
+        "answer_681_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

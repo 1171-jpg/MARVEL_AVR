@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "All the figures in the first row are axisymmetric figures, and the direction of the axis of symmetry is rotated 45\u00b0 clockwise. In the first two images in the second row, the direction of the axis of symmetry is rotated 45\u00b0 counterclockwise.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four triangles in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Symmetry",
+    "original_folder": "8",
+    "new_id": 441,
+    "question_img_ids": [
+        "question_441_0.png",
+        "question_441_1.png",
+        "question_441_2.png",
+        "question_441_3.png",
+        "question_441_4.png",
+        "question_441_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_441_0.png",
+        "answer_441_1.png",
+        "answer_441_2.png",
+        "answer_441_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

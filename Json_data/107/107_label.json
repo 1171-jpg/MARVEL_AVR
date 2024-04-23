@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity Pattern",
+    "Explanation": "Observing the figure on the question stem, the overall pattern is irregular. Through adjacent comparison, it is found that the first and second pictures only have different positions of the black dots in the first row, and the positions of the black dots in the other four rows are the same. The second and third pictures Only the positions of the black dots in the second row are different, and the positions of the black dots in the other four rows are the same; in the third and fourth pictures, only the positions of the black dots in the third row are different, and the positions of the black dots in the other four rows are the same. Only the position of the black dots in the fourth row of the two pictures is different, and the positions of the black dots in the other four rows are the same. By analogy, you should choose a picture at the question mark that is different from the fifth picture only in the position of the black dots in the fifth row, and the other four rows of black dots have the same position. Only item C matches.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 4 filled with triangles or circles?",
+    "Perception_Answer": "circles",
+    "Distrator": "triangles",
+    "original_chapter": "Final",
+    "original_folder": "15",
+    "new_id": 107,
+    "question_img_ids": [
+        "question_107_0.png",
+        "question_107_1.png",
+        "question_107_2.png",
+        "question_107_3.png",
+        "question_107_4.png",
+        "question_107_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_107_0.png",
+        "answer_107_1.png",
+        "answer_107_2.png",
+        "answer_107_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

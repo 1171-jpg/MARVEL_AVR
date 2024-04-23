@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The composition of elements is different, but black dots and polygonal outlines appear in each picture. In one group, the number of black dots adding the number of outer sides equals 8. In another group, the number of internal points plus the number of outer frame sides equals 10.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there five or six black dots in candidate 1",
+    "Perception_Answer": "six",
+    "Distrator": "five",
+    "source": "Final/8",
+    "original_chapter": "Group_aug",
+    "original_folder": "47",
+    "new_id": 186,
+    "question_img_ids": [
+        "question_186_0.png",
+        "question_186_1.png",
+        "question_186_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_186_0.png",
+        "answer_186_1.png",
+        "answer_186_2.png",
+        "answer_186_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "The composition of elements is different, and each image in the question is formed by two identical small shapes. Considering the relationship between shapes, in the first set of images, the first image has two intersecting arrows, the second image has two intersecting rectangles, and the third image has two intersecting triangles. In other words, each image is obtained by the intersection of two identical small shapes. Applying this pattern to the second set of images, the first image has two intersecting lines, the second image has two intersecting 'L' shaped lines, and at the question mark, there should also be an intersection of two identical small shapes. Option A consists of two intersecting 'z' shaped lines, option B has a right angle and two intersecting lines, option C has an acute angle and two intersecting lines, and option D has an acute angle and one intersecting line. Only option A conforms to this pattern.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a triangle or a circle in candidate 4?",
+    "Perception_Answer": "triangle",
+    "Distrator": "circle",
+    "original_chapter": "Chapter_5",
+    "original_folder": "5",
+    "new_id": 92,
+    "question_img_ids": [
+        "question_92_0.png",
+        "question_92_1.png",
+        "question_92_2.png",
+        "question_92_3.png",
+        "question_92_4.png",
+        "question_92_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_92_0.png",
+        "answer_92_1.png",
+        "answer_92_2.png",
+        "answer_92_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,35 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        4,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two rectangles in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "15",
+    "new_id": 517,
+    "question_img_ids": [
+        "question_517_0.png",
+        "question_517_1.png",
+        "question_517_2.png",
+        "question_517_3.png"
+    ],
+    "answer_img_ids": [
+        "answer_517_0.png",
+        "answer_517_1.png",
+        "answer_517_2.png",
+        "answer_517_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

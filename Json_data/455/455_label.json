@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "In the first row, the first image is closed curve graphic, the second one the closed straight graphs and the third one is a closed graphic containing both curve and straight lines.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two circles in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "17",
+    "new_id": 455,
+    "question_img_ids": [
+        "question_455_0.png",
+        "question_455_1.png",
+        "question_455_2.png",
+        "question_455_3.png",
+        "question_455_4.png",
+        "question_455_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_455_0.png",
+        "answer_455_1.png",
+        "answer_455_2.png",
+        "answer_455_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

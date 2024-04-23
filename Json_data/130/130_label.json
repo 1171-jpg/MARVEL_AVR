@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "The elements are similar in composition and the style rules should be taken into consideration. Observation found that in the first set of graphics, the first picture and the second picture are similar while reserving differences to get the third picture. The second set of graphics should follow the same rules. The question mark should be filled in with the graphics after removing the similarities and reserving differences between the first picture and the second picture, which is item C.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the two circles in candidate 1 arranged vertically or horizontally?",
+    "Perception_Answer": "horizontally",
+    "Distrator": "vertically",
+    "original_chapter": "Final",
+    "original_folder": "60",
+    "new_id": 130,
+    "question_img_ids": [
+        "question_130_0.png",
+        "question_130_1.png",
+        "question_130_2.png",
+        "question_130_3.png",
+        "question_130_4.png",
+        "question_130_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_130_0.png",
+        "answer_130_1.png",
+        "answer_130_2.png",
+        "answer_130_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

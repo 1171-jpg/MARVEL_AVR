@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The number of intersection points between curves and lines in column one eqauls to the number of intersection points between lines in column two and the number of intersection points between curves in column three.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there vertical straight lines in candidate 3 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "source": "./Data_aug/Point/13",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "26",
+    "new_id": 255,
+    "question_img_ids": [
+        "question_255_0.png",
+        "question_255_1.png",
+        "question_255_2.png",
+        "question_255_3.png",
+        "question_255_4.png",
+        "question_255_5.png",
+        "question_255_6.png",
+        "question_255_7.png",
+        "question_255_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_255_0.png",
+        "answer_255_1.png",
+        "answer_255_2.png",
+        "answer_255_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

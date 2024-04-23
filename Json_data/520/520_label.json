@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the small white circle in candidate 1 inside or outside of the large circle?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "18",
+    "new_id": 520,
+    "question_img_ids": [
+        "question_520_0.png",
+        "question_520_1.png",
+        "question_520_2.png",
+        "question_520_3.png",
+        "question_520_4.png",
+        "question_520_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_520_0.png",
+        "answer_520_1.png",
+        "answer_520_2.png",
+        "answer_520_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 symmetrical along the vertical axis or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "Demonstration": "The given puzzle presents a sequence of shapes where a circle and a line flip vertically. The objective is to identify the missing shape that would logically complete the pattern.\nLet's analyze the pattern in the given sequence:\nIn the first image, the line goes from the top-left to the bottom-right.\nIn the second image, the line goes from the top-right to the bottom-left, which could be seen as a vertical flip of the first image.\nThe third image again has the line from the top-left to the bottom-right.\nThe fourth image repeats the pattern with the line from the top-right to the bottom-left, like a vertical flip of the third image.\nBased on the alternating vertical flip pattern, the missing fifth symbol should have the line going from the top-left to the bottom-right because it would be a vertical flip of the fourth image, which is the choice 3.",
+    "original_chapter": "./Easy_Marvel/Rotation and Flip",
+    "original_folder": "3",
+    "new_id": 613,
+    "question_img_ids": [
+        "question_613_0.png",
+        "question_613_1.png",
+        "question_613_2.png",
+        "question_613_3.png",
+        "question_613_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_613_0.png",
+        "answer_613_1.png",
+        "answer_613_2.png",
+        "answer_613_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

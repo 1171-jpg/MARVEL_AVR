@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Along the row the first column plus second column equals to the third column, and the overlap area will be reomved",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a rectangle in candidate 4 or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "source": "./Data_aug/Black/1",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "27",
+    "new_id": 295,
+    "question_img_ids": [
+        "question_295_0.png",
+        "question_295_1.png",
+        "question_295_2.png",
+        "question_295_3.png",
+        "question_295_4.png",
+        "question_295_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_295_0.png",
+        "answer_295_1.png",
+        "answer_295_2.png",
+        "answer_295_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

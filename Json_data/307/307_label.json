@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "tangent, separated, intersecting",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Do the heart shapes intersect with each other in candidate 3?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "source": "./Data_aug/Shape/17",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "39",
+    "new_id": 307,
+    "question_img_ids": [
+        "question_307_0.png",
+        "question_307_1.png",
+        "question_307_2.png",
+        "question_307_3.png",
+        "question_307_4.png",
+        "question_307_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_307_0.png",
+        "answer_307_1.png",
+        "answer_307_2.png",
+        "answer_307_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

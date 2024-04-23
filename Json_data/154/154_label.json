@@ -1,0 +1,35 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "closed area; open area",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 3 has a circle or not?",
+    "Perception_Answer": "yes",
+    "Distrator": "no",
+    "source": "Chapter_3/28",
+    "original_chapter": "Group_aug",
+    "original_folder": "15",
+    "new_id": 154,
+    "question_img_ids": [
+        "question_154_0.png",
+        "question_154_1.png",
+        "question_154_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_154_0.png",
+        "answer_154_1.png",
+        "answer_154_2.png",
+        "answer_154_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

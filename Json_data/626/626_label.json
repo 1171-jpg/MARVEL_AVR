@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Do the triangles intersect with each other in candidate 4?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "Demonstration": "The puzzle showcases a sequence of grids with geometric shapes. The key to this puzzle is recognizing the consistent pattern where two geometric shapes are placed within each grid without touching each other.\nIn the sequence provided:\nThe first grid displays two circles, a larger one and a smaller one, not touching each other.\nThe second grid shows two squares, one larger and one smaller, not touching each other.\nThe third grid features two triangles, one larger and one smaller, not touching each other.\nThe fourth grid features two geometric shapes, one larger and one smaller, not touching each other.\nFollowing the pattern, the fifth grid should also contain a pair of shapes that are not touching each other.\nTherefore, the missing grid should include two shapes that do not touch. The choice 4 is the correct answer, as it shows a larger triangle and a smaller triangle placed near each other but not in contact, consistent with the pattern observed in the sequence.",
+    "original_chapter": "./Easy_Marvel/Shape relationships",
+    "original_folder": "3",
+    "new_id": 626,
+    "question_img_ids": [
+        "question_626_0.png",
+        "question_626_1.png",
+        "question_626_2.png",
+        "question_626_3.png",
+        "question_626_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_626_0.png",
+        "answer_626_1.png",
+        "answer_626_2.png",
+        "answer_626_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

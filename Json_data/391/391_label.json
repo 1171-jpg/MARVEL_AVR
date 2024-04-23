@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "It is found in the first set of pictures that the graphics rotate counterclockwise, and the first two graphics in the second set also rotate counterclockwise. Rotate the second graphic in the second set of pictures 90 degrees counterclockwise to get the shape in A.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 1 pointing to left or right?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "4",
+    "new_id": 391,
+    "question_img_ids": [
+        "question_391_0.png",
+        "question_391_1.png",
+        "question_391_2.png",
+        "question_391_3.png",
+        "question_391_4.png",
+        "question_391_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_391_0.png",
+        "answer_391_1.png",
+        "answer_391_2.png",
+        "answer_391_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

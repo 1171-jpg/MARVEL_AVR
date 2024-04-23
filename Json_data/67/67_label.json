@@ -1,0 +1,35 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The number of lines in the question stem is obvious, so consider counting the lines. The number of horizontal lines in the question stem is 2, 5, 5, and the number of solid lines is 3, 3, 3. The figure at ? should be 3 solid lines, corresponding to item C.",
+    "Issue": "",
+    "Question Shape": [
+        4,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are horizontal lines in candidate 2 at the bottom or top part?",
+    "Perception_Answer": "top",
+    "Distrator": "bottom",
+    "original_chapter": "Chapter_4",
+    "original_folder": "28",
+    "new_id": 67,
+    "question_img_ids": [
+        "question_67_0.png",
+        "question_67_1.png",
+        "question_67_2.png",
+        "question_67_3.png"
+    ],
+    "answer_img_ids": [
+        "answer_67_0.png",
+        "answer_67_1.png",
+        "answer_67_2.png",
+        "answer_67_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

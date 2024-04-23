@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "In the first set of pictures, each picture has two sets of parallel lines. In the second set of pictures, the first two pictures both have 3 sets of parallel lines, so the figure at the question mark should also have 3 sets of parallel lines, and only item A is consistent.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
+    "Perception_Answer": "horizontal",
+    "Distrator": "vertical",
+    "original_chapter": "Chapter_4",
+    "original_folder": "35",
+    "new_id": 71,
+    "question_img_ids": [
+        "question_71_0.png",
+        "question_71_1.png",
+        "question_71_2.png",
+        "question_71_3.png",
+        "question_71_4.png",
+        "question_71_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_71_0.png",
+        "answer_71_1.png",
+        "answer_71_2.png",
+        "answer_71_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

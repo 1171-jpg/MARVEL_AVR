@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The number of borders of the first group of three figures is 4, 5, and 6 respectively, showing an increasing pattern; the number of borders of the first two figures of the second group is 1 and 2 respectively, so the number of borders of the figure at number 1 should be 3. Only item C is met.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the outside shape a triangle or a rectangle candidate 3?",
+    "Perception_Answer": "triangle",
+    "Distrator": "rectangle",
+    "original_chapter": "Chapter_4",
+    "original_folder": "34",
+    "new_id": 70,
+    "question_img_ids": [
+        "question_70_0.png",
+        "question_70_1.png",
+        "question_70_2.png",
+        "question_70_3.png",
+        "question_70_4.png",
+        "question_70_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_70_0.png",
+        "answer_70_1.png",
+        "answer_70_2.png",
+        "answer_70_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

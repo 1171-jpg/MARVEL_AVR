@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "Observing the graphics, we found that each row of graphics is composed of three parts with the same outline: left, middle, and right. Each row of graphics has three \"blank bars\", three \"shadow maps\", two \"star maps\", and one \" Four Circles Chart\" area, giving priority to style traversal. The rules are applied to the third row, which still lacks a \"blank bar\", a \"star map\", and a \"shadow map\" area. Item B is met and elected.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the star shape at the left or center part of candidate 2?",
+    "Distrator": "left",
+    "Perception_Answer": "center",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "2",
+    "new_id": 574,
+    "question_img_ids": [
+        "question_574_0.png",
+        "question_574_1.png",
+        "question_574_2.png",
+        "question_574_3.png",
+        "question_574_4.png",
+        "question_574_5.png",
+        "question_574_6.png",
+        "question_574_7.png",
+        "question_574_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_574_0.png",
+        "answer_574_1.png",
+        "answer_574_2.png",
+        "answer_574_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

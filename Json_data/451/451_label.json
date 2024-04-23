@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The question stem figures are composed of a full straight line figure and a full curve figure pressed against each other. Considering the relationship between the figures, the relationship between the question stem figures is: a straight line presses a curve, a curve presses a straight line, a straight line presses a curve, and a curve presses a straight line, so , only item C is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a circle in candidate 3 or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "13",
+    "new_id": 451,
+    "question_img_ids": [
+        "question_451_0.png",
+        "question_451_1.png",
+        "question_451_2.png",
+        "question_451_3.png",
+        "question_451_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_451_0.png",
+        "answer_451_1.png",
+        "answer_451_2.png",
+        "answer_451_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

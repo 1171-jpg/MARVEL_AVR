@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "Symmetry",
+    "Explanation": "The symmetry axes of the first, third and fifth pictures do not coincide with the lines inside the figure, while the symmetry axes of the second picture and the fourth picture all coincide with a line inside the figure, so the question mark To fill in a figure whose symmetry axis coincides with the internal lines of the figure, only item C is satisfied.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is it a triangle or a circle in candidate 2?",
+    "Perception_Answer": "triangle",
+    "Distrator": "circle",
+    "original_chapter": "Final",
+    "original_folder": "34",
+    "new_id": 116,
+    "question_img_ids": [
+        "question_116_0.png",
+        "question_116_1.png",
+        "question_116_2.png",
+        "question_116_3.png",
+        "question_116_4.png",
+        "question_116_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_116_0.png",
+        "answer_116_1.png",
+        "answer_116_2.png",
+        "answer_116_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "First, look horizontally. If you look horizontally, you will find that each layer has several elements, such as five-pointed stars and rhombuses (some are white and some are black). The total number of elements in each layer is six, but the number of times each element appears in each layer is Certain, and the permutations and combinations are different, then it obviously belongs to the traversal we are talking about. According to our method, whatever is missing is supplemented, so choose option D.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top star larger than the bottom star in candidate 3?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "19",
+    "new_id": 590,
+    "question_img_ids": [
+        "question_590_0.png",
+        "question_590_1.png",
+        "question_590_2.png",
+        "question_590_3.png",
+        "question_590_4.png",
+        "question_590_5.png",
+        "question_590_6.png",
+        "question_590_7.png",
+        "question_590_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_590_0.png",
+        "answer_590_1.png",
+        "answer_590_2.png",
+        "answer_590_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

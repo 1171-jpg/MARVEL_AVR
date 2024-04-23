@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the line intersect with the triangle in candidate 2?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "Demonstration": "The puzzle showcases a sequence of shapes, each intersected by a horizontal line. The key to this puzzle is identifying that each shape has a line going through it, regardless of the position of the line.\nIn the sequence provided:\nThe first shape is a circle with a line going through it horizontally.\nThe second shape is a square with a line going through it horizontally.\nThe third shape is a triangle with a line going through it horizontally.\nThe fourth shape is a rectangle with a line going through it horizontally.\nThe fifth shape is missing and needs to be identified.\nTherefore, the missing grid should contain a shape with a line going through it horizontally. The choice that fits this pattern is Choice 1, as it depicts a shape with a horizontal line going through it, consistent with the rest of the sequence. The choice 1 is the correct answer.",
+    "original_chapter": "./Easy_Marvel/Shape relationships",
+    "original_folder": "1",
+    "new_id": 624,
+    "question_img_ids": [
+        "question_624_0.png",
+        "question_624_1.png",
+        "question_624_2.png",
+        "question_624_3.png",
+        "question_624_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_624_0.png",
+        "answer_624_1.png",
+        "answer_624_2.png",
+        "answer_624_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

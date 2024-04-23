@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow pointing to left/right or top/bottom in candidate 1?",
+    "Distrator": "top/bottom",
+    "Perception_Answer": "left/right",
+    "original_chapter": "./Easy_Marvel/Rotation and Flip",
+    "original_folder": "13",
+    "new_id": 623,
+    "question_img_ids": [
+        "question_623_0.png",
+        "question_623_1.png",
+        "question_623_2.png",
+        "question_623_3.png",
+        "question_623_4.png",
+        "question_623_5.png",
+        "question_623_6.png",
+        "question_623_7.png",
+        "question_623_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_623_0.png",
+        "answer_623_1.png",
+        "answer_623_2.png",
+        "answer_623_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

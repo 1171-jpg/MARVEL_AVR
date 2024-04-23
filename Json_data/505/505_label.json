@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The angle of star increase and each image has a circle.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle below or above the triangle in candidate 4?",
+    "Distrator": "above",
+    "Perception_Answer": "below",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "1",
+    "new_id": 505,
+    "question_img_ids": [
+        "question_505_0.png",
+        "question_505_1.png",
+        "question_505_2.png",
+        "question_505_3.png",
+        "question_505_4.png",
+        "question_505_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_505_0.png",
+        "answer_505_1.png",
+        "answer_505_2.png",
+        "answer_505_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

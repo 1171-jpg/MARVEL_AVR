@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The number of lines in the first group is 2, 3, and 4; each picture is rotated 45 degrees counterclockwise. The number of lines in the second group is 2 and 3.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four straight lines in candidate 4?",
+    "Distrator": "three",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Line",
+    "original_folder": "3",
+    "new_id": 479,
+    "question_img_ids": [
+        "question_479_0.png",
+        "question_479_1.png",
+        "question_479_2.png",
+        "question_479_3.png",
+        "question_479_4.png",
+        "question_479_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_479_0.png",
+        "answer_479_1.png",
+        "answer_479_2.png",
+        "answer_479_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

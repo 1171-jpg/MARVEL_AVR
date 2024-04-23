@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "source": "./Easy_Marvel/Symmetry/11",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "29",
+    "new_id": 339,
+    "question_img_ids": [
+        "question_339_0.png",
+        "question_339_1.png",
+        "question_339_2.png",
+        "question_339_3.png",
+        "question_339_4.png",
+        "question_339_5.png",
+        "question_339_6.png",
+        "question_339_7.png",
+        "question_339_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_339_0.png",
+        "answer_339_1.png",
+        "answer_339_2.png",
+        "answer_339_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

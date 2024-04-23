@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The number of small balls inside the first row of graphics is 1, 1, 2, the number of internal small balls is: Figure 1 + Figure 2 = Figure 3; the number of internal and external small balls in the second row of graphics is zero. The quantity law, considering the connection between the inner and outer balls, in Figures 1 and 2, the inner balls are 1, 0, the outer balls are 0, 3, the quantity law between the balls is, the sum of the outer balls - the inner balls The sum of the balls = Figure 3, that is, when the balls in the first two pictures are located inside and outside, the number of balls is: the sum of the outer balls - the sum of the inner balls = Figure 3, observe the third row of graphics , the positions of the small balls in the first two pictures are inside and outside, so the second row of rules is used. The external small ball and the internal small ball in Figures 1 and 2 are 2 and 2 respectively, so 0 small balls should be filled in tequestion mark.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the black dots inside or outside of the circle in candidate 2?",
+    "Distrator": "outside",
+    "Perception_Answer": "inside",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "14",
+    "new_id": 516,
+    "question_img_ids": [
+        "question_516_0.png",
+        "question_516_1.png",
+        "question_516_2.png",
+        "question_516_3.png",
+        "question_516_4.png",
+        "question_516_5.png",
+        "question_516_6.png",
+        "question_516_7.png",
+        "question_516_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_516_0.png",
+        "answer_516_1.png",
+        "answer_516_2.png",
+        "answer_516_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

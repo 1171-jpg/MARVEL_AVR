@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "A. The number of common element types in two adjacent pictures are 2, 1, 2, (1) respectively, and only item A matches. The small equilateral triangle of this question\u3002 The shape and small inverted triangle, the positive \"T\" and the inverted \"T\" are all considered to be the same elements.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the squares below or above the triangles in candidate 4?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "3",
+    "new_id": 575,
+    "question_img_ids": [
+        "question_575_0.png",
+        "question_575_1.png",
+        "question_575_2.png",
+        "question_575_3.png",
+        "question_575_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_575_0.png",
+        "answer_575_1.png",
+        "answer_575_2.png",
+        "answer_575_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

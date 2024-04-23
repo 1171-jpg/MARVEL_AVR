@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the stars at the left or right part of candidate 3?",
+    "Distrator": "left",
+    "Perception_Answer": "right",
+    "Demonstration": "The puzzle showcases a sequence of grids, each divided by a vertical line. The key to this puzzle is the consistent pattern of placement for a black solid shape on the left and a white outlined shape on the right of the vertical line.\nIn the sequence provided:\nThe first grid has a black circle on the left and a white outlined circle on the right of the vertical line.\nThe second grid contains a black square on the left and a white outlined square on the right of the vertical line.\nThe third grid features a black shape on the left and a white outlined shape on the right of the vertical line.\nThe fourth grid features a black shape on the left and a white outlined shape on the right of the vertical line.\nObserving this pattern, the fifth grid should include a vertical line with a black solid shape to its left and a white outlined shape to its right. The correct answer is choice 1.",
+    "original_chapter": "./Easy_Marvel/Functional elements",
+    "original_folder": "2",
+    "new_id": 638,
+    "question_img_ids": [
+        "question_638_0.png",
+        "question_638_1.png",
+        "question_638_2.png",
+        "question_638_3.png",
+        "question_638_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_638_0.png",
+        "answer_638_1.png",
+        "answer_638_2.png",
+        "answer_638_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

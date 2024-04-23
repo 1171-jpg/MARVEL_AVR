@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. The nine-square grid is first viewed in horizontal rows. In the first row of graphics, the position of the ball appears alternately inside, outside, and inside relative to the square, and it moves from left to right along the upper edge of the square. In the second row of graphics, the position of the ball appears outward, inward, and outward relative to the square, and it translates from top to bottom along the right side of the square. In the third row of graphics, the position of the ball in the first two graphics appears inside and outside of the square in sequence, so the position of the ball in the graphic at the question mark should appear inside the square.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the hollow circle inside or outside of the rectangle in candidate 4?",
+    "Perception_Answer": "inside",
+    "Distrator": "outside",
+    "source": "Final/73",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "10",
+    "new_id": 239,
+    "question_img_ids": [
+        "question_239_0.png",
+        "question_239_1.png",
+        "question_239_2.png",
+        "question_239_3.png",
+        "question_239_4.png",
+        "question_239_5.png",
+        "question_239_6.png",
+        "question_239_7.png",
+        "question_239_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_239_0.png",
+        "answer_239_1.png",
+        "answer_239_2.png",
+        "answer_239_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

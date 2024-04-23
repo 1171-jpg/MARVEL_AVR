@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three black filled rectangles in candidate 1?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "12",
+    "new_id": 676,
+    "question_img_ids": [
+        "question_676_0.png",
+        "question_676_1.png",
+        "question_676_2.png",
+        "question_676_3.png",
+        "question_676_4.png",
+        "question_676_5.png",
+        "question_676_6.png",
+        "question_676_7.png",
+        "question_676_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_676_0.png",
+        "answer_676_1.png",
+        "answer_676_2.png",
+        "answer_676_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

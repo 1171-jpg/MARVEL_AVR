@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 2 pointing to up or down?",
+    "Distrator": "up",
+    "Perception_Answer": "down",
+    "Demonstration": "The given puzzle presents a sequence of shapes where a square moves vertically downward along the right side of an arrow while maintaining a constant horizontal distance from it. The arrow remains static, pointing upwards throughout the sequence. The objective is to identify the missing shape that would logically complete the pattern.\nLet's analyze the position of the square in each step of the sequence:\nIn the first step, the square is positioned at the top right of the arrow, with a fixed horizontal distance between the square and the arrow.\nThe second step shows the square slightly below its initial position, still on the right side of the arrow and maintaining the same horizontal distance.\nIn the third step, the square has moved further down, now located at the middle right of the arrow, continuing to keep the consistent horizontal distance.\nThe fourth step depicts the square even lower, progressing in its downward movement while preserving the constant horizontal distance from the arrow.\nBased on this pattern, we can conclude that in the subsequent step, the square would continue moving downwards along the right side of the arrow, maintaining the established horizontal distance. Therefore, choice 1 is the correct answer that logically completes the pattern of the square moving downwards along the right side of the arrow while keeping a fixed horizontal distance.  ",
+    "original_chapter": "./Easy_Marvel/Parallel Movement",
+    "original_folder": "2",
+    "new_id": 599,
+    "question_img_ids": [
+        "question_599_0.png",
+        "question_599_1.png",
+        "question_599_2.png",
+        "question_599_3.png",
+        "question_599_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_599_0.png",
+        "answer_599_1.png",
+        "answer_599_2.png",
+        "answer_599_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

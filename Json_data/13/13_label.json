@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. It is observed that each picture is composed of two identical small figures, and figure 1 is rotated counterclockwise by 45, and figure 2 is rotated clockwise by 45. As shown in the figure below, only item A meets",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the L shapes in candidate 4 have one or two intersections?",
+    "Perception_Answer": "two",
+    "Distrator": "one",
+    "original_chapter": "Chapter_1",
+    "original_folder": "18",
+    "new_id": 13,
+    "question_img_ids": [
+        "question_13_0.png",
+        "question_13_1.png",
+        "question_13_2.png",
+        "question_13_3.png",
+        "question_13_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_13_0.png",
+        "answer_13_1.png",
+        "answer_13_2.png",
+        "answer_13_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

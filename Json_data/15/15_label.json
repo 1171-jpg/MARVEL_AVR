@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The element composition is the same, each figure is composed of four small squares and four arcs, giving priority to the positional rules. From the first graphic to the second graphic, the arc in the upper right corner rotates 90 degrees clockwise. From the second graphic to the third graphic, the arc in the lower right corner rotates 90 degrees clockwise. From the third graphic to the fourth graphic, the lower left corner The arc rotates 90\u00b0 clockwise, so the fourth figure to the figure at the question mark should be the arc in the upper left corner rotated 90\u00b0 clockwise. Only item B is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the left and right halves of the rectangle in candidate 3 same or different?",
+    "Perception_Answer": "same",
+    "Distrator": "different",
+    "original_chapter": "Chapter_1",
+    "original_folder": "21",
+    "new_id": 15,
+    "question_img_ids": [
+        "question_15_0.png",
+        "question_15_1.png",
+        "question_15_2.png",
+        "question_15_3.png",
+        "question_15_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_15_0.png",
+        "answer_15_1.png",
+        "answer_15_2.png",
+        "answer_15_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

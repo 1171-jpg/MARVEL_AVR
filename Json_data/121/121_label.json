@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The composition of elements is different, and the laws of attributes and quantities should be considered. It was observed that the odd-numbered items in the question stem are all straight-line figures, and the even-numbered items are all curved figures, that is, figures composed of all curves and figures composed of all straight lines appear alternately. The question mark should be a full curve figure.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is it a quarter or a half of a circle in candidate 1?",
+    "Perception_Answer": "quarter",
+    "Distrator": "half",
+    "original_chapter": "Final",
+    "original_folder": "46",
+    "new_id": 121,
+    "question_img_ids": [
+        "question_121_0.png",
+        "question_121_1.png",
+        "question_121_2.png",
+        "question_121_3.png",
+        "question_121_4.png",
+        "question_121_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_121_0.png",
+        "answer_121_1.png",
+        "answer_121_2.png",
+        "answer_121_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

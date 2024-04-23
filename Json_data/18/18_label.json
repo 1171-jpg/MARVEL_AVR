@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. The nine-square grid is first viewed in horizontal rows. Observing the first row of graphics, it is found that the first picture is rotated 90\" clockwise to get the second picture, and the second picture is flipped left and right to get the third picture. Verify the second row of graphics, and the same This rule is satisfied. Therefore, the graph at the question mark should be the second graph in the third row of graphs obtained by flipping left and right. Only item C is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black filled arrow in candidate 2 pointing to the top left or bottom right?",
+    "Perception_Answer": "top left",
+    "Distrator": "bottom right",
+    "only_one": "1",
+    "original_chapter": "Chapter_1",
+    "original_folder": "25",
+    "new_id": 18,
+    "question_img_ids": [
+        "question_18_0.png",
+        "question_18_1.png",
+        "question_18_2.png",
+        "question_18_3.png",
+        "question_18_4.png",
+        "question_18_5.png",
+        "question_18_6.png",
+        "question_18_7.png",
+        "question_18_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_18_0.png",
+        "answer_18_1.png",
+        "answer_18_2.png",
+        "answer_18_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

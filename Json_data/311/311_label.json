@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "source": "./Easy_Marvel/Parallel Movement/11",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "1",
+    "new_id": 311,
+    "question_img_ids": [
+        "question_311_0.png",
+        "question_311_1.png",
+        "question_311_2.png",
+        "question_311_3.png",
+        "question_311_4.png",
+        "question_311_5.png",
+        "question_311_6.png",
+        "question_311_7.png",
+        "question_311_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_311_0.png",
+        "answer_311_1.png",
+        "answer_311_2.png",
+        "answer_311_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

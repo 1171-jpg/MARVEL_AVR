@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the empty filled circle inside or outside of the cross shape in candidate 2?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "5",
+    "new_id": 684,
+    "question_img_ids": [
+        "question_684_0.png",
+        "question_684_1.png",
+        "question_684_2.png",
+        "question_684_3.png",
+        "question_684_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_684_0.png",
+        "answer_684_1.png",
+        "answer_684_2.png",
+        "answer_684_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

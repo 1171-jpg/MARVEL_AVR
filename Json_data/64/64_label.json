@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The graphics have different compositions and no obvious attribute rules. Consider counting. The third picture consists of a pentagon and a straight line. Prioritize the number line and find that all the figures in the question stem are composed of 6 straight lines. Item A has 11 straight lines, item B has 6 straight lines, item C has 7 straight lines, and item D has 2 straight lines.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 4?",
+    "Perception_Answer": "three",
+    "Distrator": "two",
+    "original_chapter": "Chapter_4",
+    "original_folder": "18",
+    "new_id": 64,
+    "question_img_ids": [
+        "question_64_0.png",
+        "question_64_1.png",
+        "question_64_2.png",
+        "question_64_3.png",
+        "question_64_4.png",
+        "question_64_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_64_0.png",
+        "answer_64_1.png",
+        "answer_64_2.png",
+        "answer_64_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

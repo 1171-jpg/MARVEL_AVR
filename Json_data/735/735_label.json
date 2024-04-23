@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the arrows in candidate 2 pointing to the same or different directions?",
+    "Distrator": "same",
+    "Perception_Answer": "different",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "4",
+    "new_id": 735,
+    "question_img_ids": [
+        "question_735_0.png",
+        "question_735_1.png",
+        "question_735_2.png",
+        "question_735_3.png",
+        "question_735_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_735_0.png",
+        "answer_735_1.png",
+        "answer_735_2.png",
+        "answer_735_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

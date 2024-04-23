@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four squares in candidate 2?",
+    "Distrator": "four",
+    "Perception_Answer": "three",
+    "Demonstration": "The pattern in the given sequence is that the number of shapes in each row increases by one, and all shapes are placed horizontally.\nLet's analyze the pattern in the given rows:\nIn the first row:\nThe first image contains one circle.\nThe second image contains two circles, placed horizontally.\nThe third image contains three circles, placed horizontally.\nIn the second row:\nThe first image one square, placed horizontally.\nThe second image contains two squares, with all shapes placed horizontally.\nThe third image should contain three squares, with all shapes placed horizontally, to follow the established pattern. Therefore the correct answer is choice 4.",
+    "original_chapter": "./Easy_Marvel/Point",
+    "original_folder": "6",
+    "new_id": 698,
+    "question_img_ids": [
+        "question_698_0.png",
+        "question_698_1.png",
+        "question_698_2.png",
+        "question_698_3.png",
+        "question_698_4.png",
+        "question_698_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_698_0.png",
+        "answer_698_1.png",
+        "answer_698_2.png",
+        "answer_698_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

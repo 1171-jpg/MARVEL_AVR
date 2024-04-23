@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "6",
+    "new_id": 670,
+    "question_img_ids": [
+        "question_670_0.png",
+        "question_670_1.png",
+        "question_670_2.png",
+        "question_670_3.png",
+        "question_670_4.png",
+        "question_670_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_670_0.png",
+        "answer_670_1.png",
+        "answer_670_2.png",
+        "answer_670_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/straightness, opening and closing/14",
+    "Question": "Is there one or two straight lines in candidate 4?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "41",
+    "new_id": 383,
+    "question_img_ids": [
+        "question_383_0.png",
+        "question_383_1.png",
+        "question_383_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_383_0.png",
+        "answer_383_1.png",
+        "answer_383_2.png",
+        "answer_383_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

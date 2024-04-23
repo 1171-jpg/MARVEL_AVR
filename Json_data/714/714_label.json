@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three parallel vertical lines in candidate 3?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "9",
+    "new_id": 714,
+    "question_img_ids": [
+        "question_714_0.png",
+        "question_714_1.png",
+        "question_714_2.png",
+        "question_714_3.png",
+        "question_714_4.png",
+        "question_714_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_714_0.png",
+        "answer_714_1.png",
+        "answer_714_2.png",
+        "answer_714_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

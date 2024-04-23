@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The three letters in the first column of the question are all axially symmetrical figures, the three letters in the second column are all centrally symmetrical figures, and the three letters in the third column are all centrally symmetrical figures. The two letters given are both axially symmetrical figures and centrally symmetrical figures. Therefore, the unknown item should also be both axially symmetrical figures and centrally symmetrical figures.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "original_chapter": "./Data_aug/Symmetry",
+    "original_folder": "2",
+    "new_id": 435,
+    "question_img_ids": [
+        "question_435_0.png",
+        "question_435_1.png",
+        "question_435_2.png",
+        "question_435_3.png",
+        "question_435_4.png",
+        "question_435_5.png",
+        "question_435_6.png",
+        "question_435_7.png",
+        "question_435_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_435_0.png",
+        "answer_435_1.png",
+        "answer_435_2.png",
+        "answer_435_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "Symmetry",
+    "Explanation": "The element composition is different, and the attribute rules are given priority. Observation found that there are small black circles, small white circles and large circles in the question stem graphics, but the numbers of small black circles and small white circles are irregular. After further observation, we found that all the figures in the question stem are relatively regular, and they are all axially symmetrical figures, and the symmetry axis rotates 45\u00b0 counterclockwise.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three solid circles in candidate 2?",
+    "Perception_Answer": "three",
+    "Distrator": "two",
+    "original_chapter": "Final",
+    "original_folder": "21",
+    "new_id": 109,
+    "question_img_ids": [
+        "question_109_0.png",
+        "question_109_1.png",
+        "question_109_2.png",
+        "question_109_3.png",
+        "question_109_4.png",
+        "question_109_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_109_0.png",
+        "answer_109_1.png",
+        "answer_109_2.png",
+        "answer_109_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

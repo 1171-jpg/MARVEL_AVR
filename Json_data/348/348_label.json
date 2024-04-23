@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Shape relationships/14",
+    "Question": "Are there one or two circles in candidate 2?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "6",
+    "new_id": 348,
+    "question_img_ids": [
+        "question_348_0.png",
+        "question_348_1.png",
+        "question_348_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_348_0.png",
+        "answer_348_1.png",
+        "answer_348_2.png",
+        "answer_348_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Black and white computation",
+    "Explanation": "The composition of elements is similar, prioritizing the consideration of style patterns. The number of black blocks in the question shapes varies, prompting consideration of black and white computation. Observing the first set of shapes reveals the following pattern: black + black = black, white + black = white, black + blank = white, white + white = black. Following this rule, the only option that conforms to the answer is option C.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two empty triangles in candidate 1?",
+    "Perception_Answer": "one",
+    "Distrator": "two",
+    "original_chapter": "Chapter_2",
+    "original_folder": "15",
+    "new_id": 35,
+    "question_img_ids": [
+        "question_35_0.png",
+        "question_35_1.png",
+        "question_35_2.png",
+        "question_35_3.png",
+        "question_35_4.png",
+        "question_35_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_35_0.png",
+        "answer_35_1.png",
+        "answer_35_2.png",
+        "answer_35_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

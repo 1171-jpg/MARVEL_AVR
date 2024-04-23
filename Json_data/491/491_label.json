@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "In each row, the number of closed layers increases.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the triangles inside or outside of the circle in candidate 3?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "6",
+    "new_id": 491,
+    "question_img_ids": [
+        "question_491_0.png",
+        "question_491_1.png",
+        "question_491_2.png",
+        "question_491_3.png",
+        "question_491_4.png",
+        "question_491_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_491_0.png",
+        "answer_491_1.png",
+        "answer_491_2.png",
+        "answer_491_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "Identical elements first appear diagonally and then become adjacent",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two rectangles in candidate 4?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "source": "./Data_aug/Shape/20",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "35",
+    "new_id": 264,
+    "question_img_ids": [
+        "question_264_0.png",
+        "question_264_1.png",
+        "question_264_2.png",
+        "question_264_3.png",
+        "question_264_4.png",
+        "question_264_5.png",
+        "question_264_6.png",
+        "question_264_7.png",
+        "question_264_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_264_0.png",
+        "answer_264_1.png",
+        "answer_264_2.png",
+        "answer_264_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The composition of elements is different and there is no obvious attribute pattern. Priority is given to the quantity pattern. It was observed that the question stem graphic is composed of two elements: circle and square. Consider the number of elements. The number of circles is 2, 3, 3, 4, 4, and the number of squares is 0, 1, 1, 2, 2, that is, the number of circles - the number of squares = 2.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "7",
+    "new_id": 510,
+    "question_img_ids": [
+        "question_510_0.png",
+        "question_510_1.png",
+        "question_510_2.png",
+        "question_510_3.png",
+        "question_510_4.png",
+        "question_510_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_510_0.png",
+        "answer_510_1.png",
+        "answer_510_2.png",
+        "answer_510_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

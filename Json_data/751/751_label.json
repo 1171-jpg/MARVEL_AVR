@@ -1,0 +1,38 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "Demonstration": "The pattern in the given sequence is that the image in each row symmetrically about the same axes:\nIn the first row:\nThe first image is symmetrical about the vertical axes.\nThe second image is symmetrical about the vertical axes.\nThe third image is symmetrical about the vertical axes.\nIn the second row:\nThe first image is symmetrical about the diagonal axes.\nThe second image is symmetrical about the diagonal axes.\nTherefore, the third image should also have be symmetrical about the diagonal axes. The choice 3 is the correct answer.",
+    "original_chapter": "./Easy_Marvel/Symmetry",
+    "original_folder": "7",
+    "new_id": 751,
+    "question_img_ids": [
+        "question_751_0.png",
+        "question_751_1.png",
+        "question_751_2.png",
+        "question_751_3.png",
+        "question_751_4.png",
+        "question_751_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_751_0.png",
+        "answer_751_1.png",
+        "answer_751_2.png",
+        "answer_751_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

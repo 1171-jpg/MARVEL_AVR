@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The point in each image decrease along the row.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four circles in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "four",
+    "source": "./Data_aug/Point/2",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "32",
+    "new_id": 300,
+    "question_img_ids": [
+        "question_300_0.png",
+        "question_300_1.png",
+        "question_300_2.png",
+        "question_300_3.png",
+        "question_300_4.png",
+        "question_300_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_300_0.png",
+        "answer_300_1.png",
+        "answer_300_2.png",
+        "answer_300_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

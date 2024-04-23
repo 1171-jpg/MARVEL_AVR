@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "In the first set of figures, the black circle is on the left side of the image, in the second set of image, the black circle is on the right side of the image.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle outside or inside of the triangle in candidate 1?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "9",
+    "new_id": 540,
+    "question_img_ids": [
+        "question_540_0.png",
+        "question_540_1.png",
+        "question_540_2.png",
+        "question_540_3.png",
+        "question_540_4.png",
+        "question_540_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_540_0.png",
+        "answer_540_1.png",
+        "answer_540_2.png",
+        "answer_540_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

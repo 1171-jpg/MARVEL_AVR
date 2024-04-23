@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Layer/14",
+    "Question": "Are there two or one black circles in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "27",
+    "new_id": 369,
+    "question_img_ids": [
+        "question_369_0.png",
+        "question_369_1.png",
+        "question_369_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_369_0.png",
+        "answer_369_1.png",
+        "answer_369_2.png",
+        "answer_369_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

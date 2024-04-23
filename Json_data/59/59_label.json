@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The elements have different compositions and no obvious attribute rules. Consider the quantity rules. Observe the graphic features. There are many holes and polygons. Prioritize counting the number of faces and lines, but there are no rules. Consider counting points. The number of intersections in each picture is 678910, and the number is increasing. Therefore, a graph with 11 intersections should be selected. Only item B is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two vertical lines in the pentagon in candidate 2?",
+    "Perception_Answer": "one",
+    "Distrator": "two",
+    "original_chapter": "Chapter_4",
+    "original_folder": "7",
+    "new_id": 59,
+    "question_img_ids": [
+        "question_59_0.png",
+        "question_59_1.png",
+        "question_59_2.png",
+        "question_59_3.png",
+        "question_59_4.png",
+        "question_59_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_59_0.png",
+        "answer_59_1.png",
+        "answer_59_2.png",
+        "answer_59_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

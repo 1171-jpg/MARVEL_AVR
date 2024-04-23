@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. Observation found that the gray triangle translates 1 space counterclockwise in the inner circle each time. Excluding items A and B. Comparing items C and D, it is found that only the position of the five-pointed star is different. In the question, the five-pointed star translates clockwise 2 times in the outer circle. Grid, so the five-pointed star in the figure at the question mark should be in the bottom triangle, excluding item D",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the small triangle in candidate 2 in the upper part or lower part?",
+    "Distrator": "lower",
+    "Perception_Answer": "upper",
+    "original_chapter": "Chapter_1",
+    "original_folder": "1",
+    "new_id": 1,
+    "question_img_ids": [
+        "question_1_0.png",
+        "question_1_1.png",
+        "question_1_2.png",
+        "question_1_3.png",
+        "question_1_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_1_0.png",
+        "answer_1_1.png",
+        "answer_1_2.png",
+        "answer_1_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

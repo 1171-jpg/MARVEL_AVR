@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "The picture in the first column and the picture in the second column are superimposed to get the picture in the third column.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the three or four short lines in the candidate 3",
+    "Perception_Answer": "three",
+    "Distrator": "four",
+    "source": "Final/55",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "17",
+    "new_id": 285,
+    "question_img_ids": [
+        "question_285_0.png",
+        "question_285_1.png",
+        "question_285_2.png",
+        "question_285_3.png",
+        "question_285_4.png",
+        "question_285_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_285_0.png",
+        "answer_285_1.png",
+        "answer_285_2.png",
+        "answer_285_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

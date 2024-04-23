@@ -1,0 +1,39 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "Symmetry",
+    "Explanation": "The element composition is different, and the attribute rules are given priority. Observation found that the question stems are all axially symmetrical figures, and they all have a vertical axis of symmetry, and only item D is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        8,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the two lines in candidate 4 intersected or parallel?",
+    "Perception_Answer": "intersected",
+    "Distrator": "parallel",
+    "original_chapter": "Final",
+    "original_folder": "4",
+    "new_id": 101,
+    "question_img_ids": [
+        "question_101_0.png",
+        "question_101_1.png",
+        "question_101_2.png",
+        "question_101_3.png",
+        "question_101_4.png",
+        "question_101_5.png",
+        "question_101_6.png",
+        "question_101_7.png"
+    ],
+    "answer_img_ids": [
+        "answer_101_0.png",
+        "answer_101_1.png",
+        "answer_101_2.png",
+        "answer_101_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

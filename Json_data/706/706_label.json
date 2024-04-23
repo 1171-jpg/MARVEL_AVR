@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or five parallel horizontal lines in candidate 2?",
+    "Distrator": "five",
+    "Perception_Answer": "three",
+    "Demonstration": "Let's analyze the pattern in the given sequence, focusing on the number horizontal lines in each shape:\nThe first image has one horizontal line.\nThe second image contains two horizontal lines.\nThe third image contains three horizontal lines.\nThe fourth image contains four horizontal lines.\nTherefore, to complete the pattern, the next image should contain five horizontal lines. The answer is choice 3.",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "1",
+    "new_id": 706,
+    "question_img_ids": [
+        "question_706_0.png",
+        "question_706_1.png",
+        "question_706_2.png",
+        "question_706_3.png",
+        "question_706_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_706_0.png",
+        "answer_706_1.png",
+        "answer_706_2.png",
+        "answer_706_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

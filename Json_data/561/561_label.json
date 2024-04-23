@@ -1,0 +1,32 @@
+{
+    "Answer": "D",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Hexahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 4 pointing up or down?",
+    "Distrator": "up",
+    "Perception_Answer": "down",
+    "original_chapter": "./Data_aug/six",
+    "original_folder": "20",
+    "new_id": 561,
+    "question_img_ids": [
+        "question_561_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_561_0.png",
+        "answer_561_1.png",
+        "answer_561_2.png",
+        "answer_561_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

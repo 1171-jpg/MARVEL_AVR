@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "Number of faces in the first row. The addition is 11, and the number of black dots adds up to 9. Verify that the third line conforms to this rule, so the second line should also conform. The sum of the number of faces in the two pictures in the second row is 8, and the sum of the number of black dots is 7, so the question mark is a figure with 3 faces and 2 black dots. Option A was elected.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three dots in candidate 2?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "11",
+    "new_id": 494,
+    "question_img_ids": [
+        "question_494_0.png",
+        "question_494_1.png",
+        "question_494_2.png",
+        "question_494_3.png",
+        "question_494_4.png",
+        "question_494_5.png",
+        "question_494_6.png",
+        "question_494_7.png",
+        "question_494_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_494_0.png",
+        "answer_494_1.png",
+        "answer_494_2.png",
+        "answer_494_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

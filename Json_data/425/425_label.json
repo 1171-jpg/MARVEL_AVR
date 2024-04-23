@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "In the first set of graphics, the elements in the first graphics all move one position counterclockwise, and the elements in the second graphics all move one position clockwise. The two new graphics are superimposed to get the third graphics. . The second set of graphics should also follow this rule, and only item D is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the letter N at the top or bottom of candidate 1?",
+    "Distrator": "top",
+    "Perception_Answer": "bottom",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "14",
+    "new_id": 425,
+    "question_img_ids": [
+        "question_425_0.png",
+        "question_425_1.png",
+        "question_425_2.png",
+        "question_425_3.png",
+        "question_425_4.png",
+        "question_425_5.png",
+        "question_425_6.png",
+        "question_425_7.png",
+        "question_425_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_425_0.png",
+        "answer_425_1.png",
+        "answer_425_2.png",
+        "answer_425_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

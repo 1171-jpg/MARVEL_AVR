@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top triangle in candidate 2 filled in black or white?",
+    "Distrator": "black",
+    "Perception_Answer": "white",
+    "original_chapter": "./Easy_Marvel/Parallel Movement",
+    "original_folder": "9",
+    "new_id": 606,
+    "question_img_ids": [
+        "question_606_0.png",
+        "question_606_1.png",
+        "question_606_2.png",
+        "question_606_3.png",
+        "question_606_4.png",
+        "question_606_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_606_0.png",
+        "answer_606_1.png",
+        "answer_606_2.png",
+        "answer_606_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

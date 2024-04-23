@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "In the first paragraph, the outer contours of the figures are circles, squares, and triangles, so these three figures are also in the second paragraph. Comparing the gaps, we can see that the question mark is a square, excluding items B and D; further observation, the figures in the first paragraph The figures on the straight line outside the closed space are a five-pointed star, two triangles, and one triangle, so these three figures are also in the second paragraph. Comparing the gaps, we can see that the question mark is a five-pointed star, so item A is excluded, and only item C is consistent.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle in candidate 2 empty or filled?",
+    "Distrator": "empty",
+    "Perception_Answer": "filled",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "10",
+    "new_id": 582,
+    "question_img_ids": [
+        "question_582_0.png",
+        "question_582_1.png",
+        "question_582_2.png",
+        "question_582_3.png",
+        "question_582_4.png",
+        "question_582_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_582_0.png",
+        "answer_582_1.png",
+        "answer_582_2.png",
+        "answer_582_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

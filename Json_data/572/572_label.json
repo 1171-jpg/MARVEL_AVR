@@ -1,0 +1,32 @@
+{
+    "Answer": "B",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Tetrahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there black triangles in candidate 4 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/four",
+    "original_folder": "22",
+    "new_id": 572,
+    "question_img_ids": [
+        "question_572_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_572_0.png",
+        "answer_572_1.png",
+        "answer_572_2.png",
+        "answer_572_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

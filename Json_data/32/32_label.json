@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "The composition of graphic elements is similar, prioritizing the consideration of style patterns. Since the middle symbol in the second set of images is in the center, let's first observe how the second image in the first set is obtained from the first and third images. The first and third images are compared to identify similarities and differences. Then, the result is obtained by rotating counterclockwise by 90\u00b0 to get the second image. The same pattern is observed in the second set.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle on the bottom left corner of the rectangle in candidate 1 empty or filled?",
+    "Perception_Answer": "filled",
+    "Distrator": "empty",
+    "original_chapter": "Chapter_2",
+    "original_folder": "12",
+    "new_id": 32,
+    "question_img_ids": [
+        "question_32_0.png",
+        "question_32_1.png",
+        "question_32_2.png",
+        "question_32_3.png",
+        "question_32_4.png",
+        "question_32_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_32_0.png",
+        "answer_32_1.png",
+        "answer_32_2.png",
+        "answer_32_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

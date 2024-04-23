@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The number of the axis of symmetry is 1,2,4 in the first row.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 diagonally symmetrical or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Symmetry",
+    "original_folder": "5",
+    "new_id": 438,
+    "question_img_ids": [
+        "question_438_0.png",
+        "question_438_1.png",
+        "question_438_2.png",
+        "question_438_3.png",
+        "question_438_4.png",
+        "question_438_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_438_0.png",
+        "answer_438_1.png",
+        "answer_438_2.png",
+        "answer_438_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

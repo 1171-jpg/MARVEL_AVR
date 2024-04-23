@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the two lines intersect with each other in candidate 1?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "Demonstration": "The pattern in the given sequence is that the number of intersection layers between the curve and the horizontal line increases by one with each step:\nThe first grid has a horizontal line with no intersection layers.\nThe second grid shows one intersection layer with the curve.\nThe third grid shows two intersections layers with the curve.\nThe fourth grid shows three intersections layers with the curve.\nTherefore, to complete the pattern, the next grid should contain a curve has four intersection layers with the horizontal line, which is choice 1.",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "2",
+    "new_id": 720,
+    "question_img_ids": [
+        "question_720_0.png",
+        "question_720_1.png",
+        "question_720_2.png",
+        "question_720_3.png",
+        "question_720_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_720_0.png",
+        "answer_720_1.png",
+        "answer_720_2.png",
+        "answer_720_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Along the row the first column plus second column equals to the third column. The overlap area will be removed.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 diagonally symmetrical or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Black",
+    "original_folder": "8",
+    "new_id": 433,
+    "question_img_ids": [
+        "question_433_0.png",
+        "question_433_1.png",
+        "question_433_2.png",
+        "question_433_3.png",
+        "question_433_4.png",
+        "question_433_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_433_0.png",
+        "answer_433_1.png",
+        "answer_433_2.png",
+        "answer_433_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

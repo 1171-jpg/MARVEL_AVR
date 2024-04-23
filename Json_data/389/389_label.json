@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The row of matrix follow the same pattern. Frist flip the image left to right and then flip image top to bottom.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "not_in_good": "1",
+    "Question": "Are there three or two triangles in a black background in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "2",
+    "new_id": 389,
+    "question_img_ids": [
+        "question_389_0.png",
+        "question_389_1.png",
+        "question_389_2.png",
+        "question_389_3.png",
+        "question_389_4.png",
+        "question_389_5.png",
+        "question_389_6.png",
+        "question_389_7.png",
+        "question_389_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_389_0.png",
+        "answer_389_1.png",
+        "answer_389_2.png",
+        "answer_389_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

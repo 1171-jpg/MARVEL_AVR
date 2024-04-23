@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three lines inside of the circle in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "10",
+    "new_id": 741,
+    "question_img_ids": [
+        "question_741_0.png",
+        "question_741_1.png",
+        "question_741_2.png",
+        "question_741_3.png",
+        "question_741_4.png",
+        "question_741_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_741_0.png",
+        "answer_741_1.png",
+        "answer_741_2.png",
+        "answer_741_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

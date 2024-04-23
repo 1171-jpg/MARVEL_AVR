@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "From the first row, some black square moves from top to bottom(bottom to top) and others stay unchange. Adapt the same rule to the second row, the left two part of triangle move from bottom to top while the other two parts stay unchange.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the trapezoid in the bottom left corner of the triangle in candidate 1 white or black?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "original_chapter": "./Data_aug/Parallel_movement",
+    "original_folder": "4",
+    "new_id": 402,
+    "question_img_ids": [
+        "question_402_0.png",
+        "question_402_1.png",
+        "question_402_2.png",
+        "question_402_3.png",
+        "question_402_4.png",
+        "question_402_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_402_0.png",
+        "answer_402_1.png",
+        "answer_402_2.png",
+        "answer_402_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

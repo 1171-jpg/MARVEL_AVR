@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black filled circle inside or outside of the cloud shape in candidate 2?",
+    "Distrator": "outside",
+    "Perception_Answer": "inside",
+    "Demonstration": "In this puzzle, each grid contains both a black circle and a white circle. The pattern dictates that the black circle is always outside the geometric shape, and the white circle is always inside the shape.\nIn the sequence provided:\nThe first grid shows a black circle outside and a white circle inside a trapezoid.\nThe second grid shows a black circle outside and a white circle inside a square.\nThe third grid shows a black circle outside and a white circle inside a triangle.\nThe third grid shows a black circle outside and a white circle inside a rectangle.\nThe fifth grid should feature a black circle with a white circle inside a geometric shape. The correct answer is choice 4, as it shows a black circle outside and a white circle inside the cloud-like shape, consistent with the pattern in the sequence.",
+    "original_chapter": "./Easy_Marvel/Functional elements",
+    "original_folder": "1",
+    "new_id": 637,
+    "question_img_ids": [
+        "question_637_0.png",
+        "question_637_1.png",
+        "question_637_2.png",
+        "question_637_3.png",
+        "question_637_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_637_0.png",
+        "answer_637_1.png",
+        "answer_637_2.png",
+        "answer_637_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

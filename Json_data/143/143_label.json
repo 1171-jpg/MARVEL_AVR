@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "It was observed that each picture is composed of six elements, and there is no grouping pattern in the type and number of elements. Since all the elements in the question stem figure are in the form of arrows, and the arrows all have directions, they can be divided into clockwise and counterclockwise directions. Count the clockwise and counterclockwise arrows in each figure respectively: there are 4 clockwise arrows in D. , 2 are counterclockwise, 2 are 2 clockwise, 4 are clockwise, 3 are 5 clockwise, 1 is counterclockwise, 3 are 1 clockwise, 5 are counterclockwise, 5 are 2 clockwise , 4 clockwise; in the middle is 4 clockwise, 2 clockwise D6 is one group, in which the number of clockwise heads is more than that of counterclockwise heads, 25 is another group, in which the number of clockwise arrows is less than that of counterclockwise arrows.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 4 have five or four solid arrows",
+    "Perception_Answer": "four",
+    "Distrator": "five",
+    "source": "Chapter_1/27",
+    "original_chapter": "Group_aug",
+    "original_folder": "4",
+    "new_id": 143,
+    "question_img_ids": [
+        "question_143_0.png",
+        "question_143_1.png",
+        "question_143_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_143_0.png",
+        "answer_143_1.png",
+        "answer_143_2.png",
+        "answer_143_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

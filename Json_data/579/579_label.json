@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "This question belongs to the traversal rule of the style class. Each figure in the first set of graphics is composed of 3 elements. Careful observation found that the difference between each figure in the first set of figures is that each component of each figure is in other figures. Appears once in , and the key is that the location changes regularly. Use the second set of pictures to compare with the first set of pictures and find that it matches the change pattern of the first set of pictures. In the first set of pictures, the outer elements of the third picture are the middle elements of the second picture, the middle elements are the innermost elements of the second picture, and the innermost elements are the outermost elements of the second picture. Substituting this rule into the second set of graphs, option A can be obtained.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three triangles in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "7",
+    "new_id": 579,
+    "question_img_ids": [
+        "question_579_0.png",
+        "question_579_1.png",
+        "question_579_2.png",
+        "question_579_3.png",
+        "question_579_4.png",
+        "question_579_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_579_0.png",
+        "answer_579_1.png",
+        "answer_579_2.png",
+        "answer_579_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

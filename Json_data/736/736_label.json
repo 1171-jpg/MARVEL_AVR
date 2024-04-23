@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 1 pointing to up or down?",
+    "Distrator": "up",
+    "Perception_Answer": "down",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "5",
+    "new_id": 736,
+    "question_img_ids": [
+        "question_736_0.png",
+        "question_736_1.png",
+        "question_736_2.png",
+        "question_736_3.png",
+        "question_736_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_736_0.png",
+        "answer_736_1.png",
+        "answer_736_2.png",
+        "answer_736_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

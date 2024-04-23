@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "This question examines the issue of style traversal. Each figure in the first section of the figure has a white part, and the position of the white part is regularly arranged in the middle, bottom, and top, which belongs to traversal, and each figure has two shadow surfaces, all black surfaces and diagonal surfaces. The position of the white part of the second paragraph of the figure is in the middle and bottom. Continuing the rule, the white part of the third figure of the second paragraph should be at the top. The first and second pictures in the second paragraph are both composed of completely black surfaces and diagonal lines, so the third picture in the second paragraph should also be two shaded surfaces. Therefore, the answer to this question is option A",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three horizontal lines in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "8",
+    "new_id": 580,
+    "question_img_ids": [
+        "question_580_0.png",
+        "question_580_1.png",
+        "question_580_2.png",
+        "question_580_3.png",
+        "question_580_4.png",
+        "question_580_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_580_0.png",
+        "answer_580_1.png",
+        "answer_580_2.png",
+        "answer_580_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

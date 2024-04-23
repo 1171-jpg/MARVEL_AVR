@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The outlines of the figures in the question stems are all the same, and there is no obvious pattern in the number of shaded parts. Considering the position pattern, we observe the shaded parts in the middle of the question and find that all the shaded parts appear on the same line (or two lines separated by a line), which excludes There are two items C and D, and every time the shadow moves downward to the right starting from the first picture, a new shadow will appear when it moves to the third line, excluding item B",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 2 have two or three hexagons with top right to bottom left parallel lines inside?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Chapter_1",
+    "original_folder": "5",
+    "new_id": 4,
+    "question_img_ids": [
+        "question_4_0.png",
+        "question_4_1.png",
+        "question_4_2.png",
+        "question_4_3.png",
+        "question_4_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_4_0.png",
+        "answer_4_1.png",
+        "answer_4_2.png",
+        "answer_4_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

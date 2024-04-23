@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Do the two arrows intersect with each other or not in candidate 4?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Easy_Marvel/Functional elements",
+    "original_folder": "11",
+    "new_id": 647,
+    "question_img_ids": [
+        "question_647_0.png",
+        "question_647_1.png",
+        "question_647_2.png",
+        "question_647_3.png",
+        "question_647_4.png",
+        "question_647_5.png",
+        "question_647_6.png",
+        "question_647_7.png",
+        "question_647_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_647_0.png",
+        "answer_647_1.png",
+        "answer_647_2.png",
+        "answer_647_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

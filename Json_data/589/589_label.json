@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "In the first and second rows of the given figure, the head, body and feet in the figure contain three different styles in each row (that is, the head has three styles: circle, triangle and square, The body has three styles: straight, square, and round; the feet have three styles: round, square, and straight). Each row is arranged in a different order. It can be seen from observation that the head at the question mark is missing and the body is square. It is a straight-line shape with round legs, so the correct answer is option A.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the topmost shape of candidate 4 a circle or square?",
+    "Distrator": "circle",
+    "Perception_Answer": "square",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "18",
+    "new_id": 589,
+    "question_img_ids": [
+        "question_589_0.png",
+        "question_589_1.png",
+        "question_589_2.png",
+        "question_589_3.png",
+        "question_589_4.png",
+        "question_589_5.png",
+        "question_589_6.png",
+        "question_589_7.png",
+        "question_589_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_589_0.png",
+        "answer_589_1.png",
+        "answer_589_2.png",
+        "answer_589_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three black filled circles in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "source": "./Easy_Marvel/black and white computation/11",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "14",
+    "new_id": 324,
+    "question_img_ids": [
+        "question_324_0.png",
+        "question_324_1.png",
+        "question_324_2.png",
+        "question_324_3.png",
+        "question_324_4.png",
+        "question_324_5.png",
+        "question_324_6.png",
+        "question_324_7.png",
+        "question_324_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_324_0.png",
+        "answer_324_1.png",
+        "answer_324_2.png",
+        "answer_324_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

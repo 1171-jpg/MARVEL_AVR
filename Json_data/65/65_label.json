@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The number of extending lines is 1, 2, 3, and 4 respectively, increasing each time. Therefore, the number of diverging and extending lines of the square in the selected figure should be 5. Only item D conforms to this rule.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two rectangles in candidate 2?",
+    "Perception_Answer": "one",
+    "Distrator": "two",
+    "original_chapter": "Chapter_4",
+    "original_folder": "20",
+    "new_id": 65,
+    "question_img_ids": [
+        "question_65_0.png",
+        "question_65_1.png",
+        "question_65_2.png",
+        "question_65_3.png",
+        "question_65_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_65_0.png",
+        "answer_65_1.png",
+        "answer_65_2.png",
+        "answer_65_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

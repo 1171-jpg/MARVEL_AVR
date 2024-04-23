@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 4 a diamond or triangle?",
+    "Distrator": "diamond",
+    "Perception_Answer": "triangle",
+    "original_chapter": "./Easy_Marvel/Point",
+    "original_folder": "5",
+    "new_id": 697,
+    "question_img_ids": [
+        "question_697_0.png",
+        "question_697_1.png",
+        "question_697_2.png",
+        "question_697_3.png",
+        "question_697_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_697_0.png",
+        "answer_697_1.png",
+        "answer_697_2.png",
+        "answer_697_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

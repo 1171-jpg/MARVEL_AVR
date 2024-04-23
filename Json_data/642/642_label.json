@@ -1,0 +1,38 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black moon shape below or above the empty star in candidate 1?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "Demonstration": "The puzzle presents a 3x2 grid, with a specific pattern in how shapes are colored.\nIn the sequence provided:\nThe first grid in the top row shows four shapes: a circle, a square, a triangle, and another circle, with the duplicate shape being the circle.\nIn the second grid in the top row, the duplicate circles are colored black.\nThe third grid in the top row has the non-duplicate shapes (the square and the triangle) colored black.\nIn the bottom row:\nThe first grid shows four shapes: a star, a crescent, a cloud, and another star, with the duplicate shape being the star.\nThe second grid in the bottom row should have the duplicate shapes, the stars, colored black.\nThe third grid in the bottom row should have the two stars colored black. The choice that corresponds with this pattern is choice 2, which shows the non-duplicate shapes, the crescent and the cloud, filled in black, maintaining the pattern established in the top row.",
+    "original_chapter": "./Easy_Marvel/Functional elements",
+    "original_folder": "6",
+    "new_id": 642,
+    "question_img_ids": [
+        "question_642_0.png",
+        "question_642_1.png",
+        "question_642_2.png",
+        "question_642_3.png",
+        "question_642_4.png",
+        "question_642_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_642_0.png",
+        "answer_642_1.png",
+        "answer_642_2.png",
+        "answer_642_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

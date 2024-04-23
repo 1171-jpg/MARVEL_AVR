@@ -1,0 +1,32 @@
+{
+    "Answer": "C",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Hexahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there black filled regions in candidate 2 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/six",
+    "original_folder": "12",
+    "new_id": 555,
+    "question_img_ids": [
+        "question_555_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_555_0.png",
+        "answer_555_1.png",
+        "answer_555_2.png",
+        "answer_555_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

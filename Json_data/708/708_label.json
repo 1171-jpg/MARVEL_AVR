@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two lines inside of the rectangle in candidate 3?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "Demonstration": "The pattern in the given sequence is that the number of curve lines increases by one:\nThe first gird has four curve lines.\nThe first gird has three curve lines.\nThe first gird has two curve lines.\nThe first gird has one curve lines.\nTherefore, to complete the pattern, the next gird should contain no curve line, which is the choice 2.",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "3",
+    "new_id": 708,
+    "question_img_ids": [
+        "question_708_0.png",
+        "question_708_1.png",
+        "question_708_2.png",
+        "question_708_3.png",
+        "question_708_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_708_0.png",
+        "answer_708_1.png",
+        "answer_708_2.png",
+        "answer_708_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow below or above the black filled circle in candidate 2?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "source": "./Easy_Marvel/Addition and subtraction/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "10",
+    "new_id": 320,
+    "question_img_ids": [
+        "question_320_0.png",
+        "question_320_1.png",
+        "question_320_2.png",
+        "question_320_3.png",
+        "question_320_4.png",
+        "question_320_5.png",
+        "question_320_6.png",
+        "question_320_7.png",
+        "question_320_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_320_0.png",
+        "answer_320_1.png",
+        "answer_320_2.png",
+        "answer_320_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

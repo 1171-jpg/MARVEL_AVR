@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Symmetry/15",
+    "Question": "Are there eight or seven black circles in candidate 4?",
+    "Distrator": "eight",
+    "Perception_Answer": "seven",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "39",
+    "new_id": 381,
+    "question_img_ids": [
+        "question_381_0.png",
+        "question_381_1.png",
+        "question_381_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_381_0.png",
+        "answer_381_1.png",
+        "answer_381_2.png",
+        "answer_381_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Black and white computation",
+    "Explanation": "The composition of graphic elements is similar, prioritizing the consideration of style patterns. The shapes display black and white blocks, and the number of black blocks varies, prompting consideration of black and white computation. Observing the patterns in the first two rows of shapes reveals that the overlay of shadows (considered as black) and blank spaces follows the following rule: black + white = black, white + black = black, black + black = white, white + white = black. Therefore, the third row should also adhere to this pattern",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the left circles in candidate 3 empty or filled with diagonal lines?",
+    "Perception_Answer": "empty",
+    "Distrator": "filled",
+    "original_chapter": "Chapter_2",
+    "original_folder": "14",
+    "new_id": 34,
+    "question_img_ids": [
+        "question_34_0.png",
+        "question_34_1.png",
+        "question_34_2.png",
+        "question_34_3.png",
+        "question_34_4.png",
+        "question_34_5.png",
+        "question_34_6.png",
+        "question_34_7.png",
+        "question_34_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_34_0.png",
+        "answer_34_1.png",
+        "answer_34_2.png",
+        "answer_34_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

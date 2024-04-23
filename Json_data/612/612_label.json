@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 3 pointing to left or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "Demonstration": "The given puzzle presents a sequence of three arrow-based symbols, with the fifth symbol missing. The objective is to identify the pattern in the sequence and determine which of the four choices would logically complete it.\nLet's analyze the pattern in the given sequence:\nThe first symbol in the sequence consists of three arrows pointing up, right, and down, respectively.\nIn the second symbol, the entire shape is rotated 90 degrees clockwise from the first symbol. The arrows now point right, down, and left.\nIn the third symbol, the entire shape is rotated 90 degrees clockwise from the second symbol. The arrows now point down, left, and up.\nThe fourth symbol continues the rotation and consists of three arrows pointing left, up, and right, respectively.\nFollowing the established pattern, the fifth symbol should be rotated another 90 degrees clockwise from the fourth symbol. This would result in the arrows pointing up, right, and down, which is the choice 3",
+    "original_chapter": "./Easy_Marvel/Rotation and Flip",
+    "original_folder": "2",
+    "new_id": 612,
+    "question_img_ids": [
+        "question_612_0.png",
+        "question_612_1.png",
+        "question_612_2.png",
+        "question_612_3.png",
+        "question_612_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_612_0.png",
+        "answer_612_1.png",
+        "answer_612_2.png",
+        "answer_612_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

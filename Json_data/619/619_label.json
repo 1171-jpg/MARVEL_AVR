@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow pointing to up or down in candidate 4?",
+    "Distrator": "bottom",
+    "Perception_Answer": "up",
+    "original_chapter": "./Easy_Marvel/Rotation and Flip",
+    "original_folder": "9",
+    "new_id": 619,
+    "question_img_ids": [
+        "question_619_0.png",
+        "question_619_1.png",
+        "question_619_2.png",
+        "question_619_3.png",
+        "question_619_4.png",
+        "question_619_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_619_0.png",
+        "answer_619_1.png",
+        "answer_619_2.png",
+        "answer_619_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

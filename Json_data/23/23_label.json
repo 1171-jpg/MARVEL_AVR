@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "Observe the graphic features, the first group of graphics have the same outer outline and the internal color is different. The internal color of the third graphic is superimposed by the color of the first two graphics. Therefore, the second set of graphics also conforms to this feature.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a black triangle or a black circle in candidate 2?",
+    "Perception_Answer": "black triangle",
+    "Distrator": "black circle",
+    "original_chapter": "Chapter_2",
+    "original_folder": "2",
+    "new_id": 23,
+    "question_img_ids": [
+        "question_23_0.png",
+        "question_23_1.png",
+        "question_23_2.png",
+        "question_23_3.png",
+        "question_23_4.png",
+        "question_23_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_23_0.png",
+        "answer_23_1.png",
+        "answer_23_2.png",
+        "answer_23_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

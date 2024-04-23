@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "In each row, the number of circles on the top part decrease by one along the row.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "not_in_good": "1",
+    "Question": "Are there three or four circles in candidate 4?",
+    "Distrator": "three",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Parallel_movement",
+    "original_folder": "12",
+    "new_id": 409,
+    "question_img_ids": [
+        "question_409_0.png",
+        "question_409_1.png",
+        "question_409_2.png",
+        "question_409_3.png",
+        "question_409_4.png",
+        "question_409_5.png",
+        "question_409_6.png",
+        "question_409_7.png",
+        "question_409_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_409_0.png",
+        "answer_409_1.png",
+        "answer_409_2.png",
+        "answer_409_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

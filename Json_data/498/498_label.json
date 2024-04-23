@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of faces in first column and second column equals to the number of faces in the last column",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three squares in candidate 4?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "17",
+    "new_id": 498,
+    "question_img_ids": [
+        "question_498_0.png",
+        "question_498_1.png",
+        "question_498_2.png",
+        "question_498_3.png",
+        "question_498_4.png",
+        "question_498_5.png",
+        "question_498_6.png",
+        "question_498_7.png",
+        "question_498_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_498_0.png",
+        "answer_498_1.png",
+        "answer_498_2.png",
+        "answer_498_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

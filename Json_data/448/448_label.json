@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The eight graphics given are all straight-line graphics on top of curved graphics. Only one option among the options meets this condition, so choose option A.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four arrows in candidate 1?",
+    "Distrator": "three",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "10",
+    "new_id": 448,
+    "question_img_ids": [
+        "question_448_0.png",
+        "question_448_1.png",
+        "question_448_2.png",
+        "question_448_3.png",
+        "question_448_4.png",
+        "question_448_5.png",
+        "question_448_6.png",
+        "question_448_7.png",
+        "question_448_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_448_0.png",
+        "answer_448_1.png",
+        "answer_448_2.png",
+        "answer_448_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

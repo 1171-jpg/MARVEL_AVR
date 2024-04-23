@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "In one group, each image has one closed area, while in another group, there is no closed area.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Data_aug/Layer/5",
+    "Question": "Are there four or three horizontal lines in candidate 3?",
+    "Distrator": "four",
+    "Perception_Answer": "three",
+    "original_chapter": "Group_aug",
+    "original_folder": "80",
+    "new_id": 219,
+    "question_img_ids": [
+        "question_219_0.png",
+        "question_219_1.png",
+        "question_219_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_219_0.png",
+        "answer_219_1.png",
+        "answer_219_2.png",
+        "answer_219_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "It is observed that the outer borders of the graphics are square, circle, square, circle, ?, so the graphics at the question mark should have a square border, excluding items C and D. The number of circles inside the square outer frame is 3, 6, ?, and the number of triangles inside the square outer frame is 2, 4. It is observed that they all increase by 2 times, so the number of circles in the square outer frame of the figure at No. The number is 12, corresponding to item B",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there nine or ten circles in candidate 4?",
+    "Perception_Answer": "nine",
+    "Distrator": "ten",
+    "original_chapter": "Chapter_4",
+    "original_folder": "63",
+    "new_id": 85,
+    "question_img_ids": [
+        "question_85_0.png",
+        "question_85_1.png",
+        "question_85_2.png",
+        "question_85_3.png",
+        "question_85_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_85_0.png",
+        "answer_85_1.png",
+        "answer_85_2.png",
+        "answer_85_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

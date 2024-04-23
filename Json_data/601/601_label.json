@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black filled arrow in the right or left part of candidate 1?",
+    "Distrator": "left",
+    "Perception_Answer": "right",
+    "original_chapter": "./Easy_Marvel/Parallel Movement",
+    "original_folder": "4",
+    "new_id": 601,
+    "question_img_ids": [
+        "question_601_0.png",
+        "question_601_1.png",
+        "question_601_2.png",
+        "question_601_3.png",
+        "question_601_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_601_0.png",
+        "answer_601_1.png",
+        "answer_601_2.png",
+        "answer_601_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

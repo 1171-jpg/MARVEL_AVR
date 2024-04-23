@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "Observe the graph. The existing part of the graph is decreasing. Consider the law of quantity. All graphics are composed of line segments of equal length. The numbers of line segments are 12, 11, 9, and 6?, and the difference between them is 1, 2, 3, (4). Then the number of line segments in the figure at the question mark should be 6-4 2, and item D conforms to the rule",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two horizontal lines in candidate 3?",
+    "Perception_Answer": "one",
+    "Distrator": "two",
+    "original_chapter": "Chapter_4",
+    "original_folder": "21",
+    "new_id": 66,
+    "question_img_ids": [
+        "question_66_0.png",
+        "question_66_1.png",
+        "question_66_2.png",
+        "question_66_3.png",
+        "question_66_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_66_0.png",
+        "answer_66_1.png",
+        "answer_66_2.png",
+        "answer_66_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

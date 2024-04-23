@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "D. Analysis: When there is no black dot at the end of the line, add a line with a black dot to get the next figure; when there are black dots at the end of the line, add a line at one intersection of the first figure and add another line at the other intersection. A black dot gets the next figure.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there four or five black dots in candidate 3?",
+    "Distrator": "four",
+    "Perception_Answer": "five",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "15",
+    "new_id": 545,
+    "question_img_ids": [
+        "question_545_0.png",
+        "question_545_1.png",
+        "question_545_2.png",
+        "question_545_3.png",
+        "question_545_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_545_0.png",
+        "answer_545_1.png",
+        "answer_545_2.png",
+        "answer_545_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

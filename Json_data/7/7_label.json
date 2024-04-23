@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "Observe the graphics, the number of small black blocks is different, they are 5432?, the graphics at the number should be 1 small black block, all 4 options meet this feature, further observation, it is found that the positions of the small black blocks are different, so observe the position Change, the small black block moves two spaces counterclockwise each time, and decreases by one each time. From picture O to picture 2, the small black block moves two spaces counterclockwise and removes the next black block (black block 5). From picture 2 to picture, the small black block",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the left or right triangle in candidate 2 filled?",
+    "Perception_Answer": "left",
+    "Distrator": "right",
+    "original_chapter": "Chapter_1",
+    "original_folder": "9",
+    "new_id": 7,
+    "question_img_ids": [
+        "question_7_0.png",
+        "question_7_1.png",
+        "question_7_2.png",
+        "question_7_3.png",
+        "question_7_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_7_0.png",
+        "answer_7_1.png",
+        "answer_7_2.png",
+        "answer_7_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

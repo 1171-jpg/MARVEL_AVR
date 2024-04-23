@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three triangles in candidate 4?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "Demonstration": "The pattern in the given sequence is that the number of intersection layers within the star shape increases by one with each step:\nThe first grid has no line in star shape, the intersection layers is one.\nThe second grid has one line in star shape, the intersection layers is two.\nThe third grid has two lines in star shape, the intersection layers is three.\nThe fourth grid has three lines in star shape, the intersection layers is four.\nTherefore, to complete the pattern, the next grid should contain a star shape with four lines, resulting five intersection layers, which is choice 4.",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "3",
+    "new_id": 721,
+    "question_img_ids": [
+        "question_721_0.png",
+        "question_721_1.png",
+        "question_721_2.png",
+        "question_721_3.png",
+        "question_721_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_721_0.png",
+        "answer_721_1.png",
+        "answer_721_2.png",
+        "answer_721_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

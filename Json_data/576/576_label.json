@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "Each picture in the question stem consists of two figures, and the figure outside the latter figure is consistent with the figure inside the previous figure. According to this rule, the figure outside the question mark should be a square, excluding two items A and C. The colors of the external graphics are white, shadow, white, shadow, white, (?). The question mark should be shaded, excluding item D. The colors of the internal graphics are black, white, shadow, black, white, (?). The question mark should be shadow, so option B is selected.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black circle inside of a triangle or rectangle in candidate 4?",
+    "Distrator": "triangle",
+    "Perception_Answer": "rectangle",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "4",
+    "new_id": 576,
+    "question_img_ids": [
+        "question_576_0.png",
+        "question_576_1.png",
+        "question_576_2.png",
+        "question_576_3.png",
+        "question_576_4.png",
+        "question_576_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_576_0.png",
+        "answer_576_1.png",
+        "answer_576_2.png",
+        "answer_576_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

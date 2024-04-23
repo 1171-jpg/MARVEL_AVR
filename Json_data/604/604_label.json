@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black circle at the top right or bottom left corner of candidate 3?",
+    "Distrator": "bottom left",
+    "Perception_Answer": "top right",
+    "Demonstration": "The given puzzle presents a sequence of grids arranged in two rows, with each row containing three grids. In the first row, the circles are white, while in the second row, the circles are black. The objective is to identify the pattern of the circle's movement within the grids and determine which of the four choices would logically complete the sequence.\nLet's analyze the pattern in the given sequence:\nIn the first row, the white circle starts in the top-left corner of the first grid.\nMoving to the second grid in the first row, the white circle shifts to the center of the grid.\nIn the third grid of the first row, the white circle moves to the bottom-right corner.\nBased on the pattern observed in the first row, we can conclude that the white circle moves diagonally from the top-left corner to the bottom-right corner, passing through the center of the grid.\nNow, let's examine the second row:\nIn the first grid of the second row, the black circle is in the top-left corner, following the same starting position as the white circle in the first row.\nThe second grid in the second row shows the black circle in the center, mirroring the movement of the white circle in the first row.\nThe third grid in the second row is missing, and we need to determine the pattern to fill in the blank.\nApplying the same diagonal movement pattern observed in the first row to the second row, we can predict that in the missing grid, the black circle should be in the bottom-right corner. Looking at the provided choices, choice 4 accurately represents this expected pattern.",
+    "original_chapter": "./Easy_Marvel/Parallel Movement",
+    "original_folder": "7",
+    "new_id": 604,
+    "question_img_ids": [
+        "question_604_0.png",
+        "question_604_1.png",
+        "question_604_2.png",
+        "question_604_3.png",
+        "question_604_4.png",
+        "question_604_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_604_0.png",
+        "answer_604_1.png",
+        "answer_604_2.png",
+        "answer_604_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

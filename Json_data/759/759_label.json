@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the polygen closed or open in candidate 3?",
+    "Distrator": "open",
+    "Perception_Answer": "closed",
+    "Demonstration": "The pattern in the given sequence all grids contain a nonclosed shape:\nThe first grid contains a nonclosed shape.\nThe second grid contains a nonclosed shape.\nThe third grid contains a nonclosed shape.\nThe fourth grid contains a nonclosed shape.\nFollowing this pattern, the next grid should contain a nonclosed shape. Therefore, the correct answer is choice 2, which shows three straight lines forming a right angle",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "2",
+    "new_id": 759,
+    "question_img_ids": [
+        "question_759_0.png",
+        "question_759_1.png",
+        "question_759_2.png",
+        "question_759_3.png",
+        "question_759_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_759_0.png",
+        "answer_759_1.png",
+        "answer_759_2.png",
+        "answer_759_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

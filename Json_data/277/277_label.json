@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Black and white computation",
+    "Explanation": "This question is a tic-tac-toe grid problem. Since the number of black squares is different and no pattern based on position is found, priority is given to considering black and white computation. In the tic-tac-toe grid, horizontal considerations precede vertical considerations. Observing the first row, the computation pattern is as follows: black + white = black, black + black = white, white + white = white, white + black = black. That is, the same color results in white, and different colors result in black (same white, different black). After verifying this pattern in the second row, it is applied to the third row. The top-left corner should be white, eliminating options B and D, and the top-right corner should be black, eliminating option C",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the left bottom rectangle in candidate 2 filled or empty?",
+    "Perception_Answer": "empty",
+    "Distrator": "filled",
+    "source": "Chapter_2/18",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "9",
+    "new_id": 277,
+    "question_img_ids": [
+        "question_277_0.png",
+        "question_277_1.png",
+        "question_277_2.png",
+        "question_277_3.png",
+        "question_277_4.png",
+        "question_277_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_277_0.png",
+        "answer_277_1.png",
+        "answer_277_2.png",
+        "answer_277_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

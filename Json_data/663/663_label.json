@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a square in candidate 3 or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Easy_Marvel/Addition and subtraction",
+    "original_folder": "14",
+    "new_id": 663,
+    "question_img_ids": [
+        "question_663_0.png",
+        "question_663_1.png",
+        "question_663_2.png",
+        "question_663_3.png",
+        "question_663_4.png",
+        "question_663_5.png",
+        "question_663_6.png",
+        "question_663_7.png",
+        "question_663_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_663_0.png",
+        "answer_663_1.png",
+        "answer_663_2.png",
+        "answer_663_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

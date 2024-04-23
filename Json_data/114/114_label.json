@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. Observing the small black dots, we found that the rule is to translate one space clockwise at a time, so the small black dots at the question marks should appear below, excluding items A and B. Observe the gray triangle again and find that the rule is to move one space clockwise at a time, so the gray triangle at the question mark should appear on the right, excluding item D",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top of the triangle facing right or left in candidate 1?",
+    "Perception_Answer": "right",
+    "Distrator": "left",
+    "original_chapter": "Final",
+    "original_folder": "30",
+    "new_id": 114,
+    "question_img_ids": [
+        "question_114_0.png",
+        "question_114_1.png",
+        "question_114_2.png",
+        "question_114_3.png",
+        "question_114_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_114_0.png",
+        "answer_114_1.png",
+        "answer_114_2.png",
+        "answer_114_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

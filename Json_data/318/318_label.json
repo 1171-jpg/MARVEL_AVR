@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black filled circle at the bottom right or top left corner of candidate 4?",
+    "Distrator": "top left",
+    "Perception_Answer": "bottom right",
+    "source": "./Easy_Marvel/Functional elements/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "8",
+    "new_id": 318,
+    "question_img_ids": [
+        "question_318_0.png",
+        "question_318_1.png",
+        "question_318_2.png",
+        "question_318_3.png",
+        "question_318_4.png",
+        "question_318_5.png",
+        "question_318_6.png",
+        "question_318_7.png",
+        "question_318_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_318_0.png",
+        "answer_318_1.png",
+        "answer_318_2.png",
+        "answer_318_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

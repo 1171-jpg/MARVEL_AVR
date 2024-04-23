@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top left square in candidate 2 filled in white or black?",
+    "Distrator": "black",
+    "Perception_Answer": "white",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "5",
+    "new_id": 669,
+    "question_img_ids": [
+        "question_669_0.png",
+        "question_669_1.png",
+        "question_669_2.png",
+        "question_669_3.png",
+        "question_669_4.png",
+        "question_669_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_669_0.png",
+        "answer_669_1.png",
+        "answer_669_2.png",
+        "answer_669_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

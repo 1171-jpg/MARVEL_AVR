@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "In the Nine Palaces diagram, each row includes three situations: the flower circle intersects with the great circle line; the flower circle intersects with the great circle; the white circle intersects with the great circle; the white circle intersects with the great circle. What's missing in the third line is the second case.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the empty small circle in candidate 2 inside or outside of the large circle?",
+    "Distrator": "outside",
+    "Perception_Answer": "inside",
+    "original_chapter": "./Data_aug/Shape",
+    "original_folder": "9",
+    "new_id": 524,
+    "question_img_ids": [
+        "question_524_0.png",
+        "question_524_1.png",
+        "question_524_2.png",
+        "question_524_3.png",
+        "question_524_4.png",
+        "question_524_5.png",
+        "question_524_6.png",
+        "question_524_7.png",
+        "question_524_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_524_0.png",
+        "answer_524_1.png",
+        "answer_524_2.png",
+        "answer_524_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

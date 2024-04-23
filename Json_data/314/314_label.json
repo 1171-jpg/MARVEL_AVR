@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle at the top right or bottom left corner in candidate 2?",
+    "Distrator": "bottom left",
+    "Perception_Answer": "top right",
+    "source": "./Easy_Marvel/Rotation and Flip/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "4",
+    "new_id": 314,
+    "question_img_ids": [
+        "question_314_0.png",
+        "question_314_1.png",
+        "question_314_2.png",
+        "question_314_3.png",
+        "question_314_4.png",
+        "question_314_5.png",
+        "question_314_6.png",
+        "question_314_7.png",
+        "question_314_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_314_0.png",
+        "answer_314_1.png",
+        "answer_314_2.png",
+        "answer_314_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

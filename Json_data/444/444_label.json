@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The five shapes in the question are straight lines & curves, straight lines, straight lines, straight lines & curves, and straight lines. You should choose only one graphics containing straight lines.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two circles in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "5",
+    "new_id": 444,
+    "question_img_ids": [
+        "question_444_0.png",
+        "question_444_1.png",
+        "question_444_2.png",
+        "question_444_3.png",
+        "question_444_4.png",
+        "question_444_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_444_0.png",
+        "answer_444_1.png",
+        "answer_444_2.png",
+        "answer_444_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,38 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the polygen closed or open in candidate 2?",
+    "Distrator": "open",
+    "Perception_Answer": "closed",
+    "Demonstration": "The pattern in the given sequence is that the image in each row contain either curved line or straight line, and all images are nonclosed:\nIn the first row:\nThe first image contains a nonclosed shape formed by several straight lines.\nThe second image contains a nonclosed shape formed by several straight lines.\nThe third image contains a nonclosed shape formed by several straight lines.\nIn the second row:\nThe first image contains a nonclosed shape formed by several curved lines.\nThe second image contains a nonclosed shape formed by several curved lines.\nTherefore, the third image should contains a nonclosed shape formed by several curved lines. The choice 3 is the correct answer.",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "7",
+    "new_id": 764,
+    "question_img_ids": [
+        "question_764_0.png",
+        "question_764_1.png",
+        "question_764_2.png",
+        "question_764_3.png",
+        "question_764_4.png",
+        "question_764_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_764_0.png",
+        "answer_764_1.png",
+        "answer_764_2.png",
+        "answer_764_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,35 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The composition of the elements is different, but there are no quantitative rules, and the positional rules can be considered. Label the black points from the upper left corner to the lower right corner. In Figure 1, move \"1\" one space down, \"3\" move one space to the left, and \"2\" move one space left or down to get Figure 2; In Figures 2 to 3, \"1\" and \"3\" continue to move, and the overlap appears in the lower left corner, but a small black dot appears on the right side of Figure 3, indicating that the movement pattern of \"2\" should be to the left, and in a circular motion. According to this rule, \"1\" continues to move downward in a circular motion and appears in the upper left corner, \"2\" moves to the left and appears in the center, and \"3\" moves circularly to the left and appears in the lower right corner, that is, the graphic at the question mark should be A.",
+    "Issue": "",
+    "Question Shape": [
+        4,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 3 include two or three black filled circles?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Chapter_1",
+    "original_folder": "13",
+    "new_id": 9,
+    "question_img_ids": [
+        "question_9_0.png",
+        "question_9_1.png",
+        "question_9_2.png",
+        "question_9_3.png"
+    ],
+    "answer_img_ids": [
+        "answer_9_0.png",
+        "answer_9_1.png",
+        "answer_9_2.png",
+        "answer_9_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

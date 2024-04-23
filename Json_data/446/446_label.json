@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The graphics that appear are composed of inner and outer parts. The intersection and separation of the two graphics appear alternately, so the question mark should be separated. Looking at the straightness of the lines, the resulting graphics consist of straight lines, curves and straight lines appearing alternately. Then the graphics at the question mark should be composed of curves and straight lines.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle inside of an ellipse or rectangle in candidate 2?",
+    "Distrator": "rectangle",
+    "Perception_Answer": "ellipse",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "7",
+    "new_id": 446,
+    "question_img_ids": [
+        "question_446_0.png",
+        "question_446_1.png",
+        "question_446_2.png",
+        "question_446_3.png",
+        "question_446_4.png",
+        "question_446_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_446_0.png",
+        "answer_446_1.png",
+        "answer_446_2.png",
+        "answer_446_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

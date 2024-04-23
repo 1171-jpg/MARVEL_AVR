@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "The composition of graphic elements is similar, with repeated occurrences of the same lines, prioritizing considerations of addition, subtraction, similarity, and difference. In the first set of images, the third image is obtained by differentiating the first and second images, removing the common parts, and retaining the different parts. Then, it is rotated clockwise or counterclockwise by 90\u00b0. The same rule is applied to the second set of images, where the first and second images are differentiated. Afterward, they are rotated clockwise or counterclockwise by 90\u00b0, resulting in a line segment in the left diagonal direction of 45\u00b0. Only option C conforms to this pattern.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 diagonally symmetrical or not?",
+    "Perception_Answer": "yes",
+    "Distrator": "no",
+    "original_chapter": "Chapter_2",
+    "original_folder": "10",
+    "new_id": 31,
+    "question_img_ids": [
+        "question_31_0.png",
+        "question_31_1.png",
+        "question_31_2.png",
+        "question_31_3.png",
+        "question_31_4.png",
+        "question_31_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_31_0.png",
+        "answer_31_1.png",
+        "answer_31_2.png",
+        "answer_31_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

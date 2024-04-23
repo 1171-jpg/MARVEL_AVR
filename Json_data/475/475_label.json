@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The number of intersection points increases along the row.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two circles in candidate 3?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Data_aug/Point",
+    "original_folder": "16",
+    "new_id": 475,
+    "question_img_ids": [
+        "question_475_0.png",
+        "question_475_1.png",
+        "question_475_2.png",
+        "question_475_3.png",
+        "question_475_4.png",
+        "question_475_5.png",
+        "question_475_6.png",
+        "question_475_7.png",
+        "question_475_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_475_0.png",
+        "answer_475_1.png",
+        "answer_475_2.png",
+        "answer_475_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

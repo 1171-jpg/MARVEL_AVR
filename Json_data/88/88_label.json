@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The first row: 2 species, 3 species, 4 species; the second row: 1 species, 4 species, 3 species; the third row: 6 species, 1 species,?. It is observed that the number of element types is: even number, odd number, even number, odd number, even number, odd number, even number, odd number,?. Therefore, the number of graphic element types at the question mark is an even number, and only item A is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three solid patterns in candidate 4?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Chapter_4",
+    "original_folder": "71",
+    "new_id": 88,
+    "question_img_ids": [
+        "question_88_0.png",
+        "question_88_1.png",
+        "question_88_2.png",
+        "question_88_3.png",
+        "question_88_4.png",
+        "question_88_5.png",
+        "question_88_6.png",
+        "question_88_7.png",
+        "question_88_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_88_0.png",
+        "answer_88_1.png",
+        "answer_88_2.png",
+        "answer_88_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the small rectangle intersect with the bottom or top part of the large rectangle in candidate 4?",
+    "Distrator": "top",
+    "Perception_Answer": "bottom",
+    "original_chapter": "./Easy_Marvel/Addition and subtraction",
+    "original_folder": "5",
+    "new_id": 654,
+    "question_img_ids": [
+        "question_654_0.png",
+        "question_654_1.png",
+        "question_654_2.png",
+        "question_654_3.png",
+        "question_654_4.png",
+        "question_654_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_654_0.png",
+        "answer_654_1.png",
+        "answer_654_2.png",
+        "answer_654_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

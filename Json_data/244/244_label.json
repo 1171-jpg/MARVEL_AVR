@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Along the row the first column minus second column equals to the third column.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two heart shapes in candidate 1?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "source": "./Data_aug/Addition/1",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "15",
+    "new_id": 244,
+    "question_img_ids": [
+        "question_244_0.png",
+        "question_244_1.png",
+        "question_244_2.png",
+        "question_244_3.png",
+        "question_244_4.png",
+        "question_244_5.png",
+        "question_244_6.png",
+        "question_244_7.png",
+        "question_244_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_244_0.png",
+        "answer_244_1.png",
+        "answer_244_2.png",
+        "answer_244_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

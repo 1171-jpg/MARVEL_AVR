@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of faces in the figure on the question mark is 8, 7, 6, 5, and 4, so the figure at the question mark should have 3 faces, excluding items C and D. Comparing two items A and B, it is found that the shapes of the surfaces are different. The surfaces in the figure at the question mark are all triangles, so the faces in the figure at the question mark should be triangles, so option A is selected.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four lines inside the rectangle in candidate 4?",
+    "Perception_Answer": "three",
+    "Distrator": "four",
+    "original_chapter": "Chapter_4",
+    "original_folder": "41",
+    "new_id": 75,
+    "question_img_ids": [
+        "question_75_0.png",
+        "question_75_1.png",
+        "question_75_2.png",
+        "question_75_3.png",
+        "question_75_4.png",
+        "question_75_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_75_0.png",
+        "answer_75_1.png",
+        "answer_75_2.png",
+        "answer_75_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

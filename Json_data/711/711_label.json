@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three disconnected lines in candidate 3?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "Demonstration": "The pattern in the given sequence is that the number of straight line and curve lines remain same in each row:\nLet's analyze the pattern in the given rows:\nIn the first row:\nIn the first image contains two curve lines and one straight line.\nIn the second image contains two curve lines and one straight line.\nIn the third image contains two curve lines and one straight line.\nIn the second row:\nIn the first image contains two straight lines and one curve line.\nIn the second image contains two straight lines and one curve line.\nThe third image should also contain two straight lines and one curve line. Therefore the correct answer is choice 1.",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "6",
+    "new_id": 711,
+    "question_img_ids": [
+        "question_711_0.png",
+        "question_711_1.png",
+        "question_711_2.png",
+        "question_711_3.png",
+        "question_711_4.png",
+        "question_711_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_711_0.png",
+        "answer_711_1.png",
+        "answer_711_2.png",
+        "answer_711_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

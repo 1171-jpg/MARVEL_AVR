@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "Each image is formed by the intersection of two shapes that are identical. Priority is given to considering the relationship between shapes. The two shapes intersect on a surface, and the shape of the intersecting surface is considered. It is observed that the shape in the intersecting portion of 145 is identical to the shapes of the two images, while the shape in the intersecting portion of 236 is different from the shapes of the two images.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the two triangles in candidate 2 intersected or separated?",
+    "Perception_Answer": "intersected",
+    "Distrator": "separated",
+    "source": "Chapter_5/22",
+    "original_chapter": "Group_aug",
+    "original_folder": "46",
+    "new_id": 185,
+    "question_img_ids": [
+        "question_185_0.png",
+        "question_185_1.png",
+        "question_185_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_185_0.png",
+        "answer_185_1.png",
+        "answer_185_2.png",
+        "answer_185_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

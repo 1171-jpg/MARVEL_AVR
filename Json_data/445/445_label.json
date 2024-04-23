@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "Each picture has two figures, inside and outside, and the inside of the previous figure. The figure on the surface is the figure on the periphery of the next figure. Therefore, the periphery of the figure at the question mark should be a tilted square. Excluding options A and B, each figure. The shapes are composed of a straight line figure and a curved figure, and figures 1 and 3 are straight lines outside, and figures 2 and 4 are curved figures outside. Therefore, at the question mark, the straight line shape should be outside and the curve shape should be inside. Therefore, the answer to this question is option D.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the square inside of a triangle or rectangle in candidate 3?",
+    "Distrator": "triange",
+    "Perception_Answer": "rectangle",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "6",
+    "new_id": 445,
+    "question_img_ids": [
+        "question_445_0.png",
+        "question_445_1.png",
+        "question_445_2.png",
+        "question_445_3.png",
+        "question_445_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_445_0.png",
+        "answer_445_1.png",
+        "answer_445_2.png",
+        "answer_445_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

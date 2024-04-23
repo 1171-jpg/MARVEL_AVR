@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "The composition of elements is similar, prioritizing the consideration of style patterns. In the first set of images, the first image has vertical lines on both sides in the upper half, the second image does not, and the third image retains the two vertical lines in the upper half. Therefore, the pattern is that the third image is obtained by comparing and contrasting the first and second images. The second set of images should also follow this pattern. In the first image, there is no horizontal line in the upper half, and in the second image, there is a horizontal line on the left side in the upper half. After comparing and contrasting, the left upper side should retain the horizontal line. Only option A complies with this pattern.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two black filled triangles in candidate 2?",
+    "Perception_Answer": "two",
+    "Distrator": "one",
+    "original_chapter": "Chapter_2",
+    "original_folder": "9",
+    "new_id": 30,
+    "question_img_ids": [
+        "question_30_0.png",
+        "question_30_1.png",
+        "question_30_2.png",
+        "question_30_3.png",
+        "question_30_4.png",
+        "question_30_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_30_0.png",
+        "answer_30_1.png",
+        "answer_30_2.png",
+        "answer_30_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "In the first picture of each row, the black points are in a small area and the white points are in a large area. In the second picture, the black points are in a large area and the white points are in a small area. In the third picture, both black points and white points are in a large area.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "24",
+    "new_id": 552,
+    "question_img_ids": [
+        "question_552_0.png",
+        "question_552_1.png",
+        "question_552_2.png",
+        "question_552_3.png",
+        "question_552_4.png",
+        "question_552_5.png",
+        "question_552_6.png",
+        "question_552_7.png",
+        "question_552_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_552_0.png",
+        "answer_552_1.png",
+        "answer_552_2.png",
+        "answer_552_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

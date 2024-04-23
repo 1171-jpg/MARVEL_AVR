@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Along the row the first column plus second column equals to the third column, and the overlap area will become white.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three white squares in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Black",
+    "original_folder": "4",
+    "new_id": 429,
+    "question_img_ids": [
+        "question_429_0.png",
+        "question_429_1.png",
+        "question_429_2.png",
+        "question_429_3.png",
+        "question_429_4.png",
+        "question_429_5.png",
+        "question_429_6.png",
+        "question_429_7.png",
+        "question_429_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_429_0.png",
+        "answer_429_1.png",
+        "answer_429_2.png",
+        "answer_429_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

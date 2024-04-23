@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a straight line or a not in candidate 1?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "source": "./Easy_Marvel/straightness, opening and closing/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "32",
+    "new_id": 342,
+    "question_img_ids": [
+        "question_342_0.png",
+        "question_342_1.png",
+        "question_342_2.png",
+        "question_342_3.png",
+        "question_342_4.png",
+        "question_342_5.png",
+        "question_342_6.png",
+        "question_342_7.png",
+        "question_342_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_342_0.png",
+        "answer_342_1.png",
+        "answer_342_2.png",
+        "answer_342_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

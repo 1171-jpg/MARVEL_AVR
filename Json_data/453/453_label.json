@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "All images are close graphic.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 a closed or open shape?",
+    "Distrator": "closed",
+    "Perception_Answer": "open",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "15",
+    "new_id": 453,
+    "question_img_ids": [
+        "question_453_0.png",
+        "question_453_1.png",
+        "question_453_2.png",
+        "question_453_3.png",
+        "question_453_4.png",
+        "question_453_5.png",
+        "question_453_6.png",
+        "question_453_7.png",
+        "question_453_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_453_0.png",
+        "answer_453_1.png",
+        "answer_453_2.png",
+        "answer_453_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

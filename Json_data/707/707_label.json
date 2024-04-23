@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three lines in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "Demonstration": "Let's analyze the pattern in the given sequence, focusing on the number and arrangement of lines in each shape:\nThe first shape is a pentagon with five lines.\nThe second shape is a square with four lines, formed by removing the top line from the previous pentagon.\nThe third shape is a V-shape with three lines, formed by removing the left line from the previous square.\nThe fourth shape has two lines, formed by removing the bottom line from the previous V-shape.\nTherefore, to complete the pattern, the next shape should be formed by removing the right line from the previous two lines, resulting in a single vertical line in choice 1.",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "2",
+    "new_id": 707,
+    "question_img_ids": [
+        "question_707_0.png",
+        "question_707_1.png",
+        "question_707_2.png",
+        "question_707_3.png",
+        "question_707_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_707_0.png",
+        "answer_707_1.png",
+        "answer_707_2.png",
+        "answer_707_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

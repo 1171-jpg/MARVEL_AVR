@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "This question is a Nine Palaces question. There are obvious axially symmetrical figures and centrally symmetrical figures in the question. The nine-square grid can be examined first horizontally and then vertically. It is observed that the symmetries of the figures from left to right in the first horizontal row are centrally symmetrical figures, axially symmetrical figures, \"Central symmetry and ten-axis symmetry\" Tutong, this rule is verified in the second horizontal row, and the same rule is satisfied in the second horizontal row. Applying this rule in the third horizontal row, you should choose a \"central symmetry + axial symmetry\" factor option at ?, and only item B meets the conditions.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 1 include four or five rectangles?",
+    "Perception_Answer": "five",
+    "Distrator": "four",
+    "original_chapter": "Chapter_3",
+    "original_folder": "6",
+    "new_id": 46,
+    "question_img_ids": [
+        "question_46_0.png",
+        "question_46_1.png",
+        "question_46_2.png",
+        "question_46_3.png",
+        "question_46_4.png",
+        "question_46_5.png",
+        "question_46_6.png",
+        "question_46_7.png",
+        "question_46_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_46_0.png",
+        "answer_46_1.png",
+        "answer_46_2.png",
+        "answer_46_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

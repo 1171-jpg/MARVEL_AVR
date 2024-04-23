@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The straightness of the first group of graphics is: pure straight line, direct plus curve, and pure curve; keeping the same rules on the right side, pure curve graphics should be filled in. Only option c among the options is a pure curve graphic.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "12",
+    "new_id": 450,
+    "question_img_ids": [
+        "question_450_0.png",
+        "question_450_1.png",
+        "question_450_2.png",
+        "question_450_3.png",
+        "question_450_4.png",
+        "question_450_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_450_0.png",
+        "answer_450_1.png",
+        "answer_450_2.png",
+        "answer_450_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

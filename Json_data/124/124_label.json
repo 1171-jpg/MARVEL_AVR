@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity Pattern",
+    "Explanation": "The composition of graphic elements is the same, and priority is given to positioning rules. Observation found that the picture after the question stem was obtained by changing one short line on the basis of the previous picture. Only item C conforms to this rule.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two isolated lines in candidate 4?",
+    "Perception_Answer": "two",
+    "Distrator": "one",
+    "original_chapter": "Final",
+    "original_folder": "51",
+    "new_id": 124,
+    "question_img_ids": [
+        "question_124_0.png",
+        "question_124_1.png",
+        "question_124_2.png",
+        "question_124_3.png",
+        "question_124_4.png",
+        "question_124_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_124_0.png",
+        "answer_124_1.png",
+        "answer_124_2.png",
+        "answer_124_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

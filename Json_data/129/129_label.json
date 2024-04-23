@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The elements have different compositions and no attribute rules. Consider the quantity rules. Observing the graphics of the question stem, we found that polygons appeared in the fourth and fifth pictures, and priority was given to straight lines. The number of straight lines in the question stem figure are 0, 2, 3, 4, ?, so a figure with 5 straight lines should be selected at the question mark, excluding items A and C. Observe again and find that the outer frame of each picture in the question is circular, excluding item B",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a hexagon or a triangle inside of the circle in candidate 3?",
+    "Perception_Answer": "hexagon",
+    "Distrator": "triangle",
+    "original_chapter": "Final",
+    "original_folder": "59",
+    "new_id": 129,
+    "question_img_ids": [
+        "question_129_0.png",
+        "question_129_1.png",
+        "question_129_2.png",
+        "question_129_3.png",
+        "question_129_4.png",
+        "question_129_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_129_0.png",
+        "answer_129_1.png",
+        "answer_129_2.png",
+        "answer_129_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

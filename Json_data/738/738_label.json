@@ -1,0 +1,38 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three black-filled flag shapes in candidate 2?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "Demonstration": "The pattern in the given sequence is that the number of stripped shapes increases by 1 in each consecutive image.:\nIn the first row:\nThe first image contains two white rectangles and one stripped rectangle.\nThe second image contains one white rectangles and two stripped rectangles.\nThe third image contains three stripped rectangles.\nIn the second row:\nThe first image contains two white flag-like shapes and one dash flag-like shape.\nThe second image contains one white flag-like shapes and two dash flag-like shapes.\nTherefore, the third image should contain three dash flag-like shapes, which is the choice 3.",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "7",
+    "new_id": 738,
+    "question_img_ids": [
+        "question_738_0.png",
+        "question_738_1.png",
+        "question_738_2.png",
+        "question_738_3.png",
+        "question_738_4.png",
+        "question_738_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_738_0.png",
+        "answer_738_1.png",
+        "answer_738_2.png",
+        "answer_738_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The number of straight lines inside the figure in question is 1.2, 3, 4, ?, so there should be 5 straight lines inside the figure in question. Only item D matches",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a diamond or a triangle inside the circle in candidate 1?",
+    "Perception_Answer": "triangle",
+    "Distrator": "diamond",
+    "original_chapter": "Final",
+    "original_folder": "67",
+    "new_id": 135,
+    "question_img_ids": [
+        "question_135_0.png",
+        "question_135_1.png",
+        "question_135_2.png",
+        "question_135_3.png",
+        "question_135_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_135_0.png",
+        "answer_135_1.png",
+        "answer_135_2.png",
+        "answer_135_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

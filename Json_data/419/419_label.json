@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Along the row the first column minus second column equals to the third column.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the vertical line at the top or bottom part of candidate 1?",
+    "Distrator": "bottom",
+    "Perception_Answer": "top",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "8",
+    "new_id": 419,
+    "question_img_ids": [
+        "question_419_0.png",
+        "question_419_1.png",
+        "question_419_2.png",
+        "question_419_3.png",
+        "question_419_4.png",
+        "question_419_5.png",
+        "question_419_6.png",
+        "question_419_7.png",
+        "question_419_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_419_0.png",
+        "answer_419_1.png",
+        "answer_419_2.png",
+        "answer_419_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

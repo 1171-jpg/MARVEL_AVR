@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of faces in one group is 2, and the number of faces in the other group is 3.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Data_aug/Layer/14",
+    "Question": "Are there three or two triangles in candidate 4?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "Group_aug",
+    "original_folder": "83",
+    "new_id": 222,
+    "question_img_ids": [
+        "question_222_0.png",
+        "question_222_1.png",
+        "question_222_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_222_0.png",
+        "answer_222_1.png",
+        "answer_222_2.png",
+        "answer_222_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

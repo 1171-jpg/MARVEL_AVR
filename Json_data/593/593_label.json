@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "In each two group of images, one item is same.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the sun-like shape at the right or left part of candidate 1?",
+    "Distrator": "left",
+    "Perception_Answer": "right",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "23",
+    "new_id": 593,
+    "question_img_ids": [
+        "question_593_0.png",
+        "question_593_1.png",
+        "question_593_2.png",
+        "question_593_3.png",
+        "question_593_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_593_0.png",
+        "answer_593_1.png",
+        "answer_593_2.png",
+        "answer_593_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

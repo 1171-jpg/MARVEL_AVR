@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The number of intersection points of the graph in the question stem is 4, 5, 6, 7, and 8, forming an arithmetic sequence. The number of intersection points of the next graph should be 9. Only item D matches",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Point",
+    "original_folder": "5",
+    "new_id": 465,
+    "question_img_ids": [
+        "question_465_0.png",
+        "question_465_1.png",
+        "question_465_2.png",
+        "question_465_3.png",
+        "question_465_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_465_0.png",
+        "answer_465_1.png",
+        "answer_465_2.png",
+        "answer_465_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top left rectangle in candidate 1 filled with color white or black?",
+    "Distrator": "black",
+    "Perception_Answer": "white",
+    "Demonstration": "The puzzle features a 3x2 grid of shapes, where each row follows a specific pattern based on the arrangement and fill of the shapes. \nLet's analyze the pattern in the given rows. In the first row, all grids contain three circles:\nThe first grid contains three circles, with the color pattern white, black, and striped from the top-left to bottom-right diagonal.\nThe second grid contains three circles, with the color pattern black, striped, and white from the top-left to bottom-right diagonal.\nThe third grid contains three circles, with the color pattern striped, white, and black from the top-left to bottom-right diagonal.\nIn the second row, all grids contain three rectangles:\nThe first grid contains three rectangles, with the color pattern white, black, and striped from the top-left to bottom-right diagonal.\nThe second grid contains three rectangles, with the color pattern black, striped, and white from the top-left to bottom-right diagonal.\nTherefore, the third grid should contain three rectangles, with the color pattern striped, white, and black from the top-left to bottom-right diagonal.\nAmong the four choices provided, only choice 4 matches the expected color pattern of striped, white, and black rectangles from the top-left to bottom-right diagonal.",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "6",
+    "new_id": 685,
+    "question_img_ids": [
+        "question_685_0.png",
+        "question_685_1.png",
+        "question_685_2.png",
+        "question_685_3.png",
+        "question_685_4.png",
+        "question_685_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_685_0.png",
+        "answer_685_1.png",
+        "answer_685_2.png",
+        "answer_685_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

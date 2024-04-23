@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "In the first picture of each row, the two lines are parallel, in the second picture, the two lines intersect, and in the third picture, the two lines are perpendicular.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the arrow in candidate 1 pointing to the same or different directions?",
+    "Distrator": "different",
+    "Perception_Answer": "same",
+    "source": "./Data_aug/Function/23",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "38",
+    "new_id": 267,
+    "question_img_ids": [
+        "question_267_0.png",
+        "question_267_1.png",
+        "question_267_2.png",
+        "question_267_3.png",
+        "question_267_4.png",
+        "question_267_5.png",
+        "question_267_6.png",
+        "question_267_7.png",
+        "question_267_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_267_0.png",
+        "answer_267_1.png",
+        "answer_267_2.png",
+        "answer_267_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

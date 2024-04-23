@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 3 pointing to up or down?",
+    "Distrator": "up",
+    "Perception_Answer": "down",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "9",
+    "new_id": 673,
+    "question_img_ids": [
+        "question_673_0.png",
+        "question_673_1.png",
+        "question_673_2.png",
+        "question_673_3.png",
+        "question_673_4.png",
+        "question_673_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_673_0.png",
+        "answer_673_1.png",
+        "answer_673_2.png",
+        "answer_673_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

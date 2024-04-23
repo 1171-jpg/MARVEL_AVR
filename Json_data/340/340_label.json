@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the polygen closed or open in candidate 3?",
+    "Distrator": "open",
+    "Perception_Answer": "closed",
+    "source": "./Easy_Marvel/Symmetry/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "30",
+    "new_id": 340,
+    "question_img_ids": [
+        "question_340_0.png",
+        "question_340_1.png",
+        "question_340_2.png",
+        "question_340_3.png",
+        "question_340_4.png",
+        "question_340_5.png",
+        "question_340_6.png",
+        "question_340_7.png",
+        "question_340_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_340_0.png",
+        "answer_340_1.png",
+        "answer_340_2.png",
+        "answer_340_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

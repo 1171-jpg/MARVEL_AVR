@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the star shape inside or outside of the trapezoid in candidate 4?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "9",
+    "new_id": 727,
+    "question_img_ids": [
+        "question_727_0.png",
+        "question_727_1.png",
+        "question_727_2.png",
+        "question_727_3.png",
+        "question_727_4.png",
+        "question_727_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_727_0.png",
+        "answer_727_1.png",
+        "answer_727_2.png",
+        "answer_727_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

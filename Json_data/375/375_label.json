@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Element/15",
+    "Question": "Are there three or two trapezoids in candidate 1?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "33",
+    "new_id": 375,
+    "question_img_ids": [
+        "question_375_0.png",
+        "question_375_1.png",
+        "question_375_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_375_0.png",
+        "answer_375_1.png",
+        "answer_375_2.png",
+        "answer_375_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

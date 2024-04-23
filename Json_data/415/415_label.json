@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Observing the first set of graphics, we found that the first two graphics were superimposed to get the third graphics.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two triangles in candidate 4?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "4",
+    "new_id": 415,
+    "question_img_ids": [
+        "question_415_0.png",
+        "question_415_1.png",
+        "question_415_2.png",
+        "question_415_3.png",
+        "question_415_4.png",
+        "question_415_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_415_0.png",
+        "answer_415_1.png",
+        "answer_415_2.png",
+        "answer_415_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

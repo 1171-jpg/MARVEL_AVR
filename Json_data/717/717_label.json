@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two dotted lines in candidate 2?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "12",
+    "new_id": 717,
+    "question_img_ids": [
+        "question_717_0.png",
+        "question_717_1.png",
+        "question_717_2.png",
+        "question_717_3.png",
+        "question_717_4.png",
+        "question_717_5.png",
+        "question_717_6.png",
+        "question_717_7.png",
+        "question_717_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_717_0.png",
+        "answer_717_1.png",
+        "answer_717_2.png",
+        "answer_717_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

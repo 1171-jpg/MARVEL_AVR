@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. Observe the graphics on the question stem. The elements of the first and third pictures are the same, and the elements of the second and fourth pictures are the same. Consider the positional rules between the graphics. From the first picture to the third picture, the graph rotates 90\u00b0 counterclockwise. From the second picture to the fourth picture, the graph rotates 90\u00b0 counterclockwise. Therefore, the fifth picture should be rotated counterclockwise by the third picture. Rotate the hour hand 90\", only item B is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle facing up or down in candidate 4?",
+    "Perception_Answer": "up",
+    "Distrator": "down",
+    "original_chapter": "Final",
+    "original_folder": "45",
+    "new_id": 120,
+    "question_img_ids": [
+        "question_120_0.png",
+        "question_120_1.png",
+        "question_120_2.png",
+        "question_120_3.png",
+        "question_120_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_120_0.png",
+        "answer_120_1.png",
+        "answer_120_2.png",
+        "answer_120_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

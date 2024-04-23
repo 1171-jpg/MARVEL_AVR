@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "The first row of arrows points to the moon, blank, and moon alternately; look at the second row, the arrows point to blank, moon, and blank, still the same pattern as the first row, pointing to the moon and not pointing to the moon; the third row It should also conform to this rule. The arrow points to the moon and is blank, so the arrow at the question mark should be the option pointing to the moon. Looking at the options again, you can find that only option B matches. Therefore, option B is the correct option.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow in candidate 1 pointing to top left or bottom right?",
+    "Distrator": "bottom right",
+    "Perception_Answer": "top left",
+    "source": "./Data_aug/Function/18",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "36",
+    "new_id": 265,
+    "question_img_ids": [
+        "question_265_0.png",
+        "question_265_1.png",
+        "question_265_2.png",
+        "question_265_3.png",
+        "question_265_4.png",
+        "question_265_5.png",
+        "question_265_6.png",
+        "question_265_7.png",
+        "question_265_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_265_0.png",
+        "answer_265_1.png",
+        "answer_265_2.png",
+        "answer_265_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

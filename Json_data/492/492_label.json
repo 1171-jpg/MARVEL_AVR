@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of faces in the first row of graphics is 3, 2, 3, and the sum is 3+2+3=8; the number of faces in the second row of graphics is 1, 3, 4, and the sum is 1+3+4=8: The number of faces of the row graphic is 3, 4, (1), and the sum is 3+4+(1)=8. Therefore, choose A with 1 side.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the small ellipse inside or outside of the large ellipse in candidate 2?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "7",
+    "new_id": 492,
+    "question_img_ids": [
+        "question_492_0.png",
+        "question_492_1.png",
+        "question_492_2.png",
+        "question_492_3.png",
+        "question_492_4.png",
+        "question_492_5.png",
+        "question_492_6.png",
+        "question_492_7.png",
+        "question_492_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_492_0.png",
+        "answer_492_1.png",
+        "answer_492_2.png",
+        "answer_492_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

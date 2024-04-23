@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The number of parts of the graph in the first row is all 1, showing an arithmetic sequence with a tolerance of 0; in the second row, the number of parts of the graph is 3, 2, and 1, showing an arithmetic sequence; the third row applies the law, Figure 1 and The number of parts in Figure 2 is 5 and 4 respectively, so the figure with the number of parts 3 should be selected at the question mark, excluding items B and D. Further observation of the question stem shows that the number of graphic lines in the first row is 4, 3, and 2; the number of graphic lines in the second row is 24, 10, and 4; the number of lines decreases in sequence. The number of lines in the third row of graphics is 20, 12, ?, so the number of lines at the question mark should be less than 12, and only option C is consistent.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there diamonds in candidate 3 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "source": "./Data_aug/Element/13",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "32",
+    "new_id": 261,
+    "question_img_ids": [
+        "question_261_0.png",
+        "question_261_1.png",
+        "question_261_2.png",
+        "question_261_3.png",
+        "question_261_4.png",
+        "question_261_5.png",
+        "question_261_6.png",
+        "question_261_7.png",
+        "question_261_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_261_0.png",
+        "answer_261_1.png",
+        "answer_261_2.png",
+        "answer_261_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

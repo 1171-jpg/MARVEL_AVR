@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a line inside of the outer shape in candidate 4 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "13",
+    "new_id": 731,
+    "question_img_ids": [
+        "question_731_0.png",
+        "question_731_1.png",
+        "question_731_2.png",
+        "question_731_3.png",
+        "question_731_4.png",
+        "question_731_5.png",
+        "question_731_6.png",
+        "question_731_7.png",
+        "question_731_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_731_0.png",
+        "answer_731_1.png",
+        "answer_731_2.png",
+        "answer_731_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

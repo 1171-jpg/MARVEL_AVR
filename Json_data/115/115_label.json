@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Observe the graphics. The elements are similar in composition, the outer wheels are the same, but the inner black and white colors are different. Consider the black and white operation. The first line: white + white = white, white + black = black, black + black = white, black + white = black, the second line verifies that this rule is true; the third line applies this rule, upper left corner: black + white black , exclude item C, lower right corner: black + white = black, exclude item D, upper right corner: white + black = black, exclude item B.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three white triangles in candidate 1?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Final",
+    "original_folder": "31",
+    "new_id": 115,
+    "question_img_ids": [
+        "question_115_0.png",
+        "question_115_1.png",
+        "question_115_2.png",
+        "question_115_3.png",
+        "question_115_4.png",
+        "question_115_5.png",
+        "question_115_6.png",
+        "question_115_7.png",
+        "question_115_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_115_0.png",
+        "answer_115_1.png",
+        "answer_115_2.png",
+        "answer_115_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

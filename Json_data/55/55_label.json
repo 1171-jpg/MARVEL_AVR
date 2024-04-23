@@ -1,0 +1,35 @@
+{
+    "Answer": "c",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The element composition is different, and the attribute rules are given priority. Question: Each picture is composed of straight lines and curves. Exclude item A. Continue to observe and find that each picture has only one curve. Exclude item B. Compare items C and D. It is found that the number of straight lines in item C is more than the number of curves. D The number of straight lines in the item is equal to the number of curves, and the figures in the question all have more straight lines than curves, so item D is excluded.",
+    "Issue": "",
+    "Question Shape": [
+        4,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 a triangle or square?",
+    "Perception_Answer": "triangle",
+    "Distrator": "square",
+    "original_chapter": "Chapter_3",
+    "original_folder": "18",
+    "new_id": 55,
+    "question_img_ids": [
+        "question_55_0.png",
+        "question_55_1.png",
+        "question_55_2.png",
+        "question_55_3.png"
+    ],
+    "answer_img_ids": [
+        "answer_55_0.png",
+        "answer_55_1.png",
+        "answer_55_2.png",
+        "answer_55_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

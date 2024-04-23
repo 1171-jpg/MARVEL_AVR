@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three black squares in candidate 4?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "13",
+    "new_id": 692,
+    "question_img_ids": [
+        "question_692_0.png",
+        "question_692_1.png",
+        "question_692_2.png",
+        "question_692_3.png",
+        "question_692_4.png",
+        "question_692_5.png",
+        "question_692_6.png",
+        "question_692_7.png",
+        "question_692_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_692_0.png",
+        "answer_692_1.png",
+        "answer_692_2.png",
+        "answer_692_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

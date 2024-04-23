@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a vertical line in candidate 2 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "9",
+    "new_id": 688,
+    "question_img_ids": [
+        "question_688_0.png",
+        "question_688_1.png",
+        "question_688_2.png",
+        "question_688_3.png",
+        "question_688_4.png",
+        "question_688_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_688_0.png",
+        "answer_688_1.png",
+        "answer_688_2.png",
+        "answer_688_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

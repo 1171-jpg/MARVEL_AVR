@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "It is observed that the two elements in the first, third and fifth figures of the question are all in the upper right corner and the lower left corner. The two elements in the second and fourth figures are all in the upper left corner. The position of the corner and the lower right corner, so the two elements in the figure at the question mark should be at the position of the upper left corner and the lower right corner, excluding two items A and D. Comparing items B and C, the arrows of the two elements in item B point to different points, while the arrows of the two elements in item C point to the same direction. The arrows of the two elements in each figure in the question stem point to the same direction, and only item C meets the",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the arrow from the rectangle in candidate 2 facing up or down?",
+    "Perception_Answer": "up",
+    "Distrator": "down",
+    "original_chapter": "Final",
+    "original_folder": "49",
+    "new_id": 122,
+    "question_img_ids": [
+        "question_122_0.png",
+        "question_122_1.png",
+        "question_122_2.png",
+        "question_122_3.png",
+        "question_122_4.png",
+        "question_122_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_122_0.png",
+        "answer_122_1.png",
+        "answer_122_2.png",
+        "answer_122_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

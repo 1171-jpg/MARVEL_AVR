@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The triangle in the first row move from left to right, so the square in the second row should also follow the pattern.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black square in the right side or the left side of the circle in candidate 4?",
+    "Distrator": "left side",
+    "Perception_Answer": "right side",
+    "original_chapter": "./Data_aug/Parallel_movement",
+    "original_folder": "1",
+    "new_id": 399,
+    "question_img_ids": [
+        "question_399_0.png",
+        "question_399_1.png",
+        "question_399_2.png",
+        "question_399_3.png",
+        "question_399_4.png",
+        "question_399_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_399_0.png",
+        "answer_399_1.png",
+        "answer_399_2.png",
+        "answer_399_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "There is one curve in the first image, two curves in the second image and three curves in the third image. So a graph with 3 curves should be selected at , and only item D is consistent.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 4?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "19",
+    "new_id": 457,
+    "question_img_ids": [
+        "question_457_0.png",
+        "question_457_1.png",
+        "question_457_2.png",
+        "question_457_3.png",
+        "question_457_4.png",
+        "question_457_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_457_0.png",
+        "answer_457_1.png",
+        "answer_457_2.png",
+        "answer_457_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

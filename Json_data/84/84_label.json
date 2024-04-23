@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "Observe the graph as a whole. In the graph, the white block is divided into different parts by the black block. Then you can consider the number of parts of the white block separated by the black block. The numbers of parts of the white block separated by the black block are 1, 2, 3, and 4 respectively, so the white block at the number should be divided into 5 parts by the black block. Observing the options, item A is 4 parts, item B is 3 parts, item C is 1 part, and item D is 5 parts. Only item D is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the square in the top left corner of candidate 1 solid or hollow?",
+    "Perception_Answer": "solid",
+    "Distrator": "hollow",
+    "original_chapter": "Chapter_4",
+    "original_folder": "62",
+    "new_id": 84,
+    "question_img_ids": [
+        "question_84_0.png",
+        "question_84_1.png",
+        "question_84_2.png",
+        "question_84_3.png",
+        "question_84_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_84_0.png",
+        "answer_84_1.png",
+        "answer_84_2.png",
+        "answer_84_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

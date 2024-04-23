@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity Pattern",
+    "Explanation": "If the element composition is different and the same elements appear repeatedly, priority will be given to traversal. The graphics in the first row of are exactly the same as the graphics in the first column. Comparing the graphics in the second column, when the graphic selected at the question mark is a trapezoid, the graphics in the second row and the second column are also exactly the same. The verification found that the second The row and third column also follow this pattern.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 4 a rectangle or a trapezoid\uff1f",
+    "Perception_Answer": "trapezoid",
+    "Distrator": "rectangle",
+    "original_chapter": "Final",
+    "original_folder": "13",
+    "new_id": 105,
+    "question_img_ids": [
+        "question_105_0.png",
+        "question_105_1.png",
+        "question_105_2.png",
+        "question_105_3.png",
+        "question_105_4.png",
+        "question_105_5.png",
+        "question_105_6.png",
+        "question_105_7.png",
+        "question_105_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_105_0.png",
+        "answer_105_1.png",
+        "answer_105_2.png",
+        "answer_105_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

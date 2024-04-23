@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "Judging from the eyes, the question lacks a completely white eye, so option B is eliminated by combining the options. According to the mouth, the question mark lacks a smiling mouth, so option D is eliminated. Finally, based on the ears, there is a picture of the left ear being blocked in the question. Therefore, the answer to this question is option C.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 symmetrical along the vertical axis or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "13",
+    "new_id": 585,
+    "question_img_ids": [
+        "question_585_0.png",
+        "question_585_1.png",
+        "question_585_2.png",
+        "question_585_3.png",
+        "question_585_4.png",
+        "question_585_5.png",
+        "question_585_6.png",
+        "question_585_7.png",
+        "question_585_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_585_0.png",
+        "answer_585_1.png",
+        "answer_585_2.png",
+        "answer_585_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

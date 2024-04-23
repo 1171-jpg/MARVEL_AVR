@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. As shown in the figure below, black point 1 moves one space clockwise in the outermost circle from the first shape to the fifth shape, and black point 2 moves circularly to the lower right along the diagonal line, from the first shape to the fifth shape. The fifth figure moves one space in turn. Then the black point 1 in the figure should appear in the fourth row and second column, and the black point 2 should appear in the second row and second column.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle on the second row and second column of candidate 3 filled or empty?",
+    "Perception_Answer": "filled",
+    "Distrator": "empty",
+    "original_chapter": "Chapter_1",
+    "original_folder": "6",
+    "new_id": 5,
+    "question_img_ids": [
+        "question_5_0.png",
+        "question_5_1.png",
+        "question_5_2.png",
+        "question_5_3.png",
+        "question_5_4.png",
+        "question_5_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_5_0.png",
+        "answer_5_1.png",
+        "answer_5_2.png",
+        "answer_5_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

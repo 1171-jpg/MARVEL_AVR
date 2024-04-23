@@ -1,0 +1,35 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The axis of symmetry passes through two lines in the figure that are perpendicular to the axis of symmetry; the axis of symmetry passes through two intersection points in the figure.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 symmetrical along the horizontal or vertical axis?",
+    "Perception_Answer": "horizontal",
+    "Distrator": "vertical",
+    "source": "Chapter_3/23",
+    "original_chapter": "Group_aug",
+    "original_folder": "9",
+    "new_id": 148,
+    "question_img_ids": [
+        "question_148_0.png",
+        "question_148_1.png",
+        "question_148_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_148_0.png",
+        "answer_148_1.png",
+        "answer_148_2.png",
+        "answer_148_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

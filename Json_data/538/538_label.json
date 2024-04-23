@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "In one picture, two small black dots cannot be connected; in another group, two small black dots can be connected.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the dots in candidate 3 outside or inside of the star shape?",
+    "Distrator": "outside",
+    "Perception_Answer": "inside",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "6",
+    "new_id": 538,
+    "question_img_ids": [
+        "question_538_0.png",
+        "question_538_1.png",
+        "question_538_2.png",
+        "question_538_3.png",
+        "question_538_4.png",
+        "question_538_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_538_0.png",
+        "answer_538_1.png",
+        "answer_538_2.png",
+        "answer_538_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

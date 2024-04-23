@@ -1,0 +1,38 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three squares in candidate 3?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "Demonstration": "The puzzle features a 3x2 grid with circles and squares, where each grid follows a specific pattern based on logical operations on the shapes within. The third grid in each row results from eliminating the shapes that appear in the same position and color in the first two grids.\nIn the first row:\nThe first grid has two circles, one black at the bottom left and one white at the top.\nThe second grid has two circles, one black at the same bottom left as the first grid, and one white at the bottom right.\nThe third grid has two white circles, one at the bottom right and one at the top, obtained by eliminating the black circle at the bottom left that appears in both the first and second grids.\nFollowing the same pattern for the second row:\nThe first grid has two squares, one black at the bottom left and one white at the top.\nThe second grid has two squares, one black at the same bottom left as the first grid, and one white at the bottom right.\nTherefore, the third grid should have two squares, one white at the bottom right and one white at the top left, obtained by eliminating the black squares that appear in both the first and second grid.\nChoice 2 is the only option that has two white squares, one at the bottom right and one at the top left, which fits the elimination logic.",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "1",
+    "new_id": 665,
+    "question_img_ids": [
+        "question_665_0.png",
+        "question_665_1.png",
+        "question_665_2.png",
+        "question_665_3.png",
+        "question_665_4.png",
+        "question_665_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_665_0.png",
+        "answer_665_1.png",
+        "answer_665_2.png",
+        "answer_665_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

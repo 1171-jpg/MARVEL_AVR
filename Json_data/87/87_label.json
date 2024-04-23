@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The first row of graphics is composed of 1 type of element, the second row of graphics is composed of 2 types of elements, and the third row of graphics is composed of 3 types of elements. Therefore, a graphic composed of 3 types of elements should also be selected at the question mark. , only item D is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four circles in candidate 2?",
+    "Perception_Answer": "four",
+    "Distrator": "three",
+    "original_chapter": "Chapter_4",
+    "original_folder": "65",
+    "new_id": 87,
+    "question_img_ids": [
+        "question_87_0.png",
+        "question_87_1.png",
+        "question_87_2.png",
+        "question_87_3.png",
+        "question_87_4.png",
+        "question_87_5.png",
+        "question_87_6.png",
+        "question_87_7.png",
+        "question_87_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_87_0.png",
+        "answer_87_1.png",
+        "answer_87_2.png",
+        "answer_87_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

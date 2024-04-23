@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of intersection layers in each row is same.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle in candidate 2 inside of a rectangle or ellipse?",
+    "Distrator": "ellipse",
+    "Perception_Answer": "rectangle",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "3",
+    "new_id": 490,
+    "question_img_ids": [
+        "question_490_0.png",
+        "question_490_1.png",
+        "question_490_2.png",
+        "question_490_3.png",
+        "question_490_4.png",
+        "question_490_5.png",
+        "question_490_6.png",
+        "question_490_7.png",
+        "question_490_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_490_0.png",
+        "answer_490_1.png",
+        "answer_490_2.png",
+        "answer_490_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

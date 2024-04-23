@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the leftmost vertical line longer or shorter than the rightmost vertical line in candidate 2?",
+    "Distrator": "shorter",
+    "Perception_Answer": "longer",
+    "original_chapter": "./Easy_Marvel/Rotation and Flip",
+    "original_folder": "8",
+    "new_id": 618,
+    "question_img_ids": [
+        "question_618_0.png",
+        "question_618_1.png",
+        "question_618_2.png",
+        "question_618_3.png",
+        "question_618_4.png",
+        "question_618_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_618_0.png",
+        "answer_618_1.png",
+        "answer_618_2.png",
+        "answer_618_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

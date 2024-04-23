@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Along the row the first column plus third column equals to the second column, and the overlap area will be reomved",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a diagonal line inside the square in candidate 2?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "source": "./Data_aug/Black/3",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "29",
+    "new_id": 297,
+    "question_img_ids": [
+        "question_297_0.png",
+        "question_297_1.png",
+        "question_297_2.png",
+        "question_297_3.png",
+        "question_297_4.png",
+        "question_297_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_297_0.png",
+        "answer_297_1.png",
+        "answer_297_2.png",
+        "answer_297_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

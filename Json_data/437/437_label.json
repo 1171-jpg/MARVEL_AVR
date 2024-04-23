@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The number of symmetry axes of the figure in the third column is equal to the symmetry number of the figure in the first column plus the number of symmetry axes of the second column.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three squares in candidate 3?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Symmetry",
+    "original_folder": "4",
+    "new_id": 437,
+    "question_img_ids": [
+        "question_437_0.png",
+        "question_437_1.png",
+        "question_437_2.png",
+        "question_437_3.png",
+        "question_437_4.png",
+        "question_437_5.png",
+        "question_437_6.png",
+        "question_437_7.png",
+        "question_437_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_437_0.png",
+        "answer_437_1.png",
+        "answer_437_2.png",
+        "answer_437_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

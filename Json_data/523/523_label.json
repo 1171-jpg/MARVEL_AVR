@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "The positions of the small balls and other elements in each figure sequentially show the pattern of \"tangent-separated-tangent-separated-tangent\". law. It can be inferred from this that the small ball in the sixth figure should be separated from other graphic elements, and item A meets the requirements.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles inside of the half ellipse in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Shape",
+    "original_folder": "8",
+    "new_id": 523,
+    "question_img_ids": [
+        "question_523_0.png",
+        "question_523_1.png",
+        "question_523_2.png",
+        "question_523_3.png",
+        "question_523_4.png",
+        "question_523_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_523_0.png",
+        "answer_523_1.png",
+        "answer_523_2.png",
+        "answer_523_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

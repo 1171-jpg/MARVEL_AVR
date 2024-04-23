@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle at the top right corner of candidate 3 black or white?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "17",
+    "new_id": 519,
+    "question_img_ids": [
+        "question_519_0.png",
+        "question_519_1.png",
+        "question_519_2.png",
+        "question_519_3.png",
+        "question_519_4.png",
+        "question_519_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_519_0.png",
+        "answer_519_1.png",
+        "answer_519_2.png",
+        "answer_519_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

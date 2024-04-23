@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three rectangles in candidate 4?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "Demonstration": "The puzzle presents a 3x2 grid, where each row follows a similar pattern with two instances of the same geometric shape progressing from not touching, to touching, and then intersecting.\nIn the sequence provided:\nIn the top row's first grid, two circles are separate and do not touch each other.\nIn the top row's second grid, the circles touch each other on the side.\nIn the top row's third grid, the circles intersect each other.\nApplying the same pattern to the second row with squares:\nIn the bottom row's first grid, two squares are separate and do not touch each other.\nIn the bottom row's second grid, following the pattern, the squares should be touching each other on the side.\nIn the bottom row's third grid, the squares would then intersect each other.\nTherefore, the missing grid should contain two squares touching each other on the side to maintain the consistent progression observed in both rows. The choice 4 is the correct answer",
+    "original_chapter": "./Easy_Marvel/Shape relationships",
+    "original_folder": "6",
+    "new_id": 629,
+    "question_img_ids": [
+        "question_629_0.png",
+        "question_629_1.png",
+        "question_629_2.png",
+        "question_629_3.png",
+        "question_629_4.png",
+        "question_629_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_629_0.png",
+        "answer_629_1.png",
+        "answer_629_2.png",
+        "answer_629_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The element composition is the same, taking into account the positional rules. Observing the question stem, we found that the square in the upper right corner rotates 90 degrees clockwise starting from the second picture. The square in the lower right corner rotates 90 degrees clockwise starting from the third picture. Only item B is consistent. The square in the lower left corner rotates 90 degrees clockwise starting from the third picture. The four pictures start to rotate 90 degrees clockwise each time, and item B conforms to this rule. According to this rule, the square in the upper left corner rotates 90 degrees counterclockwise starting from the fifth picture, and item B also conforms to",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 3 have three or two half circles?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Chapter_1",
+    "original_folder": "24",
+    "new_id": 17,
+    "question_img_ids": [
+        "question_17_0.png",
+        "question_17_1.png",
+        "question_17_2.png",
+        "question_17_3.png",
+        "question_17_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_17_0.png",
+        "answer_17_1.png",
+        "answer_17_2.png",
+        "answer_17_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

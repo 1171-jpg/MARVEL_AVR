@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "Similar elements composition, prioritize considering the pattern of styles. When using the tic-tac-toe grid, prioritize the horizontal view. Start by looking at the first row. Rotate the first shape counterclockwise by 90\u00b0 and find the difference with the second shape to obtain the third shape. Verify if this pattern holds in the second row. Apply this pattern in the third row: Rotate the first shape counterclockwise by 90\u00b0 and find the difference with the second shape, keeping only the middle circle.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three black-filled circle in the circle of candidate 3?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "source": "Chapter_2/4",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "3",
+    "new_id": 271,
+    "question_img_ids": [
+        "question_271_0.png",
+        "question_271_1.png",
+        "question_271_2.png",
+        "question_271_3.png",
+        "question_271_4.png",
+        "question_271_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_271_0.png",
+        "answer_271_1.png",
+        "answer_271_2.png",
+        "answer_271_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

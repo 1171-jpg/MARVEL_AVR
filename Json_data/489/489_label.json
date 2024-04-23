@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of intersection closed areas in the first row is 0,2,4, while the number of that in the first two images of second row is 1,3, so the answer should be C",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 4 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "horizontal",
+    "Perception_Answer": "vertical",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "1",
+    "new_id": 489,
+    "question_img_ids": [
+        "question_489_0.png",
+        "question_489_1.png",
+        "question_489_2.png",
+        "question_489_3.png",
+        "question_489_4.png",
+        "question_489_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_489_0.png",
+        "answer_489_1.png",
+        "answer_489_2.png",
+        "answer_489_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Along the row the first column plus second column equals to the third column. The black overlap area will be white, the white overlap area will be black. Black area plus white area will be white.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 diagonally symmetrical or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Black",
+    "original_folder": "7",
+    "new_id": 432,
+    "question_img_ids": [
+        "question_432_0.png",
+        "question_432_1.png",
+        "question_432_2.png",
+        "question_432_3.png",
+        "question_432_4.png",
+        "question_432_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_432_0.png",
+        "answer_432_1.png",
+        "answer_432_2.png",
+        "answer_432_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

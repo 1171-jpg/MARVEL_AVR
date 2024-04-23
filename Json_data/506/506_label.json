@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "There are many small elements in the graphic, and the number of elements is given priority. The number of black five-pointed stars in the left half is 2, 3, 4, and the number of squares is 4, 2, 2; the number of black circles in the right half is: 1, 2, ? The number of white circles is 7, 5,? It can be seen from observation that the rule presented in the left half is that the black five-pointed star shows equal difference, and the rule presented by the square is subtraction operation. Therefore, the black circle in the right half should be equal difference, with three question marks, and the white circle should be subtraction, with the question mark It should be 7-5=2. Therefore, the answer is option D of 3 black circles and 2 white circles.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in the left half of candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "2",
+    "new_id": 506,
+    "question_img_ids": [
+        "question_506_0.png",
+        "question_506_1.png",
+        "question_506_2.png",
+        "question_506_3.png",
+        "question_506_4.png",
+        "question_506_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_506_0.png",
+        "answer_506_1.png",
+        "answer_506_2.png",
+        "answer_506_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

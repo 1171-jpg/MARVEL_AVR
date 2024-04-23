@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The number of straight line segments in the left picture is l3, and the number of straight line segments in the first two pictures in the right picture is 14, so the number of straight line segments in the next picture is 14.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three hexagons in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Line",
+    "original_folder": "15",
+    "new_id": 486,
+    "question_img_ids": [
+        "question_486_0.png",
+        "question_486_1.png",
+        "question_486_2.png",
+        "question_486_3.png",
+        "question_486_4.png",
+        "question_486_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_486_0.png",
+        "answer_486_1.png",
+        "answer_486_2.png",
+        "answer_486_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

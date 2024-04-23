@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or two black shapes in candidate 1?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "12",
+    "new_id": 743,
+    "question_img_ids": [
+        "question_743_0.png",
+        "question_743_1.png",
+        "question_743_2.png",
+        "question_743_3.png",
+        "question_743_4.png",
+        "question_743_5.png",
+        "question_743_6.png",
+        "question_743_7.png",
+        "question_743_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_743_0.png",
+        "answer_743_1.png",
+        "answer_743_2.png",
+        "answer_743_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

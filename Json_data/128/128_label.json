@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The composition of graphic elements is different, and attribute rules are given priority. Observing the question stem graphics, we found that there are characteristic diagrams such as isosceles triangles and arrows. Priority should be given to symmetry. The number of symmetry axes of the first row of figures in the question stem is 1, 1, and 2, that is, the sum of the number of symmetry axes of the first two figures is equal to the number of symmetry axes of the third figure. The second line verifies this law. The number of symmetry axes is 1, 2, and 3. This law is true. The third usage law, if the quantities are 2, 3, ?, then the figure with 5 axes of symmetry should be selected at the question mark. Only item D conforms to this law.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the shape of candidate 4 a heart or a star?",
+    "Perception_Answer": "star",
+    "Distrator": "heart",
+    "original_chapter": "Final",
+    "original_folder": "58",
+    "new_id": 128,
+    "question_img_ids": [
+        "question_128_0.png",
+        "question_128_1.png",
+        "question_128_2.png",
+        "question_128_3.png",
+        "question_128_4.png",
+        "question_128_5.png",
+        "question_128_6.png",
+        "question_128_7.png",
+        "question_128_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_128_0.png",
+        "answer_128_1.png",
+        "answer_128_2.png",
+        "answer_128_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

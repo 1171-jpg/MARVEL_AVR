@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three triangles in candidate 4?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "11",
+    "new_id": 729,
+    "question_img_ids": [
+        "question_729_0.png",
+        "question_729_1.png",
+        "question_729_2.png",
+        "question_729_3.png",
+        "question_729_4.png",
+        "question_729_5.png",
+        "question_729_6.png",
+        "question_729_7.png",
+        "question_729_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_729_0.png",
+        "answer_729_1.png",
+        "answer_729_2.png",
+        "answer_729_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

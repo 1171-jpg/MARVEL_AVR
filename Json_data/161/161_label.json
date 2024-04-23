@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "Consider the quantity pattern. Observing the overall graphs D and G, there is an obvious single curve, and the number of curves is given priority.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three straight lines in candidate 4?",
+    "Perception_Answer": "three",
+    "Distrator": "two",
+    "source": "Chapter_4/17",
+    "original_chapter": "Group_aug",
+    "original_folder": "22",
+    "new_id": 161,
+    "question_img_ids": [
+        "question_161_0.png",
+        "question_161_1.png",
+        "question_161_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_161_0.png",
+        "answer_161_1.png",
+        "answer_161_2.png",
+        "answer_161_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

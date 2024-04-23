@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "The first picture in each row has the black dot on the longest side, the second picture has the black dot on the shortest side, and the third picture has the black dot on the largest corner.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the black dots at the left or right part of candidate 4?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "22",
+    "new_id": 550,
+    "question_img_ids": [
+        "question_550_0.png",
+        "question_550_1.png",
+        "question_550_2.png",
+        "question_550_3.png",
+        "question_550_4.png",
+        "question_550_5.png",
+        "question_550_6.png",
+        "question_550_7.png",
+        "question_550_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_550_0.png",
+        "answer_550_1.png",
+        "answer_550_2.png",
+        "answer_550_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

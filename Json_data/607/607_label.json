@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the vertical line in candidate 3 at the left or right part?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "original_chapter": "./Easy_Marvel/Parallel Movement",
+    "original_folder": "10",
+    "new_id": 607,
+    "question_img_ids": [
+        "question_607_0.png",
+        "question_607_1.png",
+        "question_607_2.png",
+        "question_607_3.png",
+        "question_607_4.png",
+        "question_607_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_607_0.png",
+        "answer_607_1.png",
+        "answer_607_2.png",
+        "answer_607_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

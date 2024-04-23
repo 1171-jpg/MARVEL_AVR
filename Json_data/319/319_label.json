@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black filled circle inside or outside of the heart shape in candidate 1?",
+    "Distrator": "outside",
+    "Perception_Answer": "inside",
+    "source": "./Easy_Marvel/Addition and subtraction/11",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "9",
+    "new_id": 319,
+    "question_img_ids": [
+        "question_319_0.png",
+        "question_319_1.png",
+        "question_319_2.png",
+        "question_319_3.png",
+        "question_319_4.png",
+        "question_319_5.png",
+        "question_319_6.png",
+        "question_319_7.png",
+        "question_319_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_319_0.png",
+        "answer_319_1.png",
+        "answer_319_2.png",
+        "answer_319_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The composition of elements is different, and the attribute rules are given priority. For nine-square grid graphics, first look at the horizontal rows. The first row is a straight-line graphic, the second row is a full-curve graphic, the first graphic and the second graphic in the third row are both \"straight + curved\" graphics, so the graphic at the question mark should also be \"straight + curved\" figure, exclude items B and C. Continuing to observe, we found that all the figures in the question are closed figures, and only item D is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two circles in candidate 2?",
+    "Perception_Answer": "two",
+    "Distrator": "one",
+    "original_chapter": "Chapter_3",
+    "original_folder": "16",
+    "new_id": 53,
+    "question_img_ids": [
+        "question_53_0.png",
+        "question_53_1.png",
+        "question_53_2.png",
+        "question_53_3.png",
+        "question_53_4.png",
+        "question_53_5.png",
+        "question_53_6.png",
+        "question_53_7.png",
+        "question_53_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_53_0.png",
+        "answer_53_1.png",
+        "answer_53_2.png",
+        "answer_53_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

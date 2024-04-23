@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three white squares in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/Element",
+    "original_folder": "13",
+    "new_id": 744,
+    "question_img_ids": [
+        "question_744_0.png",
+        "question_744_1.png",
+        "question_744_2.png",
+        "question_744_3.png",
+        "question_744_4.png",
+        "question_744_5.png",
+        "question_744_6.png",
+        "question_744_7.png",
+        "question_744_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_744_0.png",
+        "answer_744_1.png",
+        "answer_744_2.png",
+        "answer_744_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

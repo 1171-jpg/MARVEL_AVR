@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "This is a spin question. Each picture in the first set of pictures shows a 90-degree clockwise rotation pattern, so the answer is C.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the small rectangle on the top right or top left quarter of the circle in candidate 3?",
+    "Distrator": "top right",
+    "Perception_Answer": "top left",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "5",
+    "new_id": 392,
+    "question_img_ids": [
+        "question_392_0.png",
+        "question_392_1.png",
+        "question_392_2.png",
+        "question_392_3.png",
+        "question_392_4.png",
+        "question_392_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_392_0.png",
+        "answer_392_1.png",
+        "answer_392_2.png",
+        "answer_392_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

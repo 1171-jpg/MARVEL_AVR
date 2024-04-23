@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle at the middle or left part of candidate 2?",
+    "Distrator": "left",
+    "Perception_Answer": "middle",
+    "original_chapter": "./Easy_Marvel/Shape relationships",
+    "original_folder": "12",
+    "new_id": 635,
+    "question_img_ids": [
+        "question_635_0.png",
+        "question_635_1.png",
+        "question_635_2.png",
+        "question_635_3.png",
+        "question_635_4.png",
+        "question_635_5.png",
+        "question_635_6.png",
+        "question_635_7.png",
+        "question_635_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_635_0.png",
+        "answer_635_1.png",
+        "answer_635_2.png",
+        "answer_635_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

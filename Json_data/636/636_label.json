@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the straight horizontal line at the top or bottom part of the candidate 4?",
+    "Distrator": "bottom",
+    "Perception_Answer": "top",
+    "original_chapter": "./Easy_Marvel/Shape relationships",
+    "original_folder": "13",
+    "new_id": 636,
+    "question_img_ids": [
+        "question_636_0.png",
+        "question_636_1.png",
+        "question_636_2.png",
+        "question_636_3.png",
+        "question_636_4.png",
+        "question_636_5.png",
+        "question_636_6.png",
+        "question_636_7.png",
+        "question_636_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_636_0.png",
+        "answer_636_1.png",
+        "answer_636_2.png",
+        "answer_636_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

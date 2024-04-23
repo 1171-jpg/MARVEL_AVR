@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "Overall, the number of curves in the first horizontal row is: 0, 1, 2; the number of curves in the second horizontal row is 2, 0, 1; although there is no gradient rule, the sum of the number of curves in the first and second horizontal rows is 3 . The number of curves in the third horizontal row is 1, 2, ?, so there should be 0 curves, choose B.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "source": "./Data_aug/Line/11",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "27",
+    "new_id": 256,
+    "question_img_ids": [
+        "question_256_0.png",
+        "question_256_1.png",
+        "question_256_2.png",
+        "question_256_3.png",
+        "question_256_4.png",
+        "question_256_5.png",
+        "question_256_6.png",
+        "question_256_7.png",
+        "question_256_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_256_0.png",
+        "answer_256_1.png",
+        "answer_256_2.png",
+        "answer_256_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

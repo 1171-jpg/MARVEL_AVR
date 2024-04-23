@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "First of all, observe that the head and arms of the first section of the figure have not changed, and the second section has also not changed. Then observe the body. What is missing should be a quadrilateral. Then exclude B and C, and then look at the legs. What is missing It should be a circle, so D should be selected.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two circles or triangles at the bottom part of candidate 4?",
+    "Distrator": "triangles",
+    "Perception_Answer": "circles",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "11",
+    "new_id": 583,
+    "question_img_ids": [
+        "question_583_0.png",
+        "question_583_1.png",
+        "question_583_2.png",
+        "question_583_3.png",
+        "question_583_4.png",
+        "question_583_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_583_0.png",
+        "answer_583_1.png",
+        "answer_583_2.png",
+        "answer_583_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The first, third and fifth figures all differ by 1 circle, and there is an obvious arithmetic relationship. The second and fourth figures should also differ by 1 circle, and the difference in the figures is 2 moons, indicating that 1 Circles = 2 moons. The five figures can be regarded as 1, 2, 3, 4, and 5 moons. The next figure should be 6 moons or 3 circles. Only item C conforms to this rule.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four circles in candidate 1?",
+    "Perception_Answer": "four",
+    "Distrator": "three",
+    "original_chapter": "Chapter_4",
+    "original_folder": "64",
+    "new_id": 86,
+    "question_img_ids": [
+        "question_86_0.png",
+        "question_86_1.png",
+        "question_86_2.png",
+        "question_86_3.png",
+        "question_86_4.png",
+        "question_86_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_86_0.png",
+        "answer_86_1.png",
+        "answer_86_2.png",
+        "answer_86_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

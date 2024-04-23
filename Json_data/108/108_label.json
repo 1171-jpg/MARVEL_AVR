@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Element addition operation. In the first group of graphics, the first two graphics should have similarities while reserving differences.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a pentagon or a star inside of candidate 4?",
+    "Perception_Answer": "star",
+    "Distrator": "pentagon",
+    "original_chapter": "Final",
+    "original_folder": "18",
+    "new_id": 108,
+    "question_img_ids": [
+        "question_108_0.png",
+        "question_108_1.png",
+        "question_108_2.png",
+        "question_108_3.png",
+        "question_108_4.png",
+        "question_108_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_108_0.png",
+        "answer_108_1.png",
+        "answer_108_2.png",
+        "answer_108_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

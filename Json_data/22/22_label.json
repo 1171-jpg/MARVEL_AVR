@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "The composition of the elements is similar, considering the element operation. Two sets of graphics frame are the same, do not consider, the first group of graphics, the first picture black dot minus the second picture black dot is equal to the third picture black dot. To apply the rule to the second set of figures, the rightmost two black dots should be retained.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four black-filled circles on the bottom row in candidate 2?",
+    "Perception_Answer": "three",
+    "Distrator": "four",
+    "original_chapter": "Chapter_2",
+    "original_folder": "1",
+    "new_id": 22,
+    "question_img_ids": [
+        "question_22_0.png",
+        "question_22_1.png",
+        "question_22_2.png",
+        "question_22_3.png",
+        "question_22_4.png",
+        "question_22_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_22_0.png",
+        "answer_22_1.png",
+        "answer_22_2.png",
+        "answer_22_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

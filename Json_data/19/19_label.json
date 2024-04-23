@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The composition of the graphics is the same, both are composed of 24 matchsticks, taking into account the location rules. From the first picture to the second picture, the direction of 4 matchsticks in the outer circle has changed, and the direction of the matchsticks in the inner circle has not changed. From the second picture to the third picture, there are 4 matchsticks in the inner circle. The direction of the matchsticks has changed, and the direction of the matchsticks in the outer circle has not changed. According to this rule, there should be 4 matchsticks in the inner circle from the fourth picture to the fifth picture. The direction of the outer circle should remain unchanged. Item D is consistent with the rules.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the \"match\" like shapes arranged in a triangle or rectangle formation in candidate 3?",
+    "Perception_Answer": "rectangle",
+    "Distrator": "triangle",
+    "original_chapter": "Chapter_1",
+    "original_folder": "26",
+    "new_id": 19,
+    "question_img_ids": [
+        "question_19_0.png",
+        "question_19_1.png",
+        "question_19_2.png",
+        "question_19_3.png",
+        "question_19_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_19_0.png",
+        "answer_19_1.png",
+        "answer_19_2.png",
+        "answer_19_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

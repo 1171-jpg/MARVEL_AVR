@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "It is observed that the number of graphic elements in the first paragraph is 3, 2, and 1 respectively, which is an arithmetic sequence, and the element with the largest shape is retained in Figure 3; the number of elements in Figure 1 and Figure 2 in the second paragraph is 3 and 2 respectively, continue Apply the rules, so at the question mark, you should choose a figure with an element number of 1 and retain the largest shape element. There is only option D.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there parallel lines or not in candidate 1?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "11",
+    "new_id": 513,
+    "question_img_ids": [
+        "question_513_0.png",
+        "question_513_1.png",
+        "question_513_2.png",
+        "question_513_3.png",
+        "question_513_4.png",
+        "question_513_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_513_0.png",
+        "answer_513_1.png",
+        "answer_513_2.png",
+        "answer_513_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

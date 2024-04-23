@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "In the first row, the image first flip left to right and then flip top to bottom.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the shape in candidate 4 look like a number 3 or a letter E?",
+    "Distrator": "letter E",
+    "Perception_Answer": "number 3",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "13",
+    "new_id": 397,
+    "question_img_ids": [
+        "question_397_0.png",
+        "question_397_1.png",
+        "question_397_2.png",
+        "question_397_3.png",
+        "question_397_4.png",
+        "question_397_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_397_0.png",
+        "answer_397_1.png",
+        "answer_397_2.png",
+        "answer_397_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or two rectangles in candidate 2?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "13",
+    "new_id": 770,
+    "question_img_ids": [
+        "question_770_0.png",
+        "question_770_1.png",
+        "question_770_2.png",
+        "question_770_3.png",
+        "question_770_4.png",
+        "question_770_5.png",
+        "question_770_6.png",
+        "question_770_7.png",
+        "question_770_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_770_0.png",
+        "answer_770_1.png",
+        "answer_770_2.png",
+        "answer_770_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The numbers of black blocks in the first row are 2, 3, and 4 respectively. The numbers of black blocks in the second row are 7, 6, and 5 respectively. The numbers of black blocks in the third row are 8 and 9 respectively. It can be found that the numbers of black blocks in the first row are The number of blocks is increasing, and the number of black blocks in the second row is decreasing, then the number of black blocks in the third row should be increasing, and the question mark should be filled with a figure with the number of black blocks of 10, excluding items B and C. Observing two items A and D, we found that the difference lies in the position distribution of the black blocks. From the question stem figure, we can see that the increase and decrease of the black blocks are based on the previous figure, so the figure filled in at the question mark should be in Add a black block based on the second figure in the third row, keep the positions of other black blocks unchanged, and exclude item A.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the square in the top left corner of candidate 2 solid or hollow?",
+    "Perception_Answer": "solid",
+    "Distrator": "hollow",
+    "original_chapter": "Chapter_4",
+    "original_folder": "51",
+    "new_id": 80,
+    "question_img_ids": [
+        "question_80_0.png",
+        "question_80_1.png",
+        "question_80_2.png",
+        "question_80_3.png",
+        "question_80_4.png",
+        "question_80_5.png",
+        "question_80_6.png",
+        "question_80_7.png",
+        "question_80_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_80_0.png",
+        "answer_80_1.png",
+        "answer_80_2.png",
+        "answer_80_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

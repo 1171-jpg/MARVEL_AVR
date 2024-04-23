@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "In the first set of figures, it is found that the figures are all obtained by superimposing figures of the same shape. In the second set, the first two figures are obtained by superimposing the left or right half of a certain shape figure. Only D meets the requirements of this rule.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Do the triangles in candidate 2 intersect with each other?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Shape",
+    "original_folder": "15",
+    "new_id": 530,
+    "question_img_ids": [
+        "question_530_0.png",
+        "question_530_1.png",
+        "question_530_2.png",
+        "question_530_3.png",
+        "question_530_4.png",
+        "question_530_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_530_0.png",
+        "answer_530_1.png",
+        "answer_530_2.png",
+        "answer_530_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

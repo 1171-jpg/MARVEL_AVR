@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The graphic elements have different compositions and no obvious attribute rules. Consider the quantity rules. In the first set of pictures, the number of faces in each figure is 4, 5, and 6 respectively, which is an arithmetic sequence. In the second set of figures, the number of faces in the first two figures is 5 and 6 respectively. The figure at the question mark should There are 7 sides.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there triangles in candidate 4 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "19",
+    "new_id": 500,
+    "question_img_ids": [
+        "question_500_0.png",
+        "question_500_1.png",
+        "question_500_2.png",
+        "question_500_3.png",
+        "question_500_4.png",
+        "question_500_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_500_0.png",
+        "answer_500_1.png",
+        "answer_500_2.png",
+        "answer_500_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "In the first row, the dots are at the acute corners of the picture, in the second row, the dots are at the right corners of the picture",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the dot at the top left or bottom left corner of candidate 1?",
+    "Distrator": "bottom left",
+    "Perception_Answer": "top left",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "11",
+    "new_id": 542,
+    "question_img_ids": [
+        "question_542_0.png",
+        "question_542_1.png",
+        "question_542_2.png",
+        "question_542_3.png",
+        "question_542_4.png",
+        "question_542_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_542_0.png",
+        "answer_542_1.png",
+        "answer_542_2.png",
+        "answer_542_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

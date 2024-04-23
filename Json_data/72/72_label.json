@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "In the first row, the numbers of right angles in the three figures are 1 and 23 respectively. In the second line, the right angle numbers of the three figures are also 1, 2, and 3 respectively. This rule applies to the third line. The right angle numbers of the first two figures are 1 and 2 respectively. Therefore, a right angle number of 3 should be selected at the number. The numbers of right angles in the graph of item ABCD are 2, 0, 5, and 3 respectively, and only item D matches.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a hexagon or a rectangle in candidate 2?",
+    "Perception_Answer": "hexagon",
+    "Distrator": "rectangle",
+    "original_chapter": "Chapter_4",
+    "original_folder": "37",
+    "new_id": 72,
+    "question_img_ids": [
+        "question_72_0.png",
+        "question_72_1.png",
+        "question_72_2.png",
+        "question_72_3.png",
+        "question_72_4.png",
+        "question_72_5.png",
+        "question_72_6.png",
+        "question_72_7.png",
+        "question_72_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_72_0.png",
+        "answer_72_1.png",
+        "answer_72_2.png",
+        "answer_72_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

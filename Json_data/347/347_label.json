@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Rotation and Flip/16",
+    "Question": "Is the arrow pointing to the up or down in candidate 3?",
+    "Distrator": "up",
+    "Perception_Answer": "down",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "5",
+    "new_id": 347,
+    "question_img_ids": [
+        "question_347_0.png",
+        "question_347_1.png",
+        "question_347_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_347_0.png",
+        "answer_347_1.png",
+        "answer_347_2.png",
+        "answer_347_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

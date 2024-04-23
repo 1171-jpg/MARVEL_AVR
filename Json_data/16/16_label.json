@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "Observe the graphics, the elements have the same composition, and consider the positional relationship. The hour hand (the shortest arrow) moves 1-2-3 squares clockwise each time, and should move 4 squares at ?, excluding item A. The needle (head) moves 2-3-4 squares clockwise each time, and the ? should move 5 squares and cannot be ruled out. The second hand (long thin arrow) moves 3-4-5 squares clockwise each time, and should move 6 squares at ?, excluding items C and D, corresponding to item B",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 4 have an arrow pointing to left or not?",
+    "Perception_Answer": "yes",
+    "Distrator": "no",
+    "original_chapter": "Chapter_1",
+    "original_folder": "22",
+    "new_id": 16,
+    "question_img_ids": [
+        "question_16_0.png",
+        "question_16_1.png",
+        "question_16_2.png",
+        "question_16_3.png",
+        "question_16_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_16_0.png",
+        "answer_16_1.png",
+        "answer_16_2.png",
+        "answer_16_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

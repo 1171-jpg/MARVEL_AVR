@@ -1,0 +1,38 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "The elements are similar in composition and the same lines appear repeatedly. Priority is given to addition, subtraction, similarities and differences. In the first line, the same lines are removed from the first picture and the second picture, and different lines are retained, and the third picture is obtained. The second line verifies that this rule is true, and the third line applies this rule, and only item B is true.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three triangles inside of candidate 2?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "source": "Final/42",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "16",
+    "new_id": 284,
+    "question_img_ids": [
+        "question_284_0.png",
+        "question_284_1.png",
+        "question_284_2.png",
+        "question_284_3.png",
+        "question_284_4.png",
+        "question_284_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_284_0.png",
+        "answer_284_1.png",
+        "answer_284_2.png",
+        "answer_284_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

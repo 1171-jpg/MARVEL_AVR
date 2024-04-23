@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "Priority is given to the number of lines, which are 3, 4, 4. There is no pattern. Consider the number of intersection points again. The number of intersection points are 3, 4, 4. It is found that the number of points and lines is exactly the same. Only item B matches",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "original_chapter": "./Data_aug/Line",
+    "original_folder": "10",
+    "new_id": 483,
+    "question_img_ids": [
+        "question_483_0.png",
+        "question_483_1.png",
+        "question_483_2.png",
+        "question_483_3.png",
+        "question_483_4.png",
+        "question_483_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_483_0.png",
+        "answer_483_1.png",
+        "answer_483_2.png",
+        "answer_483_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

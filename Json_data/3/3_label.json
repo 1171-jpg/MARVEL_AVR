@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "Each picture in the title is composed of 1 black circle, 7 white circles and 1 blank part. The elements have the same composition, taking into account the location rules. It is observed that the black circles all appear in the outer circle, so consider moving counterclockwise. If the black circle moves two units counterclockwise in the outer circle of the graph, the black circle at the question mark should appear in the upper left corner. Accordingly, the BD two items are eliminated. Each graph has a blank part with different positions. Observe the movement of the blank part. The blank part moves clockwise one unit at a time in the outer circle of the graph. Then the blank part at the question mark should appear in the third row and second column. Accordingly Exclude item A",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black solid circle in candidate 3 at the top left corner or the bottom right corner?",
+    "Perception_Answer": "top left",
+    "Distrator": "bottom right",
+    "original_chapter": "Chapter_1",
+    "original_folder": "4",
+    "new_id": 3,
+    "question_img_ids": [
+        "question_3_0.png",
+        "question_3_1.png",
+        "question_3_2.png",
+        "question_3_3.png",
+        "question_3_4.png",
+        "question_3_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_3_0.png",
+        "answer_3_1.png",
+        "answer_3_2.png",
+        "answer_3_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

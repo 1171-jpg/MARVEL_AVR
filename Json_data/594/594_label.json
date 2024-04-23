@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "Neighbor graphics aim at the difference. It is observed that the positions of the white circle and the triangle in Figures 1 and 2 are reversed; the positions of the white circle and the plus sign in Figures 2 and 3 are reversed; and the positions of the white circle and the black circle in Figures 3 and 4 are reversed. To summarize the rules: adjacent graphics have two elements whose positions are reversed. According to this rule, the correct answer is option C. The positions of the white circle and the square are reversed.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle above or below the circle in candidate 3?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "24",
+    "new_id": 594,
+    "question_img_ids": [
+        "question_594_0.png",
+        "question_594_1.png",
+        "question_594_2.png",
+        "question_594_3.png",
+        "question_594_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_594_0.png",
+        "answer_594_1.png",
+        "answer_594_2.png",
+        "answer_594_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

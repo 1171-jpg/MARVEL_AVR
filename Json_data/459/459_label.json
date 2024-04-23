@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "In the first row, all images contain a similar curve graphic (circle), so in the second row, all images should also contain a similar curve graphic (oval).",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four vertical lines in candidate 4?",
+    "Distrator": "four",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "21",
+    "new_id": 459,
+    "question_img_ids": [
+        "question_459_0.png",
+        "question_459_1.png",
+        "question_459_2.png",
+        "question_459_3.png",
+        "question_459_4.png",
+        "question_459_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_459_0.png",
+        "answer_459_1.png",
+        "answer_459_2.png",
+        "answer_459_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

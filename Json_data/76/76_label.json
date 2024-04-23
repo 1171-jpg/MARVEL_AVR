@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "It is observed that the number of graphic surfaces in the question stem is 0123, which becomes an increasing arithmetic sequence, so the number of graphic surfaces at the question mark should be 4. The number of items A is 4, the number of B is 5, the number of C is 3, and the number of D is 6. Only item A is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three circles in candidate 3?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Chapter_4",
+    "original_folder": "44",
+    "new_id": 76,
+    "question_img_ids": [
+        "question_76_0.png",
+        "question_76_1.png",
+        "question_76_2.png",
+        "question_76_3.png",
+        "question_76_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_76_0.png",
+        "answer_76_1.png",
+        "answer_76_2.png",
+        "answer_76_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

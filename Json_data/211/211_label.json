@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "One group has four intersection point of curves and lines, another group doesn't have.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Data_aug/Point/15",
+    "Question": "Is the cross shape on the top or bottom part in candidate 1?",
+    "Distrator": "top",
+    "Perception_Answer": "bottom",
+    "original_chapter": "Group_aug",
+    "original_folder": "72",
+    "new_id": 211,
+    "question_img_ids": [
+        "question_211_0.png",
+        "question_211_1.png",
+        "question_211_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_211_0.png",
+        "answer_211_1.png",
+        "answer_211_2.png",
+        "answer_211_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

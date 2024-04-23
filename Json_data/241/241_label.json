@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "It is observed that the first column in the first row of graphics decreases by one circle from bottom to top; the second column in the second row of graphics decreases by one circle from bottom to top; and the third column in the third row of graphics decreases by one circle in sequence. . The order is regular, so items B and D are eliminated: observing the movement pattern of the small black circle, we can see that the small black circle moves two spaces at a time. If there is no circle on the right, move to the next row and exclude item A. Therefore the correct answer is C.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle on the top left corner of candidate 1 black or white?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "source": "./Data_aug/Parallel_movement/11",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "12",
+    "new_id": 241,
+    "question_img_ids": [
+        "question_241_0.png",
+        "question_241_1.png",
+        "question_241_2.png",
+        "question_241_3.png",
+        "question_241_4.png",
+        "question_241_5.png",
+        "question_241_6.png",
+        "question_241_7.png",
+        "question_241_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_241_0.png",
+        "answer_241_1.png",
+        "answer_241_2.png",
+        "answer_241_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

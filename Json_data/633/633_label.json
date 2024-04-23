@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the triangle intersect with the top or bottom cloud shape in candidate 3?",
+    "Distrator": "bottom",
+    "Perception_Answer": "top",
+    "original_chapter": "./Easy_Marvel/Shape relationships",
+    "original_folder": "10",
+    "new_id": 633,
+    "question_img_ids": [
+        "question_633_0.png",
+        "question_633_1.png",
+        "question_633_2.png",
+        "question_633_3.png",
+        "question_633_4.png",
+        "question_633_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_633_0.png",
+        "answer_633_1.png",
+        "answer_633_2.png",
+        "answer_633_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

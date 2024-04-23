@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a rectangle or a trapezoid in candidate 1?",
+    "Distrator": "rectangle ",
+    "Perception_Answer": "trapezoid ",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "5",
+    "new_id": 762,
+    "question_img_ids": [
+        "question_762_0.png",
+        "question_762_1.png",
+        "question_762_2.png",
+        "question_762_3.png",
+        "question_762_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_762_0.png",
+        "answer_762_1.png",
+        "answer_762_2.png",
+        "answer_762_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

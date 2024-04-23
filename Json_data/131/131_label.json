@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "Curved shapes and straight-line shapes appear alternately in the question stem, so a straight-line shape should be filled in at the question mark. If item B is excluded, the attributes are irregular. Consider the rules of quantity. The graphic features of the question stem are obvious and have many bulges. Consider the number of faces, in order: 0, 1, 2, 3, 4,?. Therefore, a figure with a face count of 5 should be filled in at the question mark, and only item C meets the",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the overall shape of candidate 3 a hexagon or a triangle?",
+    "Perception_Answer": "hexagon",
+    "Distrator": "triangle",
+    "original_chapter": "Final",
+    "original_folder": "61",
+    "new_id": 131,
+    "question_img_ids": [
+        "question_131_0.png",
+        "question_131_1.png",
+        "question_131_2.png",
+        "question_131_3.png",
+        "question_131_4.png",
+        "question_131_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_131_0.png",
+        "answer_131_1.png",
+        "answer_131_2.png",
+        "answer_131_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

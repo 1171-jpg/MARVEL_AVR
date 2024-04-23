@@ -1,0 +1,33 @@
+{
+    "Answer": "A",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Hexahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black filled triangle in the right or left part of candidate 4?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "Demonstration": "To solve this puzzle, we have to visualize how the unfolded diagram of the regular cube would look when it's folded into the three-dimensional shape. Each square in the question part is a face of the cube.\nThe correct choice will be the one where the squares in the unfolded diagram can be folded back together without incorrect face direction or placement.\nLooking at the choices provided:\nIn choice 1, the direction and placement of three faces of cube are correct.\nIn choice 2, the direction of the front face of the cube is incorrect.\nIn choice 3, the placement of the top face of the cube is incorrect.\nIn choice 4, the placement of the top face of the cube is incorrect.\nTherefore, the correct choice is choice 1.",
+    "original_chapter": "./Data_aug/six",
+    "original_folder": "16",
+    "new_id": 558,
+    "question_img_ids": [
+        "question_558_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_558_0.png",
+        "answer_558_1.png",
+        "answer_558_2.png",
+        "answer_558_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

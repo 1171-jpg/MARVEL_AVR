@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The attribute rules are divided into symmetry, straightness, and opening and closing. There are no obvious rules for symmetry and opening. All the graphics in the question are straight lines, and A, C, and D all contain curves, so B should be selected based on the straightness. item",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three triangles in candidate 2?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Final",
+    "original_folder": "7",
+    "new_id": 103,
+    "question_img_ids": [
+        "question_103_0.png",
+        "question_103_1.png",
+        "question_103_2.png",
+        "question_103_3.png",
+        "question_103_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_103_0.png",
+        "answer_103_1.png",
+        "answer_103_2.png",
+        "answer_103_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black triangle below or above the rectangles in candidate 3?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "original_chapter": "./Easy_Marvel/Functional elements",
+    "original_folder": "13",
+    "new_id": 649,
+    "question_img_ids": [
+        "question_649_0.png",
+        "question_649_1.png",
+        "question_649_2.png",
+        "question_649_3.png",
+        "question_649_4.png",
+        "question_649_5.png",
+        "question_649_6.png",
+        "question_649_7.png",
+        "question_649_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_649_0.png",
+        "answer_649_1.png",
+        "answer_649_2.png",
+        "answer_649_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

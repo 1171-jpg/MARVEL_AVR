@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Observing the first set of graphics, we found that the first two graphics were superimposed to get the third graphics.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a diamond in candidate 1?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "5",
+    "new_id": 416,
+    "question_img_ids": [
+        "question_416_0.png",
+        "question_416_1.png",
+        "question_416_2.png",
+        "question_416_3.png",
+        "question_416_4.png",
+        "question_416_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_416_0.png",
+        "answer_416_1.png",
+        "answer_416_2.png",
+        "answer_416_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

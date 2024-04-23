@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of faces of the graph is 0, 1, 2, 3, 4",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle in candidate 3 inside of the triangle or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "16",
+    "new_id": 497,
+    "question_img_ids": [
+        "question_497_0.png",
+        "question_497_1.png",
+        "question_497_2.png",
+        "question_497_3.png",
+        "question_497_4.png",
+        "question_497_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_497_0.png",
+        "answer_497_1.png",
+        "answer_497_2.png",
+        "answer_497_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

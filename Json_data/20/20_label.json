@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": " Consider viewing it horizontally. In the first row, the first picture is rotated 180\u00b0 as a whole to get the second picture, and the second picture is flipped up and down as a whole to get the third picture. It has been verified that the second row satisfies this rule. Therefore, this rule can be applied to the third row. The first picture can is rotated 180\u00b0 and then be flipped up and down. Only item D is satisfied.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 4 have a regular or mirrored six?",
+    "Perception_Answer": "mirrored",
+    "Distrator": "regular",
+    "not_in_good": "1",
+    "original_chapter": "Chapter_1",
+    "original_folder": "28",
+    "new_id": 20,
+    "question_img_ids": [
+        "question_20_0.png",
+        "question_20_1.png",
+        "question_20_2.png",
+        "question_20_3.png",
+        "question_20_4.png",
+        "question_20_5.png",
+        "question_20_6.png",
+        "question_20_7.png",
+        "question_20_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_20_0.png",
+        "answer_20_1.png",
+        "answer_20_2.png",
+        "answer_20_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

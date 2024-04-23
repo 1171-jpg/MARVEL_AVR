@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the rectangle at the left or right half of candidate 4?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "Demonstration": "The puzzle features a sequence of 5 grids containing various geometric shapes, where each grid follows a specific pattern related to the number and arrangement of squares and other shapes. The objective is to identify the pattern and determine which of the four choices would logically complete the sequence.\nLet's analyze the pattern in the given sequence:\nThe first grid contains a square and a triangle.\nThe second grid contains a square and a star.\nThe third grid contains a square and a cloud-like shape.\nThe fourth grid contains a square and a pentagon.\nBased on this pattern, each grid consistently contains a square, only choice 4 is correct",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "3",
+    "new_id": 682,
+    "question_img_ids": [
+        "question_682_0.png",
+        "question_682_1.png",
+        "question_682_2.png",
+        "question_682_3.png",
+        "question_682_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_682_0.png",
+        "answer_682_1.png",
+        "answer_682_2.png",
+        "answer_682_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

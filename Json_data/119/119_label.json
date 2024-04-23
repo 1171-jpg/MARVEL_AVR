@@ -1,0 +1,36 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "Observing the shape of the question stem, we can see that there are 0, 1, 2, and 3 dotted characters in the first four shapes respectively. According to this rule, it can be deduced that there should be 4 dotted letters in the shape of the question mark. Then observe the options. It can be seen that item D is consistent with the meaning of the question.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the characters vertical or horizontal in candidate 3?",
+    "Perception_Answer": "horizontal",
+    "Distrator": "vertically",
+    "original_chapter": "Final",
+    "original_folder": "44",
+    "new_id": 119,
+    "question_img_ids": [
+        "question_119_0.png",
+        "question_119_1.png",
+        "question_119_2.png",
+        "question_119_3.png",
+        "question_119_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_119_0.png",
+        "answer_119_1.png",
+        "answer_119_2.png",
+        "answer_119_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

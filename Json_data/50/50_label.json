@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The composition of elements is different, and the attribute rules are given priority. Since the first two pictures of the second group are all curved graphics and the second group of pictures are all straight line graphics, a full curved figure should be selected at the question mark, and only item C is a full curved figure.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a rectangle or half circle in candidate 4?",
+    "Perception_Answer": "half circle",
+    "Distrator": "rectangle",
+    "original_chapter": "Chapter_3",
+    "original_folder": "12",
+    "new_id": 50,
+    "question_img_ids": [
+        "question_50_0.png",
+        "question_50_1.png",
+        "question_50_2.png",
+        "question_50_3.png",
+        "question_50_4.png",
+        "question_50_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_50_0.png",
+        "answer_50_1.png",
+        "answer_50_2.png",
+        "answer_50_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

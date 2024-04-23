@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three horizontal lines in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "14",
+    "new_id": 678,
+    "question_img_ids": [
+        "question_678_0.png",
+        "question_678_1.png",
+        "question_678_2.png",
+        "question_678_3.png",
+        "question_678_4.png",
+        "question_678_5.png",
+        "question_678_6.png",
+        "question_678_7.png",
+        "question_678_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_678_0.png",
+        "answer_678_1.png",
+        "answer_678_2.png",
+        "answer_678_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

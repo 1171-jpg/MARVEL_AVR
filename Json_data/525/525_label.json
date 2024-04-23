@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "It is known that two elements of the graph intersect, and only item B matches.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the small ellipse inside or outside of the large ellipse in candidate 1?",
+    "Distrator": "inside",
+    "Perception_Answer": "outside",
+    "original_chapter": "./Data_aug/Shape",
+    "original_folder": "10",
+    "new_id": 525,
+    "question_img_ids": [
+        "question_525_0.png",
+        "question_525_1.png",
+        "question_525_2.png",
+        "question_525_3.png",
+        "question_525_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_525_0.png",
+        "answer_525_1.png",
+        "answer_525_2.png",
+        "answer_525_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

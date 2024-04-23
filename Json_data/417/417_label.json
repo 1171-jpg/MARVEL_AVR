@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Along the row the first column minus second column equals to the third column.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or five triangles in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "five",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "6",
+    "new_id": 417,
+    "question_img_ids": [
+        "question_417_0.png",
+        "question_417_1.png",
+        "question_417_2.png",
+        "question_417_3.png",
+        "question_417_4.png",
+        "question_417_5.png",
+        "question_417_6.png",
+        "question_417_7.png",
+        "question_417_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_417_0.png",
+        "answer_417_1.png",
+        "answer_417_2.png",
+        "answer_417_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

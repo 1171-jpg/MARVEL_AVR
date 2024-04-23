@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "This question is about the traversal rules in styles. The outer frame of each column of graphics has three types: triangle, circle, and square, and there are \"-\" and \"-\" inside. There are four kinds of lines: \"|\", \"/\" and \"\\\", so the figure at the question mark should have only two kinds of lines: \"/\" and \"\\\". Only item B is correct.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 symmetrical along the horizontal axis or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "1",
+    "new_id": 573,
+    "question_img_ids": [
+        "question_573_0.png",
+        "question_573_1.png",
+        "question_573_2.png",
+        "question_573_3.png",
+        "question_573_4.png",
+        "question_573_5.png",
+        "question_573_6.png",
+        "question_573_7.png",
+        "question_573_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_573_0.png",
+        "answer_573_1.png",
+        "answer_573_2.png",
+        "answer_573_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

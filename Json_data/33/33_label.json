@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "The composition of elements is similar, and identical lines are repeated, prioritizing considerations of addition, subtraction, similarity, and difference in the style pattern. When observing the tic-tac-toe grid, prioritize examining it row by row. In the first row, the third image is obtained by differentiating the first and second images and then rotating clockwise or counterclockwise by 90\u00b0. After verification, the second row also follows this pattern. Applying the same pattern to the third row, the shape at the question mark should be one obtained by first differentiating the first and second images, then rotating clockwise or counterclockwise by 90\u00b0. Upon observation of the options, it is found that there is no answer for counterclockwise rotation by 90\u00b0, but option D can be obtained by clockwise rotation by 90\u00b0.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four lines in candidate 3?",
+    "Perception_Answer": "four",
+    "Distrator": "three",
+    "original_chapter": "Chapter_2",
+    "original_folder": "13",
+    "new_id": 33,
+    "question_img_ids": [
+        "question_33_0.png",
+        "question_33_1.png",
+        "question_33_2.png",
+        "question_33_3.png",
+        "question_33_4.png",
+        "question_33_5.png",
+        "question_33_6.png",
+        "question_33_7.png",
+        "question_33_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_33_0.png",
+        "answer_33_1.png",
+        "answer_33_2.png",
+        "answer_33_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

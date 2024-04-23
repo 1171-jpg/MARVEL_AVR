@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "There is a round doll head missing, so the answer is between C and D. missing a circle shaped body, so combining the options, the answer is option D.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two circles in candidate 2?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "14",
+    "new_id": 586,
+    "question_img_ids": [
+        "question_586_0.png",
+        "question_586_1.png",
+        "question_586_2.png",
+        "question_586_3.png",
+        "question_586_4.png",
+        "question_586_5.png",
+        "question_586_6.png",
+        "question_586_7.png",
+        "question_586_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_586_0.png",
+        "answer_586_1.png",
+        "answer_586_2.png",
+        "answer_586_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

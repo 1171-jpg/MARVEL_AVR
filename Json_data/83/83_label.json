@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "Observing the question stem as a whole, we found that there are triangles in every figure, and only item C meets the",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the face in candidate 1 happy or sad?",
+    "Perception_Answer": "happy",
+    "Distrator": "sad",
+    "original_chapter": "Chapter_4",
+    "original_folder": "60",
+    "new_id": 83,
+    "question_img_ids": [
+        "question_83_0.png",
+        "question_83_1.png",
+        "question_83_2.png",
+        "question_83_3.png",
+        "question_83_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_83_0.png",
+        "answer_83_1.png",
+        "answer_83_2.png",
+        "answer_83_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

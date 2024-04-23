@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "In the first row, the image first rotate in counterclockwise way and then flip top to bottom.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "only_one": "1",
+    "Question": "Are there one or three horizontal straight lines in candidate 3?",
+    "Distrator": "one",
+    "Perception_Answer": "three",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "14",
+    "new_id": 398,
+    "question_img_ids": [
+        "question_398_0.png",
+        "question_398_1.png",
+        "question_398_2.png",
+        "question_398_3.png",
+        "question_398_4.png",
+        "question_398_5.png",
+        "question_398_6.png",
+        "question_398_7.png",
+        "question_398_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_398_0.png",
+        "answer_398_1.png",
+        "answer_398_2.png",
+        "answer_398_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

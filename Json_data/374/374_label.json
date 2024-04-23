@@ -1,0 +1,35 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "source": "./Easy_Marvel/Element/14",
+    "Question": "Are there two or three black circles in candidate 3?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "Group_aug_Easy",
+    "original_folder": "32",
+    "new_id": 374,
+    "question_img_ids": [
+        "question_374_0.png",
+        "question_374_1.png",
+        "question_374_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_374_0.png",
+        "answer_374_1.png",
+        "answer_374_2.png",
+        "answer_374_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

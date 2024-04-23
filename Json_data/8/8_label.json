@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The element composition is the same, and the positional rules are given priority. Each figure is divided into two parts: the inner circle and the outer circle. Consider looking at them separately. It is observed that if all the elements in the inner circle move 2 spaces counterclockwise each time, then all the elements in the inner circle of the figure at the question mark should continue to move 2 spaces counterclockwise, excluding item A. If all the elements in the outer circle move one space clockwise each time, all the elements in the outer circle of the figure at the question mark should also continue to move one space clockwise, excluding items B and D.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the empty triangle in the bottom right or top left quarter of the circle in candidate 4?",
+    "Perception_Answer": "bottom right",
+    "Distrator": "top left",
+    "original_chapter": "Chapter_1",
+    "original_folder": "11",
+    "new_id": 8,
+    "question_img_ids": [
+        "question_8_0.png",
+        "question_8_1.png",
+        "question_8_2.png",
+        "question_8_3.png",
+        "question_8_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_8_0.png",
+        "answer_8_1.png",
+        "answer_8_2.png",
+        "answer_8_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

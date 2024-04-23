@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "The composition of elements is different, but each shape is composed of two similar elements. Options B and D are eliminated. In the question, each shape has two intersecting elements, eliminating option A.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two separate pentagons or two circles in candidate 1?",
+    "Perception_Answer": "pentagons",
+    "Distrator": "circles",
+    "original_chapter": "Chapter_5",
+    "original_folder": "3",
+    "new_id": 91,
+    "question_img_ids": [
+        "question_91_0.png",
+        "question_91_1.png",
+        "question_91_2.png",
+        "question_91_3.png",
+        "question_91_4.png",
+        "question_91_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_91_0.png",
+        "answer_91_1.png",
+        "answer_91_2.png",
+        "answer_91_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

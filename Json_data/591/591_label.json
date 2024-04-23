@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "Observing each graph from left to right, five elements 1, 2, 3, 4, and 5 appear in the first four graphs, and elements 3 and 4 appear three times respectively, while elements 1, 2, and 5 only appear twice each. Therefore, the question mark should be filled in with elements 1, 2, and 5, so that each element appears three times, and only item C matches.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the topmost number in candidate 1 a \"3\" or \"4\"?",
+    "Distrator": 4,
+    "Perception_Answer": 3,
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "21",
+    "new_id": 591,
+    "question_img_ids": [
+        "question_591_0.png",
+        "question_591_1.png",
+        "question_591_2.png",
+        "question_591_3.png",
+        "question_591_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_591_0.png",
+        "answer_591_1.png",
+        "answer_591_2.png",
+        "answer_591_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

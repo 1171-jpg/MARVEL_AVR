@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Along the row the first column minus second column equals to the third column.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a triangle inside of the circle in candidate 3?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "11",
+    "new_id": 422,
+    "question_img_ids": [
+        "question_422_0.png",
+        "question_422_1.png",
+        "question_422_2.png",
+        "question_422_3.png",
+        "question_422_4.png",
+        "question_422_5.png",
+        "question_422_6.png",
+        "question_422_7.png",
+        "question_422_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_422_0.png",
+        "answer_422_1.png",
+        "answer_422_2.png",
+        "answer_422_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The element composition is messy. All the figures in the question are axially symmetrical figures with a unique number of symmetry axes. Consider symmetry. In the question, the axis of symmetry rotates 45\u00b0 counterclockwise each time. Accordingly, exclude C and two more items. There are no other obvious attribute rules. Consider the quantity rules. The four pictures in the question are all composed of straight lines. A polygon-like shape and a single straight line appear simultaneously. Considering the number of straight lines, each picture is composed of 5 straight lines. The number of straight lines in items A and B is 5 and 6 respectively. Accordingly, item A is eliminated. Therefore the correct answer is B.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the diagonal in candidate 1 from top left to bottom right or from bottom left to top right?",
+    "Perception_Answer": "bottom left to top right",
+    "Distrator": "top left to bottom right",
+    "original_chapter": "Chapter_3",
+    "original_folder": "11",
+    "new_id": 49,
+    "question_img_ids": [
+        "question_49_0.png",
+        "question_49_1.png",
+        "question_49_2.png",
+        "question_49_3.png",
+        "question_49_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_49_0.png",
+        "answer_49_1.png",
+        "answer_49_2.png",
+        "answer_49_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "The elements are similar in composition, and style rules are given priority. In the previous set of figures, the third figure is added to the second figure to get the first figure. The latter group of graphics should meet the same rules, because the options all have circular frames, so we only need to consider the operation of the internal lines, and only item D meets the conditions",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or two lines inside of the circle in candidate 3?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Final",
+    "original_folder": "26",
+    "new_id": 110,
+    "question_img_ids": [
+        "question_110_0.png",
+        "question_110_1.png",
+        "question_110_2.png",
+        "question_110_3.png",
+        "question_110_4.png",
+        "question_110_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_110_0.png",
+        "answer_110_1.png",
+        "answer_110_2.png",
+        "answer_110_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

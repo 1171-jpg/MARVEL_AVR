@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two triangles in candidate 4?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "Demonstration": "The puzzle features a 3x2 grid with circles and upside-down triangle shape, where each grid follows a specific pattern based on transformations of the shapes within. The third grid in each row results from a transformation applied to the shapes in the first and second grids.\nIn the first row:\nThe first grid has a solid black circle.\nThe second grid also has a solid black circle.\nThe third grid has an outlined circle, which is the result of eliminating the inside color of the solid black circles in the first two grids.\nFollowing the same pattern for the second row:\nThe first grid has an upside-down triangle shape.\nThe second grid has an upside-down triangle shape.\nTherefore, the third grid should have the result of eliminating the common parts between the upside-down triangle shapes in first two girds. Choice 4 is the only option that represents the result of eliminating the common parts between the shapes in the first and second grids of the second row.",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "3",
+    "new_id": 667,
+    "question_img_ids": [
+        "question_667_0.png",
+        "question_667_1.png",
+        "question_667_2.png",
+        "question_667_3.png",
+        "question_667_4.png",
+        "question_667_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_667_0.png",
+        "answer_667_1.png",
+        "answer_667_2.png",
+        "answer_667_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

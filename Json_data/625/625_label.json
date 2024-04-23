@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the triangle intersect with the rectangle in candidate 4?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "Demonstration": "The puzzle showcases a sequence of shapes, each interacting with a square. The key to this puzzle is recognizing how each distinct geometric shape overlaps with a square in every grid.\nIn the sequence provided:\nThe first grid displays a circle overlapping with the square.\nThe second grid shows a square overlapping with the square.\nThe third grid features a triangle overlapping with the square.\nThe fourth grid should continue this pattern of geometric shapes overlapping with the square.\nTherefore, the missing grid should depict a geometric shape overlapping with the square. The choice 4 is the correct answer, as it shows a triangle overlapping with the square, consistent with the pattern of shapes interacting with squares in the sequence.",
+    "original_chapter": "./Easy_Marvel/Shape relationships",
+    "original_folder": "2",
+    "new_id": 625,
+    "question_img_ids": [
+        "question_625_0.png",
+        "question_625_1.png",
+        "question_625_2.png",
+        "question_625_3.png",
+        "question_625_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_625_0.png",
+        "answer_625_1.png",
+        "answer_625_2.png",
+        "answer_625_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

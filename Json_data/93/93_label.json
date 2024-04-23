@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "Observing the characteristics of the question shapes, it is noticed that in the first set of images, each image is formed by the intersection of two shapes, and the shapes of the intersecting surfaces are triangles, quadrilaterals, and pentagons, with the number of sides of the intersecting surfaces increasing sequentially. Applying this pattern to the second set of images, the shapes of the intersecting surfaces are hexagons, heptagons, and ?, hence, the shape of the intersecting surface at the question mark should be an octagon. Options A, B, C, and D have intersecting surfaces with shapes in the sequence of pentagon, triangle, quadrilateral, and octagon, and only option D conforms to this pattern",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a triangle or a rectangle in candidate 3?",
+    "Perception_Answer": "rectangle",
+    "Distrator": "triangle",
+    "original_chapter": "Chapter_5",
+    "original_folder": "6",
+    "new_id": 93,
+    "question_img_ids": [
+        "question_93_0.png",
+        "question_93_1.png",
+        "question_93_2.png",
+        "question_93_3.png",
+        "question_93_4.png",
+        "question_93_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_93_0.png",
+        "answer_93_1.png",
+        "answer_93_2.png",
+        "answer_93_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

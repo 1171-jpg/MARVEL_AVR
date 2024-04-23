@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a straight line or a curve line in candidate 2?",
+    "Distrator": "straight",
+    "Perception_Answer": "curve",
+    "Demonstration": "The pattern in the given sequence alternates between straight and curved lines:\nThe first grid contains a single straight line.\nThe second grid shows a single curved line.\nThe third grid contains three straight lines.\nThe fourth grid has several curved lines.\nFollowing this pattern, the next grid should contain straight lines. Therefore, the correct answer is choice 1, which shows three straight lines forming a right angle",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "1",
+    "new_id": 758,
+    "question_img_ids": [
+        "question_758_0.png",
+        "question_758_1.png",
+        "question_758_2.png",
+        "question_758_3.png",
+        "question_758_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_758_0.png",
+        "answer_758_1.png",
+        "answer_758_2.png",
+        "answer_758_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

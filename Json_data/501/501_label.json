@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "In the first line, the numbers of closed intervals are 1, 1, and 2 respectively, which satisfies the rule 1+1=2; in the second line, the numbers of closed intervals are 1, 1, and 2 respectively, which also satisfies the rule 1+1= The rule of 2; in the third line, the number of closed intervals is 2,? , 4, that is, 2+(2)=4, item C has two closed intervals to be selected.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle in candidate 3 inside of the triangle region or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "20",
+    "new_id": 501,
+    "question_img_ids": [
+        "question_501_0.png",
+        "question_501_1.png",
+        "question_501_2.png",
+        "question_501_3.png",
+        "question_501_4.png",
+        "question_501_5.png",
+        "question_501_6.png",
+        "question_501_7.png",
+        "question_501_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_501_0.png",
+        "answer_501_1.png",
+        "answer_501_2.png",
+        "answer_501_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "The composition of elements is similar, considering the pattern of styles. There are similar lines between the shapes, and priority is given to the addition, subtraction, similarity, and difference in the style pattern. When looking at the tic-tac-toe grid, priority is given to examining it row by row. Then, considering it row by row, through observation, it is noticed that the last two shapes in each row add up to the first shape. Therefore, the third shape in the third column is missing a vertical line in the middle and a long horizontal line at the bottom. Only option D includes these two lines.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four lines in candidate 4?",
+    "Perception_Answer": "three",
+    "Distrator": "four",
+    "original_chapter": "Chapter_2",
+    "original_folder": "7",
+    "new_id": 28,
+    "question_img_ids": [
+        "question_28_0.png",
+        "question_28_1.png",
+        "question_28_2.png",
+        "question_28_3.png",
+        "question_28_4.png",
+        "question_28_5.png",
+        "question_28_6.png",
+        "question_28_7.png",
+        "question_28_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_28_0.png",
+        "answer_28_1.png",
+        "answer_28_2.png",
+        "answer_28_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

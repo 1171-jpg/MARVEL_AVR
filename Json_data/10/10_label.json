@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "The graphic elements have the same composition. Each graphic has only one black part and its position is different. Consider the position of the small black block. From the first picture to the second picture, the small black block moved one step to the position of D. From the second picture to the third picture, the small black block moved two steps to the position of D. In the third picture to In the fourth picture, the small black block moves one step to position 4. The steps of each movement are 1, 2, and 1 respectively. Then the small black block moves two steps next. If the correct answer cannot be selected by considering the circular movement, then consider Rebound, the small black block moves to position 2, corresponding to item A",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black filled area in candidate 1 a diamond or a triangle?",
+    "Perception_Answer": "diamond",
+    "Distrator": "triangle",
+    "original_chapter": "Chapter_1",
+    "original_folder": "14",
+    "new_id": 10,
+    "question_img_ids": [
+        "question_10_0.png",
+        "question_10_1.png",
+        "question_10_2.png",
+        "question_10_3.png",
+        "question_10_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_10_0.png",
+        "answer_10_1.png",
+        "answer_10_2.png",
+        "answer_10_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

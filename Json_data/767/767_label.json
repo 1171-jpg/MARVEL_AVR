@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a straight line or a not in candidate 1?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "10",
+    "new_id": 767,
+    "question_img_ids": [
+        "question_767_0.png",
+        "question_767_1.png",
+        "question_767_2.png",
+        "question_767_3.png",
+        "question_767_4.png",
+        "question_767_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_767_0.png",
+        "answer_767_1.png",
+        "answer_767_2.png",
+        "answer_767_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

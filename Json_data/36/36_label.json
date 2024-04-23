@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Black and white computation",
+    "Explanation": "Observing the shapes, the composition of elements is similar, with identical external outlines and variations in black and white elements inside. The number of black and white elements is different, suggesting consideration of black and white computation. The computation pattern in the first set is as follows: white + black = white, white + white = black, black + white = white. Applying this pattern to the second set, for the square, the top-left corner should be white, eliminating options B and D. Comparing options A and C, the difference in the shadow of the circular shape is noted. The top-left corner inside the circle should be black, eliminating option C, leaving option A as the corresponding choice.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the right half of the circle in candidate 4 empty or filled?",
+    "Perception_Answer": "filled",
+    "Distrator": "empty",
+    "original_chapter": "Chapter_2",
+    "original_folder": "16",
+    "new_id": 36,
+    "question_img_ids": [
+        "question_36_0.png",
+        "question_36_1.png",
+        "question_36_2.png",
+        "question_36_3.png",
+        "question_36_4.png",
+        "question_36_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_36_0.png",
+        "answer_36_1.png",
+        "answer_36_2.png",
+        "answer_36_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

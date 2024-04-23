@@ -1,0 +1,36 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "Observation found that the four pictures in the question stem are all composed of 5 faces, excluding item D. Continuing to observe, we found that each picture in the question has a surface that has the same shape as the outer frame. Item A does not have a surface that has the same shape as the outer frame. Item B has multiple surfaces that have the same shape as the outer frame. Only item C Meet the question requirements",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there four or five rectangles in candidate 1?",
+    "Perception_Answer": "four",
+    "Distrator": "five",
+    "original_chapter": "Chapter_4",
+    "original_folder": "47",
+    "new_id": 79,
+    "question_img_ids": [
+        "question_79_0.png",
+        "question_79_1.png",
+        "question_79_2.png",
+        "question_79_3.png",
+        "question_79_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_79_0.png",
+        "answer_79_1.png",
+        "answer_79_2.png",
+        "answer_79_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

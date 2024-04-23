@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top side longer or shorter than the right side of the triangle in candidate 4?",
+    "Distrator": "shorter",
+    "Perception_Answer": "longer",
+    "original_chapter": "./Easy_Marvel/Addition and subtraction",
+    "original_folder": "15",
+    "new_id": 664,
+    "question_img_ids": [
+        "question_664_0.png",
+        "question_664_1.png",
+        "question_664_2.png",
+        "question_664_3.png",
+        "question_664_4.png",
+        "question_664_5.png",
+        "question_664_6.png",
+        "question_664_7.png",
+        "question_664_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_664_0.png",
+        "answer_664_1.png",
+        "answer_664_2.png",
+        "answer_664_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

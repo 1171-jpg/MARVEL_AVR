@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "quantity pattern",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the arrows in candidate 3 pointing to different or same direction?",
+    "Distrator": "same",
+    "Perception_Answer": "different",
+    "original_chapter": "./Easy_Marvel/quantity pattern",
+    "original_folder": "8",
+    "new_id": 687,
+    "question_img_ids": [
+        "question_687_0.png",
+        "question_687_1.png",
+        "question_687_2.png",
+        "question_687_3.png",
+        "question_687_4.png",
+        "question_687_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_687_0.png",
+        "answer_687_1.png",
+        "answer_687_2.png",
+        "answer_687_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

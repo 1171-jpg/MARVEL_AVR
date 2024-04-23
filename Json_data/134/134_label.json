@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and flip",
+    "Explanation": "Flip the clock from left to right, then flip the clock up to the bottom.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the long black arrow in candidate 3 pointing to the left or right?",
+    "Perception_Answer": "right",
+    "Distrator": "left",
+    "original_chapter": "Final",
+    "original_folder": "66",
+    "new_id": 134,
+    "question_img_ids": [
+        "question_134_0.png",
+        "question_134_1.png",
+        "question_134_2.png",
+        "question_134_3.png",
+        "question_134_4.png",
+        "question_134_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_134_0.png",
+        "answer_134_1.png",
+        "answer_134_2.png",
+        "answer_134_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

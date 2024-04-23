@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three parallel horizontal lines in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "8",
+    "new_id": 713,
+    "question_img_ids": [
+        "question_713_0.png",
+        "question_713_1.png",
+        "question_713_2.png",
+        "question_713_3.png",
+        "question_713_4.png",
+        "question_713_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_713_0.png",
+        "answer_713_1.png",
+        "answer_713_2.png",
+        "answer_713_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

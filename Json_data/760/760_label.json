@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the polygen closed or open in candidate 3?",
+    "Distrator": "open",
+    "Perception_Answer": "closed",
+    "Demonstration": "The pattern in the given sequence all grids contain both straight lines and curved lines:\nThe first gird contains one straight line and one curved line.\nThe second grid contains two straight lines and several curved lines.\nThe third grid contains three straight lines and several curved lines.\nThe fourth grid contains six straight lines and several curved lines.\nFollowing this pattern, the next grid should contain both straight lines and curved lines. Therefore, the correct answer is choice 4.",
+    "original_chapter": "./Easy_Marvel/straightness, opening and closing",
+    "original_folder": "3",
+    "new_id": 760,
+    "question_img_ids": [
+        "question_760_0.png",
+        "question_760_1.png",
+        "question_760_2.png",
+        "question_760_3.png",
+        "question_760_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_760_0.png",
+        "answer_760_1.png",
+        "answer_760_2.png",
+        "answer_760_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

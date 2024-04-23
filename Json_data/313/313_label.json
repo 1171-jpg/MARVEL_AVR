@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the shape in candidate 1 filled in black or white?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "source": "./Easy_Marvel/Rotation and Flip/11",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "3",
+    "new_id": 313,
+    "question_img_ids": [
+        "question_313_0.png",
+        "question_313_1.png",
+        "question_313_2.png",
+        "question_313_3.png",
+        "question_313_4.png",
+        "question_313_5.png",
+        "question_313_6.png",
+        "question_313_7.png",
+        "question_313_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_313_0.png",
+        "answer_313_1.png",
+        "answer_313_2.png",
+        "answer_313_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The composition of graphic elements is the same, and priority is given to positional rules. The nine-square grid gives priority to the horizontal rows. The first row of pictures is rotated 180 degrees to get the second picture. The second row of pictures is flipped left and right to get the third picture. The second row of graphics has been verified to comply with this rule. This rule applies to the graphics in the third row. The first picture is rotated 180 degrees to get the second picture. Therefore, the picture at the question mark should be obtained by flipping the second picture left and right. Only item B is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 3 have a number six or nine?",
+    "Perception_Answer": "six",
+    "Distrator": "nine",
+    "only_one": "1",
+    "original_chapter": "Chapter_1",
+    "original_folder": "17",
+    "new_id": 12,
+    "question_img_ids": [
+        "question_12_0.png",
+        "question_12_1.png",
+        "question_12_2.png",
+        "question_12_3.png",
+        "question_12_4.png",
+        "question_12_5.png",
+        "question_12_6.png",
+        "question_12_7.png",
+        "question_12_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_12_0.png",
+        "answer_12_1.png",
+        "answer_12_2.png",
+        "answer_12_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

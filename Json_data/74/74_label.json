@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of faces in the question stem figure is 1, 2, 3, and 4, so there are 5 faces at ?, and both items C and D have 4 faces, so they are excluded. Comparing items A and B, it is found that the polyline opening of item A is facing downward, and the polyline opening of item B is upward. The opening directions of the polyline of the question stem are up, down, up, and down, so the polyline of the graph at ? should be opened upward.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there four or five triangles in candidate 3?",
+    "Perception_Answer": "four",
+    "Distrator": "five",
+    "original_chapter": "Chapter_4",
+    "original_folder": "39",
+    "new_id": 74,
+    "question_img_ids": [
+        "question_74_0.png",
+        "question_74_1.png",
+        "question_74_2.png",
+        "question_74_3.png",
+        "question_74_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_74_0.png",
+        "answer_74_1.png",
+        "answer_74_2.png",
+        "answer_74_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

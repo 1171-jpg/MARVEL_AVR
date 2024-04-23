@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle inside of the rectangle or circle in candidate 4?",
+    "Distrator": "circle",
+    "Perception_Answer": "rectangle",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "13",
+    "new_id": 543,
+    "question_img_ids": [
+        "question_543_0.png",
+        "question_543_1.png",
+        "question_543_2.png",
+        "question_543_3.png",
+        "question_543_4.png",
+        "question_543_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_543_0.png",
+        "answer_543_1.png",
+        "answer_543_2.png",
+        "answer_543_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "Along the row the first column plus second column equals to the third column, and the overlap area will be reomved",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 1 a triangle or rectangle?",
+    "Distrator": "triangle",
+    "Perception_Answer": "rectangle",
+    "source": "./Data_aug/Black/2",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "20",
+    "new_id": 249,
+    "question_img_ids": [
+        "question_249_0.png",
+        "question_249_1.png",
+        "question_249_2.png",
+        "question_249_3.png",
+        "question_249_4.png",
+        "question_249_5.png",
+        "question_249_6.png",
+        "question_249_7.png",
+        "question_249_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_249_0.png",
+        "answer_249_1.png",
+        "answer_249_2.png",
+        "answer_249_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

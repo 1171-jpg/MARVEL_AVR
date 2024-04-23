@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a square in candidate 1 or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "10",
+    "new_id": 728,
+    "question_img_ids": [
+        "question_728_0.png",
+        "question_728_1.png",
+        "question_728_2.png",
+        "question_728_3.png",
+        "question_728_4.png",
+        "question_728_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_728_0.png",
+        "answer_728_1.png",
+        "answer_728_2.png",
+        "answer_728_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "It is observed that there are faces with the same shape in each figure, and the numbers are 2, 3, 4, 5, 6,?. The figure at No. should contain 7 faces with the same shape. There are 6 items for A, 7 for item B, 2 for item C, item D has no faces with the same shape, and only item B matches",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 like a book or a building?",
+    "Perception_Answer": "book",
+    "Distrator": "building",
+    "original_chapter": "Chapter_4",
+    "original_folder": "45",
+    "new_id": 77,
+    "question_img_ids": [
+        "question_77_0.png",
+        "question_77_1.png",
+        "question_77_2.png",
+        "question_77_3.png",
+        "question_77_4.png",
+        "question_77_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_77_0.png",
+        "answer_77_1.png",
+        "answer_77_2.png",
+        "answer_77_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

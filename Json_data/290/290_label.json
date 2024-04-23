@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "All black square in the matrix move in a clockwise way.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top left corner of the large square in candidate 1 black or white?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "source": "./Data_aug/Parallel_movement/10",
+    "original_chapter": "Two_rows_aug",
+    "original_folder": "22",
+    "new_id": 290,
+    "question_img_ids": [
+        "question_290_0.png",
+        "question_290_1.png",
+        "question_290_2.png",
+        "question_290_3.png",
+        "question_290_4.png",
+        "question_290_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_290_0.png",
+        "answer_290_1.png",
+        "answer_290_2.png",
+        "answer_290_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

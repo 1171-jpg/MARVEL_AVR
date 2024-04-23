@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "Tangent to the shortest side, tangent to the longest side",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the large arrow shape pointing to left or right in candidate 1?",
+    "Distrator": "left",
+    "Perception_Answer": "right",
+    "original_chapter": "./Data_aug/Shape",
+    "original_folder": "18",
+    "new_id": 533,
+    "question_img_ids": [
+        "question_533_0.png",
+        "question_533_1.png",
+        "question_533_2.png",
+        "question_533_3.png",
+        "question_533_4.png",
+        "question_533_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_533_0.png",
+        "answer_533_1.png",
+        "answer_533_2.png",
+        "answer_533_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

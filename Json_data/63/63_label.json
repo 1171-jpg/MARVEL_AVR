@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "Comparing the first picture and the second picture, it is found that the first picture is rotated 90\u00b0 clockwise and a line is added to become the second picture. In the same way, the question stem graphics always have the latter picture before the previous picture. Basically, rotate 90\u00b0 clockwise and add one line each time. Therefore, the figure at the question mark should be rotated 90\u00b0 clockwise and add one line based on the previous figure. Only item B is satisfied.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does candidate 1 have two or three vertical lines?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Chapter_4",
+    "original_folder": "16",
+    "new_id": 63,
+    "question_img_ids": [
+        "question_63_0.png",
+        "question_63_1.png",
+        "question_63_2.png",
+        "question_63_3.png",
+        "question_63_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_63_0.png",
+        "answer_63_1.png",
+        "answer_63_2.png",
+        "answer_63_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

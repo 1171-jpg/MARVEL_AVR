@@ -1,0 +1,33 @@
+{
+    "Answer": "D",
+    "Pattern": "3D Pattern",
+    "Sub-Pattern": "Hexahedron",
+    "Explanation": "",
+    "Issue": "3D",
+    "Question Shape": [
+        1,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there black filled circles in candidate 3 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "Demonstration": "To solve this puzzle, we have to visualize how the unfolded diagram of the regular cube would look when it's folded into the three-dimensional shape. Each square in the question part is a face of the cube.\nThe correct choice will be the one where the squares in the unfolded diagram can be folded back together without incorrect face direction or placement.\nLooking at the choices provided:\nIn choice 1, the placement of the top face and the right face of the cube are incorrect.\nIn choice 2, the placement of the front face of the cube is incorrect.\nIn choice 3, the placement of the right face is incorrect.\nIn choice 4, the direction and placement of three faces of cube are correct.\nTherefore, the correct choice is choice 4.",
+    "original_chapter": "./Data_aug/six",
+    "original_folder": "13",
+    "new_id": 556,
+    "question_img_ids": [
+        "question_556_0.png"
+    ],
+    "answer_img_ids": [
+        "answer_556_0.png",
+        "answer_556_1.png",
+        "answer_556_2.png",
+        "answer_556_3.png"
+    ],
+    "task_format": "3d",
+    "prompt": "What is the best answer to complete the sequence?"
+}

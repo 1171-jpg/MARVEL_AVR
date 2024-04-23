@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "From each row, place half of the second shape on top of the first to get the third shape.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a diamond or a trapezoid in candidate 3?",
+    "Distrator": "diamond",
+    "Perception_Answer": "trapezoid",
+    "original_chapter": "./Data_aug/Shape",
+    "original_folder": "13",
+    "new_id": 528,
+    "question_img_ids": [
+        "question_528_0.png",
+        "question_528_1.png",
+        "question_528_2.png",
+        "question_528_3.png",
+        "question_528_4.png",
+        "question_528_5.png",
+        "question_528_6.png",
+        "question_528_7.png",
+        "question_528_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_528_0.png",
+        "answer_528_1.png",
+        "answer_528_2.png",
+        "answer_528_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

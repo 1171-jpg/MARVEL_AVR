@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The composition of elements is different and there is no obvious attribute pattern. Priority is given to the quantity pattern. There is only one curve in one group. There are curves and straight lines in other figures. Count the number of straight lines and the number of curves in each figure. In one group, the number of straight lines - the number of curves = 1. In another group, the number of curves - Number of straight lines=1.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there one of two straight lines in candidate 3",
+    "Perception_Answer": "two",
+    "Distrator": "one",
+    "source": "Final/20",
+    "original_chapter": "Group_aug",
+    "original_folder": "54",
+    "new_id": 193,
+    "question_img_ids": [
+        "question_193_0.png",
+        "question_193_1.png",
+        "question_193_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_193_0.png",
+        "answer_193_1.png",
+        "answer_193_2.png",
+        "answer_193_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

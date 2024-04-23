@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity Pattern",
+    "Explanation": "It was observed that there are 7 black circles whose positions remain unchanged between the first picture and the second picture. Continue to observe that the positions of the 7 black circles between the two adjacent pictures of the question stem remain unchanged. Item A has only 6 positions that remain unchanged, item B satisfies the 7 black circle positions that remain unchanged, item C only has 6 positions that remain unchanged, and item D only has 5 positions that remain unchanged.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the top right of the candidate 2 solid or hollow?",
+    "Perception_Answer": "solid",
+    "Distrator": "hollow",
+    "original_chapter": "Final",
+    "original_folder": "6",
+    "new_id": 102,
+    "question_img_ids": [
+        "question_102_0.png",
+        "question_102_1.png",
+        "question_102_2.png",
+        "question_102_3.png",
+        "question_102_4.png",
+        "question_102_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_102_0.png",
+        "answer_102_1.png",
+        "answer_102_2.png",
+        "answer_102_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

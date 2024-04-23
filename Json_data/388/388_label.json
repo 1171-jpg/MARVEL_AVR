@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "The row of matrix follow the same pattern. Frist rotate the image in clockwise with 90 degree and flip left to right.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "not_in_good": "1",
+    "Question": "Is the background color of the up-pointing arrow in candidate 3 white or black?",
+    "Distrator": "white",
+    "Perception_Answer": "black",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "1",
+    "new_id": 388,
+    "question_img_ids": [
+        "question_388_0.png",
+        "question_388_1.png",
+        "question_388_2.png",
+        "question_388_3.png",
+        "question_388_4.png",
+        "question_388_5.png",
+        "question_388_6.png",
+        "question_388_7.png",
+        "question_388_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_388_0.png",
+        "answer_388_1.png",
+        "answer_388_2.png",
+        "answer_388_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

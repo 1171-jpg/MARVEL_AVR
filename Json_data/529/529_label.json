@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Shape relationships",
+    "Explanation": "First, observe that the small graphic intersects with the large graphic and is inside the large graphic. At the same time, the position of the small graphic changes, from right to bottom, left to upper right, and moves clockwise. Therefore, the next small graphic should be in the middle and below the large graphic. , the answer is B.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle in candidate 1 above or below the square?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "original_chapter": "./Data_aug/Shape",
+    "original_folder": "14",
+    "new_id": 529,
+    "question_img_ids": [
+        "question_529_0.png",
+        "question_529_1.png",
+        "question_529_2.png",
+        "question_529_3.png",
+        "question_529_4.png",
+        "question_529_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_529_0.png",
+        "answer_529_1.png",
+        "answer_529_2.png",
+        "answer_529_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

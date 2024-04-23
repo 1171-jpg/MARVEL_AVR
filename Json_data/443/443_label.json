@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The first column is all curves, the second column is all straight lines, and the third column is all curves plus straight lines. Therefore option D is elected",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the rectangle below or above the half circle in candidate 4?",
+    "Distrator": "above",
+    "Perception_Answer": "below",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "4",
+    "new_id": 443,
+    "question_img_ids": [
+        "question_443_0.png",
+        "question_443_1.png",
+        "question_443_2.png",
+        "question_443_3.png",
+        "question_443_4.png",
+        "question_443_5.png",
+        "question_443_6.png",
+        "question_443_7.png",
+        "question_443_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_443_0.png",
+        "answer_443_1.png",
+        "answer_443_2.png",
+        "answer_443_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

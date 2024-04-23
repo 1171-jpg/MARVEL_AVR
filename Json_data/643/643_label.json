@@ -1,0 +1,38 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle in candidate 1 above or below two lines?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "Demonstration": "The puzzle features a 3x2 grid with circles and lines, and each grid follows a specific pattern in the placement of these elements.\nIn the sequence provided:\nThe first grid in the top row places a circle between two lines.\nThe second grid in the top row has a circle positioned at the bottom of a short line.\nThe third grid in the top row positions the circle at the top of a longer line.\nThe pattern indicates that the circle starts between two lines, then moves to the bottom of a shorter line, and ends up at the top of a longer line.\nFor the bottom row, following the same pattern:\nThe first grid shows a circle at the middle of two curve lines.\nThe second grid should have the circle placed at the bottom of shorter curve line.\nGiven this pattern, the correct answer is choice 1, as it positions the circle above the longer curve line.",
+    "original_chapter": "./Easy_Marvel/Functional elements",
+    "original_folder": "7",
+    "new_id": 643,
+    "question_img_ids": [
+        "question_643_0.png",
+        "question_643_1.png",
+        "question_643_2.png",
+        "question_643_3.png",
+        "question_643_4.png",
+        "question_643_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_643_0.png",
+        "answer_643_1.png",
+        "answer_643_2.png",
+        "answer_643_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

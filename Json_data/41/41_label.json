@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The composition of elements is different, and the attribute rules are given priority. If every figure in the question is a centrally symmetrical figure, then the question mark should also be a centrally symmetrical figure. Item A is not a centrally symmetrical figure, item B is not a centrally symmetrical figure, item C is a centrally symmetrical figure, and item D is not a centrally symmetrical figure.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or two moon shapes in candidate 4?",
+    "Perception_Answer": "two",
+    "Distrator": "three",
+    "original_chapter": "Chapter_3",
+    "original_folder": "1",
+    "new_id": 41,
+    "question_img_ids": [
+        "question_41_0.png",
+        "question_41_1.png",
+        "question_41_2.png",
+        "question_41_3.png",
+        "question_41_4.png",
+        "question_41_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_41_0.png",
+        "answer_41_1.png",
+        "answer_41_2.png",
+        "answer_41_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

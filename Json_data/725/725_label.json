@@ -1,0 +1,38 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two triangles in candidate 3?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "Demonstration": "The pattern in the given sequence is that the number of closed areas increase in each step:\nIn the first row:\nIn the first image, the semi-circle has no closed area.\nIn the second image, the circle has one closed area.\nIn the third image, the line inside the circle resulting two closed areas.\nIn the second row:\nIn the first image, the shape is unclosed and has no closed area.\nIn the second image, the new line inside the shape resulting one closed area.\nTherefore, the third image should contain two closed areas, which is choice 4.",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "7",
+    "new_id": 725,
+    "question_img_ids": [
+        "question_725_0.png",
+        "question_725_1.png",
+        "question_725_2.png",
+        "question_725_3.png",
+        "question_725_4.png",
+        "question_725_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_725_0.png",
+        "answer_725_1.png",
+        "answer_725_2.png",
+        "answer_725_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

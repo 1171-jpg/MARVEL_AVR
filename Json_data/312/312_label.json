@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the triangle intersect with the top or bottom part of the rectangle in candidate 4?",
+    "Distrator": "top",
+    "Perception_Answer": "bottom",
+    "source": "./Easy_Marvel/Parallel Movement/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "2",
+    "new_id": 312,
+    "question_img_ids": [
+        "question_312_0.png",
+        "question_312_1.png",
+        "question_312_2.png",
+        "question_312_3.png",
+        "question_312_4.png",
+        "question_312_5.png",
+        "question_312_6.png",
+        "question_312_7.png",
+        "question_312_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_312_0.png",
+        "answer_312_1.png",
+        "answer_312_2.png",
+        "answer_312_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The question stems are all open figures",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there one or two half circles in candidate 4?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Straight",
+    "original_folder": "11",
+    "new_id": 449,
+    "question_img_ids": [
+        "question_449_0.png",
+        "question_449_1.png",
+        "question_449_2.png",
+        "question_449_3.png",
+        "question_449_4.png",
+        "question_449_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_449_0.png",
+        "answer_449_1.png",
+        "answer_449_2.png",
+        "answer_449_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

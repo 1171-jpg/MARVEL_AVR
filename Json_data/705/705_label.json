@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the black dots at the left or right part of candidate 3?",
+    "Distrator": "right",
+    "Perception_Answer": "left",
+    "original_chapter": "./Easy_Marvel/Point",
+    "original_folder": "13",
+    "new_id": 705,
+    "question_img_ids": [
+        "question_705_0.png",
+        "question_705_1.png",
+        "question_705_2.png",
+        "question_705_3.png",
+        "question_705_4.png",
+        "question_705_5.png",
+        "question_705_6.png",
+        "question_705_7.png",
+        "question_705_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_705_0.png",
+        "answer_705_1.png",
+        "answer_705_2.png",
+        "answer_705_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

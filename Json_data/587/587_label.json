@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "Each row of known graphics contains a total of 6 elements: large white five-pointed star, small white five-pointed star, small black five-pointed star, large black square, small black square, and white diamond. The third row of graphics should also contain these elements, while the first two graphics already contain 5 of these 6 elements, leaving only 1 big black square. Through analysis, only the graphics in item D are consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black square above or below the empty diamond in candidate 2?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "15",
+    "new_id": 587,
+    "question_img_ids": [
+        "question_587_0.png",
+        "question_587_1.png",
+        "question_587_2.png",
+        "question_587_3.png",
+        "question_587_4.png",
+        "question_587_5.png",
+        "question_587_6.png",
+        "question_587_7.png",
+        "question_587_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_587_0.png",
+        "answer_587_1.png",
+        "answer_587_2.png",
+        "answer_587_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

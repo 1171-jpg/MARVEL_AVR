@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "The blocks with dots in the first row are in contact with black, and the blocks with dots in the second row are not in contact with black.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black dot at the top or bottom part of the circle in candidate 3?",
+    "Distrator": "bottom",
+    "Perception_Answer": "top",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "14",
+    "new_id": 544,
+    "question_img_ids": [
+        "question_544_0.png",
+        "question_544_1.png",
+        "question_544_2.png",
+        "question_544_3.png",
+        "question_544_4.png",
+        "question_544_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_544_0.png",
+        "answer_544_1.png",
+        "answer_544_2.png",
+        "answer_544_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

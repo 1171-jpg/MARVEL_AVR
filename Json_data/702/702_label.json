@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three black filled rectangles in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "three",
+    "original_chapter": "./Easy_Marvel/Point",
+    "original_folder": "10",
+    "new_id": 702,
+    "question_img_ids": [
+        "question_702_0.png",
+        "question_702_1.png",
+        "question_702_2.png",
+        "question_702_3.png",
+        "question_702_4.png",
+        "question_702_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_702_0.png",
+        "answer_702_1.png",
+        "answer_702_2.png",
+        "answer_702_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

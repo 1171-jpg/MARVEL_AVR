@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The composition of elements is different and there is no obvious attribute pattern. Priority is given to the quantity pattern. There are multiple \"holes\" in each figure, so consider several sides. The number of faces in all the shapes in the question is 3, and the numbers of faces in the four options are 2, 2, 4, and 3 respectively. Only option D meets",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a triangle or a rectangle in candidate 1?",
+    "Perception_Answer": "rectangle",
+    "Distrator": "triangle",
+    "original_chapter": "Final",
+    "original_folder": "28",
+    "new_id": 112,
+    "question_img_ids": [
+        "question_112_0.png",
+        "question_112_1.png",
+        "question_112_2.png",
+        "question_112_3.png",
+        "question_112_4.png",
+        "question_112_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_112_0.png",
+        "answer_112_1.png",
+        "answer_112_2.png",
+        "answer_112_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "addition and subtraction",
+    "Explanation": "Along the row the first column plus second column equals to the third column.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there three or four crosses in candidate 2?",
+    "Distrator": "three",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Addition",
+    "original_folder": "7",
+    "new_id": 418,
+    "question_img_ids": [
+        "question_418_0.png",
+        "question_418_1.png",
+        "question_418_2.png",
+        "question_418_3.png",
+        "question_418_4.png",
+        "question_418_5.png",
+        "question_418_6.png",
+        "question_418_7.png",
+        "question_418_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_418_0.png",
+        "answer_418_1.png",
+        "answer_418_2.png",
+        "answer_418_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

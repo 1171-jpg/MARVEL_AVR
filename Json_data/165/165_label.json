@@ -1,0 +1,35 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The question stem graphics are all graphics formed by the intersection of internal lines and the outer frame. Among them, in one group all intersection layers are connected to the outer frame. In another group, there is one intersection layer in the middle that is not connected to the outer frame.",
+    "Issue": "group_new",
+    "Question Shape": [
+        3,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there intersections between the lines in candidate 1?",
+    "Perception_Answer": "yes",
+    "Distrator": "no",
+    "source": "Chapter_4/48",
+    "original_chapter": "Group_aug",
+    "original_folder": "26",
+    "new_id": 165,
+    "question_img_ids": [
+        "question_165_0.png",
+        "question_165_1.png",
+        "question_165_2.png"
+    ],
+    "answer_img_ids": [
+        "answer_165_0.png",
+        "answer_165_1.png",
+        "answer_165_2.png",
+        "answer_165_3.png"
+    ],
+    "task_format": "group",
+    "prompt": "What is the best answer to complete the sequence?"
+}

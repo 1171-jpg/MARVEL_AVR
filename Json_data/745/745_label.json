@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a black arrow or not in candidate 3?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "Demonstration": "The pattern in the given sequence is that each shape displayed is symmetrical:\nThe first grid shows a triangle, which is symmetrical about its ertical axes.\nThe second grid shows a rectangle, which is symmetrical about both its horizontal and vertical axes.\nThe third grid shows a circle, which is symmetrical about any diameter.\nThe fourth grid shows a pentagon, which is symmetrical.\nTo continue this pattern, the fifth grid should contain a shape that is symmetrical. Therefore, the correct answer is choice 1, which shows a shape that is symmetrical about multiple axes.",
+    "original_chapter": "./Easy_Marvel/Symmetry",
+    "original_folder": "1",
+    "new_id": 745,
+    "question_img_ids": [
+        "question_745_0.png",
+        "question_745_1.png",
+        "question_745_2.png",
+        "question_745_3.png",
+        "question_745_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_745_0.png",
+        "answer_745_1.png",
+        "answer_745_2.png",
+        "answer_745_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

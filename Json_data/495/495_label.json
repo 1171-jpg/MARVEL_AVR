@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "In the first group of figures, \"D\" has one closed space, \"P\" has one closed space, and \"B\" has two closed spaces. The rule is that the sum of the closed spaces of the first two figures in each group of figures is equal to The number of enclosed spaces in the third figure. \"A\" has a closed space, but \"I\" does not, so the number of closed spaces in the third figure is one, so choose A",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 symmetrical or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "13",
+    "new_id": 495,
+    "question_img_ids": [
+        "question_495_0.png",
+        "question_495_1.png",
+        "question_495_2.png",
+        "question_495_3.png",
+        "question_495_4.png",
+        "question_495_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_495_0.png",
+        "answer_495_1.png",
+        "answer_495_2.png",
+        "answer_495_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

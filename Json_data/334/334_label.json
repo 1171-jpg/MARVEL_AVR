@@ -1,0 +1,41 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two dotted lines in candidate 2?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "source": "./Easy_Marvel/Line/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "24",
+    "new_id": 334,
+    "question_img_ids": [
+        "question_334_0.png",
+        "question_334_1.png",
+        "question_334_2.png",
+        "question_334_3.png",
+        "question_334_4.png",
+        "question_334_5.png",
+        "question_334_6.png",
+        "question_334_7.png",
+        "question_334_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_334_0.png",
+        "answer_334_1.png",
+        "answer_334_2.png",
+        "answer_334_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle at the left bottom or right top corner of the trapezoid in candidate 3?",
+    "Distrator": "right top",
+    "Perception_Answer": "left bottom",
+    "source": "./Easy_Marvel/Layer/12",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "26",
+    "new_id": 336,
+    "question_img_ids": [
+        "question_336_0.png",
+        "question_336_1.png",
+        "question_336_2.png",
+        "question_336_3.png",
+        "question_336_4.png",
+        "question_336_5.png",
+        "question_336_6.png",
+        "question_336_7.png",
+        "question_336_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_336_0.png",
+        "answer_336_1.png",
+        "answer_336_2.png",
+        "answer_336_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The numbers of each picture in the first row are 0, 1, and 2 respectively. The numbers 2, 3, and 4 in each picture in the third row form an arithmetic sequence. The number of faces in each picture in the third row is 4, 5, ?. The number of faces in the figure at the question mark should be 6. There are 5 items A, 0 items B, 6 items C, and 3 items D. Only item C matches.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Does the curve intersect or separate from the line in candidate 2",
+    "Perception_Answer": "seperate",
+    "Distrator": "intersect",
+    "original_chapter": "Chapter_4",
+    "original_folder": "38",
+    "new_id": 73,
+    "question_img_ids": [
+        "question_73_0.png",
+        "question_73_1.png",
+        "question_73_2.png",
+        "question_73_3.png",
+        "question_73_4.png",
+        "question_73_5.png",
+        "question_73_6.png",
+        "question_73_7.png",
+        "question_73_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_73_0.png",
+        "answer_73_1.png",
+        "answer_73_2.png",
+        "answer_73_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

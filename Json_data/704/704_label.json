@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a vertical line in candidate 2 or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Easy_Marvel/Point",
+    "original_folder": "12",
+    "new_id": 704,
+    "question_img_ids": [
+        "question_704_0.png",
+        "question_704_1.png",
+        "question_704_2.png",
+        "question_704_3.png",
+        "question_704_4.png",
+        "question_704_5.png",
+        "question_704_6.png",
+        "question_704_7.png",
+        "question_704_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_704_0.png",
+        "answer_704_1.png",
+        "answer_704_2.png",
+        "answer_704_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

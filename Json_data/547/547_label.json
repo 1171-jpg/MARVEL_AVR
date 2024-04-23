@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Special Pattern",
+    "Sub-Pattern": "Functional elements",
+    "Explanation": "The black point is located at intersection point.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the black dot at the bottom or top part of candidate 4?",
+    "Distrator": "top",
+    "Perception_Answer": "bottom",
+    "original_chapter": "./Data_aug/Function",
+    "original_folder": "17",
+    "new_id": 547,
+    "question_img_ids": [
+        "question_547_0.png",
+        "question_547_1.png",
+        "question_547_2.png",
+        "question_547_3.png",
+        "question_547_4.png",
+        "question_547_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_547_0.png",
+        "answer_547_1.png",
+        "answer_547_2.png",
+        "answer_547_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

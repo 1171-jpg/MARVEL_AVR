@@ -1,0 +1,37 @@
+{
+    "Answer": "A",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "straightness, opening and closing",
+    "Explanation": "The composition of elements is different, and the attribute rules are given priority. Each figure in the question stem is composed of upper and lower parts, and the line styles of the upper and lower parts are different. The first, third, and fifth graphics all have curved graphics on top and straight-line graphics on the bottom. The second and fourth graphics all have straight-line graphics on top and curved graphics on the bottom. Curved graphics and straight-line graphics are on the bottom. The upper and lower parts appear crosswise, so the shape selected at the question mark should be the straight line shape at the top and the curved shape at the bottom. Accordingly, two items B and C are excluded. Comparing items A and D, the most obvious difference is that item A has one face and item D has two faces. It is observed that each figure in the question is composed of three faces, so item D is excluded. Therefore the correct answer is A.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle in candidate 2 in the top or bottom part?",
+    "Perception_Answer": "bottom",
+    "Distrator": "top",
+    "original_chapter": "Chapter_3",
+    "original_folder": "13",
+    "new_id": 51,
+    "question_img_ids": [
+        "question_51_0.png",
+        "question_51_1.png",
+        "question_51_2.png",
+        "question_51_3.png",
+        "question_51_4.png",
+        "question_51_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_51_0.png",
+        "answer_51_1.png",
+        "answer_51_2.png",
+        "answer_51_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

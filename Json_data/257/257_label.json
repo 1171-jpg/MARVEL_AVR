@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "The graphics in the left column contain 8, 7, and 6 straight line segments respectively from top to bottom; the graphics in the second column contain 5, 4, and 3 straight line segments respectively from bottom to top; the graphics in the third column contain straight lines from top to bottom. The number of straight line segments is 2, 1, ?. After observation, we found that the natural number sequence is arranged in an S-shaped sequence from 8 to 1. The answer to this question is option B.",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three lines in candidate 1?",
+    "Distrator": "three",
+    "Perception_Answer": "two",
+    "source": "./Data_aug/Line/14",
+    "original_chapter": "Matrix_aug",
+    "original_folder": "28",
+    "new_id": 257,
+    "question_img_ids": [
+        "question_257_0.png",
+        "question_257_1.png",
+        "question_257_2.png",
+        "question_257_3.png",
+        "question_257_4.png",
+        "question_257_5.png",
+        "question_257_6.png",
+        "question_257_7.png",
+        "question_257_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_257_0.png",
+        "answer_257_1.png",
+        "answer_257_2.png",
+        "answer_257_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

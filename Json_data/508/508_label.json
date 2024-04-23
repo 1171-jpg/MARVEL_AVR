@@ -1,0 +1,37 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The first set of graphics: small squares numbered 1, 4, and 16 respectively, forming a geometric sequence with a common ratio of 4; The second set of graphics: small triangles are 1, 3,? , similarly it should form a geometric sequence with a common ratio of 3",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there four or five white triangles in candidate 2?",
+    "Distrator": "five",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "5",
+    "new_id": 508,
+    "question_img_ids": [
+        "question_508_0.png",
+        "question_508_1.png",
+        "question_508_2.png",
+        "question_508_3.png",
+        "question_508_4.png",
+        "question_508_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_508_0.png",
+        "answer_508_1.png",
+        "answer_508_2.png",
+        "answer_508_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

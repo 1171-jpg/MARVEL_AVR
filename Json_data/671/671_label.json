@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "black and white computation",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there one or two vertical lines in candidate 1?",
+    "Distrator": "two",
+    "Perception_Answer": "one",
+    "original_chapter": "./Easy_Marvel/black and white computation",
+    "original_folder": "7",
+    "new_id": 671,
+    "question_img_ids": [
+        "question_671_0.png",
+        "question_671_1.png",
+        "question_671_2.png",
+        "question_671_3.png",
+        "question_671_4.png",
+        "question_671_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_671_0.png",
+        "answer_671_1.png",
+        "answer_671_2.png",
+        "answer_671_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

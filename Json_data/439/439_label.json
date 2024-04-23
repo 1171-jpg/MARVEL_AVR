@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The three pictures on the left are all symmetrical about the vertical axis, and the three pictures on the right are symmetrical about the horizontal axis, excluding item A. At the same time, the question stem is a closed interval. Exclude items B and D. Option C was elected.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
+    "Distrator": "vertical",
+    "Perception_Answer": "horizontal",
+    "original_chapter": "./Data_aug/Symmetry",
+    "original_folder": "6",
+    "new_id": 439,
+    "question_img_ids": [
+        "question_439_0.png",
+        "question_439_1.png",
+        "question_439_2.png",
+        "question_439_3.png",
+        "question_439_4.png",
+        "question_439_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_439_0.png",
+        "answer_439_1.png",
+        "answer_439_2.png",
+        "answer_439_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

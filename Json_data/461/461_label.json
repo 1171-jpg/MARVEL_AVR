@@ -1,0 +1,36 @@
+{
+    "Answer": "A",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The intersection point in each image increase along the row.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the circle in candidate 4 inside a triangle or rectangle?",
+    "Distrator": "rectangle",
+    "Perception_Answer": "triangle",
+    "original_chapter": "./Data_aug/Point",
+    "original_folder": "1",
+    "new_id": 461,
+    "question_img_ids": [
+        "question_461_0.png",
+        "question_461_1.png",
+        "question_461_2.png",
+        "question_461_3.png",
+        "question_461_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_461_0.png",
+        "answer_461_1.png",
+        "answer_461_2.png",
+        "answer_461_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

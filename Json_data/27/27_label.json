@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Addition and subtraction",
+    "Explanation": "First, analyze the question pattern. This question belongs to the tic-tac-toe grid type, and the pattern is observed horizontally. The third shape in the first row is formed by adding the first two shapes. The second row also follows this pattern, so the third row should also adhere to this pattern. Second, analyze each option. The triangle at the bottom right of the shape should be gray, but Option A is white, so it is eliminated. There should be a vertical line at the top right of the shape, but Option B lacks it, so it is eliminated. There should be a gray triangle at the top left of the shape, but Option C lacks it, so it is eliminated. Completely meets the requirements of the question stem. Adding it to the first shape exactly produces the third shape. It is the correct choice.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle in candidate 4 in the top left part filled in white or black?",
+    "Perception_Answer": "white",
+    "Distrator": "black",
+    "original_chapter": "Chapter_2",
+    "original_folder": "6",
+    "new_id": 27,
+    "question_img_ids": [
+        "question_27_0.png",
+        "question_27_1.png",
+        "question_27_2.png",
+        "question_27_3.png",
+        "question_27_4.png",
+        "question_27_5.png",
+        "question_27_6.png",
+        "question_27_7.png",
+        "question_27_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_27_0.png",
+        "answer_27_1.png",
+        "answer_27_2.png",
+        "answer_27_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

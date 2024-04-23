@@ -1,0 +1,41 @@
+{
+    "Answer": "D",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there five or four black-filled circles in candidate 1?",
+    "Distrator": "four",
+    "Perception_Answer": "five",
+    "source": "./Easy_Marvel/Point/11",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "21",
+    "new_id": 331,
+    "question_img_ids": [
+        "question_331_0.png",
+        "question_331_1.png",
+        "question_331_2.png",
+        "question_331_3.png",
+        "question_331_4.png",
+        "question_331_5.png",
+        "question_331_6.png",
+        "question_331_7.png",
+        "question_331_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_331_0.png",
+        "answer_331_1.png",
+        "answer_331_2.png",
+        "answer_331_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

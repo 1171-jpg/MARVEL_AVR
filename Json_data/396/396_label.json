@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "In each row of the matrix, the image first flip left to right and rotate in counterclockwise way.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "only_one": "1",
+    "Question": "Is the triangle above or below the trapezoid in candidate 1?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "12",
+    "new_id": 396,
+    "question_img_ids": [
+        "question_396_0.png",
+        "question_396_1.png",
+        "question_396_2.png",
+        "question_396_3.png",
+        "question_396_4.png",
+        "question_396_5.png",
+        "question_396_6.png",
+        "question_396_7.png",
+        "question_396_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_396_0.png",
+        "answer_396_1.png",
+        "answer_396_2.png",
+        "answer_396_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

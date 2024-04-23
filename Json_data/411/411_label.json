@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "Choose B for this question. The rule of this question is that the graphics are translated to the middle in sequence. It should be noted that when the position of the graphics is moved, elements cannot be lost, so the middle line must come out after the second group of graphics is translated. So choose B.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there one or two vertical straight lines in candidate 4?",
+    "Distrator": "one",
+    "Perception_Answer": "two",
+    "original_chapter": "./Data_aug/Parallel_movement",
+    "original_folder": "14",
+    "new_id": 411,
+    "question_img_ids": [
+        "question_411_0.png",
+        "question_411_1.png",
+        "question_411_2.png",
+        "question_411_3.png",
+        "question_411_4.png",
+        "question_411_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_411_0.png",
+        "answer_411_1.png",
+        "answer_411_2.png",
+        "answer_411_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there five or four lines in candidate 4?",
+    "Distrator": "five",
+    "Perception_Answer": "four",
+    "original_chapter": "./Data_aug/Line",
+    "original_folder": "16",
+    "new_id": 487,
+    "question_img_ids": [
+        "question_487_0.png",
+        "question_487_1.png",
+        "question_487_2.png",
+        "question_487_3.png",
+        "question_487_4.png",
+        "question_487_5.png",
+        "question_487_6.png",
+        "question_487_7.png",
+        "question_487_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_487_0.png",
+        "answer_487_1.png",
+        "answer_487_2.png",
+        "answer_487_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

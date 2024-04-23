@@ -1,0 +1,37 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Point",
+    "Explanation": "The composition of each figure is different, the elements are messy, and there is no obvious attribute rule. Considering the quantity rule, it is found that the number of intersections of the figures in the question stem are 1, 2, 3, 4, and 5 respectively, forming an arithmetic sequence. Among the four items of ABCD The number of intersection points of the graph are 8, 6, 10, 8 respectively.",
+    "Issue": "",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 a star or a pentagon?",
+    "Perception_Answer": "star",
+    "Distrator": "pentagon",
+    "original_chapter": "Chapter_4",
+    "original_folder": "2",
+    "new_id": 57,
+    "question_img_ids": [
+        "question_57_0.png",
+        "question_57_1.png",
+        "question_57_2.png",
+        "question_57_3.png",
+        "question_57_4.png",
+        "question_57_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_57_0.png",
+        "answer_57_1.png",
+        "answer_57_2.png",
+        "answer_57_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

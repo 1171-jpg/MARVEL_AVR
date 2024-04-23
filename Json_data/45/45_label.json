@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Attribute Pattern",
+    "Sub-Pattern": "symmetry",
+    "Explanation": "The composition of graphic elements is different, and the graphics in the questions are all letters, so priority can be given to strict rules. The letters in the first line are relatively regular, with symmetry being given priority. The first row is a vertically symmetrical figure, the second row is asymmetrical, and the first two in the third row are horizontally symmetrical figures. The answer should also be a horizontally symmetrical figure, corresponding to item B.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 3 a letter E or F?",
+    "Perception_Answer": "F",
+    "Distrator": "E",
+    "original_chapter": "Chapter_3",
+    "original_folder": "5",
+    "new_id": 45,
+    "question_img_ids": [
+        "question_45_0.png",
+        "question_45_1.png",
+        "question_45_2.png",
+        "question_45_3.png",
+        "question_45_4.png",
+        "question_45_5.png",
+        "question_45_6.png",
+        "question_45_7.png",
+        "question_45_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_45_0.png",
+        "answer_45_1.png",
+        "answer_45_2.png",
+        "answer_45_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,38 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is there a line inside of the triangle in candidate 3 or not?",
+    "Distrator": "yes",
+    "Perception_Answer": "no",
+    "Demonstration": "The pattern in the given sequence is that the straight lines are always inside the shape and the curve lines are always outside the shape, the number of straight lines decreases by one and the number of curve lines increases by one:\nLet's analyze the pattern in the given rows:\nIn the first row:\nIn the first image, three straight lines are inside the circle and one curve line is outside the shape.\nIn the second image, two straight lines are inside the circle and two curve lines are outside the shape.\nIn the third image, one straight line is inside the circle and three curve lines are outside the shape.\nIn the second row:\nIn the first image, two straight lines are inside the triangle and no curve line is outside the shape.\nIn the second image, one straight line is inside the triangle and one curve line is outside the shape.\nTherefore, the third image should contain no straight line and two curve lines. Therefore the correct answer is choice 3.",
+    "original_chapter": "./Easy_Marvel/Line",
+    "original_folder": "7",
+    "new_id": 712,
+    "question_img_ids": [
+        "question_712_0.png",
+        "question_712_1.png",
+        "question_712_2.png",
+        "question_712_3.png",
+        "question_712_4.png",
+        "question_712_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_712_0.png",
+        "answer_712_1.png",
+        "answer_712_2.png",
+        "answer_712_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

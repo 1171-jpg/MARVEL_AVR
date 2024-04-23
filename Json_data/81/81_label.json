@@ -1,0 +1,36 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "The number of elements is 4, 3, 4, 3 respectively, then the shape at number should contain 4 elements, and only B conforms to this.",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there two or three triangles in candidate 1?",
+    "Perception_Answer": "three",
+    "Distrator": "two",
+    "original_chapter": "Chapter_4",
+    "original_folder": "53",
+    "new_id": 81,
+    "question_img_ids": [
+        "question_81_0.png",
+        "question_81_1.png",
+        "question_81_2.png",
+        "question_81_3.png",
+        "question_81_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_81_0.png",
+        "answer_81_1.png",
+        "answer_81_2.png",
+        "answer_81_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

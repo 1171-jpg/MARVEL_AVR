@@ -1,0 +1,40 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Element",
+    "Explanation": "Through observation, it is found that the graphic arrangement directions in the first row are: \"\\\", \"/\", and \"+\"; as shown in the figure below; the same three arrangements also appear in the second row; the third row of Figures 1 and In Figure 2, the layout directions are \"\\\" and \"/\", so a figure with a \"+\" layout should be selected at the question mark, excluding item D; further observation found that the number of elements in the first and second rows are equal. Difference sequence, so the figure with 8 elements should be selected at the question mark. Only option B is suitable. Therefore, choose option B.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are there seven or eight crosses in candidate 2?",
+    "Distrator": "seven",
+    "Perception_Answer": "eight",
+    "original_chapter": "./Data_aug/Element",
+    "original_folder": "12",
+    "new_id": 514,
+    "question_img_ids": [
+        "question_514_0.png",
+        "question_514_1.png",
+        "question_514_2.png",
+        "question_514_3.png",
+        "question_514_4.png",
+        "question_514_5.png",
+        "question_514_6.png",
+        "question_514_7.png",
+        "question_514_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_514_0.png",
+        "answer_514_1.png",
+        "answer_514_2.png",
+        "answer_514_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

@@ -1,0 +1,40 @@
+{
+    "Answer": "D",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Parallel Movement",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the circles in the bottom or top part of candidate 2?",
+    "Distrator": "bottom",
+    "Perception_Answer": "top",
+    "original_chapter": "./Easy_Marvel/Parallel Movement",
+    "original_folder": "13",
+    "new_id": 610,
+    "question_img_ids": [
+        "question_610_0.png",
+        "question_610_1.png",
+        "question_610_2.png",
+        "question_610_3.png",
+        "question_610_4.png",
+        "question_610_5.png",
+        "question_610_6.png",
+        "question_610_7.png",
+        "question_610_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_610_0.png",
+        "answer_610_1.png",
+        "answer_610_2.png",
+        "answer_610_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

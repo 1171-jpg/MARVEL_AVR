@@ -1,0 +1,41 @@
+{
+    "Answer": "C",
+    "Pattern": "Location Pattern",
+    "Sub-Pattern": "Rotation and Flip",
+    "Explanation": "By observing the first horizontal row, we find that the relationship between the first picture and the second picture is a 180\u00b0 flip along the vertical axis, and the relationship between the second picture and the third picture is a 180\u00b0 flip along the horizontal axis. Therefore, the answer to this question is option C.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "only_one": "1",
+    "Question": "Is the arrow in candidate 2 pointing to bottom right or top right?",
+    "Distrator": "top right",
+    "Perception_Answer": "bottom right",
+    "original_chapter": "./Data_aug/Rotation",
+    "original_folder": "8",
+    "new_id": 394,
+    "question_img_ids": [
+        "question_394_0.png",
+        "question_394_1.png",
+        "question_394_2.png",
+        "question_394_3.png",
+        "question_394_4.png",
+        "question_394_5.png",
+        "question_394_6.png",
+        "question_394_7.png",
+        "question_394_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_394_0.png",
+        "answer_394_1.png",
+        "answer_394_2.png",
+        "answer_394_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

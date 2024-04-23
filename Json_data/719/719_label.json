@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "",
+    "Issue": "",
+    "Question Shape": [
+        5,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are all lines inside of the circle in candidate 3 or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "Demonstration": "The pattern in the given sequence is that the number of closed sectors increases with each step:\nThe first grid contains a circle with one vertical line, forming two closed sectors.\nThe second grid contains a circle with two lines that form three closed sectors.\nThe third grid contains a circle with three lines that form four closed sectors.\nThe fourth grid contains a circle with four lines that form five closed sectors.\nTherefore, to complete the pattern, the next grid should contain a circle with five lines, forming six closed sectors, which is choice 3.",
+    "original_chapter": "./Easy_Marvel/Layer",
+    "original_folder": "1",
+    "new_id": 719,
+    "question_img_ids": [
+        "question_719_0.png",
+        "question_719_1.png",
+        "question_719_2.png",
+        "question_719_3.png",
+        "question_719_4.png"
+    ],
+    "answer_img_ids": [
+        "answer_719_0.png",
+        "answer_719_1.png",
+        "answer_719_2.png",
+        "answer_719_3.png"
+    ],
+    "task_format": "single-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

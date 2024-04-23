@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Layer",
+    "Explanation": "The number of closed spaces of the figure in the question stem is 1, 2, 3, 4, 5, forming an arithmetic sequence. The next figure is closed. The number of closed spaces should be 6, and these 5 figures are both axially symmetrical figures and centrally symmetrical figures. Only item C satisfies this rule.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is candidate 2 diagonally symmetrical or not?",
+    "Distrator": "no",
+    "Perception_Answer": "yes",
+    "original_chapter": "./Data_aug/Layer",
+    "original_folder": "10",
+    "new_id": 493,
+    "question_img_ids": [
+        "question_493_0.png",
+        "question_493_1.png",
+        "question_493_2.png",
+        "question_493_3.png",
+        "question_493_4.png",
+        "question_493_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_493_0.png",
+        "answer_493_1.png",
+        "answer_493_2.png",
+        "answer_493_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

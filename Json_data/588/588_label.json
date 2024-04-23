@@ -1,0 +1,40 @@
+{
+    "Answer": "A",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "Looking at the Jiugong Grid as a whole, the figure is composed of 3 elements. There are 8 triangles, 8 squares, and 8 pentagons in the eight known pictures. The overall number of all elements is the same, so the question mark should be filled in with triangles, squares, and pentagons. For figures with the same number of sides, only item A is consistent.",
+    "Issue": "",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the triangle above or below squares in candidate 3?",
+    "Distrator": "below",
+    "Perception_Answer": "above",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "17",
+    "new_id": 588,
+    "question_img_ids": [
+        "question_588_0.png",
+        "question_588_1.png",
+        "question_588_2.png",
+        "question_588_3.png",
+        "question_588_4.png",
+        "question_588_5.png",
+        "question_588_6.png",
+        "question_588_7.png",
+        "question_588_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_588_0.png",
+        "answer_588_1.png",
+        "answer_588_2.png",
+        "answer_588_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}

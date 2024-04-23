@@ -1,0 +1,37 @@
+{
+    "Answer": "C",
+    "Pattern": "Style Pattern",
+    "Sub-Pattern": "Quantity pattern",
+    "Explanation": "The question stem is composed of an arrow and graphics at both ends of the arrow. The graphics at both ends of the arrow are similar, but the positions are different. The graphics are numbered, as shown in the figure below. The external element of graphic No. 1 in the first paragraph is rotated 180\u309c to become the internal element of graphic No. 2; The direction of the middle element of figure No. 1 remains unchanged and becomes the external element of figure No. 2; the direction of the internal element in figure No. 1 does not change and becomes the middle element of figure No. 2; only item C conforms to the second paragraph application rule.",
+    "Issue": "2",
+    "Question Shape": [
+        6,
+        1
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Is the innermost shape in candidate 2 a triangle or circle?",
+    "Distrator": "circle",
+    "Perception_Answer": "triangle",
+    "original_chapter": "./Data_aug/Quantity",
+    "original_folder": "9",
+    "new_id": 581,
+    "question_img_ids": [
+        "question_581_0.png",
+        "question_581_1.png",
+        "question_581_2.png",
+        "question_581_3.png",
+        "question_581_4.png",
+        "question_581_5.png"
+    ],
+    "answer_img_ids": [
+        "answer_581_0.png",
+        "answer_581_1.png",
+        "answer_581_2.png",
+        "answer_581_3.png"
+    ],
+    "task_format": "two-row",
+    "prompt": "What is the best answer to complete the sequence?"
+}

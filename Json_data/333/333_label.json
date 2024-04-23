@@ -1,0 +1,41 @@
+{
+    "Answer": "B",
+    "Pattern": "Number Pattern",
+    "Sub-Pattern": "Line",
+    "Explanation": "",
+    "Issue": "matrix_column",
+    "Question Shape": [
+        3,
+        3
+    ],
+    "Answer Shape": [
+        4,
+        1
+    ],
+    "Question": "Are the arrows in candidate 2 pointing to bottom right or top left?",
+    "Distrator": "top left",
+    "Perception_Answer": "bottom right",
+    "source": "./Easy_Marvel/Line/11",
+    "original_chapter": "Matrix_aug_Easy",
+    "original_folder": "23",
+    "new_id": 333,
+    "question_img_ids": [
+        "question_333_0.png",
+        "question_333_1.png",
+        "question_333_2.png",
+        "question_333_3.png",
+        "question_333_4.png",
+        "question_333_5.png",
+        "question_333_6.png",
+        "question_333_7.png",
+        "question_333_8.png"
+    ],
+    "answer_img_ids": [
+        "answer_333_0.png",
+        "answer_333_1.png",
+        "answer_333_2.png",
+        "answer_333_3.png"
+    ],
+    "task_format": "matrix",
+    "prompt": "What is the best answer to complete the sequence?"
+}
