@@ -22,7 +22,7 @@ marvel_label.json
     "coarse-grained perception question on the whole puzzle"
 )
 ```
-- **l_perception_answer_tuple**:
+- **c_perception_answer_tuple**:
 ```python
 (
     context part panel number,
