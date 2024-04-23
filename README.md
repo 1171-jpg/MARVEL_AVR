@@ -31,3 +31,15 @@ marvel_label.json
 )
 ```
 
+
+# If you find MARVEL useful for your work please cite:
+```
+@misc{jiang2024marvel,
+      title={MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning}, 
+      author={Yifan Jiang and Jiarui Zhang and Kexuan Sun and Zhivar Sourati and Kian Ahrabian and Kaixin Ma and Filip Ilievski and Jay Pujara},
+      year={2024},
+      eprint={2404.13591},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
