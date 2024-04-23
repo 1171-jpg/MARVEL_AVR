@@ -3,6 +3,7 @@ Github repo for MARVEL: Multidimensional Abstraction and Reasoning through Visua
 
 # TL;DR
 A new comprehensive benchmark, MARVEL, evaluates multi-modal large language models' abstract reasoning abilities in six patterns across five different task configurations, revealing significant performance gaps between human and SOTA MLLMs.
+![image](https://github.com/1171-jpg/MARVEL_AVR/blob/main/image/demo.drawio.pdf)
 
 # Folder
 Json_data folder: sub-folder for each puzzle image and corresponding label json file.
