@@ -2,9 +2,9 @@
 Github repo for MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning
 
 # Folder
-### Json_data folder: sub-folder for each puzzle image and corresponding label json file.
-### Panel_data folder: images of each panel in each puzzle.
-### Marvel folder: images of 770 puzzles composed of six core knowledge patterns, geometric and abstract shapes, and five different task configurations
+Json_data folder: sub-folder for each puzzle image and corresponding label json file.
+Panel_data folder: images of each panel in each puzzle.
+Marvel folder: images of 770 puzzles composed of six core knowledge patterns, geometric and abstract shapes, and five different task configurations
 
 
 # Marvel
