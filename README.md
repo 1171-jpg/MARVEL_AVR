@@ -4,7 +4,7 @@ Github repo for MARVEL: Multidimensional Abstraction and Reasoning through Visua
 
 
 # Marvel
-final_label.json
+marvel_label.json
 - **id**: image id
 - **pattern**: general concept pattern
 - **task_configuration**: the task configuration of the puzzle
