@@ -1,6 +1,16 @@
 # MARVEL_AVR
-Github repo for MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning
+Github repo for [MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning](https://arxiv.org/abs/2404.13591)
 
+# TL;DR
+A new comprehensive benchmark, MARVEL, evaluates multi-modal large language models' abstract reasoning abilities in six patterns across five different task configurations, revealing significant performance gaps between human and SOTA MLLMs.
+![image](https://github.com/1171-jpg/MARVEL_AVR/blob/main/image/demo.drawio.png)
+
+# Folder
+Json_data folder: sub-folder for each puzzle image and corresponding label json file.
+
+Panel_data folder: images of each panel in each puzzle.
+
+Marvel folder: images of 770 puzzles composed of six core knowledge patterns, geometric and abstract shapes, and five different task configurations
 
 
 # Marvel
@@ -22,7 +32,7 @@ marvel_label.json
     "coarse-grained perception question on the whole puzzle"
 )
 ```
-- **l_perception_answer_tuple**:
+- **c_perception_answer_tuple**:
 ```python
 (
     context part panel number,
@@ -31,3 +41,15 @@ marvel_label.json
 )
 ```
 
+
+### If you find MARVEL useful for your work please cite:
+```
+@misc{jiang2024marvel,
+      title={MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning}, 
+      author={Yifan Jiang and Jiarui Zhang and Kexuan Sun and Zhivar Sourati and Kian Ahrabian and Kaixin Ma and Filip Ilievski and Jay Pujara},
+      year={2024},
+      eprint={2404.13591},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
