@@ -1,6 +1,6 @@
 # MARVEL_AVR
 Github repo for [MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning](https://arxiv.org/abs/2404.13591)
-[MARVEL Website link](https://marvel770.github.io/)
+Website link: [MARVEL](https://marvel770.github.io/)
 
 # TL;DR
 A new comprehensive benchmark, MARVEL, evaluates multi-modal large language models' abstract reasoning abilities in six patterns across five different task configurations, revealing significant performance gaps between human and SOTA MLLMs.
