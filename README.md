@@ -1,5 +1,5 @@
 # MARVEL_AVR
-Github repo for [MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning](https://arxiv.org/abs/2404.13591)
+Github repo for [MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning](https://arxiv.org/abs/2404.13591) <br> 
 Website link: [MARVEL](https://marvel770.github.io/)
 
 # TL;DR
