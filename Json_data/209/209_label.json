@@ -1,35 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "straightness, opening and closing",
-    "Explanation": "One group is all curved graphics. Another group is all straight-line graphics.",
-    "Issue": "group_new",
-    "Question Shape": [
+    "id": 209,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Group",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "whether it's all curved graphics",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the context part, while the other three options are categorized into a different group. Is there a heart shape or a star shape in choice 4?",
+    "f_perception_answer": "star",
+    "f_perception_distractor": "heart",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         3,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "source": "./Data_aug/Straight/9",
-    "Question": "Is there a heart shape or a star shape in candidate 4?",
-    "Distrator": "heart",
-    "Perception_Answer": "star",
-    "original_chapter": "Group_aug",
-    "original_folder": "70",
-    "new_id": 209,
-    "question_img_ids": [
-        "question_209_0.png",
-        "question_209_1.png",
-        "question_209_2.png"
-    ],
-    "answer_img_ids": [
-        "answer_209_0.png",
-        "answer_209_1.png",
-        "answer_209_2.png",
-        "answer_209_3.png"
-    ],
-    "task_format": "group",
-    "prompt": "What is the best answer to complete the sequence?"
+        7
+    ]
 }

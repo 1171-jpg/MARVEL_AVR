@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Quantity pattern",
-    "Explanation": "The directions of each row of black triangles are exactly left, right, and up and down.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 597,
+    "pattern": "Mathematical",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The directions of each row of black triangles are exactly left, right, and up and down.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the topmost triangle in choice 2 filled in black or white?",
+    "f_perception_answer": "white",
+    "f_perception_distractor": "black",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the topmost triangle in candidate 2 filled in black or white?",
-    "Distrator": "black",
-    "Perception_Answer": "white",
-    "original_chapter": "./Data_aug/Quantity",
-    "original_folder": "27",
-    "new_id": 597,
-    "question_img_ids": [
-        "question_597_0.png",
-        "question_597_1.png",
-        "question_597_2.png",
-        "question_597_3.png",
-        "question_597_4.png",
-        "question_597_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_597_0.png",
-        "answer_597_1.png",
-        "answer_597_2.png",
-        "answer_597_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

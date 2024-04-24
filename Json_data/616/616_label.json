@@ -1,38 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 616,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The element rotates in clockwise direction.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the top straight line longer or shorter than the bottom straight line in choice 2?",
+    "f_perception_answer": "longer",
+    "f_perception_distractor": "shorter",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the top straight line longer or shorter than the bottom straight line in candidate 2?",
-    "Distrator": "shorter",
-    "Perception_Answer": "longer",
-    "Demonstration": "The given puzzle presents a sequence of shapes arranged in a 3x2 matrix, with shapes rotating in the first row and shapes transforming in the second row. The task is to discern the progression within each row and identify the correct shape to complete the sequence.\nLet's analyze the pattern in the first row:\nThe first shape is a circle with an open segment facing top-right.\nIn the second shape, the open segment has rotated 90 degrees clockwise to face bottom-right.\nIn the third shape, the open segment has rotated another 90 degrees clockwise to face bottom-left.\nFrom this, we can deduce that each subsequent shape in the top row rotates the open segment by 90 degrees clockwise.\nNow, applying this rotational pattern to the second row:\nThe first shape in the second row is a trapezoid.\nThe second shape appears to be the same trapezoid, rotated 90 degrees clockwise, which results in a parallelogram.\nFollowing this pattern, the third shape should be the parallelogram rotated another 90 degrees clockwise. The choice 2 is correct answer.",
-    "original_chapter": "./Easy_Marvel/Rotation and Flip",
-    "original_folder": "6",
-    "new_id": 616,
-    "question_img_ids": [
-        "question_616_0.png",
-        "question_616_1.png",
-        "question_616_2.png",
-        "question_616_3.png",
-        "question_616_4.png",
-        "question_616_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_616_0.png",
-        "answer_616_1.png",
-        "answer_616_2.png",
-        "answer_616_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

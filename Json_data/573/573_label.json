@@ -1,40 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Quantity pattern",
-    "Explanation": "This question is about the traversal rules in styles. The outer frame of each column of graphics has three types: triangle, circle, and square, and there are \"-\" and \"-\" inside. There are four kinds of lines: \"|\", \"/\" and \"\\\", so the figure at the question mark should have only two kinds of lines: \"/\" and \"\\\". Only item B is correct.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 573,
+    "pattern": "Mathematical",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row,  there are three types of elements: triangle, circle, and square, and four kinds of lines.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is choice 1 symmetrical along the horizontal axis or not?",
+    "f_perception_answer": "no",
+    "f_perception_distractor": "yes",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Is candidate 1 symmetrical along the horizontal axis or not?",
-    "Distrator": "yes",
-    "Perception_Answer": "no",
-    "original_chapter": "./Data_aug/Quantity",
-    "original_folder": "1",
-    "new_id": 573,
-    "question_img_ids": [
-        "question_573_0.png",
-        "question_573_1.png",
-        "question_573_2.png",
-        "question_573_3.png",
-        "question_573_4.png",
-        "question_573_5.png",
-        "question_573_6.png",
-        "question_573_7.png",
-        "question_573_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_573_0.png",
-        "answer_573_1.png",
-        "answer_573_2.png",
-        "answer_573_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

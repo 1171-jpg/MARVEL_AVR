@@ -1,38 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "symmetry",
-    "Explanation": "This question is a Nine Palaces question. There are obvious axially symmetrical figures and centrally symmetrical figures in the question. The nine-square grid can be examined first horizontally and then vertically. It is observed that the symmetries of the figures from left to right in the first horizontal row are centrally symmetrical figures, axially symmetrical figures, \"Central symmetry and ten-axis symmetry\" Tutong, this rule is verified in the second horizontal row, and the same rule is satisfied in the second horizontal row. Applying this rule in the third horizontal row, you should choose a \"central symmetry + axial symmetry\" factor option at ?, and only item B meets the conditions.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 279,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "It is observed that the symmetries of the figures from left to right in the first row are centrally symmetrical figures, axially symmetrical figures, Central symmetry, and ten-axis symmetry.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 1 include four or five rectangles?",
+    "f_perception_answer": "five",
+    "f_perception_distractor": "four",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does candidate 1 include four or five rectangles?",
-    "Perception_Answer": "five",
-    "Distrator": "four",
-    "source": "Chapter_3/6",
-    "original_chapter": "Two_rows_aug",
-    "original_folder": "11",
-    "new_id": 279,
-    "question_img_ids": [
-        "question_279_0.png",
-        "question_279_1.png",
-        "question_279_2.png",
-        "question_279_3.png",
-        "question_279_4.png",
-        "question_279_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_279_0.png",
-        "answer_279_1.png",
-        "answer_279_2.png",
-        "answer_279_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

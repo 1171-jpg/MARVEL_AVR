@@ -1,35 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "In one group, the previous figure cannot be obtained by rotating the latter figure; in the other group, the former figure can be obtained by rotating the latter figure.",
-    "Issue": "group_new",
-    "Question Shape": [
+    "id": 200,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Group",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "whether the former figure can be obtained by rotating the latter figure.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the context part, while the other three options are categorized into a different group. Are there three or four straight horizontal lines in choice 4?",
+    "f_perception_answer": "four",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         3,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "source": "./Data_aug/Rotation/10",
-    "Question": "Are there three or four straight horizontal lines in candidate 4?",
-    "Distrator": "three",
-    "Perception_Answer": "four",
-    "original_chapter": "Group_aug",
-    "original_folder": "61",
-    "new_id": 200,
-    "question_img_ids": [
-        "question_200_0.png",
-        "question_200_1.png",
-        "question_200_2.png"
-    ],
-    "answer_img_ids": [
-        "answer_200_0.png",
-        "answer_200_1.png",
-        "answer_200_2.png",
-        "answer_200_3.png"
-    ],
-    "task_format": "group",
-    "prompt": "What is the best answer to complete the sequence?"
+        7
+    ]
 }

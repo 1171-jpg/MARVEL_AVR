@@ -1,40 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "addition and subtraction",
-    "Explanation": "Along the row the first column minus second column equals to the third column. And the combination image will rotate 90 degree in clockwise way.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 423,
+    "pattern": "Mathematical",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Along the row, the first image minus the second image equals the third column. The combination image will rotate 90 degrees in a clockwise way.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the two arrows in choice 4 pointing left/right or top/down?",
+    "f_perception_answer": "left/right",
+    "f_perception_distractor": "top/down",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are the two arrows in candidate 4 pointing left/right or top/down?",
-    "Distrator": "top/down",
-    "Perception_Answer": "left/right",
-    "original_chapter": "./Data_aug/Addition",
-    "original_folder": "12",
-    "new_id": 423,
-    "question_img_ids": [
-        "question_423_0.png",
-        "question_423_1.png",
-        "question_423_2.png",
-        "question_423_3.png",
-        "question_423_4.png",
-        "question_423_5.png",
-        "question_423_6.png",
-        "question_423_7.png",
-        "question_423_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_423_0.png",
-        "answer_423_1.png",
-        "answer_423_2.png",
-        "answer_423_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

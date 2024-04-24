@@ -1,41 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "black and white computation",
-    "Explanation": "The composition of the graphics is similar, giving priority to the style pattern. In the first line, the outer line is unchanged, and the first two pictures of the inner line are removed to obtain the third picture. After verification, the second line also satisfies this rule; Three lines, the application of this pattern, the outer frame unchanged, the internal lines maintain the difference.",
-    "Issue": "matrix_column",
-    "Question Shape": [
-        3,
-        3
+    "id": 231,
+    "pattern": "Mathematical",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The composition of the graphics is similar, giving priority to the style pattern. In the first line, the outer line is unchanged, and the first two pictures of the inner line are removed to obtain the third picture. After verification, the second line also satisfies this rule; Three lines, the application of this pattern, the outer frame unchanged, the internal lines maintain the difference.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three lines in the triangle of choice 1?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are there two or three lines in the triangle of candidate 1?",
-    "Perception_Answer": "two",
-    "Distrator": "three",
-    "source": "Chapter_2/3",
-    "original_chapter": "Matrix_aug",
-    "original_folder": "2",
-    "new_id": 231,
-    "question_img_ids": [
-        "question_231_0.png",
-        "question_231_1.png",
-        "question_231_2.png",
-        "question_231_3.png",
-        "question_231_4.png",
-        "question_231_5.png",
-        "question_231_6.png",
-        "question_231_7.png",
-        "question_231_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_231_0.png",
-        "answer_231_1.png",
-        "answer_231_2.png",
-        "answer_231_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

@@ -1,39 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "Symmetry",
-    "Explanation": "The element composition is different, and the attribute rules are given priority. Observation found that the question stems are all axially symmetrical figures, and they all have a vertical axis of symmetry, and only item D is consistent.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 101,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 8 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The element composition is different, and the attribute rules are given priority. Observation found that the question stems are all axially symmetrical figures, and they all have a vertical axis of symmetry, and only item D is consistent.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 8 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the two lines in choice 4 intersected or parallel?",
+    "f_perception_answer": "intersected",
+    "f_perception_distractor": "parallel",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         8,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are the two lines in candidate 4 intersected or parallel?",
-    "Perception_Answer": "intersected",
-    "Distrator": "parallel",
-    "original_chapter": "Final",
-    "original_folder": "4",
-    "new_id": 101,
-    "question_img_ids": [
-        "question_101_0.png",
-        "question_101_1.png",
-        "question_101_2.png",
-        "question_101_3.png",
-        "question_101_4.png",
-        "question_101_5.png",
-        "question_101_6.png",
-        "question_101_7.png"
-    ],
-    "answer_img_ids": [
-        "answer_101_0.png",
-        "answer_101_1.png",
-        "answer_101_2.png",
-        "answer_101_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        12
+    ]
 }

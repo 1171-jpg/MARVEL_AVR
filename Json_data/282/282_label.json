@@ -1,38 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Line",
-    "Explanation": "Think about number lines. And the graphs in the second row and the first column only have curves. Consider the number of curves. It is observed that the number of curves in the first column is 1, the number of curves in the second column is 2, and the number of lines in the two graphs in the third column is 3. The graph at ? There should be 3 lines. The number of graphic curves in the four items A, B, C, and D is 1, 3, 2, and 4 respectively. Item B complies with",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 282,
+    "pattern": "Quantities",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of curves increases along each row.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is choice 3 symmetrical along the horizontal or vertical axis?",
+    "f_perception_answer": "vertical",
+    "f_perception_distractor": "horizontal",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is candidate 3 symmetrical along the horizontal or vertical axis?",
-    "Perception_Answer": "vertical",
-    "Distrator": "horizontal",
-    "source": "Chapter_4/30",
-    "original_chapter": "Two_rows_aug",
-    "original_folder": "14",
-    "new_id": 282,
-    "question_img_ids": [
-        "question_282_0.png",
-        "question_282_1.png",
-        "question_282_2.png",
-        "question_282_3.png",
-        "question_282_4.png",
-        "question_282_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_282_0.png",
-        "answer_282_1.png",
-        "answer_282_2.png",
-        "answer_282_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

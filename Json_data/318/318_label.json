@@ -1,41 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Special Pattern",
-    "Sub-Pattern": "Functional elements",
-    "Explanation": "",
-    "Issue": "matrix_column",
-    "Question Shape": [
-        3,
-        3
+    "id": 318,
+    "pattern": "Spatial Relationship",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each column, the positions of the black dots in the three images are at the bottom, at the top, and in the middle, respectively.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the black filled circle at the bottom right or top left corner of choice 4?",
+    "f_perception_answer": "bottom right",
+    "f_perception_distractor": "top left",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Is the black filled circle at the bottom right or top left corner of candidate 4?",
-    "Distrator": "top left",
-    "Perception_Answer": "bottom right",
-    "source": "./Easy_Marvel/Functional elements/12",
-    "original_chapter": "Matrix_aug_Easy",
-    "original_folder": "8",
-    "new_id": 318,
-    "question_img_ids": [
-        "question_318_0.png",
-        "question_318_1.png",
-        "question_318_2.png",
-        "question_318_3.png",
-        "question_318_4.png",
-        "question_318_5.png",
-        "question_318_6.png",
-        "question_318_7.png",
-        "question_318_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_318_0.png",
-        "answer_318_1.png",
-        "answer_318_2.png",
-        "answer_318_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

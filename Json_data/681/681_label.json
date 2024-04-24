@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "quantity pattern",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 681,
+    "pattern": "Mathematical",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Each pair of adjacent panels have two same shapes.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the cloud-like shape below or above the cross in choice 4?",
+    "f_perception_answer": "above",
+    "f_perception_distractor": "below",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the cloud-like shape below or above the cross in candidate 4?",
-    "Distrator": "below",
-    "Perception_Answer": "above",
-    "Demonstration": "The puzzle features a sequence of 5 grids containing various geometric shapes, where each grid follows a specific pattern based on the number and type of shapes present. The objective is to identify the pattern and determine which of the four choices would logically complete the sequence.\nLet's analyze the pattern in the given sequence:\nThe first grid contains 3 different shapes: square, circle, and triangle.\nThe second grid contains 3 different shapes: circle, triangle, and star.\nThe third grid contains 3 different shapes: triangle, star, and cloud-like shape.\nThe fourth grid contains 3 different shapes: star, pentagon, and cloud-like shape.\nBased on this pattern, each grid consistently contains 3 different geometric shapes. Therefore, the missing grid should also have 3 distinct shapes. The choice 4 follows this pattern, as it contains a cross-like shape, pentagon, and cloud-like shape.",
-    "original_chapter": "./Easy_Marvel/quantity pattern",
-    "original_folder": "2",
-    "new_id": 681,
-    "question_img_ids": [
-        "question_681_0.png",
-        "question_681_1.png",
-        "question_681_2.png",
-        "question_681_3.png",
-        "question_681_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_681_0.png",
-        "answer_681_1.png",
-        "answer_681_2.png",
-        "answer_681_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

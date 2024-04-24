@@ -1,32 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "3D Pattern",
-    "Sub-Pattern": "Hexahedron",
-    "Explanation": "",
-    "Issue": "3D",
-    "Question Shape": [
+    "id": 560,
+    "pattern": "3D-Geometry",
+    "task_configuration": "3D",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is an unfolded diagram of the cube. The choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4) represents the correct three-dimensional assembly. Which choice (either 1, 2, 3, or 4) is the most appropriate answer?",
+    "explanation": "Reformation",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is an unfolded diagram of the cube. The choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4) represents the correct three-dimensional assembly. Is the black small square at the top left or bottom right part of the rectangle in choice 4?",
+    "f_perception_answer": "bottom right",
+    "f_perception_distractor": "top left",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top contains the visual grid and the choices part on the bottome conatin a sequence of grids representing the possible choice. How many grids are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         1,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the black small square at the top left or bottom right part of the rectangle in candidate 4?",
-    "Distrator": "top left",
-    "Perception_Answer": "bottom right",
-    "original_chapter": "./Data_aug/six",
-    "original_folder": "19",
-    "new_id": 560,
-    "question_img_ids": [
-        "question_560_0.png"
-    ],
-    "answer_img_ids": [
-        "answer_560_0.png",
-        "answer_560_1.png",
-        "answer_560_2.png",
-        "answer_560_3.png"
-    ],
-    "task_format": "3d",
-    "prompt": "What is the best answer to complete the sequence?"
+        5
+    ]
 }

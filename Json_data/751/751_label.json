@@ -1,38 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "symmetry",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 751,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "All panels contain symmetric shape.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is choice 1 symmetrical along the horizontal or vertical axis?",
+    "f_perception_answer": "horizontal",
+    "f_perception_distractor": "vertical",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is candidate 1 symmetrical along the horizontal or vertical axis?",
-    "Distrator": "vertical",
-    "Perception_Answer": "horizontal",
-    "Demonstration": "The pattern in the given sequence is that the image in each row symmetrically about the same axes:\nIn the first row:\nThe first image is symmetrical about the vertical axes.\nThe second image is symmetrical about the vertical axes.\nThe third image is symmetrical about the vertical axes.\nIn the second row:\nThe first image is symmetrical about the diagonal axes.\nThe second image is symmetrical about the diagonal axes.\nTherefore, the third image should also have be symmetrical about the diagonal axes. The choice 3 is the correct answer.",
-    "original_chapter": "./Easy_Marvel/Symmetry",
-    "original_folder": "7",
-    "new_id": 751,
-    "question_img_ids": [
-        "question_751_0.png",
-        "question_751_1.png",
-        "question_751_2.png",
-        "question_751_3.png",
-        "question_751_4.png",
-        "question_751_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_751_0.png",
-        "answer_751_1.png",
-        "answer_751_2.png",
-        "answer_751_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

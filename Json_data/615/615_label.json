@@ -1,36 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 615,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The black part rotates in clockwise direction.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the top right or bottom left corner of choice 1 filled in black?",
+    "f_perception_answer": "top right",
+    "f_perception_distractor": "bottom left",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the top right or bottom left corner of candidate 1 filled in black?",
-    "Distrator": "bottom left",
-    "Perception_Answer": "top right",
-    "original_chapter": "./Easy_Marvel/Rotation and Flip",
-    "original_folder": "5",
-    "new_id": 615,
-    "question_img_ids": [
-        "question_615_0.png",
-        "question_615_1.png",
-        "question_615_2.png",
-        "question_615_3.png",
-        "question_615_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_615_0.png",
-        "answer_615_1.png",
-        "answer_615_2.png",
-        "answer_615_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

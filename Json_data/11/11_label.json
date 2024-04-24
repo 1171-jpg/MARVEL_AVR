@@ -1,36 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "The graphic elements have different compositions and no obvious attribute rules. Consider the quantity rules. It is observed that the circular frame and square of each figure have an intersection point, and the position of the intersection point is rotated 90\u00b0 counterclockwise. Therefore, the intersection point in the figure at the question mark should be on the right side, and only item D is consistent. Moreover, the number of intersection points of triangles and squares in the figure at the bottom of the question is 0123, and the number of points in the sum of the shapes in the figure above should be 4. Item D also conforms to this rule.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 11,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The graphic elements have different compositions and no obvious attribute rules. Consider the quantity rules. It is observed that the circular frame and square of each figure have an intersection point, and the position of the intersection point is rotated 90\u00b0 counterclockwise. Therefore, the intersection point in the figure at the question mark should be on the right side, and only item D is consistent. Moreover, the number of intersection points of triangles and squares in the figure at the bottom of the question is 0123, and the number of points in the sum of the shapes in the figure above should be 4. Item D also conforms to this rule.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 4 have one or two triangles intersecting with the rectangle in the circle?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "one",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does candidate 4 have one or two triangles intersecting with the rectangle in the circle?",
-    "Perception_Answer": "two",
-    "Distrator": "one",
-    "original_chapter": "Chapter_1",
-    "original_folder": "16",
-    "new_id": 11,
-    "question_img_ids": [
-        "question_11_0.png",
-        "question_11_1.png",
-        "question_11_2.png",
-        "question_11_3.png",
-        "question_11_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_11_0.png",
-        "answer_11_1.png",
-        "answer_11_2.png",
-        "answer_11_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

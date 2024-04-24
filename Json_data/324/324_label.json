@@ -1,41 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "black and white computation",
-    "Explanation": "",
-    "Issue": "matrix_column",
-    "Question Shape": [
-        3,
-        3
+    "id": 324,
+    "pattern": "Mathematical",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The numbers of circles are the same along the column and the colors of the circles are the same along the row",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three black filled circles in choice 2?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are there two or three black filled circles in candidate 2?",
-    "Distrator": "three",
-    "Perception_Answer": "two",
-    "source": "./Easy_Marvel/black and white computation/11",
-    "original_chapter": "Matrix_aug_Easy",
-    "original_folder": "14",
-    "new_id": 324,
-    "question_img_ids": [
-        "question_324_0.png",
-        "question_324_1.png",
-        "question_324_2.png",
-        "question_324_3.png",
-        "question_324_4.png",
-        "question_324_5.png",
-        "question_324_6.png",
-        "question_324_7.png",
-        "question_324_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_324_0.png",
-        "answer_324_1.png",
-        "answer_324_2.png",
-        "answer_324_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

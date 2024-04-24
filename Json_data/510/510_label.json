@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Element",
-    "Explanation": "The composition of elements is different and there is no obvious attribute pattern. Priority is given to the quantity pattern. It was observed that the question stem graphic is composed of two elements: circle and square. Consider the number of elements. The number of circles is 2, 3, 3, 4, 4, and the number of squares is 0, 1, 1, 2, 2, that is, the number of circles - the number of squares = 2.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 510,
+    "pattern": "Quantities",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each image, the number of circles - the number of squares = 2.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three circles in choice 3?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there two or three circles in candidate 3?",
-    "Distrator": "three",
-    "Perception_Answer": "two",
-    "original_chapter": "./Data_aug/Element",
-    "original_folder": "7",
-    "new_id": 510,
-    "question_img_ids": [
-        "question_510_0.png",
-        "question_510_1.png",
-        "question_510_2.png",
-        "question_510_3.png",
-        "question_510_4.png",
-        "question_510_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_510_0.png",
-        "answer_510_1.png",
-        "answer_510_2.png",
-        "answer_510_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

@@ -1,40 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Layer",
-    "Explanation": "The number of faces in the first row of graphics is 3, 2, 3, and the sum is 3+2+3=8; the number of faces in the second row of graphics is 1, 3, 4, and the sum is 1+3+4=8: The number of faces of the row graphic is 3, 4, (1), and the sum is 3+4+(1)=8. Therefore, choose A with 1 side.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 492,
+    "pattern": "Quantities",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of faces in the each row has a sum of 8.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the small ellipse inside or outside of the large ellipse in choice 2?",
+    "f_perception_answer": "outside",
+    "f_perception_distractor": "inside",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are the small ellipse inside or outside of the large ellipse in candidate 2?",
-    "Distrator": "inside",
-    "Perception_Answer": "outside",
-    "original_chapter": "./Data_aug/Layer",
-    "original_folder": "7",
-    "new_id": 492,
-    "question_img_ids": [
-        "question_492_0.png",
-        "question_492_1.png",
-        "question_492_2.png",
-        "question_492_3.png",
-        "question_492_4.png",
-        "question_492_5.png",
-        "question_492_6.png",
-        "question_492_7.png",
-        "question_492_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_492_0.png",
-        "answer_492_1.png",
-        "answer_492_2.png",
-        "answer_492_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

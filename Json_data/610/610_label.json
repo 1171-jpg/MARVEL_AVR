@@ -1,40 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Parallel Movement",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 610,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The elements moves from top to bottom. ",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the circles in the bottom or top part of choice 2?",
+    "f_perception_answer": "top",
+    "f_perception_distractor": "bottom",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are the circles in the bottom or top part of candidate 2?",
-    "Distrator": "bottom",
-    "Perception_Answer": "top",
-    "original_chapter": "./Easy_Marvel/Parallel Movement",
-    "original_folder": "13",
-    "new_id": 610,
-    "question_img_ids": [
-        "question_610_0.png",
-        "question_610_1.png",
-        "question_610_2.png",
-        "question_610_3.png",
-        "question_610_4.png",
-        "question_610_5.png",
-        "question_610_6.png",
-        "question_610_7.png",
-        "question_610_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_610_0.png",
-        "answer_610_1.png",
-        "answer_610_2.png",
-        "answer_610_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

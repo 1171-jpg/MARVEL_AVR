@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Element",
-    "Explanation": "It is observed that the number of graphic elements in the first paragraph is 3, 2, and 1 respectively, which is an arithmetic sequence, and the element with the largest shape is retained in Figure 3; the number of elements in Figure 1 and Figure 2 in the second paragraph is 3 and 2 respectively, continue Apply the rules, so at the question mark, you should choose a figure with an element number of 1 and retain the largest shape element. There is only option D.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 513,
+    "pattern": "Quantities",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, the number of elements decreases.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is there parallel lines or not in choice 1?",
+    "f_perception_answer": "yes",
+    "f_perception_distractor": "no",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is there parallel lines or not in candidate 1?",
-    "Distrator": "no",
-    "Perception_Answer": "yes",
-    "original_chapter": "./Data_aug/Element",
-    "original_folder": "11",
-    "new_id": 513,
-    "question_img_ids": [
-        "question_513_0.png",
-        "question_513_1.png",
-        "question_513_2.png",
-        "question_513_3.png",
-        "question_513_4.png",
-        "question_513_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_513_0.png",
-        "answer_513_1.png",
-        "answer_513_2.png",
-        "answer_513_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

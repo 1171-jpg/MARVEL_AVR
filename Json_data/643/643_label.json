@@ -1,38 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Special Pattern",
-    "Sub-Pattern": "Functional elements",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 643,
+    "pattern": "Spatial Relationship",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, the element first separate from two lines, than tangent with the first line , and later the second line.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the circle in choice 1 above or below two lines?",
+    "f_perception_answer": "above",
+    "f_perception_distractor": "below",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the circle in candidate 1 above or below two lines?",
-    "Distrator": "below",
-    "Perception_Answer": "above",
-    "Demonstration": "The puzzle features a 3x2 grid with circles and lines, and each grid follows a specific pattern in the placement of these elements.\nIn the sequence provided:\nThe first grid in the top row places a circle between two lines.\nThe second grid in the top row has a circle positioned at the bottom of a short line.\nThe third grid in the top row positions the circle at the top of a longer line.\nThe pattern indicates that the circle starts between two lines, then moves to the bottom of a shorter line, and ends up at the top of a longer line.\nFor the bottom row, following the same pattern:\nThe first grid shows a circle at the middle of two curve lines.\nThe second grid should have the circle placed at the bottom of shorter curve line.\nGiven this pattern, the correct answer is choice 1, as it positions the circle above the longer curve line.",
-    "original_chapter": "./Easy_Marvel/Functional elements",
-    "original_folder": "7",
-    "new_id": 643,
-    "question_img_ids": [
-        "question_643_0.png",
-        "question_643_1.png",
-        "question_643_2.png",
-        "question_643_3.png",
-        "question_643_4.png",
-        "question_643_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_643_0.png",
-        "answer_643_1.png",
-        "answer_643_2.png",
-        "answer_643_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

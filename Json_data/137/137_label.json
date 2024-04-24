@@ -1,40 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "Symmetry",
-    "Explanation": "The element composition is different, and the attribute rules are given priority. There are symmetrical characteristic figures such as isosceles triangles, arrows, and five-pointed stars in the question figures, and the symmetry is tested. The nine-square grid is first viewed in horizontal rows. In the first row of figures, the three figures are only axially symmetrical figures, only central symmetrical figures, and only axially symmetrical figures; substitute them into the second row of figures.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 137,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The element composition is different, and the attribute rules are given priority. There are symmetrical characteristic figures such as isosceles triangles, arrows, and five-pointed stars in the question figures, and the symmetry is tested. The nine-square grid is first viewed in horizontal rows. In the first row of figures, the three figures are only axially symmetrical figures, only central symmetrical figures, and only axially symmetrical figures; substitute them into the second row of figures.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the shape of choice 3 a heart or a star?",
+    "f_perception_answer": "heart",
+    "f_perception_distractor": "star",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Is the shape of candidate 3 a heart or a star?",
-    "Perception_Answer": "heart",
-    "Distrator": "star",
-    "original_chapter": "Final",
-    "original_folder": "69",
-    "new_id": 137,
-    "question_img_ids": [
-        "question_137_0.png",
-        "question_137_1.png",
-        "question_137_2.png",
-        "question_137_3.png",
-        "question_137_4.png",
-        "question_137_5.png",
-        "question_137_6.png",
-        "question_137_7.png",
-        "question_137_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_137_0.png",
-        "answer_137_1.png",
-        "answer_137_2.png",
-        "answer_137_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

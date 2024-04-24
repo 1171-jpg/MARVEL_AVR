@@ -1,37 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Point",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 695,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of end point is increasing.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is choice 2 a circle or a rectangle?",
+    "f_perception_answer": "circle",
+    "f_perception_distractor": "rectangle",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is candidate 2 a circle or a rectangle?",
-    "Distrator": "rectangle",
-    "Perception_Answer": "circle",
-    "Demonstration": "The pattern in the given sequence focuses on the number and relative positions of endpoints in each shape:\nThe first image is a straight line, which has two endpoints.\nThe second image is a triangle, which has three endpoints.\nThe third image is a square, which has four endpoints.\nThe fourth image is a pentagon, which has five endpoints.\nTherefore, to complete the pattern, the next image should be a shape with six endpoints. The choice 1 contains a hexagon, which has six endpoints.",
-    "original_chapter": "./Easy_Marvel/Point",
-    "original_folder": "3",
-    "new_id": 695,
-    "question_img_ids": [
-        "question_695_0.png",
-        "question_695_1.png",
-        "question_695_2.png",
-        "question_695_3.png",
-        "question_695_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_695_0.png",
-        "answer_695_1.png",
-        "answer_695_2.png",
-        "answer_695_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

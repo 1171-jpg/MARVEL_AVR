@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "black and white computation",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 673,
+    "pattern": "Mathematical",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The first two images add up to the last image. The overlapping part is removed.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the arrow in choice 3 pointing to up or down?",
+    "f_perception_answer": "down",
+    "f_perception_distractor": "up",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the arrow in candidate 3 pointing to up or down?",
-    "Distrator": "up",
-    "Perception_Answer": "down",
-    "original_chapter": "./Easy_Marvel/black and white computation",
-    "original_folder": "9",
-    "new_id": 673,
-    "question_img_ids": [
-        "question_673_0.png",
-        "question_673_1.png",
-        "question_673_2.png",
-        "question_673_3.png",
-        "question_673_4.png",
-        "question_673_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_673_0.png",
-        "answer_673_1.png",
-        "answer_673_2.png",
-        "answer_673_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

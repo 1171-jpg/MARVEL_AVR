@@ -1,37 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Point",
-    "Explanation": "The composition of the elements is messy and the quantity is a question. It can be seen that lines can be straight or curved, considering the number of intersections. Observed from left to right, the number of intersections of various lines in the graph is 2, 3, 4, 5, and 6. The next graph should be a graph with 7 intersections. Observe that only the number of line intersections of the graph in item A is 7.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 56,
+    "pattern": "Quantities",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The composition of the elements is messy and the quantity is a question. It can be seen that lines can be straight or curved, considering the number of intersections. Observed from left to right, the number of intersections of various lines in the graph is 2, 3, 4, 5, and 6. The next graph should be a graph with 7 intersections. Observe that only the number of line intersections of the graph in item A is 7.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three horizontal lines in choice 1?",
+    "f_perception_answer": "three",
+    "f_perception_distractor": "two",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there two or three horizontal lines in candidate 1?",
-    "Perception_Answer": "three",
-    "Distrator": "two",
-    "original_chapter": "Chapter_4",
-    "original_folder": "1",
-    "new_id": 56,
-    "question_img_ids": [
-        "question_56_0.png",
-        "question_56_1.png",
-        "question_56_2.png",
-        "question_56_3.png",
-        "question_56_4.png",
-        "question_56_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_56_0.png",
-        "answer_56_1.png",
-        "answer_56_2.png",
-        "answer_56_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

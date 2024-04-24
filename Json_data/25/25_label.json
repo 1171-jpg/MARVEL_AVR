@@ -1,40 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Addition and subtraction",
-    "Explanation": "Similar elements composition, prioritize considering the pattern of styles. When using the tic-tac-toe grid, prioritize the horizontal view. Start by looking at the first row. Rotate the first shape counterclockwise by 90\u00b0 and find the difference with the second shape to obtain the third shape. Verify if this pattern holds in the second row. Apply this pattern in the third row: Rotate the first shape counterclockwise by 90\u00b0 and find the difference with the second shape, keeping only the middle circle.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 25,
+    "pattern": "Mathematical",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Similar elements composition, prioritize considering the pattern of styles. When using the tic-tac-toe grid, prioritize the horizontal view. Start by looking at the first row. Rotate the first shape counterclockwise by 90\u00b0 and find the difference with the second shape to obtain the third shape. Verify if this pattern holds in the second row. Apply this pattern in the third row: Rotate the first shape counterclockwise by 90\u00b0 and find the difference with the second shape, keeping only the middle circle.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three black-filled circle in the circle of choice 3?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are there two or three black-filled circle in the circle of candidate 3?",
-    "Perception_Answer": "two",
-    "Distrator": "three",
-    "original_chapter": "Chapter_2",
-    "original_folder": "4",
-    "new_id": 25,
-    "question_img_ids": [
-        "question_25_0.png",
-        "question_25_1.png",
-        "question_25_2.png",
-        "question_25_3.png",
-        "question_25_4.png",
-        "question_25_5.png",
-        "question_25_6.png",
-        "question_25_7.png",
-        "question_25_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_25_0.png",
-        "answer_25_1.png",
-        "answer_25_2.png",
-        "answer_25_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

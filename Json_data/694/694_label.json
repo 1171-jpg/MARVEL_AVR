@@ -1,36 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Point",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 694,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 4 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of intersection point is increasing.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 4 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the inner shape in choice 1 a square or circle?",
+    "f_perception_answer": "square",
+    "f_perception_distractor": "circle",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         4,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the inner shape in candidate 1 a square or circle?",
-    "Distrator": "circle",
-    "Perception_Answer": "square",
-    "Demonstration": "Let's analyze the pattern in the given sequence:\nThe first image contains a single line intersected with a circle.\nThe second image contains two lines intersected with a circle.\nThe third image contains three lines intersected with a circle.\nTherefore, the fourth image should four lines intersected with a circle, only choice 1 follow the pattern.",
-    "original_chapter": "./Easy_Marvel/Point",
-    "original_folder": "2",
-    "new_id": 694,
-    "question_img_ids": [
-        "question_694_0.png",
-        "question_694_1.png",
-        "question_694_2.png",
-        "question_694_3.png"
-    ],
-    "answer_img_ids": [
-        "answer_694_0.png",
-        "answer_694_1.png",
-        "answer_694_2.png",
-        "answer_694_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        8
+    ]
 }

@@ -1,40 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Layer",
-    "Explanation": "The graphic elements of the question stem have different compositions and no obvious attribute rules. Consider the quantity rules. The graphics in the first row have 2, 3, and 1 faces respectively, and the graphics in the second row have 0, 3, and 3 faces respectively. The sum of the number of faces in the first shape and the third shape in each row is equal. The number of faces of the two shapes. The third figure in the row has 1, 3, and 3 faces respectively, so the figure at the question mark should have 2 faces, excluding three items A, B, and D.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 503,
+    "pattern": "Quantities",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of faces in the each row has a sum of 6.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is choice 2 symmetrical along the horizontal or vertical axis?",
+    "f_perception_answer": "vertical",
+    "f_perception_distractor": "horizontal",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Is candidate 2 symmetrical along the horizontal or vertical axis?",
-    "Distrator": "horizontal",
-    "Perception_Answer": "vertical",
-    "original_chapter": "./Data_aug/Layer",
-    "original_folder": "22",
-    "new_id": 503,
-    "question_img_ids": [
-        "question_503_0.png",
-        "question_503_1.png",
-        "question_503_2.png",
-        "question_503_3.png",
-        "question_503_4.png",
-        "question_503_5.png",
-        "question_503_6.png",
-        "question_503_7.png",
-        "question_503_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_503_0.png",
-        "answer_503_1.png",
-        "answer_503_2.png",
-        "answer_503_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

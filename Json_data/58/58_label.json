@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Point",
-    "Explanation": "The elements have different compositions and no obvious attribute rules. Consider the quantity rules. The outer frames of the graphics are all polygons and there are many internal lines. You can give priority to the number of faces and lines, but there are no rules. Continue to observe and find that there are intersections between the internal lines of the graphics and the outer frame. You can consider the number of intersections and the intersection points of the figures in the question. The numbers are 4, 567, and 8 in order, showing an increasing pattern of numbers, so a graph with a number of intersections of 9 should be selected. The number of intersection points of item A is 7, the number of intersection points of item B is 10, the number of intersection points of item C is 9, the number of intersection points of item D is 8, and only item C is consistent.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 58,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The elements have different compositions and no obvious attribute rules. Consider the quantity rules. The outer frames of the graphics are all polygons and there are many internal lines. You can give priority to the number of faces and lines, but there are no rules. Continue to observe and find that there are intersections between the internal lines of the graphics and the outer frame. You can consider the number of intersections and the intersection points of the figures in the question. The numbers are 4, 567, and 8 in order, showing an increasing pattern of numbers, so a graph with a number of intersections of 9 should be selected. The number of intersection points of item A is 7, the number of intersection points of item B is 10, the number of intersection points of item C is 9, the number of intersection points of item D is 8, and only item C is consistent.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three triangles in choice 4?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there two or three triangles in candidate 4?",
-    "Perception_Answer": "two",
-    "Distrator": "three",
-    "original_chapter": "Chapter_4",
-    "original_folder": "4",
-    "new_id": 58,
-    "question_img_ids": [
-        "question_58_0.png",
-        "question_58_1.png",
-        "question_58_2.png",
-        "question_58_3.png",
-        "question_58_4.png",
-        "question_58_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_58_0.png",
-        "answer_58_1.png",
-        "answer_58_2.png",
-        "answer_58_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

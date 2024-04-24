@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Special Pattern",
-    "Sub-Pattern": "Shape relationships",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 625,
+    "pattern": "Spatial Relationship",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Each panel contains a square.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does the triangle intersect with the rectangle in choice 4?",
+    "f_perception_answer": "yes",
+    "f_perception_distractor": "no",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does the triangle intersect with the rectangle in candidate 4?",
-    "Distrator": "no",
-    "Perception_Answer": "yes",
-    "Demonstration": "The puzzle showcases a sequence of shapes, each interacting with a square. The key to this puzzle is recognizing how each distinct geometric shape overlaps with a square in every grid.\nIn the sequence provided:\nThe first grid displays a circle overlapping with the square.\nThe second grid shows a square overlapping with the square.\nThe third grid features a triangle overlapping with the square.\nThe fourth grid should continue this pattern of geometric shapes overlapping with the square.\nTherefore, the missing grid should depict a geometric shape overlapping with the square. The choice 4 is the correct answer, as it shows a triangle overlapping with the square, consistent with the pattern of shapes interacting with squares in the sequence.",
-    "original_chapter": "./Easy_Marvel/Shape relationships",
-    "original_folder": "2",
-    "new_id": 625,
-    "question_img_ids": [
-        "question_625_0.png",
-        "question_625_1.png",
-        "question_625_2.png",
-        "question_625_3.png",
-        "question_625_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_625_0.png",
-        "answer_625_1.png",
-        "answer_625_2.png",
-        "answer_625_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

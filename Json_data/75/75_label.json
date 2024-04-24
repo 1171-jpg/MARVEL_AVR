@@ -1,37 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Layer",
-    "Explanation": "The number of faces in the figure on the question mark is 8, 7, 6, 5, and 4, so the figure at the question mark should have 3 faces, excluding items C and D. Comparing two items A and B, it is found that the shapes of the surfaces are different. The surfaces in the figure at the question mark are all triangles, so the faces in the figure at the question mark should be triangles, so option A is selected.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 75,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of faces in the figure on the question mark is 8, 7, 6, 5, and 4, so the figure at the question mark should have 3 faces, excluding items C and D. Comparing two items A and B, it is found that the shapes of the surfaces are different. The surfaces in the figure at the question mark are all triangles, so the faces in the figure at the question mark should be triangles, so option A is selected.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or four lines inside the rectangle in choice 4?",
+    "f_perception_answer": "three",
+    "f_perception_distractor": "four",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there three or four lines inside the rectangle in candidate 4?",
-    "Perception_Answer": "three",
-    "Distrator": "four",
-    "original_chapter": "Chapter_4",
-    "original_folder": "41",
-    "new_id": 75,
-    "question_img_ids": [
-        "question_75_0.png",
-        "question_75_1.png",
-        "question_75_2.png",
-        "question_75_3.png",
-        "question_75_4.png",
-        "question_75_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_75_0.png",
-        "answer_75_1.png",
-        "answer_75_2.png",
-        "answer_75_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

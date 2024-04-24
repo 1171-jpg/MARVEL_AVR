@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Black and white computation",
-    "Explanation": "The composition of elements is similar, prioritizing the consideration of style patterns. The number of black blocks in the question shapes varies, prompting consideration of black and white computation. Observing the first set of shapes reveals the following pattern: black + black = black, white + black = white, black + blank = white, white + white = black. Following this rule, the only option that conforms to the answer is option C.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 35,
+    "pattern": "Mathematical",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The composition of elements is similar, prioritizing the consideration of style patterns. The number of black blocks in the question shapes varies, prompting consideration of black and white computation. Observing the first set of shapes reveals the following pattern: black + black = black, white + black = white, black + blank = white, white + white = black. Following this rule, the only option that conforms to the answer is option C.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is there one or two empty triangles in choice 1?",
+    "f_perception_answer": "one",
+    "f_perception_distractor": "two",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is there one or two empty triangles in candidate 1?",
-    "Perception_Answer": "one",
-    "Distrator": "two",
-    "original_chapter": "Chapter_2",
-    "original_folder": "15",
-    "new_id": 35,
-    "question_img_ids": [
-        "question_35_0.png",
-        "question_35_1.png",
-        "question_35_2.png",
-        "question_35_3.png",
-        "question_35_4.png",
-        "question_35_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_35_0.png",
-        "answer_35_1.png",
-        "answer_35_2.png",
-        "answer_35_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 611,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The triangle rotates in clockwise direction.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is choice 3 symmetrical along the horizontal or vertical axis?",
+    "f_perception_answer": "vertical",
+    "f_perception_distractor": "horizontal",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is candidate 3 symmetrical along the horizontal or vertical axis?",
-    "Distrator": "horizontal",
-    "Perception_Answer": "vertical",
-    "Demonstration": "The given puzzle presents a sequence of five triangular shapes, with the last shape missing. The objective is to identify the pattern in the sequence and determine which of the four choices would logically complete it.\nLet's analyze the pattern in the given sequence:\nThe first shape in the sequence is an equilateral triangle pointing upwards.\nIn the second shape, the triangle is rotated 90 degrees clockwise, now pointing to the right.\nThe third shape shows the triangle rotated another 90 degrees clockwise, pointing downwards.\nIn the fourth shape, the triangle is again rotated 90 degrees clockwise, pointing to the left.\nBased on this pattern, we can conclude that the triangle is rotating 90 degrees clockwise in each step of the sequence.\nTo determine the missing shape, we need to continue the pattern by rotating the triangle 90 degrees clockwise from its position in the fourth shape.\nLooking at the provided choices, choice 3 accurately represents the expected shape. It shows the triangle pointing upwards, which is the result of rotating the left-pointing triangle from the fourth shape by 90 degrees clockwise.",
-    "original_chapter": "./Easy_Marvel/Rotation and Flip",
-    "original_folder": "1",
-    "new_id": 611,
-    "question_img_ids": [
-        "question_611_0.png",
-        "question_611_1.png",
-        "question_611_2.png",
-        "question_611_3.png",
-        "question_611_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_611_0.png",
-        "answer_611_1.png",
-        "answer_611_2.png",
-        "answer_611_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

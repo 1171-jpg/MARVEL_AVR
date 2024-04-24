@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Special Pattern",
-    "Sub-Pattern": "Functional elements",
-    "Explanation": "It is observed that the two elements in the first, third and fifth figures of the question are all in the upper right corner and the lower left corner. The two elements in the second and fourth figures are all in the upper left corner. The position of the corner and the lower right corner, so the two elements in the figure at the question mark should be at the position of the upper left corner and the lower right corner, excluding two items A and D. Comparing items B and C, the arrows of the two elements in item B point to different points, while the arrows of the two elements in item C point to the same direction. The arrows of the two elements in each figure in the question stem point to the same direction, and only item C meets the",
-    "Issue": "",
-    "Question Shape": [
+    "id": 122,
+    "pattern": "Spatial Relationship",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "It is observed that the two elements in the first, third and fifth figures of the question are all in the upper right corner and the lower left corner. The two elements in the second and fourth figures are all in the upper left corner. The position of the corner and the lower right corner, so the two elements in the figure at the question mark should be at the position of the upper left corner and the lower right corner, excluding two items A and D. Comparing items B and C, the arrows of the two elements in item B point to different points, while the arrows of the two elements in item C point to the same direction. The arrows of the two elements in each figure in the question stem point to the same direction, and only item C meets the",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the arrow from the rectangle in choice 2 facing up or down?",
+    "f_perception_answer": "up",
+    "f_perception_distractor": "down",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the arrow from the rectangle in candidate 2 facing up or down?",
-    "Perception_Answer": "up",
-    "Distrator": "down",
-    "original_chapter": "Final",
-    "original_folder": "49",
-    "new_id": 122,
-    "question_img_ids": [
-        "question_122_0.png",
-        "question_122_1.png",
-        "question_122_2.png",
-        "question_122_3.png",
-        "question_122_4.png",
-        "question_122_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_122_0.png",
-        "answer_122_1.png",
-        "answer_122_2.png",
-        "answer_122_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

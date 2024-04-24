@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "straightness, opening and closing",
-    "Explanation": "The graphics that appear are composed of inner and outer parts. The intersection and separation of the two graphics appear alternately, so the question mark should be separated. Looking at the straightness of the lines, the resulting graphics consist of straight lines, curves and straight lines appearing alternately. Then the graphics at the question mark should be composed of curves and straight lines.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 446,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The intersection and separation of the two shapes appear alternately. The shapes consist of straight lines, curves, and straight lines appearing alternately. ",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the circle inside of an ellipse or rectangle in choice 2?",
+    "f_perception_answer": "ellipse",
+    "f_perception_distractor": "rectangle",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the circle inside of an ellipse or rectangle in candidate 2?",
-    "Distrator": "rectangle",
-    "Perception_Answer": "ellipse",
-    "original_chapter": "./Data_aug/Straight",
-    "original_folder": "7",
-    "new_id": 446,
-    "question_img_ids": [
-        "question_446_0.png",
-        "question_446_1.png",
-        "question_446_2.png",
-        "question_446_3.png",
-        "question_446_4.png",
-        "question_446_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_446_0.png",
-        "answer_446_1.png",
-        "answer_446_2.png",
-        "answer_446_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

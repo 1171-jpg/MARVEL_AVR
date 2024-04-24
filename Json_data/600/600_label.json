@@ -1,38 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Parallel Movement",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 600,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The black circle move from left to right and then from right to left.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the black filled circle in the left or right part of choice 1?",
+    "f_perception_answer": "left",
+    "f_perception_distractor": "right",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the black filled circle in the left or right part of candidate 1?",
-    "Distrator": "right",
-    "Perception_Answer": "left",
-    "Demonstration": "The given puzzle presents a sequence of circles, where each item contains three circles. The objective is to identify the pattern of the black circle's position and determine which of the four choices would logically complete the sequence.\nLet's analyze the pattern of the black circle's position in the given sequence:\nIn the first item, the black circle is at the leftmost position.\nThe second item shows the black circle shifted one position to the right, now in the middle.\nIn the third item, the black circle has moved to the rightmost position.\nThe fourth item depicts the black circle back in the middle position.\nIn the fifth item, the black circle returns to the leftmost position, just like in the first item.\nBased on this pattern, we can conclude that the black circle moves from left to right and then back to the left in a looping manner. After the fifth item, the pattern should repeat, with the black circle moving to the middle position.\nLooking at the provided choices, choice 2 accurately represents this expected pattern, showing the black circle in the middle position.",
-    "original_chapter": "./Easy_Marvel/Parallel Movement",
-    "original_folder": "3",
-    "new_id": 600,
-    "question_img_ids": [
-        "question_600_0.png",
-        "question_600_1.png",
-        "question_600_2.png",
-        "question_600_3.png",
-        "question_600_4.png",
-        "question_600_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_600_0.png",
-        "answer_600_1.png",
-        "answer_600_2.png",
-        "answer_600_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

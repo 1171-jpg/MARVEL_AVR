@@ -1,38 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Line",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 711,
+    "pattern": "Quantities",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In first row, the number of curve lines is larger than number of straight lines, While the comparison reversed in second row.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three disconnected lines in choice 3?",
+    "f_perception_answer": "three",
+    "f_perception_distractor": "two",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there two or three disconnected lines in candidate 3?",
-    "Distrator": "two",
-    "Perception_Answer": "three",
-    "Demonstration": "The pattern in the given sequence is that the number of straight line and curve lines remain same in each row:\nLet's analyze the pattern in the given rows:\nIn the first row:\nIn the first image contains two curve lines and one straight line.\nIn the second image contains two curve lines and one straight line.\nIn the third image contains two curve lines and one straight line.\nIn the second row:\nIn the first image contains two straight lines and one curve line.\nIn the second image contains two straight lines and one curve line.\nThe third image should also contain two straight lines and one curve line. Therefore the correct answer is choice 1.",
-    "original_chapter": "./Easy_Marvel/Line",
-    "original_folder": "6",
-    "new_id": 711,
-    "question_img_ids": [
-        "question_711_0.png",
-        "question_711_1.png",
-        "question_711_2.png",
-        "question_711_3.png",
-        "question_711_4.png",
-        "question_711_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_711_0.png",
-        "answer_711_1.png",
-        "answer_711_2.png",
-        "answer_711_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

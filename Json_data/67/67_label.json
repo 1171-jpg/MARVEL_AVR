@@ -1,35 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Line",
-    "Explanation": "The number of lines in the question stem is obvious, so consider counting the lines. The number of horizontal lines in the question stem is 2, 5, 5, and the number of solid lines is 3, 3, 3. The figure at ? should be 3 solid lines, corresponding to item C.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 67,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 4 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of lines in the question stem is obvious, so consider counting the lines. The number of horizontal lines in the question stem is 2, 5, 5, and the number of solid lines is 3, 3, 3. The figure at ? should be 3 solid lines, corresponding to item C.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 4 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are horizontal lines in choice 2 at the bottom or top part?",
+    "f_perception_answer": "top",
+    "f_perception_distractor": "bottom",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         4,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are horizontal lines in candidate 2 at the bottom or top part?",
-    "Perception_Answer": "top",
-    "Distrator": "bottom",
-    "original_chapter": "Chapter_4",
-    "original_folder": "28",
-    "new_id": 67,
-    "question_img_ids": [
-        "question_67_0.png",
-        "question_67_1.png",
-        "question_67_2.png",
-        "question_67_3.png"
-    ],
-    "answer_img_ids": [
-        "answer_67_0.png",
-        "answer_67_1.png",
-        "answer_67_2.png",
-        "answer_67_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        8
+    ]
 }

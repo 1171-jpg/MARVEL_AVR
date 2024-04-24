@@ -1,36 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Line",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 709,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Each panel contain one curve line.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two disconnected lines in choice 4 or not?",
+    "f_perception_answer": "yes",
+    "f_perception_distractor": "no",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there two disconnected lines in candidate 4 or not?",
-    "Distrator": "no",
-    "Perception_Answer": "yes",
-    "original_chapter": "./Easy_Marvel/Line",
-    "original_folder": "4",
-    "new_id": 709,
-    "question_img_ids": [
-        "question_709_0.png",
-        "question_709_1.png",
-        "question_709_2.png",
-        "question_709_3.png",
-        "question_709_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_709_0.png",
-        "answer_709_1.png",
-        "answer_709_2.png",
-        "answer_709_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

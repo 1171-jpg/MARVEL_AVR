@@ -1,40 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Element",
-    "Explanation": "In the first column, from bottom to top, in the three figures, the numbers of line segments outside the figure are 1, 3, and 5 respectively, which is an arithmetic sequence; in the second column, from top to bottom, in the three figures, the number of line segments outside the figure are The numbers are 7, 9, and 11 respectively, which is an arithmetic sequence; in the third column, from bottom to top, in the three graphics, the numbers of line segments outside the graphics are (13), 15, and 17, which is an arithmetic sequence. Only the number of line segments protruding outside the graph of item A is 13. Therefore the correct answer is A.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 512,
+    "pattern": "Quantities",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In the first column, from bottom to top, in the three figures, the numbers of line segments outside the figure are 1, 3, and 5 respectively, which is an arithmetic sequence; in the second column, from top to bottom, in the three figures, the number of line segments outside the figure are The numbers are 7, 9, and 11 respectively, which is an arithmetic sequence; in the third column, from bottom to top, in the three graphics, the numbers of line segments outside the graphics are (13), 15, and 17, which is an arithmetic sequence. ",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there four or five vertical lines in choice 1?",
+    "f_perception_answer": "four",
+    "f_perception_distractor": "five",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are there four or five vertical lines in candidate 1?",
-    "Distrator": "five",
-    "Perception_Answer": "four",
-    "original_chapter": "./Data_aug/Element",
-    "original_folder": "9",
-    "new_id": 512,
-    "question_img_ids": [
-        "question_512_0.png",
-        "question_512_1.png",
-        "question_512_2.png",
-        "question_512_3.png",
-        "question_512_4.png",
-        "question_512_5.png",
-        "question_512_6.png",
-        "question_512_7.png",
-        "question_512_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_512_0.png",
-        "answer_512_1.png",
-        "answer_512_2.png",
-        "answer_512_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

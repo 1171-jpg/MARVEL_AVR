@@ -1,36 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "symmetry",
-    "Explanation": "Method 1: Observe the figures in the question. The first and third figures have obvious symmetry rules. They are both axially symmetrical figures. However, the second and fourth figures are not axially symmetrical figures. Therefore, the first, third, and fifth figures are not axially symmetrical figures. All graphs should be axially symmetrical graphs. Observation option, only option C is axially symmetrical graphs. Method 2: Observe the figure in the question. Flip the second figure along the vertical axis to get the fourth figure. Observing the options, we found that item C has an obvious relationship with the position of the first figure in the question stem, and by flipping the first figure in the question stem along the horizontal axis, item C can be obtained, that is, with the third figure as the center, the second figure and the fourth figure The figures are two figures that are symmetrical about the vertical axis, and the first figure and the fifth figure are two figures that are symmetrical about the horizontal axis.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 43,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Method 1: Observe the figures in the question. The first and third figures have obvious symmetry rules. They are both axially symmetrical figures. However, the second and fourth figures are not axially symmetrical figures. Therefore, the first, third, and fifth figures are not axially symmetrical figures. All graphs should be axially symmetrical graphs. Observation option, only option C is axially symmetrical graphs. Method 2: Observe the figure in the question. Flip the second figure along the vertical axis to get the fourth figure. Observing the options, we found that item C has an obvious relationship with the position of the first figure in the question stem, and by flipping the first figure in the question stem along the horizontal axis, item C can be obtained, that is, with the third figure as the center, the second figure and the fourth figure The figures are two figures that are symmetrical about the vertical axis, and the first figure and the fifth figure are two figures that are symmetrical about the horizontal axis.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the right bottom circle in choice 4 filled or empty?",
+    "f_perception_answer": "empty",
+    "f_perception_distractor": "filled",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the right bottom circle in candidate 4 filled or empty?",
-    "Perception_Answer": "empty",
-    "Distrator": "filled",
-    "original_chapter": "Chapter_3",
-    "original_folder": "3",
-    "new_id": 43,
-    "question_img_ids": [
-        "question_43_0.png",
-        "question_43_1.png",
-        "question_43_2.png",
-        "question_43_3.png",
-        "question_43_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_43_0.png",
-        "answer_43_1.png",
-        "answer_43_2.png",
-        "answer_43_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

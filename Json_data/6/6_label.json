@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Parallel Movement",
-    "Explanation": "The elements of the graphics are the same. Taking into account the relative position relationship, they are 1 black block alone, 2 black blocks connected together, and 3 black blocks connected together. Question stem: In the 5 pictures, one black block, two black blocks, and three black blocks are all arranged in clockwise order, and A, B, and D are all arranged in counterclockwise order. Only item C among the options conforms to this rule.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 6,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In the 5 pictures, one black block, two black blocks, and three black blocks are all arranged in clockwise order",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 2 have two or three black filled rectangles on the bottom?",
+    "f_perception_answer": "three",
+    "f_perception_distractor": "two",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does candidate 2 have two or three black filled rectangles on the bottom?",
-    "Perception_Answer": "three",
-    "Distrator": "two",
-    "original_chapter": "Chapter_1",
-    "original_folder": "7",
-    "new_id": 6,
-    "question_img_ids": [
-        "question_6_0.png",
-        "question_6_1.png",
-        "question_6_2.png",
-        "question_6_3.png",
-        "question_6_4.png",
-        "question_6_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_6_0.png",
-        "answer_6_1.png",
-        "answer_6_2.png",
-        "answer_6_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

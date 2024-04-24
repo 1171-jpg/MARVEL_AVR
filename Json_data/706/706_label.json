@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Line",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 706,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of lines is increasing.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or five parallel horizontal lines in choice 2?",
+    "f_perception_answer": "three",
+    "f_perception_distractor": "five",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there three or five parallel horizontal lines in candidate 2?",
-    "Distrator": "five",
-    "Perception_Answer": "three",
-    "Demonstration": "Let's analyze the pattern in the given sequence, focusing on the number horizontal lines in each shape:\nThe first image has one horizontal line.\nThe second image contains two horizontal lines.\nThe third image contains three horizontal lines.\nThe fourth image contains four horizontal lines.\nTherefore, to complete the pattern, the next image should contain five horizontal lines. The answer is choice 3.",
-    "original_chapter": "./Easy_Marvel/Line",
-    "original_folder": "1",
-    "new_id": 706,
-    "question_img_ids": [
-        "question_706_0.png",
-        "question_706_1.png",
-        "question_706_2.png",
-        "question_706_3.png",
-        "question_706_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_706_0.png",
-        "answer_706_1.png",
-        "answer_706_2.png",
-        "answer_706_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

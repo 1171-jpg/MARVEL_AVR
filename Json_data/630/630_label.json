@@ -1,38 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Special Pattern",
-    "Sub-Pattern": "Shape relationships",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 630,
+    "pattern": "Spatial Relationship",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, two shapes are intersecting with each other.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Do the two lines intersect with each other in choice 1?",
+    "f_perception_answer": "yes",
+    "f_perception_distractor": "no",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Do the two lines intersect with each other in candidate 1?",
-    "Distrator": "no",
-    "Perception_Answer": "yes",
-    "Demonstration": "he puzzle displays a 3x2 grids where each row of grid features pairs of similar objects with varying interactions.\nIn the top row:\nThe first gird shows two interacting circles.\nThe second gird contains two interacting squares.\nThe third gird has two interacting triangles.\nIn the bottom row:\nThe first gird exhibits two interacting curve lines.\nThe second gird displays two interacting zigzag lines.\nSince the top row progresses with shapes that interacts with each other, the bottom row seems to follow the same pattern with lines. The correct answer is choice 1, with two interacting curve lines.",
-    "original_chapter": "./Easy_Marvel/Shape relationships",
-    "original_folder": "7",
-    "new_id": 630,
-    "question_img_ids": [
-        "question_630_0.png",
-        "question_630_1.png",
-        "question_630_2.png",
-        "question_630_3.png",
-        "question_630_4.png",
-        "question_630_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_630_0.png",
-        "answer_630_1.png",
-        "answer_630_2.png",
-        "answer_630_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

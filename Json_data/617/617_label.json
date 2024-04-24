@@ -1,38 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 617,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Th element filip along each row.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the arrow in choice 1 pointing to up or down?",
+    "f_perception_answer": "up",
+    "f_perception_distractor": "down",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the arrow in candidate 1 pointing to up or down?",
-    "Distrator": "down",
-    "Perception_Answer": "up",
-    "Demonstration": "The given puzzle features a sequence of arrows arranged in a 3x2 grid. Each row seems to follow a pattern involving flips. We need to analyze the pattern in each row and predict the next arrow in the sequence to fill the missing grid.\nIn the first row:\nThe first arrows points to the up-left and bottom-right.\nThe second arrows are a vertical flip of the first, now pointing to the bottom-left and up-right.\nThe pattern suggests that the next arrows should be a horizontal flip of the second, which would make them point to the up-left and bottom-right.\nIn the second row:\nThe first curve arrow points to the up-right.\nThe second curve arrow is a vertical flip of the first curve arrow in the second row, now pointing the up-left.\nFollowing the pattern, the missing arrow should be a horizontal flip of the second arrow in the second row, pointing to the bottom-left.\nGiven this pattern of alternating vertical and horizontal flips across the rows, the correct choice to complete the grid is Choice 4. This choice shows an arrow that has been flipped horizontally from the second arrow in the second row, pointing to the bottom-left, adhering to the established flip pattern.",
-    "original_chapter": "./Easy_Marvel/Rotation and Flip",
-    "original_folder": "7",
-    "new_id": 617,
-    "question_img_ids": [
-        "question_617_0.png",
-        "question_617_1.png",
-        "question_617_2.png",
-        "question_617_3.png",
-        "question_617_4.png",
-        "question_617_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_617_0.png",
-        "answer_617_1.png",
-        "answer_617_2.png",
-        "answer_617_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

@@ -1,35 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "symmetry",
-    "Explanation": "All curve graphics, all straight lines graphicss.",
-    "Issue": "group_new",
-    "Question Shape": [
+    "id": 151,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Group",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "All curve graphics",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the context part, while the other three options are categorized into a different group. Are there one or two circles in choice 2?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "one",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         3,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there one or two circles in candidate 2?",
-    "Perception_Answer": "two",
-    "Distrator": "one",
-    "source": "Chapter_3/26",
-    "original_chapter": "Group_aug",
-    "original_folder": "12",
-    "new_id": 151,
-    "question_img_ids": [
-        "question_151_0.png",
-        "question_151_1.png",
-        "question_151_2.png"
-    ],
-    "answer_img_ids": [
-        "answer_151_0.png",
-        "answer_151_1.png",
-        "answer_151_2.png",
-        "answer_151_3.png"
-    ],
-    "task_format": "group",
-    "prompt": "What is the best answer to complete the sequence?"
+        7
+    ]
 }

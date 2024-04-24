@@ -1,40 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "straightness, opening and closing",
-    "Explanation": "This question is a nine-square grid question. The element composition is messy, consider the attribute rules. The Nine Officials Grid can be thought about horizontally first and then vertically. It is observed that the first horizontal row is composed of straight lines, the second horizontal row is composed of curves, and the two pictures given in the third horizontal row have curves and straight lines. Fill in the question marks The graph should also contain both straight lines and curves, thus excluding items A and C. Comparing the differences between items B and D, it is found that item B is composed of one part and item D is composed of two parts. Each picture in the question is a part, so item D is excluded accordingly. Therefore the correct answer is B.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 52,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "This question is a nine-square grid question. The element composition is messy, consider the attribute rules. The Nine Officials Grid can be thought about horizontally first and then vertically. It is observed that the first horizontal row is composed of straight lines, the second horizontal row is composed of curves, and the two pictures given in the third horizontal row have curves and straight lines. Fill in the question marks The graph should also contain both straight lines and curves, thus excluding items A and C. Comparing the differences between items B and D, it is found that item B is composed of one part and item D is composed of two parts. Each picture in the question is a part, so item D is excluded accordingly. Therefore the correct answer is B.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is there one or two circles in choice 4?",
+    "f_perception_answer": "one",
+    "f_perception_distractor": "two",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Is there one or two circles in candidate 4?",
-    "Perception_Answer": "one",
-    "Distrator": "two",
-    "original_chapter": "Chapter_3",
-    "original_folder": "15",
-    "new_id": 52,
-    "question_img_ids": [
-        "question_52_0.png",
-        "question_52_1.png",
-        "question_52_2.png",
-        "question_52_3.png",
-        "question_52_4.png",
-        "question_52_5.png",
-        "question_52_6.png",
-        "question_52_7.png",
-        "question_52_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_52_0.png",
-        "answer_52_1.png",
-        "answer_52_2.png",
-        "answer_52_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

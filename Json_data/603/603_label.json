@@ -1,38 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Parallel Movement",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 603,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The triangle move from left to right part gradually.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the triangle at the left or right part of choice 4?",
+    "f_perception_answer": "right",
+    "f_perception_distractor": "left",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the triangle at the left or right part of candidate 4?",
-    "Distrator": "left",
-    "Perception_Answer": "right",
-    "Demonstration": "The given puzzle presents a sequence of shapes arranged in two rows. In the first row, each shape consists of a triangle and a rectangle, while in the second row, the shape changes to a pentagon. The objective is to identify the pattern of the triangle's position relative to the shape in the first row and adapt that pattern to the pentagon in the second row, considering the three grids in the second row.\nLet's analyze the pattern in the first row:\nIn the first shape of the first row, the triangle is at the top-left corner of the rectangle.\nIn the second shape of the first row, the triangle moves to the top-middle position of the rectangle.\nIn the third shape of the first row, the triangle is at the top-right corner of the rectangle.\nBased on this pattern, we can conclude that in the first row, the triangle moves from left to right along the top side of the rectangle.\nNow, let's adapt this pattern to the second row, considering the change in shape from a rectangle to a pentagon and the three grids:\nIn the first shape of the second row, the triangle is at the top-left corner of the pentagon, corresponding to the starting position of the pattern in the first row.\nIn the second shape of the second row, the triangle should move to the top-middle position of the pentagon, following the movement pattern from the first row.\nThe third grid in the second row is missing and needs to be completed based on the pattern.\nLooking at the provided choices, choice 4 accurately represents the expected pattern for the third shape in the second row. The shape in choice 4 shows the triangle at the top-right position of the pentagon, following the movement pattern adapted from the first row.",
-    "original_chapter": "./Easy_Marvel/Parallel Movement",
-    "original_folder": "6",
-    "new_id": 603,
-    "question_img_ids": [
-        "question_603_0.png",
-        "question_603_1.png",
-        "question_603_2.png",
-        "question_603_3.png",
-        "question_603_4.png",
-        "question_603_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_603_0.png",
-        "answer_603_1.png",
-        "answer_603_2.png",
-        "answer_603_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "straightness, opening and closing",
-    "Explanation": "Method 1: The elements have different compositions and attribute rules are given priority. Each of the former group of graphics contains 2 fully open graphics. Each of the latter group of graphics contains 1 fully open graphics. Item A is fully open. The number of graphics is 2, the B item is 1, the C item is 1, and the D item is 2. Method 2: The number of faces contained in each picture in the first group of graphics is 2, 3, and 2 in order, and the total number is added to. The first two pictures in the second group of graphics contain faces whose numbers are , and , respectively. Therefore, the question mark should be filled with a figure whose face number is 1 . The item ^ is a face, the item B is 1 face, the item C is 4 faces, and the item C is 2 faces. The sum of quantities is a constant value. This rule has been tested in the 2007 National Examination, the 2012 Joint Examination and other provincial examinations, but it all appeared in the Nine Officials Questions. Because when the first two numbers are the same, we can be sure that the third number should also be the same, but it is not strict to use this kind of thinking for the two sets of pictures. For example, the sum of the first set of pictures is 7, and the sum of the second set of pictures is 7. The sum of the faces is 5 (odd numbers decreasing), 6 (decreasing), 7 (constant), 8 (increasing), 9 (odd numbers increasing), which are all regular. Therefore, method two is not as rigorous as method one, so the chalk public examination is more inclined. Choose C. Therefore the correct answer is C.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 54,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Method 1: The elements have different compositions and attribute rules are given priority. Each of the former group of graphics contains 2 fully open graphics. Each of the latter group of graphics contains 1 fully open graphics. Item A is fully open. The number of graphics is 2, the B item is 1, the C item is 1, and the D item is 2. Method 2: The number of faces contained in each picture in the first group of graphics is 2, 3, and 2 in order, and the total number is added to. The first two pictures in the second group of graphics contain faces whose numbers are , and , respectively. Therefore, the question mark should be filled with a figure whose face number is 1 . The item ^ is a face, the item B is 1 face, the item C is 4 faces, and the item C is 2 faces. The sum of quantities is a constant value. This rule has been tested in the 2007 National Examination, the 2012 Joint Examination and other provincial examinations, but it all appeared in the Nine Officials Questions. Because when the first two numbers are the same, we can be sure that the third number should also be the same, but it is not strict to use this kind of thinking for the two sets of pictures. For example, the sum of the first set of pictures is 7, and the sum of the second set of pictures is 7. The sum of the faces is 5 (odd numbers decreasing), 6 (decreasing), 7 (constant), 8 (increasing), 9 (odd numbers increasing), which are all regular. Therefore, method two is not as rigorous as method one, so the chalk public examination is more inclined. Choose C. Therefore the correct answer is C.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 1 contain a number three?",
+    "f_perception_answer": "no",
+    "f_perception_distractor": "yes",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does candidate 1 contain a number three?",
-    "Perception_Answer": "no",
-    "Distrator": "yes",
-    "original_chapter": "Chapter_3",
-    "original_folder": "17",
-    "new_id": 54,
-    "question_img_ids": [
-        "question_54_0.png",
-        "question_54_1.png",
-        "question_54_2.png",
-        "question_54_3.png",
-        "question_54_4.png",
-        "question_54_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_54_0.png",
-        "answer_54_1.png",
-        "answer_54_2.png",
-        "answer_54_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

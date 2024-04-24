@@ -1,37 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Point",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 693,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of intersection point is increasing.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or four vertical lines in choice 1?",
+    "f_perception_answer": "four",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there three or four vertical lines in candidate 1?",
-    "Distrator": "three",
-    "Perception_Answer": "four",
-    "Demonstration": "Let's analyze the pattern in the given sequence:\nThe first image contains a single horizontal line.\nThe second image contains a horizontal line intersected by one vertical line, creating one intersection point.\nThe third image contains a horizontal line intersected by two vertical lines, creating two intersection points.\nThe fourth image contains a horizontal line intersected by three vertical lines, creating three intersection points.\nTherefore, the fourth image should contain a horizontal line intersected by four vertical lines, creating four intersection points, only choice 1 follow the pattern.",
-    "original_chapter": "./Easy_Marvel/Point",
-    "original_folder": "1",
-    "new_id": 693,
-    "question_img_ids": [
-        "question_693_0.png",
-        "question_693_1.png",
-        "question_693_2.png",
-        "question_693_3.png",
-        "question_693_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_693_0.png",
-        "answer_693_1.png",
-        "answer_693_2.png",
-        "answer_693_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

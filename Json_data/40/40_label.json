@@ -1,35 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Quantity Pattern",
-    "Explanation": "The composition of graphic elements is different, specifically the quantity of gray squares varies. Priority is given to considering quantity patterns. In the three images presented in the question, the number of gray squares is 12, 11, and 11, respectively, with no apparent quantity pattern. In the comparison between the first and second images, it is observed that there are 6 gray squares in identical positions. Further observation reveals that the second and third images share 5 gray squares in identical positions. At the question mark, the image should have 4 gray squares in positions identical to those in the third image. Upon observing the options, option A has 5 squares, option B has 9 squares, option C has 4 squares, and option D has 6 squares",
-    "Issue": "",
-    "Question Shape": [
+    "id": 40,
+    "pattern": "Mathematical",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 4 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The composition of graphic elements is different, specifically the quantity of gray squares varies. Priority is given to considering quantity patterns. In the three images presented in the question, the number of gray squares is 12, 11, and 11, respectively, with no apparent quantity pattern. In the comparison between the first and second images, it is observed that there are 6 gray squares in identical positions. Further observation reveals that the second and third images share 5 gray squares in identical positions. At the question mark, the image should have 4 gray squares in positions identical to those in the third image. Upon observing the options, option A has 5 squares, option B has 9 squares, option C has 4 squares, and option D has 6 squares",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 4 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the right bottom rectangle in choice 3 filled or empty?",
+    "f_perception_answer": "filled",
+    "f_perception_distractor": "empty",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         4,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the right bottom rectangle in candidate 3 filled or empty?",
-    "Perception_Answer": "filled",
-    "Distrator": "empty",
-    "original_chapter": "Chapter_2",
-    "original_folder": "21",
-    "new_id": 40,
-    "question_img_ids": [
-        "question_40_0.png",
-        "question_40_1.png",
-        "question_40_2.png",
-        "question_40_3.png"
-    ],
-    "answer_img_ids": [
-        "answer_40_0.png",
-        "answer_40_1.png",
-        "answer_40_2.png",
-        "answer_40_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        8
+    ]
 }

@@ -1,32 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "3D Pattern",
-    "Sub-Pattern": "Tetrahedron",
-    "Explanation": "",
-    "Issue": "3D",
-    "Question Shape": [
+    "id": 570,
+    "pattern": "3D-Geometry",
+    "task_configuration": "3D",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is an unfolded diagram of the regular tetrahedron. The choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4) represents the correct three-dimensional assembly. Which choice (either 1, 2, 3, or 4) is the most appropriate answer?",
+    "explanation": "Reformation",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is an unfolded diagram of the regular tetrahedron. The choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4) represents the correct three-dimensional assembly. Is the triangle at the leftmost or rightmost corner of choice 2 filled in black?",
+    "f_perception_answer": "rightmost",
+    "f_perception_distractor": "leftmost",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top contains the visual grid and the choices part on the bottome conatin a sequence of grids representing the possible choice. How many grids are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         1,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the triangle at the leftmost or rightmost corner of candidate 2 filled in black?",
-    "Distrator": "leftmost",
-    "Perception_Answer": "rightmost",
-    "original_chapter": "./Data_aug/four",
-    "original_folder": "20",
-    "new_id": 570,
-    "question_img_ids": [
-        "question_570_0.png"
-    ],
-    "answer_img_ids": [
-        "answer_570_0.png",
-        "answer_570_1.png",
-        "answer_570_2.png",
-        "answer_570_3.png"
-    ],
-    "task_format": "3d",
-    "prompt": "What is the best answer to complete the sequence?"
+        5
+    ]
 }

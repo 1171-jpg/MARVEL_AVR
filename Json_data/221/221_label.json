@@ -1,35 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Layer",
-    "Explanation": "Judging from the number of closed surfaces, all graphics contain 7 closed surfaces and cannot be grouped. Continue to observe the shape of the surfaces. Among the 7 surfaces in a group of pictures, 4 are triangles and 3 are quadrilaterals. In another set of pictures, 3 of the 7 faces are triangles and 4 are quadrilaterals. Accordingly, they are divided into two groups.",
-    "Issue": "group_new",
-    "Question Shape": [
+    "id": 221,
+    "pattern": "Quantities",
+    "task_configuration": "Group",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Judging from the number of closed surfaces, all graphics contain 7 closed surfaces and cannot be grouped. Continue to observe the shape of the surfaces. Among the 7 surfaces in a group of pictures, 4 are triangles and 3 are quadrilaterals. In another set of pictures, 3 of the 7 faces are triangles and 4 are quadrilaterals. Accordingly, they are divided into two groups.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the context part, while the other three options are categorized into a different group. Does choice 1 has a circle or not?",
+    "f_perception_answer": "no",
+    "f_perception_distractor": "yes",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         3,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "source": "./Data_aug/Layer/8",
-    "Question": "Does candidate 1 has a circle or not?",
-    "Distrator": "yes",
-    "Perception_Answer": "no",
-    "original_chapter": "Group_aug",
-    "original_folder": "82",
-    "new_id": 221,
-    "question_img_ids": [
-        "question_221_0.png",
-        "question_221_1.png",
-        "question_221_2.png"
-    ],
-    "answer_img_ids": [
-        "answer_221_0.png",
-        "answer_221_1.png",
-        "answer_221_2.png",
-        "answer_221_3.png"
-    ],
-    "task_format": "group",
-    "prompt": "What is the best answer to complete the sequence?"
+        7
+    ]
 }

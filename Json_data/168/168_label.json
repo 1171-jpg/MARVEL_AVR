@@ -1,35 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Element",
-    "Explanation": "There are small elements with the same shape in the inner and outer rings of the graphics, and the small elements with the same shape in the inner and outer rings are adjacent in one group. In another group, the small elements of the same shape in the circle are not adjacent.",
-    "Issue": "group_new",
-    "Question Shape": [
+    "id": 168,
+    "pattern": "Quantities",
+    "task_configuration": "Group",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "There are small elements with the same shape in the inner and outer rings of the graphics, and the small elements with the same shape in the inner and outer rings are adjacent in one group. In another group, the small elements of the same shape in the circle are not adjacent.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the context part, while the other three options are categorized into a different group. Are there zero or one stars in the inner circle of choice 4",
+    "f_perception_answer": "one",
+    "f_perception_distractor": "zero",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         3,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there zero or one stars in the inner circle of candidate 4",
-    "Perception_Answer": "one",
-    "Distrator": "zero",
-    "source": "Chapter_4/52",
-    "original_chapter": "Group_aug",
-    "original_folder": "29",
-    "new_id": 168,
-    "question_img_ids": [
-        "question_168_0.png",
-        "question_168_1.png",
-        "question_168_2.png"
-    ],
-    "answer_img_ids": [
-        "answer_168_0.png",
-        "answer_168_1.png",
-        "answer_168_2.png",
-        "answer_168_3.png"
-    ],
-    "task_format": "group",
-    "prompt": "What is the best answer to complete the sequence?"
+        7
+    ]
 }

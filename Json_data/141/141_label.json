@@ -1,35 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "This question is a group question classification. It is observed that the elements have the same composition, and the positional rules are given priority. Observe the positional relationship between the small black dot and the triangular triangle. You can consider the black dot to draw the clock hand closest to the direction of the triangle. It is found that Figure 145 is clockwise and 236 is clockwise. That is, Figure 5 is obtained by rotating the same figure, and Figure 236 is obtained by rotating the same figure. Therefore, 145 is a group and 236 is a group.",
-    "Issue": "group_new",
-    "Question Shape": [
+    "id": 141,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Group",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "This question is a group question classification. It is observed that the elements have the same composition, and the positional rules are given priority. Observe the positional relationship between the small black dot and the triangular triangle. You can consider the black dot to draw the clock hand closest to the direction of the triangle. It is found that Figure 145 is clockwise and 236 is clockwise. That is, Figure 5 is obtained by rotating the same figure, and Figure 236 is obtained by rotating the same figure. Therefore, 145 is a group and 236 is a group.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the context part, while the other three options are categorized into a different group. Does the black filled circle on the top or bottom of the hexagon in choice 3?",
+    "f_perception_answer": "bottom",
+    "f_perception_distractor": "top",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         3,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does the black filled circle on the top or bottom of the hexagon in candidate 3?",
-    "Perception_Answer": "bottom",
-    "Distrator": "top",
-    "source": "Chapter_1/23",
-    "original_chapter": "Group_aug",
-    "original_folder": "2",
-    "new_id": 141,
-    "question_img_ids": [
-        "question_141_0.png",
-        "question_141_1.png",
-        "question_141_2.png"
-    ],
-    "answer_img_ids": [
-        "answer_141_0.png",
-        "answer_141_1.png",
-        "answer_141_2.png",
-        "answer_141_3.png"
-    ],
-    "task_format": "group",
-    "prompt": "What is the best answer to complete the sequence?"
+        7
+    ]
 }

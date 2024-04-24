@@ -1,36 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Line",
-    "Explanation": "Comparing the first picture and the second picture, it is found that the first picture is rotated 90\u00b0 clockwise and a line is added to become the second picture. In the same way, the question stem graphics always have the latter picture before the previous picture. Basically, rotate 90\u00b0 clockwise and add one line each time. Therefore, the figure at the question mark should be rotated 90\u00b0 clockwise and add one line based on the previous figure. Only item B is satisfied.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 63,
+    "pattern": "Quantities",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Comparing the first picture and the second picture, it is found that the first picture is rotated 90\u00b0 clockwise and a line is added to become the second picture. In the same way, the question stem graphics always have the latter picture before the previous picture. Basically, rotate 90\u00b0 clockwise and add one line each time. Therefore, the figure at the question mark should be rotated 90\u00b0 clockwise and add one line based on the previous figure. Only item B is satisfied.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 1 have two or three vertical lines?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does candidate 1 have two or three vertical lines?",
-    "Perception_Answer": "two",
-    "Distrator": "three",
-    "original_chapter": "Chapter_4",
-    "original_folder": "16",
-    "new_id": 63,
-    "question_img_ids": [
-        "question_63_0.png",
-        "question_63_1.png",
-        "question_63_2.png",
-        "question_63_3.png",
-        "question_63_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_63_0.png",
-        "answer_63_1.png",
-        "answer_63_2.png",
-        "answer_63_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

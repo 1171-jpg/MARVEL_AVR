@@ -1,37 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "symmetry",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 746,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "All panels contain symmetric shape.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the two heart shape in choice 4 intersected or separated?",
+    "f_perception_answer": "intersected",
+    "f_perception_distractor": "separated",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are the two heart shape in candidate 4 intersected or separated?",
-    "Distrator": "separated",
-    "Perception_Answer": "intersected",
-    "Demonstration": "The pattern in the given sequence involves shapes consisting of two identical shapes that are symmetrical about the diagonal axes:\nThe first grid shows two overlapping circles, which is symmetrical about the diagonal axes.\nThe second grid contains two overlapping triangles, which is symmetrical about the diagonal axes.\nThe third grid features two overlapping squares, which is symmetrical about the diagonal axes.\nThe fourth grid displays two overlapping pentagon, which is symmetrical about the diagonal axes.\nFollowing this pattern, the next grid should display two identical shapes that are symmetrical about the diagonal axes. Therefore, the correct answer is choice 2, which shows two identical heart shapes overlapping and symmetrically arranged about their diagonals",
-    "original_chapter": "./Easy_Marvel/Symmetry",
-    "original_folder": "2",
-    "new_id": 746,
-    "question_img_ids": [
-        "question_746_0.png",
-        "question_746_1.png",
-        "question_746_2.png",
-        "question_746_3.png",
-        "question_746_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_746_0.png",
-        "answer_746_1.png",
-        "answer_746_2.png",
-        "answer_746_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

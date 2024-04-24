@@ -1,36 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Quantity pattern",
-    "Explanation": "In each two group of images, one item is same.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 593,
+    "pattern": "Mathematical",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each two group of two adjacent panels, one item is same.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the sun-like shape at the right or left part of choice 1?",
+    "f_perception_answer": "right",
+    "f_perception_distractor": "left",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the sun-like shape at the right or left part of candidate 1?",
-    "Distrator": "left",
-    "Perception_Answer": "right",
-    "original_chapter": "./Data_aug/Quantity",
-    "original_folder": "23",
-    "new_id": 593,
-    "question_img_ids": [
-        "question_593_0.png",
-        "question_593_1.png",
-        "question_593_2.png",
-        "question_593_3.png",
-        "question_593_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_593_0.png",
-        "answer_593_1.png",
-        "answer_593_2.png",
-        "answer_593_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

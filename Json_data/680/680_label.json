@@ -1,37 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "quantity pattern",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 680,
+    "pattern": "Mathematical",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The black elements are at the left column or diagonal line alternatively.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the top cloud-like shapes in choice 3 filled in black or white?",
+    "f_perception_answer": "black",
+    "f_perception_distractor": "white",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are the top cloud-like shapes in candidate 3 filled in black or white?",
-    "Distrator": "white",
-    "Perception_Answer": "black",
-    "Demonstration": "The puzzle showcases a sequence of grids, each grid alternates the position of the black shapes between the leftmost side and the top-left to bottom-right diagonal, while the shape of the black figures changes in each grid, following the order of square, circle, triangle, and star.\nLet's analyze the pattern in the given sequence:\nIn the first grid, the two leftmost squares are black, while the other squares are white.\nIn the second grid, the two circles along the top-left to bottom-right diagonal are black, while the other circles are white.\nIn the third grid, the two leftmost triangles are black, while the other triangles are white.\nIn the fourth grid, the two stars along the top-left to bottom-right diagonal are black, while the other stars are white.\nBased on this pattern, the missing grid should have the two leftmost shapes in black, only choice 2 matches this pattern.",
-    "original_chapter": "./Easy_Marvel/quantity pattern",
-    "original_folder": "1",
-    "new_id": 680,
-    "question_img_ids": [
-        "question_680_0.png",
-        "question_680_1.png",
-        "question_680_2.png",
-        "question_680_3.png",
-        "question_680_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_680_0.png",
-        "answer_680_1.png",
-        "answer_680_2.png",
-        "answer_680_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

@@ -1,39 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "The composition of graphic elements is the same, and priority is given to positional rules. The nine-square grid gives priority to the horizontal rows. The first row of pictures is rotated 180 degrees to get the second picture. The second row of pictures is flipped left and right to get the third picture. The second row of graphics has been verified to comply with this rule. This rule applies to the graphics in the third row. The first picture is rotated 180 degrees to get the second picture. Therefore, the picture at the question mark should be obtained by flipping the second picture left and right. Only item B is consistent.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 269,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, the first image is rotated 180 degrees to get the second picture. The second image is flipped left and right to get the third image. Only item B is consistent.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 3 have a number six or nine?",
+    "f_perception_answer": "six",
+    "f_perception_distractor": "nine",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Does candidate 3 have a number six or nine?",
-    "Perception_Answer": "six",
-    "Distrator": "nine",
-    "only_one": "1",
-    "source": "Chapter_1/17",
-    "original_chapter": "Two_rows_aug",
-    "original_folder": "1",
-    "new_id": 269,
-    "question_img_ids": [
-        "question_269_0.png",
-        "question_269_1.png",
-        "question_269_2.png",
-        "question_269_3.png",
-        "question_269_4.png",
-        "question_269_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_269_0.png",
-        "answer_269_1.png",
-        "answer_269_2.png",
-        "answer_269_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

@@ -1,38 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Parallel Movement",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 598,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The sequence depicts an arrow initially positioned on the left side of a single square, pointing vertically upwards and downwards. In each subsequent step, the arrow progressively moves from left to right without rotating or changing its vertical up-down orientation.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the arrows in choice 3 pointing to left/right or top/down?",
+    "f_perception_answer": "top/down",
+    "f_perception_distractor": "left/right",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are the arrows in candidate 3 pointing to left/right or top/down?",
-    "Distrator": "left/right",
-    "Perception_Answer": "top/down",
-    "Demonstration": "The sequence depicts an arrow initially positioned on the left side of a single square, pointing vertically upwards and downwards. In each subsequent step, the arrow progressively moves from left to right without rotating or changing its vertical up-down orientation.\nThe progression of the sequence is as follows:\n1. Arrow starts on the far left side of the square, pointing vertically.\n2. Arrow moves slightly rightwards, still outside the square and pointing vertically.\n3. Arrow continues moving right, now positioned inside the left side of the square, still pointing vertically.\n4. Arrow moves further right, now inside the square closer to the center, maintaining vertical orientation.\n5. Arrow has moved all the way to the right side of the square, still pointing vertically up and down.\nTherefore, to conclude and complete this pattern sequence, the missing element should show the arrow having moved beyond the right side of the square while maintaining its consistent vertical up-down orientation throughout the progression. The correct answer is the image in choice 1.",
-    "original_chapter": "./Easy_Marvel/Parallel Movement",
-    "original_folder": "1",
-    "new_id": 598,
-    "question_img_ids": [
-        "question_598_0.png",
-        "question_598_1.png",
-        "question_598_2.png",
-        "question_598_3.png",
-        "question_598_4.png",
-        "question_598_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_598_0.png",
-        "answer_598_1.png",
-        "answer_598_2.png",
-        "answer_598_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

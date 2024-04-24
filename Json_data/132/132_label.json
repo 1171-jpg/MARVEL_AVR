@@ -1,40 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "symmetry",
-    "Explanation": "In the first row, the three pictures are all axially symmetrical figures, and the direction of the symmetry axis is rotated 90\u00b0 clockwise. The second row has the same rule as the first row. The third row should also meet this rule, and only item C does.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 132,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In the first row, the three pictures are all axially symmetrical figures, and the direction of the symmetry axis is rotated 90\u00b0 clockwise. The second row has the same rule as the first row. The third row should also meet this rule, and only item C does.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the small rectangle on the right side or left side of the large rectangle in choice 4?",
+    "f_perception_answer": "right",
+    "f_perception_distractor": "left",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Is the small rectangle on the right side or left side of the large rectangle in candidate 4?",
-    "Perception_Answer": "right",
-    "Distrator": "left",
-    "original_chapter": "Final",
-    "original_folder": "62",
-    "new_id": 132,
-    "question_img_ids": [
-        "question_132_0.png",
-        "question_132_1.png",
-        "question_132_2.png",
-        "question_132_3.png",
-        "question_132_4.png",
-        "question_132_5.png",
-        "question_132_6.png",
-        "question_132_7.png",
-        "question_132_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_132_0.png",
-        "answer_132_1.png",
-        "answer_132_2.png",
-        "answer_132_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

@@ -1,41 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": " Consider viewing it horizontally. In the first row, the first picture is rotated 180\u00b0 as a whole to get the second picture, and the second picture is flipped up and down as a whole to get the third picture. It has been verified that the second row satisfies this rule. Therefore, this rule can be applied to the third row. The first picture can is rotated 180\u00b0 and then be flipped up and down. Only item D is satisfied.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 20,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": " Consider viewing it horizontally. In the first row, the first picture is rotated 180\u00b0 as a whole to get the second picture, and the second picture is flipped up and down as a whole to get the third picture. It has been verified that the second row satisfies this rule. Therefore, this rule can be applied to the third row. The first picture can is rotated 180\u00b0 and then be flipped up and down. Only item D is satisfied.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 4 have a regular or mirrored six?",
+    "f_perception_answer": "mirrored",
+    "f_perception_distractor": "regular",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Does candidate 4 have a regular or mirrored six?",
-    "Perception_Answer": "mirrored",
-    "Distrator": "regular",
-    "not_in_good": "1",
-    "original_chapter": "Chapter_1",
-    "original_folder": "28",
-    "new_id": 20,
-    "question_img_ids": [
-        "question_20_0.png",
-        "question_20_1.png",
-        "question_20_2.png",
-        "question_20_3.png",
-        "question_20_4.png",
-        "question_20_5.png",
-        "question_20_6.png",
-        "question_20_7.png",
-        "question_20_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_20_0.png",
-        "answer_20_1.png",
-        "answer_20_2.png",
-        "answer_20_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

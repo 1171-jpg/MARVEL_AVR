@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Quantity pattern",
-    "Explanation": "In the first paragraph, the outer contours of the figures are circles, squares, and triangles, so these three figures are also in the second paragraph. Comparing the gaps, we can see that the question mark is a square, excluding items B and D; further observation, the figures in the first paragraph The figures on the straight line outside the closed space are a five-pointed star, two triangles, and one triangle, so these three figures are also in the second paragraph. Comparing the gaps, we can see that the question mark is a five-pointed star, so item A is excluded, and only item C is consistent.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 582,
+    "pattern": "Mathematical",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, the out shape of the bottom part should include circle, triangle, and square. And the shape on the top should include, star, black triangle and two triangles.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the triangle in choice 2 empty or filled?",
+    "f_perception_answer": "filled",
+    "f_perception_distractor": "empty",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the triangle in candidate 2 empty or filled?",
-    "Distrator": "empty",
-    "Perception_Answer": "filled",
-    "original_chapter": "./Data_aug/Quantity",
-    "original_folder": "10",
-    "new_id": 582,
-    "question_img_ids": [
-        "question_582_0.png",
-        "question_582_1.png",
-        "question_582_2.png",
-        "question_582_3.png",
-        "question_582_4.png",
-        "question_582_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_582_0.png",
-        "answer_582_1.png",
-        "answer_582_2.png",
-        "answer_582_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

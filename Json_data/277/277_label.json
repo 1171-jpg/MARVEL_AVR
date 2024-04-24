@@ -1,38 +1,20 @@
 {
-    "Answer": "A",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Black and white computation",
-    "Explanation": "This question is a tic-tac-toe grid problem. Since the number of black squares is different and no pattern based on position is found, priority is given to considering black and white computation. In the tic-tac-toe grid, horizontal considerations precede vertical considerations. Observing the first row, the computation pattern is as follows: black + white = black, black + black = white, white + white = white, white + black = black. That is, the same color results in white, and different colors result in black (same white, different black). After verifying this pattern in the second row, it is applied to the third row. The top-left corner should be white, eliminating options B and D, and the top-right corner should be black, eliminating option C",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 277,
+    "pattern": "Mathematical",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, the computation pattern is as follows: black + white = black, black + black = white, white + white = white, white + black = black. That is, the same color results in white, and different colors result in black (same white, different black).",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the left bottom rectangle in choice 2 filled or empty?",
+    "f_perception_answer": "empty",
+    "f_perception_distractor": "filled",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the left bottom rectangle in candidate 2 filled or empty?",
-    "Perception_Answer": "empty",
-    "Distrator": "filled",
-    "source": "Chapter_2/18",
-    "original_chapter": "Two_rows_aug",
-    "original_folder": "9",
-    "new_id": 277,
-    "question_img_ids": [
-        "question_277_0.png",
-        "question_277_1.png",
-        "question_277_2.png",
-        "question_277_3.png",
-        "question_277_4.png",
-        "question_277_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_277_0.png",
-        "answer_277_1.png",
-        "answer_277_2.png",
-        "answer_277_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

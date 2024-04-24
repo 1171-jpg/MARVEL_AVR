@@ -1,39 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Rotation and Flip",
-    "Explanation": "The element composition is the same, and the positional rules are given priority. The nine-square grid is first viewed in horizontal rows. Observing the first row of graphics, it is found that the first picture is rotated 90\" clockwise to get the second picture, and the second picture is flipped left and right to get the third picture. Verify the second row of graphics, and the same This rule is satisfied. Therefore, the graph at the question mark should be the second graph in the third row of graphs obtained by flipping left and right. Only item C is consistent.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 270,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, the first image is rotated 90 clockwise to get the second image, and the second image is flipped left and right to get the third image. Only item C is consistent.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the black filled arrow in choice 2 pointing to the top left or bottom right?",
+    "f_perception_answer": "top left",
+    "f_perception_distractor": "bottom right",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the black filled arrow in candidate 2 pointing to the top left or bottom right?",
-    "Perception_Answer": "top left",
-    "Distrator": "bottom right",
-    "only_one": "1",
-    "source": "Chapter_1/25",
-    "original_chapter": "Two_rows_aug",
-    "original_folder": "2",
-    "new_id": 270,
-    "question_img_ids": [
-        "question_270_0.png",
-        "question_270_1.png",
-        "question_270_2.png",
-        "question_270_3.png",
-        "question_270_4.png",
-        "question_270_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_270_0.png",
-        "answer_270_1.png",
-        "answer_270_2.png",
-        "answer_270_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

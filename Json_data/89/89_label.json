@@ -1,40 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Special Pattern",
-    "Sub-Pattern": "Shape relationships",
-    "Explanation": "Observing the shapes, it can be seen that each shape is composed of two elements. Additionally, the static positional relationships between the two elements in each row are intersection, tangent, and separation. In the question shapes, there are both black and white elements, and only option D satisfies this pattern.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 89,
+    "pattern": "Spatial Relationship",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Observing the shapes, it can be seen that each shape is composed of two elements. Additionally, the static positional relationships between the two elements in each row are intersection, tangent, and separation. In the question shapes, there are both black and white elements, and only option D satisfies this pattern.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are three two or three triangles in choice 4?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Are three two or three triangles in candidate 4?",
-    "Perception_Answer": "two",
-    "Distrator": "three",
-    "original_chapter": "Chapter_5",
-    "original_folder": "1",
-    "new_id": 89,
-    "question_img_ids": [
-        "question_89_0.png",
-        "question_89_1.png",
-        "question_89_2.png",
-        "question_89_3.png",
-        "question_89_4.png",
-        "question_89_5.png",
-        "question_89_6.png",
-        "question_89_7.png",
-        "question_89_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_89_0.png",
-        "answer_89_1.png",
-        "answer_89_2.png",
-        "answer_89_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

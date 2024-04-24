@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Number Pattern",
-    "Sub-Pattern": "Element",
-    "Explanation": "The number of elements in the first set of graphics is 7 and 6 respectively, subtracting 5 times. Similarly, it can be seen that the number of elements in the second set of graphics should be 6 and 5, (4), excluding items B and D. Looking at the details, the element types are different. The element types in the first set of graphics are 2, 3, and 4 times incrementing. It is also known that the element types in the second set of graphics should be 1, 2, (3), excluding item A. .",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 82,
+    "pattern": "Quantities",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The number of elements in the first set of graphics is 7 and 6 respectively, subtracting 5 times. Similarly, it can be seen that the number of elements in the second set of graphics should be 6 and 5, (4), excluding items B and D. Looking at the details, the element types are different. The element types in the first set of graphics are 2, 3, and 4 times incrementing. It is also known that the element types in the second set of graphics should be 1, 2, (3), excluding item A. .",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there four or five patterns in choice 2?",
+    "f_perception_answer": "five",
+    "f_perception_distractor": "four",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there four or five patterns in candidate 2?",
-    "Perception_Answer": "five",
-    "Distrator": "four",
-    "original_chapter": "Chapter_4",
-    "original_folder": "59",
-    "new_id": 82,
-    "question_img_ids": [
-        "question_82_0.png",
-        "question_82_1.png",
-        "question_82_2.png",
-        "question_82_3.png",
-        "question_82_4.png",
-        "question_82_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_82_0.png",
-        "answer_82_1.png",
-        "answer_82_2.png",
-        "answer_82_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

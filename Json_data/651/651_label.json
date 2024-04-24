@@ -1,38 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Addition and subtraction",
-    "Explanation": "",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 651,
+    "pattern": "Mathematical",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The last two images add up to the first image.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is choice 1 symmetrical along the horizontal or vertical axis?",
+    "f_perception_answer": "vertical",
+    "f_perception_distractor": "horizontal",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is candidate 1 symmetrical along the horizontal or vertical axis?",
-    "Distrator": "horizontal",
-    "Perception_Answer": "vertical",
-    "Demonstration": "The puzzle features a 3x2 grid of lines and rectangles, where each grid follows a specific pattern based on logical operations on the shapes within, considering their locations. The third grid in each row results from a logical operation on the shapes in the first two grids.\nIn the first row:\nThe first grid has two lines, one on the left and one on the right.\nThe second grid has the right line from the first grid.\nThe third grid has the left line, obtained by subtracting the right line in the second grid from the two lines in the first grid.\nFollowing the same pattern for the second row:\nThe first grid has two rectangles, one on the left and one on the right.\nThe second grid has the right rectangle from the first grid.\nTherefore, the third grid should have the left rectangle, obtained by subtracting the left rectangle in the second grid from the two rectangles in the first grid. Choice 3 is correct.",
-    "original_chapter": "./Easy_Marvel/Addition and subtraction",
-    "original_folder": "2",
-    "new_id": 651,
-    "question_img_ids": [
-        "question_651_0.png",
-        "question_651_1.png",
-        "question_651_2.png",
-        "question_651_3.png",
-        "question_651_4.png",
-        "question_651_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_651_0.png",
-        "answer_651_1.png",
-        "answer_651_2.png",
-        "answer_651_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

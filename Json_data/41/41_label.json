@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "symmetry",
-    "Explanation": "The composition of elements is different, and the attribute rules are given priority. If every figure in the question is a centrally symmetrical figure, then the question mark should also be a centrally symmetrical figure. Item A is not a centrally symmetrical figure, item B is not a centrally symmetrical figure, item C is a centrally symmetrical figure, and item D is not a centrally symmetrical figure.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 41,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The composition of elements is different, and the attribute rules are given priority. If every figure in the question is a centrally symmetrical figure, then the question mark should also be a centrally symmetrical figure. Item A is not a centrally symmetrical figure, item B is not a centrally symmetrical figure, item C is a centrally symmetrical figure, and item D is not a centrally symmetrical figure.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or two moon shapes in choice 4?",
+    "f_perception_answer": "two",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there three or two moon shapes in candidate 4?",
-    "Perception_Answer": "two",
-    "Distrator": "three",
-    "original_chapter": "Chapter_3",
-    "original_folder": "1",
-    "new_id": 41,
-    "question_img_ids": [
-        "question_41_0.png",
-        "question_41_1.png",
-        "question_41_2.png",
-        "question_41_3.png",
-        "question_41_4.png",
-        "question_41_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_41_0.png",
-        "answer_41_1.png",
-        "answer_41_2.png",
-        "answer_41_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

@@ -1,37 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Quantity pattern",
-    "Explanation": "The question stem is composed of an arrow and graphics at both ends of the arrow. The graphics at both ends of the arrow are similar, but the positions are different. The graphics are numbered, as shown in the figure below. The external element of graphic No. 1 in the first paragraph is rotated 180\u309c to become the internal element of graphic No. 2; The direction of the middle element of figure No. 1 remains unchanged and becomes the external element of figure No. 2; the direction of the internal element in figure No. 1 does not change and becomes the middle element of figure No. 2; only item C conforms to the second paragraph application rule.",
-    "Issue": "2",
-    "Question Shape": [
+    "id": 581,
+    "pattern": "Mathematical",
+    "task_configuration": "Two-row",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The question stem is composed of an arrow and graphics at both ends of the arrow. The graphics at both ends of the arrow are similar, but the positions are different.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the innermost shape in choice 2 a triangle or circle?",
+    "f_perception_answer": "triangle",
+    "f_perception_distractor": "circle",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         6,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the innermost shape in candidate 2 a triangle or circle?",
-    "Distrator": "circle",
-    "Perception_Answer": "triangle",
-    "original_chapter": "./Data_aug/Quantity",
-    "original_folder": "9",
-    "new_id": 581,
-    "question_img_ids": [
-        "question_581_0.png",
-        "question_581_1.png",
-        "question_581_2.png",
-        "question_581_3.png",
-        "question_581_4.png",
-        "question_581_5.png"
-    ],
-    "answer_img_ids": [
-        "answer_581_0.png",
-        "answer_581_1.png",
-        "answer_581_2.png",
-        "answer_581_3.png"
-    ],
-    "task_format": "two-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        10
+    ]
 }

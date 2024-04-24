@@ -1,36 +1,20 @@
 {
-    "Answer": "B",
-    "Pattern": "Location Pattern",
-    "Sub-Pattern": "Parallel Movement",
-    "Explanation": "The element composition is the same, and the positional rules are given priority. Observing the graphics, we find that the small black blocks in the fourth row from the first width picture to the width picture are moved one space to the left, and the small black blocks in the third row from the second width picture to the third width picture are moved one space to the left in the third picture. The small black block in the second row of the fourth picture moves one space to the left. Therefore, when the fourth picture reaches the question mark, the small black block in the first row should move one space to the left. Only item B matches.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 99,
+    "pattern": "Temporal Movement",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The element composition is the same, and the positional rules are given priority. Observing the graphics, we find that the small black blocks in the fourth row from the first width picture to the width picture are moved one space to the left, and the small black blocks in the third row from the second width picture to the third width picture are moved one space to the left in the third picture. The small black block in the second row of the fourth picture moves one space to the left. Therefore, when the fourth picture reaches the question mark, the small black block in the first row should move one space to the left. Only item B matches.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or four filled squares in choice 2?",
+    "f_perception_answer": "four",
+    "f_perception_distractor": "three",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Are there three or four filled squares in candidate 2?",
-    "Perception_Answer": "four",
-    "Distrator": "three",
-    "original_chapter": "Final",
-    "original_folder": "1",
-    "new_id": 99,
-    "question_img_ids": [
-        "question_99_0.png",
-        "question_99_1.png",
-        "question_99_2.png",
-        "question_99_3.png",
-        "question_99_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_99_0.png",
-        "answer_99_1.png",
-        "answer_99_2.png",
-        "answer_99_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

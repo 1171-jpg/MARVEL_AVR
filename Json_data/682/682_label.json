@@ -1,37 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "quantity pattern",
-    "Explanation": "",
-    "Issue": "",
-    "Question Shape": [
+    "id": 682,
+    "pattern": "Mathematical",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "Each panel contains a square.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the rectangle at the left or right half of choice 4?",
+    "f_perception_answer": "left",
+    "f_perception_distractor": "right",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is the rectangle at the left or right half of candidate 4?",
-    "Distrator": "right",
-    "Perception_Answer": "left",
-    "Demonstration": "The puzzle features a sequence of 5 grids containing various geometric shapes, where each grid follows a specific pattern related to the number and arrangement of squares and other shapes. The objective is to identify the pattern and determine which of the four choices would logically complete the sequence.\nLet's analyze the pattern in the given sequence:\nThe first grid contains a square and a triangle.\nThe second grid contains a square and a star.\nThe third grid contains a square and a cloud-like shape.\nThe fourth grid contains a square and a pentagon.\nBased on this pattern, each grid consistently contains a square, only choice 4 is correct",
-    "original_chapter": "./Easy_Marvel/quantity pattern",
-    "original_folder": "3",
-    "new_id": 682,
-    "question_img_ids": [
-        "question_682_0.png",
-        "question_682_1.png",
-        "question_682_2.png",
-        "question_682_3.png",
-        "question_682_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_682_0.png",
-        "answer_682_1.png",
-        "answer_682_2.png",
-        "answer_682_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }

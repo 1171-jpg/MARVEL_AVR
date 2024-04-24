@@ -1,40 +1,20 @@
 {
-    "Answer": "D",
-    "Pattern": "Style Pattern",
-    "Sub-Pattern": "Quantity pattern",
-    "Explanation": "First, look horizontally. If you look horizontally, you will find that each layer has several elements, such as five-pointed stars and rhombuses (some are white and some are black). The total number of elements in each layer is six, but the number of times each element appears in each layer is Certain, and the permutations and combinations are different, then it obviously belongs to the traversal we are talking about. According to our method, whatever is missing is supplemented, so choose option D.",
-    "Issue": "",
-    "Question Shape": [
-        3,
-        3
+    "id": 590,
+    "pattern": "Mathematical",
+    "task_configuration": "Matrix",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "In each row, the elements in the image should be picked from six types of shapes.",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the top star larger than the bottom star in choice 3?",
+    "f_perception_answer": "yes",
+    "f_perception_distractor": "no",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
     ],
-    "Answer Shape": [
+    "c_perception_answer_tuple": [
+        9,
         4,
-        1
-    ],
-    "Question": "Is the top star larger than the bottom star in candidate 3?",
-    "Distrator": "no",
-    "Perception_Answer": "yes",
-    "original_chapter": "./Data_aug/Quantity",
-    "original_folder": "19",
-    "new_id": 590,
-    "question_img_ids": [
-        "question_590_0.png",
-        "question_590_1.png",
-        "question_590_2.png",
-        "question_590_3.png",
-        "question_590_4.png",
-        "question_590_5.png",
-        "question_590_6.png",
-        "question_590_7.png",
-        "question_590_8.png"
-    ],
-    "answer_img_ids": [
-        "answer_590_0.png",
-        "answer_590_1.png",
-        "answer_590_2.png",
-        "answer_590_3.png"
-    ],
-    "task_format": "matrix",
-    "prompt": "What is the best answer to complete the sequence?"
+        13
+    ]
 }

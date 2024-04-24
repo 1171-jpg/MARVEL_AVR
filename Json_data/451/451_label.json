@@ -1,36 +1,20 @@
 {
-    "Answer": "C",
-    "Pattern": "Attribute Pattern",
-    "Sub-Pattern": "straightness, opening and closing",
-    "Explanation": "The question stem figures are composed of a full straight line figure and a full curve figure pressed against each other. Considering the relationship between the figures, the relationship between the question stem figures is: a straight line presses a curve, a curve presses a straight line, a straight line presses a curve, and a curve presses a straight line, so , only item C is consistent.",
-    "Issue": "",
-    "Question Shape": [
+    "id": 451,
+    "pattern": "2D-Geometry",
+    "task_configuration": "Sequence",
+    "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "explanation": "The images are composed of a full straight line figure and a full curve figure pressed against each other. Considering the relationship between the figures, the relationship between the image is: a straight line presses a curve, a curve presses a straight line, a straight line presses a curve, and a curve presses a straight line,",
+    "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is there a circle in choice 3 or not?",
+    "f_perception_answer": "yes",
+    "f_perception_distractor": "no",
+    "c_perception_question_tuple": [
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the context part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids are there in the choices part?",
+        "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top contains some grids with the last missing blank grid to be completed. The choices part on the bottome conatin a sequence of grids representing the possible choices. How many grids, including the blank grid, are there in the whole puzzle?"
+    ],
+    "c_perception_answer_tuple": [
         5,
-        1
-    ],
-    "Answer Shape": [
         4,
-        1
-    ],
-    "Question": "Is there a circle in candidate 3 or not?",
-    "Distrator": "no",
-    "Perception_Answer": "yes",
-    "original_chapter": "./Data_aug/Straight",
-    "original_folder": "13",
-    "new_id": 451,
-    "question_img_ids": [
-        "question_451_0.png",
-        "question_451_1.png",
-        "question_451_2.png",
-        "question_451_3.png",
-        "question_451_4.png"
-    ],
-    "answer_img_ids": [
-        "answer_451_0.png",
-        "answer_451_1.png",
-        "answer_451_2.png",
-        "answer_451_3.png"
-    ],
-    "task_format": "single-row",
-    "prompt": "What is the best answer to complete the sequence?"
+        9
+    ]
 }
