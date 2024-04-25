@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 4 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "Observing the shapes in the question, each image has a black circle and a white circle, both located in two different regions. Additionally, the region where the white circle is located is larger than the region where the black circle is located, eliminating option A. Further observation reveals that all shapes in the question have 3 surfaces, whereas option B has 4 surfaces, and option C has 7 surfaces, eliminating options B and C.",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 4 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the solid circle on the left or right side of the hollow circle in choice 4?",
     "f_perception_answer": "left",
     "f_perception_distractor": "right",

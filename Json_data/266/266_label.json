@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The first picture in each row has the black dot on the longest side, the second picture has the black dot on the shortest side, and the third picture has the black dot on the largest corner.",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are the black dots at the left or right part of choice 4?",
     "f_perception_answer": "left",
     "f_perception_distractor": "right",

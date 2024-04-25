@@ -4,6 +4,7 @@
     "task_configuration": "3D",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is an unfolded diagram of the regular tetrahedron. The choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4) represents the correct three-dimensional assembly. Which choice (either 1, 2, 3, or 4) is the most appropriate answer?",
     "explanation": "Reformation",
+    "answer": 2,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is an unfolded diagram of the regular tetrahedron. The choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4) represents the correct three-dimensional assembly. Are there two or three black filled triangles in choice 1?",
     "f_perception_answer": "two",
     "f_perception_distractor": "three",

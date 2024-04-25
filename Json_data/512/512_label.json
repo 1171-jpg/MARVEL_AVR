@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "In the first column, from bottom to top, in the three figures, the numbers of line segments outside the figure are 1, 3, and 5 respectively, which is an arithmetic sequence; in the second column, from top to bottom, in the three figures, the number of line segments outside the figure are The numbers are 7, 9, and 11 respectively, which is an arithmetic sequence; in the third column, from bottom to top, in the three graphics, the numbers of line segments outside the graphics are (13), 15, and 17, which is an arithmetic sequence. ",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there four or five vertical lines in choice 1?",
     "f_perception_answer": "four",
     "f_perception_distractor": "five",

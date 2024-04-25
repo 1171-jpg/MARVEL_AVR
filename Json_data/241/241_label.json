@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "It is observed that the first column in the first row of graphics decreases by one circle from bottom to top; the second column in the second row of graphics decreases by one circle from bottom to top; and the third column in the third row of graphics decreases by one circle in sequence. Therefore the correct answer is C.",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the circle on the top left corner of choice 1 black or white?",
     "f_perception_answer": "black",
     "f_perception_distractor": "white",

@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The number of straight lines inside the figure in question is 1.2, 3, 4, ?, so there should be 5 straight lines inside the figure in question. Only item D matches",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is there a diamond or a triangle inside the circle in choice 1?",
     "f_perception_answer": "triangle",
     "f_perception_distractor": "diamond",

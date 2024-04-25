@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "In the first row, the numbers of right angles in the three figures are 1 and 23 respectively. In the second line, the right angle numbers of the three figures are also 1, 2, and 3 respectively. This rule applies to the third line. The right angle numbers of the first two figures are 1 and 2 respectively. Therefore, a right angle number of 3 should be selected at the number. The numbers of right angles in the graph of item ABCD are 2, 0, 5, and 3 respectively, and only item D matches.",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is there a hexagon or a rectangle in choice 2?",
     "f_perception_answer": "hexagon",
     "f_perception_distractor": "rectangle",

@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The first, third and fifth figures all differ by 1 circle, and there is an obvious arithmetic relationship. The second and fourth figures should also differ by 1 circle, and the difference in the figures is 2 moons, indicating that 1 Circles = 2 moons. The five figures can be regarded as 1, 2, 3, 4, and 5 moons. The next figure should be 6 moons or 3 circles. Only item C conforms to this rule.",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or four circles in choice 1?",
     "f_perception_answer": "four",
     "f_perception_distractor": "three",

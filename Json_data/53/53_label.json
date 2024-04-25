@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The composition of elements is different, and the attribute rules are given priority. For nine-square grid graphics, first look at the horizontal rows. The first row is a straight-line graphic, the second row is a full-curve graphic, the first graphic and the second graphic in the third row are both straight + curved\" graphics, so the graphic at the question mark should also be \"straight + curved\" figure, exclude items B and C. Continuing to observe, we found that all the figures in the question are closed figures, and only item D is consistent.\"",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is there one or two circles in choice 2?",
     "f_perception_answer": "two",
     "f_perception_distractor": "one",

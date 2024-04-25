@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The number of external straight lines in each picture is: 6, 5, 4, 4, 5,?. The number of external straight lines in each picture is: 5, 4, 3, 3, 4,?, the number of external straight lines in each picture - the number of internal straight lines = 1, so You should also choose a figure that conforms to this rule at the question mark. Only item A conforms to this rule.",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there intersections in the rectangle in choice 1?",
     "f_perception_answer": "no",
     "f_perception_distractor": "yes",

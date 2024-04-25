@@ -4,6 +4,7 @@
     "task_configuration": "Two-row",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "Consider the number of sides. The number of faces in the first set of figures is 4, and they are all triangular faces. The number of faces in the first two figures in the second set of figures is 5, and both are quadrilateral faces. Therefore, one should be selected at the question mark with 5 faces. A figure composed of quadrilateral faces. Item A consists of 3 quadrilateral faces and 2 angular faces and is excluded. Item B consists of 4 quadrilateral faces and 1 triangular face and is excluded. Item C consists of 5 triangular faces and is excluded. Item D consists of 5 quadrilateral faces and was selected.",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there four or five triangles in choice 3?",
     "f_perception_answer": "five",
     "f_perception_distractor": "four",

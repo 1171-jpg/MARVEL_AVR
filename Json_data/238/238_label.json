@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The element composition is different, and the attribute rules are given priority. The nine-square grid is first viewed in horizontal rows. The first row of graphics is composed of straight lines, the second row of graphics is composed of curves, and the first two graphics of the third row of graphics are composed of straight lines and curves. Therefore, the graphics at the question mark should be composed of straight lines and curves. Only item A matches",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the arrow in choice 4 pointing up or down?",
     "f_perception_answer": "down",
     "f_perception_distractor": "up",

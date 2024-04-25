@@ -4,6 +4,7 @@
     "task_configuration": "Two-row",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The elements are similar in composition, and style rules are given priority. It is observed that in the first set of pictures, the first two pictures are superimposed to obtain the third picture. The second set of pictures follows this rule. The question mark should be obtained by superimposing the first two pictures. Only item C conforms to",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or four hollows in choice 2?",
     "f_perception_answer": "three",
     "f_perception_distractor": "four",

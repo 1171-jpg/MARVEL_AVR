@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The graphics have different compositions and no obvious attribute rules. Consider counting. The third picture consists of a pentagon and a straight line. Prioritize the number line and find that all the figures in the question stem are composed of 6 straight lines. Item A has 11 straight lines, item B has 6 straight lines, item C has 7 straight lines, and item D has 2 straight lines.",
+    "answer": 2,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three circles in choice 4?",
     "f_perception_answer": "three",
     "f_perception_distractor": "two",

@@ -4,6 +4,7 @@
     "task_configuration": "Two-row",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The composition of the elements is messy and the quantity is a question. It can be seen that lines can be straight or curved, considering the number of intersections. Observed from left to right, the number of intersections of various lines in the graph is 2, 3, 4, 5, and 6. The next graph should be a graph with 7 intersections. Observe that only the number of line intersections of the graph in item A is 7.",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three horizontal lines in choice 1?",
     "f_perception_answer": "three",
     "f_perception_distractor": "two",

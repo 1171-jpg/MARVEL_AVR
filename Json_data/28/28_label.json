@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The composition of elements is similar, considering the pattern of styles. There are similar lines between the shapes, and priority is given to the addition, subtraction, similarity, and difference in the style pattern. When looking at the tic-tac-toe grid, priority is given to examining it row by row. Then, considering it row by row, through observation, it is noticed that the last two shapes in each row add up to the first shape. Therefore, the third shape in the third column is missing a vertical line in the middle and a long horizontal line at the bottom. Only option D includes these two lines.",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or four lines in choice 4?",
     "f_perception_answer": "three",
     "f_perception_distractor": "four",

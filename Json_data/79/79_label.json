@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "Observation found that the four pictures in the question stem are all composed of 5 faces, excluding item D. Continuing to observe, we found that each picture in the question has a surface that has the same shape as the outer frame. Item A does not have a surface that has the same shape as the outer frame. Item B has multiple surfaces that have the same shape as the outer frame. Only item C Meet the question requirements",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there four or five rectangles in choice 1?",
     "f_perception_answer": "four",
     "f_perception_distractor": "five",

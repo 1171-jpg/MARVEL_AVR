@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The black balls in the first row of graphics are not next to each other, the second row of graphics has two black balls next to each other, the third row of graphics has three black balls next to each other, the graphic at the question mark should have three black balls next to each other, corresponding to Item C.",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the top right circle of choice 4 solid or hollow?",
     "f_perception_answer": "hollow",
     "f_perception_distractor": "solid",

@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The numbers of each picture in the first row are 0, 1, and 2 respectively. The numbers 2, 3, and 4 in each picture in the third row form an arithmetic sequence. The number of faces in each picture in the third row is 4, 5, ?. The number of faces in the figure at the question mark should be 6. There are 5 items A, 0 items B, 6 items C, and 3 items D. Only item C matches.",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does the curve intersect or separate from the line in choice 2",
     "f_perception_answer": "seperate",
     "f_perception_distractor": "intersect",

@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "Observe the graph as a whole. In the graph, the white block is divided into different parts by the black block. Then you can consider the number of parts of the white block separated by the black block. The numbers of parts of the white block separated by the black block are 1, 2, 3, and 4 respectively, so the white block at the number should be divided into 5 parts by the black block. Observing the options, item A is 4 parts, item B is 3 parts, item C is 1 part, and item D is 5 parts. Only item D is consistent.",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the square in the top left corner of choice 1 solid or hollow?",
     "f_perception_answer": "solid",
     "f_perception_distractor": "hollow",

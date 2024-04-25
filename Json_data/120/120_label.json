@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The element composition is the same, and the positional rules are given priority. Observe the graphics on the question stem. The elements of the first and third pictures are the same, and the elements of the second and fourth pictures are the same. Consider the positional rules between the graphics. From the first picture to the third picture, the graph rotates 90\u00b0 counterclockwise. From the second picture to the fourth picture, the graph rotates 90\u00b0 counterclockwise. Therefore, the fifth picture should be rotated counterclockwise by the third picture. Rotate the hour hand 90, only item B is consistent.\"",
+    "answer": 2,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the triangle facing up or down in choice 4?",
     "f_perception_answer": "up",
     "f_perception_distractor": "down",

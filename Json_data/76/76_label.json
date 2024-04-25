@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "It is observed that the number of graphic surfaces in the question stem is 0123, which becomes an increasing arithmetic sequence, so the number of graphic surfaces at the question mark should be 4. The number of items A is 4, the number of B is 5, the number of C is 3, and the number of D is 6. Only item A is consistent.",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there two or three circles in choice 3?",
     "f_perception_answer": "two",
     "f_perception_distractor": "three",

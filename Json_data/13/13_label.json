@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The element composition is the same, and the positional rules are given priority. It is observed that each picture is composed of two identical small figures, and figure 1 is rotated counterclockwise by 45, and figure 2 is rotated clockwise by 45. As shown in the figure below, only item A meets",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does the L shapes in choice 4 have one or two intersections?",
     "f_perception_answer": "two",
     "f_perception_distractor": "one",

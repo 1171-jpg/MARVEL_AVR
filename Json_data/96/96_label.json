@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "Upon observing the given shapes as a whole, each shape has 4 vertical lines of varying lengths and 1 long diagonal line. Furthermore, in each image, the long diagonal line connects from the bottom of the shortest vertical line to the top of the longest vertical line. Analyzing the options, option A does not connect the longest and shortest vertical lines, options B and D both start connecting from the top of the shortest vertical line, both are eliminated. Only option C conforms to the pattern.",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there four or five vertical lines in choice 2?",
     "f_perception_answer": "four",
     "f_perception_distractor": "five",

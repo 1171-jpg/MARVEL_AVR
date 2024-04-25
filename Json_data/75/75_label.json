@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The number of faces in the figure on the question mark is 8, 7, 6, 5, and 4, so the figure at the question mark should have 3 faces, excluding items C and D. Comparing two items A and B, it is found that the shapes of the surfaces are different. The surfaces in the figure at the question mark are all triangles, so the faces in the figure at the question mark should be triangles, so option A is selected.",
+    "answer": 1,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 6 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there three or four lines inside the rectangle in choice 4?",
     "f_perception_answer": "three",
     "f_perception_distractor": "four",

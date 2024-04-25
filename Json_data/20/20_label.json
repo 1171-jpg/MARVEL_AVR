@@ -4,6 +4,7 @@
     "task_configuration": "Matrix",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": " Consider viewing it horizontally. In the first row, the first picture is rotated 180\u00b0 as a whole to get the second picture, and the second picture is flipped up and down as a whole to get the third picture. It has been verified that the second row satisfies this rule. Therefore, this rule can be applied to the third row. The first picture can is rotated 180\u00b0 and then be flipped up and down. Only item D is satisfied.",
+    "answer": 4,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Does choice 4 have a regular or mirrored six?",
     "f_perception_answer": "mirrored",
     "f_perception_distractor": "regular",

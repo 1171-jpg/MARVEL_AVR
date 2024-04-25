@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The element composition is the same, and the positional rules are given priority. Observing the small black dots, we found that the rule is to translate one space clockwise at a time, so the small black dots at the question marks should appear below, excluding items A and B. Observe the gray triangle again and find that the rule is to move one space clockwise at a time, so the gray triangle at the question mark should appear on the right, excluding item D",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the top of the triangle facing right or left in choice 1?",
     "f_perception_answer": "right",
     "f_perception_distractor": "left",

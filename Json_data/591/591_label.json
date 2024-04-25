@@ -4,6 +4,7 @@
     "task_configuration": "Sequence",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "Observing each graph from left to right, five elements 1, 2, 3, 4, and 5 appear in the first four graphs, and elements 3 and 4 appear three times respectively, while elements 1, 2, and 5 only appear twice each. The last panel should be filled in with elements 1, 2, and 5.",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 5 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Is the topmost number in choice 1 a \"3\" or \"4\"?",
     "f_perception_answer": "3",
     "f_perception_distractor": "4",

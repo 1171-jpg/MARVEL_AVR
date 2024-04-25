@@ -4,6 +4,7 @@
     "task_configuration": "Two-row",
     "avr_question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "explanation": "The number of elements in the first set of graphics is 7 and 6 respectively, subtracting 5 times. Similarly, it can be seen that the number of elements in the second set of graphics should be 6 and 5, (4), excluding items B and D. Looking at the details, the element types are different. The element types in the first set of graphics are 2, 3, and 4 times incrementing. It is also known that the element types in the second set of graphics should be 1, 2, (3), excluding item A. .",
+    "answer": 3,
     "f_perception_question": "You are given a puzzle. The puzzle consists of a context part on the top and the choices part in the bottom. The context part on the top is a set of visual grids arranged in a 3 by 2 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Are there four or five patterns in choice 2?",
     "f_perception_answer": "five",
     "f_perception_distractor": "four",
